@@ -59,7 +59,7 @@ export const site: SiteConfig = {
   name: 'Lootbound Wiki',
   shortName: 'L Wiki',
   description: 'Complete Lootbound wiki with item auras, companion builds, Guardian bosses, and beginner guides.',
-  domain: 'yangzec.pages.dev',
+  domain: 'lootbound-wiki.pages.dev',
   tagline: 'Your home for everything Lootbound',
   legalNotice: 'Lootbound Wiki is a fan-made community site. Not affiliated with or endorsed by the game developer.',
   social: {
