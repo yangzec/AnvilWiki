@@ -1,0 +1,73 @@
+---
+title: 'Lootbound Inventory Auras: How Grid Placement Works'
+description: 'How Lootbound auras and grid placement work: rotate items, cluster districts, and why one cell can change a build.'
+category: 'guides'
+date: 2026-08-17
+lastModified: 2026-08-17
+tags: ['guide', 'beginner', 'progression']
+summary: 'Items have no fixed slots. Rotate them to fit. Some auras buff adjacent weapons or armor, so one-cell moves can rewrite a build. Cluster damage, defense, and utility; read each tooltip first.'
+---
+
+import Callout from '~/components/mdx/Callout.astro';
+
+Lootbound's inventory is the talent tree. You collect a separate equipment set for the hero and for each companion. Pieces occupy cells by shape, rotate to fit, and only work while placed.
+
+<Callout type="tip" title="Official rule">Steam: items have no fixed slots. You rotate them and place them as long as there is free space. Auras strengthen weapons or armor in adjacent cells.</Callout>
+
+## How do auras work in Lootbound?
+
+Some items project an aura into neighboring cells and strengthen the weapons or armor that sit there. The aura's geometry is fixed; you arrange everything else around it. Launch coverage gives examples such as extra damage on a weapon to the right, or extra defense on armor above — treat those as illustrations, not a complete list.
+
+| Rule | What it means | Still unknown |
+| --- | --- | --- |
+| No fixed slots | Any piece can sit anywhere it fits | Grid width and height are [待补充] |
+| Rotation | Turn the footprint before you reject it | Per-item rotate rules are [待补充] |
+| Adjacency | Commonly up, down, left, right | Some designs may differ — tooltip wins |
+| Conditions | Some auras fire only for a weapon or armor class | Full condition list is [待补充] |
+| One-cell moves | Shifting a piece can enable or kill a synergy | Exact bonus sizes are [待补充] |
+
+Read the tooltip before you commit the cell. A general "touching is enough" rule loses to the printed condition.
+
+## How should I place items on the grid?
+
+Build a protected core and replaceable edges. During the first few fights, reserve a small central block for the gear you expect to keep: a weapon near the center, armor under it, and a support aura touching the piece it actually improves.
+
+| Zone | Put here | Keep out |
+| --- | --- | --- |
+| Core | Main weapon, main armor, best auras | Items you will swap every fight |
+| Damage district | Offensive weapons and trinkets | Consumables you move often |
+| Defense district | Armor, shields, mitigation | One-off utility that splits the cluster |
+| Utility fringe | Mana tools, banners, small consumables | Your primary weapon if it needs another aura |
+
+Long, thin pieces usually sit more cleanly on a border. Leave a fringe so the next loot card does not force a full rebuild.
+
+## What is an aura district?
+
+A district is a cluster of pieces that share one job, sitting inside the auras that buff that job. One focused damage aura on two useful weapons beats three unrelated items that never touch.
+
+| District | Belongs there | Aura should improve |
+| --- | --- | --- |
+| Damage | Main weapons, offensive trinkets | Attack-related effects printed on the aura |
+| Defense | Armor, shields, protective pieces | Armor or mitigation printed on the aura |
+| Utility | Mana, buffs, situational tools | Recovery or resource effects |
+
+When a new aura drops, do not park it in the first hole. Identify the two to four items that would benefit, then build the hole around that future cluster.
+
+## How do I evaluate a new item?
+
+After a battle, a loot card can offer several items; inventory guides say you take one. Judge that one on shape, neighbors, and replace cost — not the rarity border.
+
+| Check | Pass if | Fail if |
+| --- | --- | --- |
+| Shape | It fits after rotation without breaking the core | It shears two aura links |
+| Neighbors | It touches pieces that can use it | It sits on an edge with one useful neighbor |
+| Replace | It upgrades the district you already committed to | It evicts the piece holding the cluster together |
+| Flexibility | It can live on the fringe | It forces a jagged layout for the next card |
+
+A rare item placed badly can be weaker than ordinary gear supporting the right aura cluster.
+
+## Do the hero and companions share one grid?
+
+Official store copy says you collect a separate set of equipment for the hero and each companion. Launch coverage says each hero and recruited companion carries their own two-dimensional grid. Some community guides say "shared grid"; this wiki follows the official separate-set wording until an in-game screenshot proves otherwise.
+
+Companion AI and recruit flow are on the [companions page](/characters/companions).

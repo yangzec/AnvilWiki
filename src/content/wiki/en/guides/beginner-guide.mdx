@@ -1,98 +1,85 @@
 ---
-title: 'Anvil Quest Beginner Guide - Your First Two Hours'
-description: 'Everything a brand-new Anvil Quest player needs to know: controls, first quests, class picks, early weapon upgrades, and how to reach level 10 fast.'
+title: 'Lootbound Beginner Guide: Start a Run (Inventory Is the Build)'
+description: 'How to start a Lootbound run: treat the inventory grid as your build, recruit AI companions, pick routes, and assemble the final Guardian.'
 category: 'guides'
-date: 2026-08-07
-lastModified: 2026-08-11
-image: '../../../../assets/covers/beginner-guide-cover.png'
+date: 2026-08-17
+lastModified: 2026-08-17
 tags: ['guide', 'beginner', 'progression', 'early-game']
+summary: 'Start alone on a branching map. The inventory grid is the build: rotate items and cluster auras. Recruit AI companions, pick a Guardian part each biome, then fight the final Guardian. No redeem codes.'
 ---
 
-Welcome to Anvil Quest. This guide walks you through your first two hours — from character creation to defeating your first world boss. Follow this in order and you'll hit level 10 with a solid foundation.
+import Callout from '~/components/mdx/Callout.astro';
 
-## Step 1: Pick Your Starting Class
+Lootbound is a tactical roguelite from ArtDock. A run starts with one hero on a branching map. You collect loot, recruit companions, and treat each inventory grid as the build — not a backpack.
 
-You choose one of four classes at character creation. You cannot change this later without paying 500 gems, so pick carefully.
+<Callout type="info" title="No redeem codes">Lootbound has no redeem-code system. This wiki will not publish a codes page.</Callout>
 
-| Class   | Difficulty | Playstyle             | Recommended For                 |
-| ------- | ---------- | --------------------- | ------------------------------- |
-| Warrior | Easy       | High HP, simple melee | First-time players              |
-| Mage    | Medium     | Ranged burst, fragile | Players who like positioning    |
-| Rogue   | Hard       | High crit, melee      | Experienced action game players |
-| Cleric  | Medium     | Support/healing       | Players who duo with friends    |
+## How do I start a Lootbound run?
 
-**Beginner recommendation: Warrior.** The extra HP forgives mistakes while you learn enemy patterns. Switch to Rogue or Mage once you understand the game.
+You begin alone. Move across a branching map, pick a route toward loot, and recruit companions as you go. After each fight you choose loot; items have no fixed slots, so you rotate them and place them only where the grid has space.
 
-## Step 2: Complete the Tutorial Forge (0:00 – 0:20)
+| Step | What you do | Why it matters |
+| --- | --- | --- |
+| 1 | Start the run with one hero | Every run begins solo |
+| 2 | Pick a map route | Routes decide loot, rooms, and risk |
+| 3 | Place each item on a grid | Equipment only works while placed |
+| 4 | Recruit companions along the way | They fight with you, but you do not control them |
+| 5 | Choose a Guardian part at each biome end | Those parts assemble the final boss |
 
-The tutorial is unskippable but only takes 20 minutes. It teaches you:
+Official store copy and launch coverage agree on this loop. Exact tutorial length, starting stats, and hub unlock order remain [待补充].
 
-- Basic movement (WASD + space to jump, shift to dash)
-- How to swing your weapon (left click)
-- How to craft your first item at the anvil
-- The dialogue system (press E to interact)
+## Why is the inventory the build?
 
-You'll end the tutorial at level 3 with a Rusty Iron Sword and 100 coins.
+Because items have no fixed slots, and some items project auras that strengthen weapons or armor in adjacent cells. Moving one piece by a single cell can change the whole build. Grid space is a limited resource: a rare item that breaks an aura cluster can be weaker than ordinary gear in the right neighborhood.
 
-**Do not skip any crafting interactions.** The tutorial forge gives you the Iron Dagger recipe for free. If you skip it, I have to buy the recipe later for 300 coins.
+| Placement idea | What to do | Source-level note |
+| --- | --- | --- |
+| Spine | Keep a weapon, an armor piece, and one support aura together | Beginner layout described in inventory guides |
+| Center | Reserve central cells for pieces you expect to keep | Center reaches more neighbors than a corner |
+| Edges | Park long, thin, or replaceable gear on the border | Easier to discard without rebuilding |
+| Rotate | Test another orientation before you commit | Awkward shapes often fit sideways |
 
-## Step 3: Reach Level 5 in Oakwood Vale (0:20 – 0:50)
+Read the full placement rules in the [inventory auras guide](/guides/inventory-auras).
 
-After the tutorial, the game drops you in Oakwood Vale. Clear these quests in order:
+## How do companions work on a first run?
 
-1. **"Speak to Blacksmith Mara"** — walk 30 seconds north. Free 50 coins.
-2. **"Gather 10 Copper Ore"** — the mine is east of Mara's shop. Ore respawns every 45 seconds, so this takes ~5 minutes.
-3. **"Craft the Copper Sword"** — back at Mara's anvil. This replaces your Rusty Iron Sword and triples your damage.
-4. **"Kill 5 Forest Boars"** — each boar gives 80 XP. You'll hit level 5 mid-way through.
+You control only the main hero in combat. Companions act on their own. Each companion needs a separate equipment set, so every recruit multiplies the inventory puzzle. Launch coverage reports two AI companions joining during a run; named companion kits and exact recruit rooms are [待补充].
 
-At level 5, unlock your first skill. Warriors should take **Battle Cry** (+20% damage for 10 seconds). Mages take **Firebolt**. Rogues take **Backstab**. Clerics take **Heal**.
+See the [companions page](/characters/companions) for the sourced class list and the gaps.
 
-## Step 4: First Dungeon — Frostspire Approach (0:50 – 1:20)
+## How should I pick a route?
 
-At level 5, the path north opens to Frostspire Keep. On the way, you'll pass through the Frostspire Approach, a short dungeon with ice-elemental enemies.
+Choose the path that feeds your current grid, not the flashiest icon. Some special rooms offer several rewards at different difficulties; the more valuable the reward, the harder the dice roll. Take those rooms when your party can absorb a failed roll, not when you are already low on health.
 
-**Key tips:**
+Details live in [routes and risk rooms](/guides/routes-and-risk-rooms).
 
-- Bring 5 Health Potions (buy from Mara for 25 coins each). Ice enemies hit hard.
-- The Frost Wisp miniboss at the end drops a Glacial Gem — save this for later crafting.
-- Reach level 8 before fighting Emberfang at the end of the dungeon. He's a real boss, not a trash mob.
+## What is the Guardian at the end of a biome?
 
-## Step 5: Defeat Emberfang (1:20 – 1:50)
+At the end of each biome you choose one of two boss parts. Each part changes the final Guardian's appearance and power. After you finish all biomes (launch coverage reports three), you fight that assembled Guardian. The first biome boss's in-game name, HP, and attacks are [待补充].
 
-Emberfang is your first world boss. At level 8 with a Copper Sword (or better, a Frostpike if you crafted one), he's beatable. Read our full [Emberfang Boss Guide](/bosses/emberfang) for the phase-by-phase breakdown.
+## Does Lootbound have redeem codes?
 
-The short version: strafe right to dodge his fire bolts, jump his burning ground rings, and save your dash for his Phase 3 enrage.
+No. Lootbound has no redeem codes. Do not expect a codes category on this wiki.
 
-## Step 6: Unlock the Shattered Isles (1:50 – 2:00)
+## What mistakes should beginners avoid?
 
-Defeating Emberfang opens the portal to the Shattered Isles — the game's main progression zone. From here, the real game begins:
+Stop treating the grid like a bag. The habits that sink early runs are placement mistakes, not missing a secret stat.
 
-- New quest hubs every 3 levels
-- World bosses every 5 levels
-- Crafting tiers unlock at levels 10, 20, 30, 40, 50
-- Codes start giving meaningful rewards (check our [codes page](/codes) daily)
+| Mistake | Better habit |
+| --- | --- |
+| Grabbing the rarest item by default | Check shape, aura neighbors, and what you must drop |
+| Scattering auras | Cluster offense, defense, and utility into districts |
+| Spending mana on easy fights | Basic attacks cost nothing; mana only partly returns |
+| Ignoring rotation | Rotate before you decide an item "does not fit" |
+| Equipping loot instantly | Ask what the new piece displaces first |
 
-## Common Newbie Mistakes
+Opening-lane advice (crit, lifesteal, tank) is in [opening builds](/guides/opening-builds). Damage-type roles are in [damage types](/guides/damage-types).
 
-- **Spending gems on cosmetics early.** Save gems for the class-change item or inventory expansions. Cosmetics can wait.
-- **Selling the Glacial Gem.** You need 5 of these to craft your first Frostpike weapon. They're soulbound, so you can't trade for them.
-- **Skipping side quests.** Oakwood Vale side quests give a total of 400 coins and 2 Health Potions. Worth the 15 minutes.
-- **Fighting Emberfang under level 8.** Possible but miserable. Go grind to 8 first.
+## Where do these facts come from?
 
-## What to Do Next
-
-Once you've cleared the tutorial arc:
-
-1. Bookmark our [codes page](/codes) and check daily for free coins.
-2. Read the [weapon tier list](/guides/weapon-tier-list) before spending materials on a weapon you'll replace in two levels.
-
-import AffiliateLink from '~/components/mdx/AffiliateLink.astro';
-
-<AffiliateLink
-  url="https://www.roblox.com/home"
-  title="Play Anvil Quest on Roblox"
-  description="Free to play — the tutorial forge takes about 15 minutes."
-  cta="Play now"
-/>
-
-Welcome to the forge. Good luck out there.
+| Fact | Source |
+| --- | --- |
+| Solo start, routes, auras, companions, Guardian parts, risk rooms | [Steam store page](https://store.steampowered.com/app/3091140/Lootbound/) |
+| Per-character grids, three biomes, dice rooms, 1.0 on 2026-08-14 | [TechTimes launch article](https://www.techtimes.com/articles/324346/20260813/lootbound-launches-today-inventory-auras-turn-gear-placement-build-design.htm) |
+| Grid spine, districts, mana, initiative | [FinalBoss inventory guide](https://finalboss.io/lootbound-how-to-manage-inventory-auras-mana-and-initiative) |
+| Beginner mistakes, armor vs health | [SuperstarReviews tips](https://superstarreviews.tech/lootbound-tips/) |

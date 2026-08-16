@@ -1,11 +1,11 @@
 {
-  "name": "Anvil Quest Wiki",
-  "short_name": "AQ Wiki",
-  "description": "Complete Anvil Quest wiki with boss guides, codes, and tier lists.",
+  "name": "Lootbound Wiki",
+  "short_name": "L Wiki",
+  "description": "Complete Lootbound wiki with item auras, companion builds, Guardian bosses, and beginner guides.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#f97316",
+  "theme_color": "#6b40a0",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
