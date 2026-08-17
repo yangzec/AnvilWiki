@@ -11,7 +11,6 @@
     "home": "Home",
     "guides": "Guides",
     "bosses": "Bosses",
-    "items": "Items",
     "tier-list": "Tier List",
     "characters": "Characters",
     "toggleTheme": "Toggle theme",
@@ -122,10 +121,6 @@
       "overviewTitle": "All Bosses",
       "overviewDescription": "Complete strategy guides for every Lootbound Guardian boss, including attack patterns, weaknesses, and recommended loadouts."
     },
-    "items": {
-      "overviewTitle": "All Items",
-      "overviewDescription": "Comprehensive Lootbound item database with auras, stats, rarity tiers, and where to find them."
-    },
     "tier-list": {
       "overviewTitle": "Tier Lists",
       "overviewDescription": "Ranked Lootbound tier lists for items, companions, and builds, updated for the latest patch."
@@ -158,8 +153,8 @@
           "href": "/bosses"
         },
         {
-          "label": "items",
-          "href": "/items"
+          "label": "characters",
+          "href": "/characters"
         }
       ]
     },
@@ -172,7 +167,7 @@
     "hero": {
       "badge": "Lootbound",
       "title": "Lootbound Wiki",
-      "description": "Complete Lootbound guides — bosses, items, and progression.",
+      "description": "Complete Lootbound guides — inventory auras, companions, and Guardian bosses.",
       "ctaPrimary": "Play Lootbound",
       "ctaSecondary": "Browse Guides"
     },
@@ -190,21 +185,21 @@
         {
           "title": "Bosses",
           "description": "Browse bosses",
-          "icon": "lucide:book-open",
+          "icon": "lucide:swords",
           "href": "/bosses",
           "number": "2"
         },
         {
-          "title": "Items",
-          "description": "Browse items",
-          "icon": "lucide:book-open",
-          "href": "/items",
+          "title": "Characters",
+          "description": "Browse companions",
+          "icon": "lucide:users",
+          "href": "/characters",
           "number": "3"
         },
         {
           "title": "Tier-list",
           "description": "Browse tier-list",
-          "icon": "lucide:book-open",
+          "icon": "lucide:bar-chart-3",
           "href": "/tier-list",
           "number": "4"
         }
@@ -223,18 +218,15 @@
           "highlights": [
             {
               "label": "Step 1",
-              "detail": "Finish the tutorial",
-              "badge": "5 min"
+              "detail": "Start a run; the inventory grid is the build"
             },
             {
               "label": "Step 2",
-              "detail": "Cluster your first auras",
-              "badge": "1 min"
+              "detail": "Cluster auras into districts"
             },
             {
               "label": "Step 3",
-              "detail": "First boss run",
-              "badge": "15 min"
+              "detail": "Recruit companions, then pick a Guardian part"
             }
           ]
         }
