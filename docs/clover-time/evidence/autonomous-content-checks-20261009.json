@@ -1,0 +1,259 @@
+{
+  "checked_at": "2026-10-09T08:01:59.701795+08:00",
+  "routes": [
+    {
+      "route": "/codes/all-codes/",
+      "http": 200,
+      "new_body_visible": null,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    },
+    {
+      "route": "/guides/beginner-guide/",
+      "http": 200,
+      "new_body_visible": true,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    },
+    {
+      "route": "/guides/fishing-fragments/",
+      "http": 200,
+      "new_body_visible": true,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    },
+    {
+      "route": "/guides/grimoire-tier-list/",
+      "http": 200,
+      "new_body_visible": true,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    },
+    {
+      "route": "/guides/how-to-redeem-codes/",
+      "http": 200,
+      "new_body_visible": null,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    },
+    {
+      "route": "/guides/how-to-reroll/",
+      "http": 200,
+      "new_body_visible": true,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    },
+    {
+      "route": "/guides/patch-notes/",
+      "http": 200,
+      "new_body_visible": true,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    },
+    {
+      "route": "/guides/race-tier-list/",
+      "http": 200,
+      "new_body_visible": true,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    },
+    {
+      "route": "/items/anti-magic/",
+      "http": 200,
+      "new_body_visible": true,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    },
+    {
+      "route": "/items/poison/",
+      "http": 200,
+      "new_body_visible": true,
+      "cover_http": 200,
+      "cover_size": [
+        1200,
+        675
+      ],
+      "production_detail_absent": true,
+      "sitemap_excludes_draft": true
+    }
+  ],
+  "metadata_and_mdx": [
+    {
+      "article": "codes/all-codes.mdx",
+      "summary_words": 46,
+      "summary_characters": 302,
+      "image": "src/assets/covers/clover-time-en-codes-all-codes.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/beginner-guide.mdx",
+      "summary_words": 49,
+      "summary_characters": 337,
+      "image": "src/assets/covers/clover-time-en-guides-beginner-guide.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/fishing-fragments.mdx",
+      "summary_words": 51,
+      "summary_characters": 324,
+      "image": "src/assets/covers/clover-time-en-guides-fishing-fragments.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/grimoire-tier-list.mdx",
+      "summary_words": 50,
+      "summary_characters": 345,
+      "image": "src/assets/covers/clover-time-en-guides-grimoire-tier-list.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/how-to-redeem-codes.mdx",
+      "summary_words": 48,
+      "summary_characters": 331,
+      "image": "src/assets/covers/clover-time-en-guides-how-to-redeem-codes.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/how-to-reroll.mdx",
+      "summary_words": 51,
+      "summary_characters": 326,
+      "image": "src/assets/covers/clover-time-en-guides-how-to-reroll.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/patch-notes.mdx",
+      "summary_words": 49,
+      "summary_characters": 295,
+      "image": "src/assets/covers/clover-time-en-guides-patch-notes.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/race-tier-list.mdx",
+      "summary_words": 47,
+      "summary_characters": 323,
+      "image": "src/assets/covers/clover-time-en-guides-race-tier-list.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "items/anti-magic.mdx",
+      "summary_words": 49,
+      "summary_characters": 373,
+      "image": "src/assets/covers/clover-time-en-items-anti-magic.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "items/poison.mdx",
+      "summary_words": 50,
+      "summary_characters": 349,
+      "image": "src/assets/covers/clover-time-en-items-poison.png",
+      "draft": true,
+      "mdx_compiled": true
+    }
+  ],
+  "cover_hashes_valid": true,
+  "game_tests_performed": false,
+  "unit_tests_repeated": false,
+  "prior_failure_fixed": "Anti-Magic summary was 403 characters; shortened, then metadata/MDX and build rerun successfully.",
+  "browser": [
+    {
+      "route": "/guides/beginner-guide/",
+      "http": 200,
+      "viewport": 375,
+      "document_width": 375,
+      "title": "Clover Time Beginner Guide: Tools and Your First Grimoire",
+      "screenshot": "docs/clover-time/evidence/p05-mobile-20261009.png"
+    },
+    {
+      "route": "/guides/how-to-reroll/",
+      "http": 200,
+      "viewport": 375,
+      "document_width": 375,
+      "title": "How to Reroll in Clover Time - Verification Draft",
+      "screenshot": "docs/clover-time/evidence/p06-mobile-20261009.png"
+    }
+  ],
+  "commands": {
+    "pnpm check-content": {
+      "exit_code": 0,
+      "articles": 10,
+      "warnings": 10
+    },
+    "pnpm build": {
+      "exit_code": 0,
+      "astro_routes": 122,
+      "pagefind_pages": 90,
+      "es2018_bundles": 6
+    },
+    "pnpm check-links": {
+      "exit_code": 0,
+      "links": 9733,
+      "html_files": 129
+    }
+  },
+  "recorded_at": "2026-10-09T08:03:22.327930+08:00",
+  "browser_initial_failure_fixed": "The broad h1 locator also matched Astro development-toolbar shadow DOM. Retested with the actual article h1[data-pagefind-meta].",
+  "document_links": {
+    "checked": 114,
+    "broken": 0
+  },
+  "protected_files": {
+    "package.json": "unchanged from HEAD",
+    "pnpm-lock.yaml": "unchanged from HEAD",
+    "wrangler.toml": "unchanged from HEAD",
+    "scripts/gen-covers.ts": "unchanged from HEAD"
+  }
+}

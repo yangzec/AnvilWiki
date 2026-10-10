@@ -1,0 +1,122 @@
+{
+  "recorded_at": "2026-10-09T01:15:53.239436+08:00",
+  "requests": [
+    {
+      "url": "https://beebom.com/clover-time-codes/",
+      "status": 200,
+      "retrieved": "2026-10-09T01:05:10.820227+08:00",
+      "article_chars": 5437,
+      "title": [
+        "Clover Time Codes (October 2026) | Beebom"
+      ]
+    },
+    {
+      "url": "https://gamerant.com/clover-time-codes-roblox/",
+      "error": "HTTP Error 503: Service Unavailable",
+      "retrieved": "2026-10-09T01:05:14.473950+08:00"
+    },
+    {
+      "url": "https://www.destructoid.com/clover-time-tier-list/",
+      "status": 200,
+      "retrieved": "2026-10-09T01:05:17.937193+08:00",
+      "article_chars": 5865,
+      "title": [
+        "Clover Time Tier List - Best Grimoire, Race &amp; More &#8211; Destructoid"
+      ]
+    },
+    {
+      "url": "https://progameguides.com/roblox/clover-time-codes/",
+      "error": "HTTP Error 403: Forbidden",
+      "retrieved": "2026-10-09T01:05:20.765215+08:00"
+    }
+  ],
+  "destructoid_codes": {
+    "url": "https://www.destructoid.com/clover-time-codes/",
+    "status": 200,
+    "retrieved": "2026-10-09T01:06:15.954995+08:00",
+    "article_chars": 5544,
+    "images": [
+      {
+        "src": "https://www.destructoid.com/wp-content/uploads/2026/10/clover-time-featured.jpg?fit=1200%2C675",
+        "alt": "Promo for Clover Time",
+        "width": "1200",
+        "height": "675"
+      },
+      {
+        "src": "https://www.destructoid.com/wp-content/uploads/2026/10/how-to-redeem-clover-time-codes-guide.jpg?quality=75&w=840&resize=1024%2C576",
+        "alt": "How to redeem Clover Time codes.",
+        "width": "1024",
+        "height": "576"
+      }
+    ]
+  },
+  "official_and_trello_html": [
+    {
+      "url": "https://trello.com/b/XHcUunD7",
+      "status": 200,
+      "retrieved": "2026-10-09T01:07:50.078407+08:00"
+    },
+    {
+      "url": "https://groups.roblox.com/v1/groups/175661976",
+      "status": 200,
+      "retrieved": "2026-10-09T01:07:53.631593+08:00"
+    },
+    {
+      "url": "https://games.roblox.com/v1/games?universeIds=9891331827",
+      "status": 200,
+      "retrieved": "2026-10-09T01:07:56.605539+08:00"
+    }
+  ],
+  "public_board_export": {
+    "url": "https://trello.com/b/XHcUunD7.json",
+    "http": 200,
+    "card_count": 331,
+    "developer_ownership_confirmed": false
+  },
+  "media": [
+    {
+      "url": "https://static.beebom.com/wp-content/uploads/2026/10/redeem-Clover-Time-codes.jpg?w=1024",
+      "http": 200,
+      "sha256": "35ce84533cafa9a94e8bdca26336be8cd6abb3860b3963ae8080cdb82155710f",
+      "bytes": 100524,
+      "dimensions": [
+        1024,
+        576
+      ],
+      "inspection": "view_image: full still image"
+    },
+    {
+      "url": "https://www.destructoid.com/wp-content/uploads/2026/10/how-to-redeem-clover-time-codes-guide.jpg?quality=75&w=840&resize=1024%2C576",
+      "http": 200,
+      "sha256": "6dd86896f9bef10f1dbea615489848574787aadb7d132bd532896da4713742bc",
+      "bytes": 67639,
+      "dimensions": [
+        1024,
+        576
+      ],
+      "inspection": "view_image: full still image"
+    },
+    {
+      "url": "https://trello.com/1/cards/6aa0ae6b1e33bd6787f13670/attachments/6aa1eb8a3a4f81a528e53e99/previews/6aa1eb953a4f81a528e5501d/download/Cut_g.gif",
+      "http": 200,
+      "sha256": "ef98625d17bf22d8e5491daac31bd6d7f9b8d50a80d379c321fae11348c42179",
+      "bytes": 2888126,
+      "dimensions": [
+        430,
+        240
+      ],
+      "inspection": "view_image: frames 0, 5, 10, 15, 20, 30; not full playback",
+      "sample_times_ms": [
+        0,
+        500,
+        1000,
+        1500,
+        2000,
+        3000
+      ]
+    }
+  ],
+  "game_session_performed": false,
+  "redemption_performed": false,
+  "all_drafts_preserved": true
+}

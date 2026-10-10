@@ -1,0 +1,3954 @@
+{
+  "checked_at": "2026-10-09T13:03:12.124894+00:00",
+  "status": "deployed_and_verified",
+  "project_name": "clover-time-wiki-preview",
+  "candidate_site_url": "https://clover-time-wiki-preview.pages.dev",
+  "address_reserved": true,
+  "authentication_ready": true,
+  "uploaded": true,
+  "online_verified": true,
+  "draft_articles": [
+    {
+      "route": "/codes/all-codes/",
+      "draft": true,
+      "detail_in_upload": false
+    },
+    {
+      "route": "/guides/beginner-guide/",
+      "draft": true,
+      "detail_in_upload": false
+    },
+    {
+      "route": "/guides/fishing-fragments/",
+      "draft": true,
+      "detail_in_upload": false
+    },
+    {
+      "route": "/guides/grimoire-tier-list/",
+      "draft": true,
+      "detail_in_upload": false
+    },
+    {
+      "route": "/guides/how-to-redeem-codes/",
+      "draft": true,
+      "detail_in_upload": false
+    },
+    {
+      "route": "/guides/how-to-reroll/",
+      "draft": true,
+      "detail_in_upload": false
+    },
+    {
+      "route": "/guides/patch-notes/",
+      "draft": true,
+      "detail_in_upload": false
+    },
+    {
+      "route": "/guides/race-tier-list/",
+      "draft": true,
+      "detail_in_upload": false
+    },
+    {
+      "route": "/items/anti-magic/",
+      "draft": true,
+      "detail_in_upload": false
+    },
+    {
+      "route": "/items/poison/",
+      "draft": true,
+      "detail_in_upload": false
+    }
+  ],
+  "html_files": 123,
+  "files": [
+    {
+      "path": "404.html",
+      "bytes": 16885,
+      "sha256": "1f38aab0312c0475dc8c0ddb626bef351546ba9b84a88710de34c9d307e66994"
+    },
+    {
+      "path": "_astro/SearchButton.C33PKj8g.css",
+      "bytes": 66607,
+      "sha256": "1610d44a8c84c8db625de6dfba9f18f147c12ce7b0f58b795de7ee5cb7707382"
+    },
+    {
+      "path": "_astro/clover-time-en-codes-all-codes.4_WQiHSK.png",
+      "bytes": 151190,
+      "sha256": "f8518a0b1d216902685304aae605a63fc911d0c03d20fb662d9bd4fd717db2a1"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-beginner-guide.CycXeR_5.png",
+      "bytes": 154280,
+      "sha256": "5fa1df932ab939f05687f99e899f05cf62cf78da8bb4e5bacff59c82ee897331"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp.png",
+      "bytes": 154193,
+      "sha256": "db71722d3b3d81e7aa69074ab08ef41c92dcd549c6f8b6600eadbefe55b01d57"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz.png",
+      "bytes": 151684,
+      "sha256": "15758c60ac515e8f4afa2e2a35837f8dded87baca46b5a6e00d00ebf64be6b9f"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y.png",
+      "bytes": 155562,
+      "sha256": "ee30a283b98568d646a09efbeef7ce2b79e34f57bbace1dee86af148dfdfb341"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-reroll.B__B2th3.png",
+      "bytes": 152107,
+      "sha256": "fdfeafd9b3c4f63d592aefe3e6e36ba844700cebb09de0e240e0e5367f702a22"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-patch-notes.CLppRUsb.png",
+      "bytes": 155119,
+      "sha256": "c177e71556ec9c1294366a1d5b07fa8261d1fb1978e4dffb1b9083ac34f1661d"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-race-tier-list.DZQYa27b.png",
+      "bytes": 152373,
+      "sha256": "c7c696a3c3886530485f2053c57a05230fa65ba56122e8ce8e51ea7d051022bb"
+    },
+    {
+      "path": "_astro/clover-time-en-items-anti-magic.CW7sZd9a.png",
+      "bytes": 154254,
+      "sha256": "3854c5a0fd8ba5fe0d9d4f6389bb79f3b237d479e50e23cd52627d893456be28"
+    },
+    {
+      "path": "_astro/clover-time-en-items-poison.CyOkuVZP.png",
+      "bytes": 153168,
+      "sha256": "6c345eb732b11fd82aaca798dbb7d952635474cebb481e72f57ab8a074e4e5fb"
+    },
+    {
+      "path": "_astro/page.CMFgH77u.js",
+      "bytes": 2487,
+      "sha256": "ac7efac5537306a54aaa0fe168258f00a0fa1361649ab43da4435e6d84041a5f"
+    },
+    {
+      "path": "_headers",
+      "bytes": 2523,
+      "sha256": "41abcb28c22d06022b53d57110a24c81f7e9bd2c86fe55d31e730a89f92faf8c"
+    },
+    {
+      "path": "_redirects",
+      "bytes": 4160,
+      "sha256": "f2effb5afda8ee3f4393d569cc2cddf449d7aeb1c9e5a454d3b194272df39b46"
+    },
+    {
+      "path": "about/index.html",
+      "bytes": 24282,
+      "sha256": "bf2cff21640ad134f69d7c96aa3f23ede625dcd92eed2bbb819b48014737a46b"
+    },
+    {
+      "path": "ads.txt",
+      "bytes": 466,
+      "sha256": "c129985a3fb1d17ac3b1e15cec5f00e44aea17e5ad3122eb6d2a268ccef13389"
+    },
+    {
+      "path": "android-chrome-192x192.png",
+      "bytes": 4695,
+      "sha256": "71df3ac21b7f360bc12d39f4b41dd1ef9375b2d7cbe3f038071ce4623b2cb1f2"
+    },
+    {
+      "path": "android-chrome-512x512.png",
+      "bytes": 6367,
+      "sha256": "52f0898580816b01e624c3387c1fb11add12808a9bd7fac26f5debb7a59e5509"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 4226,
+      "sha256": "ff2f444e5036d19ed034ee559684b32e5603b3f51f947e09e6c7b91b6c0a80e4"
+    },
+    {
+      "path": "codes/index.html",
+      "bytes": 28453,
+      "sha256": "bc54ed6dfcd266871f7f6d7ffdb4918f310c5df762389f227c7f38c5c482dd4b"
+    },
+    {
+      "path": "contact/index.html",
+      "bytes": 24007,
+      "sha256": "20f9351696b4591fd45b6a4d8436fc00f4d66dd347bc762bfbad5f84e72dd41d"
+    },
+    {
+      "path": "copyright/index.html",
+      "bytes": 23997,
+      "sha256": "241aed7764ac2eafad449ce2a1ce106635dcd1b812e1a71e3eb5d1169766eea4"
+    },
+    {
+      "path": "faq/index.html",
+      "bytes": 25722,
+      "sha256": "ed7a35bc58d26b2537f4fa4f3688bce67aa70c1ce30a46d6adbc82f38ae057c6"
+    },
+    {
+      "path": "favicon-16x16.png",
+      "bytes": 412,
+      "sha256": "c418718cb43bfb9fe76172953094389cbe079306958b00d25575a49a7bdc5559"
+    },
+    {
+      "path": "favicon-32x32.png",
+      "bytes": 708,
+      "sha256": "0907dc456efcc919a7bbd2452da1b6cac1e6fc03914ba6a70885141b73bddf99"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 2389,
+      "sha256": "74ef25c109aab9f10da5d71dd8a85279d199f82d96afc806511c2de26ce80f32"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 305,
+      "sha256": "ae388c22f53e4b2e32f6005daeefa33fc2992aef3a7f5e858c5dd1cfedeaa08c"
+    },
+    {
+      "path": "google8362d9398114b66b.html",
+      "bytes": 53,
+      "sha256": "927737cd158418567b85fdee9e8f55f6a60c885a3cb1b095254732d38383145e"
+    },
+    {
+      "path": "guides/index.html",
+      "bytes": 28448,
+      "sha256": "1531e9c10bf8adf59619fbf3b8be4cc01d2b1a8bf913954dd9b25f284ee18754"
+    },
+    {
+      "path": "images/articles/weapon-frostpike.png",
+      "bytes": 30162,
+      "sha256": "ec829b1a18c019ed2012ec0e72bd4ed61a01265196b9637ee0b1eb3f22124c98"
+    },
+    {
+      "path": "images/articles/weapon-voidforge.png",
+      "bytes": 31188,
+      "sha256": "5911ec427ea1f27089f36a5e75fba2a5c77f9a7b654ef81de673a3eafeb85168"
+    },
+    {
+      "path": "images/hero.svg",
+      "bytes": 710,
+      "sha256": "f4ce904a0604ef3edde0b5d7ca4940ee50dbbb389d7d135d05f70a08c139dc7e"
+    },
+    {
+      "path": "images/hero.webp",
+      "bytes": 17360,
+      "sha256": "8c4c61f6ebe4f162d3bde68435c5684a5acbdda03d0d08c396252123c20b5b58"
+    },
+    {
+      "path": "images/showcase/demo-article.webp",
+      "bytes": 64240,
+      "sha256": "7b7f42c14bfc8ada9bf1cb694fe16b8bf43dfdab87d95d98c5a2fd8093f6000c"
+    },
+    {
+      "path": "images/showcase/demo-codes.webp",
+      "bytes": 57034,
+      "sha256": "8429478127d205742483557fd3613dbf5a4260512f3f2660a39fab8540fed115"
+    },
+    {
+      "path": "images/showcase/demo-home.webp",
+      "bytes": 23514,
+      "sha256": "92086c8a7b0ceb8fd388f8458a5ea575b68007e5d8e82a1b0e535ff710d504da"
+    },
+    {
+      "path": "images/showcase/demo-mobile.webp",
+      "bytes": 18096,
+      "sha256": "c69d4e8db3db17f86b6882d93f00e1dd9a9f2e8dd1fdb28ef0c3ea973c5269fc"
+    },
+    {
+      "path": "images/showcase/demo-tier-list.webp",
+      "bytes": 72746,
+      "sha256": "ca081e281a56f7e9da5e5388175346c862738d90871ed0582c62d7cd3de643ac"
+    },
+    {
+      "path": "images/showcase/sites/aniimo.jpg",
+      "bytes": 79911,
+      "sha256": "4a360d51ec559672f20d57d900f96f2db236ac1d92f17d3f923fd3c1500a44c9"
+    },
+    {
+      "path": "images/showcase/sites/jjs-player-guide.png",
+      "bytes": 66480,
+      "sha256": "fe3ee4459a45e4d3c183473bec2d7225ca9ceaef8a10f795fd12b5cd8bb93783"
+    },
+    {
+      "path": "images/showcase/sites/mortal-shell-ii.png",
+      "bytes": 73035,
+      "sha256": "c8f78b5e5e72b1dba3a3fd7bfacab6fff986abfe39b8c4c24b49ba52adc31934"
+    },
+    {
+      "path": "images/showcase/sites/nomanssky.jpg",
+      "bytes": 82589,
+      "sha256": "2dccb1fa01a785e0693226974ff59c34f2e1f2eadcccf6b190da10e125b3530c"
+    },
+    {
+      "path": "images/showcase/sites/resonance.jpg",
+      "bytes": 79025,
+      "sha256": "bf4fe0b704fd6ba59b79b374e9c50775c4486d23edd6ccb01390936b4e9867c3"
+    },
+    {
+      "path": "images/showcase/sites/sandustry.jpg",
+      "bytes": 90262,
+      "sha256": "b3ad5e2ff38e69fe4d344c6626f761716dad9e7399906daf25f73c21979e4988"
+    },
+    {
+      "path": "images/showcase/sites/sephiria.jpg",
+      "bytes": 58228,
+      "sha256": "f3d57a7bc360e610781e58b1a4b50afd4dcfd2e8edf378016aa8b216dbdc6372"
+    },
+    {
+      "path": "images/showcase/sites/steal-anegg.jpg",
+      "bytes": 81250,
+      "sha256": "cba25b133611755bd5bd5ebaeb9acdf72c8d862a30901f4009be9669921902a9"
+    },
+    {
+      "path": "images/showcase/sites/warhounds.jpg",
+      "bytes": 88467,
+      "sha256": "68d8e6e6990920c611feb8487d809acfdccea2080a251f59a02cd2f497e43bb8"
+    },
+    {
+      "path": "images/wechat-qr.jpg",
+      "bytes": 44497,
+      "sha256": "177c8926da179ad6c78953f7346d50462556725afb91c27ee408e05bda944bf0"
+    },
+    {
+      "path": "index.html",
+      "bytes": 34027,
+      "sha256": "7850cc04570743e770a411fb4562e8f7caefe49ab50c1490e73d53f855a73426"
+    },
+    {
+      "path": "items/index.html",
+      "bytes": 28486,
+      "sha256": "250bc90e2d9dc30f023c3747d5a3bd7b4b16d42e306126eeb883bd4af6a72551"
+    },
+    {
+      "path": "landing/community/index.html",
+      "bytes": 436488,
+      "sha256": "dd6c98ae35fb1ba97cee745c29a0147d0c42561e0331eb81faaebfee6df61c80"
+    },
+    {
+      "path": "landing/comparison/index.html",
+      "bytes": 52905,
+      "sha256": "cbd775221a91a0ab26060bddb8be237c2bc665c666a28fa3656da62fa0655c64"
+    },
+    {
+      "path": "landing/docs/add-ga4/index.html",
+      "bytes": 76856,
+      "sha256": "c990118dfd7950910603f90479b2dd2a4da24ff50d7ae131046bb94637fa7651"
+    },
+    {
+      "path": "landing/docs/ai-ops/index.html",
+      "bytes": 83146,
+      "sha256": "c34faa8760632b646fa974544cc120b7a2f16547f37c7f09ead6f20118999282"
+    },
+    {
+      "path": "landing/docs/appendix-red-lines/index.html",
+      "bytes": 73549,
+      "sha256": "2819091b466707af55ca14e7226c17791f857079d49e95acbfb33df68e063b90"
+    },
+    {
+      "path": "landing/docs/architecture/index.html",
+      "bytes": 86118,
+      "sha256": "1e895aede0d00d576ec13a289a26a6507295132618af9f020b6af445b9be3b03"
+    },
+    {
+      "path": "landing/docs/batch-pages/index.html",
+      "bytes": 83704,
+      "sha256": "9b777d9acb6451ea5d63fa099d085729c147ce1b8bfce5cc7f3a98a633dbd915"
+    },
+    {
+      "path": "landing/docs/categories-and-locales/index.html",
+      "bytes": 77831,
+      "sha256": "a367ce1ab12bc21646bb48ca781747602e023757e83940f63371aab102e07c4a"
+    },
+    {
+      "path": "landing/docs/clone-your-site/index.html",
+      "bytes": 78390,
+      "sha256": "1b5a9bd55a9e33c83117f9229301600f9b227e1fc81fbef3db2a6955f4afa2f6"
+    },
+    {
+      "path": "landing/docs/codes-page/index.html",
+      "bytes": 77024,
+      "sha256": "f8e0ab6d99d4a2cf9bb03bc928ce87caf2dfeb493ed026ab6c1bf173a9bc00bc"
+    },
+    {
+      "path": "landing/docs/content-pipeline/index.html",
+      "bytes": 76985,
+      "sha256": "746740ccd80f4cbaa45741a3b930ec25e4a2f93fa90a72c16f8c6783a5e08b1b"
+    },
+    {
+      "path": "landing/docs/contribute-back/index.html",
+      "bytes": 72540,
+      "sha256": "d5dada5ba8c0cc5c9cda82c2357329d0b0b31421cff4579ebd112564c478949d"
+    },
+    {
+      "path": "landing/docs/day-one-list/index.html",
+      "bytes": 77741,
+      "sha256": "c4c8cd47a160615bd2a3ed46551d51528ce25ff517d0a2378c7d65e030a43535"
+    },
+    {
+      "path": "landing/docs/dev/index.html",
+      "bytes": 42820,
+      "sha256": "b7d5c27fe540baf19f2b63d0a9f2318df1d98a0065781a5310a8e7e36010df38"
+    },
+    {
+      "path": "landing/docs/enable-ads/index.html",
+      "bytes": 81020,
+      "sha256": "5963793eea91143e8e46a9072f33a71aaa55644f6a7882057f7eb823f9709c57"
+    },
+    {
+      "path": "landing/docs/find-candidates/index.html",
+      "bytes": 75866,
+      "sha256": "bfc09faeb6ebfa43496f26fae77924195fadad4a9bdc999e3d768d88231e35e1"
+    },
+    {
+      "path": "landing/docs/first-article/index.html",
+      "bytes": 78791,
+      "sha256": "997e405b5110714d197afa7ea8eb23eb197f208a0758c305b9758bd624bd683d"
+    },
+    {
+      "path": "landing/docs/first-week-numbers/index.html",
+      "bytes": 76230,
+      "sha256": "6a60f4f873e0d7c5e7a9451d1eb377c51dadb0be89ae6dd0222c8dbd1d89c0d8"
+    },
+    {
+      "path": "landing/docs/get-on-google/index.html",
+      "bytes": 84364,
+      "sha256": "40686ea2e647af22d6022ed382b5f76a25587a34665ffa6f313dc36803840aed"
+    },
+    {
+      "path": "landing/docs/get-paid/index.html",
+      "bytes": 78681,
+      "sha256": "001d958a5d7095eaba57e3587b9143e8c9b29d00b380061f5a3daace5dcc69b6"
+    },
+    {
+      "path": "landing/docs/glossary-and-commands/index.html",
+      "bytes": 74966,
+      "sha256": "6c3fdbdafbaff2656e16baa487cd4528cf94dbd954a324365f84003e6061b58b"
+    },
+    {
+      "path": "landing/docs/how-this-business-works/index.html",
+      "bytes": 74171,
+      "sha256": "33f062f6390ebd439939ccdebe0daece6d91d82e1fbd2c2977b488398f0e54cc"
+    },
+    {
+      "path": "landing/docs/index.html",
+      "bytes": 49744,
+      "sha256": "14fe269f350b861451b111b3a7bcb3be5b1b97c7b9bb7747c05c2db724cdc935"
+    },
+    {
+      "path": "landing/docs/install-counters/index.html",
+      "bytes": 75717,
+      "sha256": "1589885f4a28dd952117344c2c7d4b3ae498a4c0adb07aa336a69e3afa26d477"
+    },
+    {
+      "path": "landing/docs/install-tools/index.html",
+      "bytes": 82731,
+      "sha256": "0ddd8566b328ccd69c253e5ebbe1aa2f7d16b5b8c8eddf0f8f9042111aa58501"
+    },
+    {
+      "path": "landing/docs/integrations/index.html",
+      "bytes": 78687,
+      "sha256": "1b94b639905bda0c8f1a57d30359f584ec15a2cc77b245679b847a9041fc197c"
+    },
+    {
+      "path": "landing/docs/launch-batch-plan/index.html",
+      "bytes": 74488,
+      "sha256": "e63bac1a67ea478c50464d0104650ac89d9840be8f484a952163f0a83446380b"
+    },
+    {
+      "path": "landing/docs/learn/index.html",
+      "bytes": 65118,
+      "sha256": "1b265d45f58b5bc6b9827f72422feabb3a2dfbca54c507fd15161bd4dbbe1678"
+    },
+    {
+      "path": "landing/docs/multi-site/index.html",
+      "bytes": 78302,
+      "sha256": "4abe1a0de82be14f246b0cf914d7620daf9cf568104b06bc9d2c927f83d3156e"
+    },
+    {
+      "path": "landing/docs/put-site-online/index.html",
+      "bytes": 83860,
+      "sha256": "4ae6969f579ffa9efff12e91236c5aaf51d3e47ba13fd6b483066fa8e2150140"
+    },
+    {
+      "path": "landing/docs/quality-gate/index.html",
+      "bytes": 75632,
+      "sha256": "b74f3278a601ad13e0bed39b40dfd4ce51e9ca1acd337a3424962302f0c0f0ab"
+    },
+    {
+      "path": "landing/docs/rank-one-keyword/index.html",
+      "bytes": 77649,
+      "sha256": "d066b3321f8ca806632d3bc9b61601843b4906eaca81e9c704de8b8a2d42aa10"
+    },
+    {
+      "path": "landing/docs/read-google-trends/index.html",
+      "bytes": 76216,
+      "sha256": "ea56b9ff3ef311f06e907bb8d75eddfec7ebae778b5e37f8d88ae1069d315e79"
+    },
+    {
+      "path": "landing/docs/read-serp/index.html",
+      "bytes": 75774,
+      "sha256": "557b673909d365890052418dca7e588f6a024b4b40d1aa42fc7e289e79f38dc1"
+    },
+    {
+      "path": "landing/docs/rebrand-your-site/index.html",
+      "bytes": 81908,
+      "sha256": "a9aba517a3493276323c39bc92c04bd6afbf1d86b3a0c8077b04d1a9afbb0930"
+    },
+    {
+      "path": "landing/docs/run-your-site/index.html",
+      "bytes": 79294,
+      "sha256": "057b7b0c5c2f18c842ba8798f6350fff97450c17f2919ef51d06151395abe0f9"
+    },
+    {
+      "path": "landing/docs/score-and-decide/index.html",
+      "bytes": 79667,
+      "sha256": "f76ed37ecf0b3da4aafe593ef5159b4f96868a464a86c3b04d421245abbcc271"
+    },
+    {
+      "path": "landing/docs/search-intent/index.html",
+      "bytes": 75533,
+      "sha256": "2e034f316926f246d99a2e66dc9e8bd38460d377d635a29be76e0d29148e3a4b"
+    },
+    {
+      "path": "landing/docs/sync-upstream/index.html",
+      "bytes": 75430,
+      "sha256": "0f71800da5935dd82e7ce29826b568b333f3d781f1b3ffe8ea621aa3e3ed547c"
+    },
+    {
+      "path": "landing/docs/the-roadmap/index.html",
+      "bytes": 73467,
+      "sha256": "16e81185fe6981080b39eaace0110bd7cdf5e13467d83b8e9295f8eb6a73bebf"
+    },
+    {
+      "path": "landing/docs/theme-and-homepage/index.html",
+      "bytes": 78175,
+      "sha256": "0c2766bbc3a68b970888dac551aee98aa869c9ccbb1f31b7c8e0d15481897653"
+    },
+    {
+      "path": "landing/docs/tier-list-and-media/index.html",
+      "bytes": 77115,
+      "sha256": "fd088dd934c448868dfd01791ecd1ede4f1ec30b6b5ec4cc6106cd503c155a68"
+    },
+    {
+      "path": "landing/docs/troubleshooting-tree/index.html",
+      "bytes": 73197,
+      "sha256": "7412d460996f28fd6af1d15d987fd46fce573f79005fd4aead23a8b2a1ac75fe"
+    },
+    {
+      "path": "landing/docs/trust-and-backlinks/index.html",
+      "bytes": 78107,
+      "sha256": "fe414d638a37f2a15715df78eecb75570ca4da945e7ab7b87035538e6a8bfb7c"
+    },
+    {
+      "path": "landing/docs/verify-your-changes/index.html",
+      "bytes": 80581,
+      "sha256": "24a63c4c7ab0c16e1999ba7fdbfc5bff40863b5c22fd08c805a4cbc1fcc2640d"
+    },
+    {
+      "path": "landing/docs/weekly-ops/index.html",
+      "bytes": 84383,
+      "sha256": "f3b203866f0428e0b27cf8f01f71ba243ec557f141e3ec03df1e250199d2d8d7"
+    },
+    {
+      "path": "landing/index.html",
+      "bytes": 86782,
+      "sha256": "9ba982d0c2ffa9c1ce9b89190d581181265710cc1682a75b1bc621557384412a"
+    },
+    {
+      "path": "landing/templates/index.html",
+      "bytes": 47883,
+      "sha256": "46091883265e55b04937197cd57c53486a42aa4069e9b2a115387c9719498cca"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 203,
+      "sha256": "3099e96b7723fc2ec4b3f1cb7214864b6fb314089957d7f46e1cdf1982e38b16"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 537,
+      "sha256": "9d10d3c0fd9c2fa1e580605fc256d704c1752acdd1e067fe3f2a1ee713d57fd0"
+    },
+    {
+      "path": "pagefind/fragment/en_108397d.pf_fragment",
+      "bytes": 2632,
+      "sha256": "eeeeadde5bea4135a08ac05ea1084cfba8c95a9fad42af2bdb89ef1d09e0b70f"
+    },
+    {
+      "path": "pagefind/fragment/en_13fe2c8.pf_fragment",
+      "bytes": 3627,
+      "sha256": "6cab6bcfad6515d2574fb6c7da4a67ab9f4385801a5973151273dce1c097e7a2"
+    },
+    {
+      "path": "pagefind/fragment/en_1f6422a.pf_fragment",
+      "bytes": 3367,
+      "sha256": "e14d3053509bbb2b6f3b89031ce8164a9cf079dd5e9e9b934a080e3b0f0903a2"
+    },
+    {
+      "path": "pagefind/fragment/en_25f1bbe.pf_fragment",
+      "bytes": 2588,
+      "sha256": "4a6809880a208c794460f73853ed67b408c69f12c2e4bcb915bc5feba8c6050f"
+    },
+    {
+      "path": "pagefind/fragment/en_289a33e.pf_fragment",
+      "bytes": 2118,
+      "sha256": "ad10ee13bff2f502af2e0403e85e979110e8facdcc7e89890d26e0e734b3b97a"
+    },
+    {
+      "path": "pagefind/fragment/en_2b1a6f6.pf_fragment",
+      "bytes": 2081,
+      "sha256": "05a5774b9fd262db72803a789ea8b19071532115a0e93d7bc5ead5c4b63eb442"
+    },
+    {
+      "path": "pagefind/fragment/en_2ff2d91.pf_fragment",
+      "bytes": 2275,
+      "sha256": "c2a836308687140fbbf2fa29e0386e7d8d725112d723854608bee9ebf57a42c8"
+    },
+    {
+      "path": "pagefind/fragment/en_3b691eb.pf_fragment",
+      "bytes": 2349,
+      "sha256": "6669d24c1c4b759cabb1f73d8d6854f33f5a207e6c020c70a0fe193909620af8"
+    },
+    {
+      "path": "pagefind/fragment/en_4415f83.pf_fragment",
+      "bytes": 2036,
+      "sha256": "8fd60c9207256405378b8c406c966751228a810d1e2529dfb73ceb737f69f03a"
+    },
+    {
+      "path": "pagefind/fragment/en_4c78936.pf_fragment",
+      "bytes": 2099,
+      "sha256": "b2450b51908fcc8d323a6e9128e3ca9c964e9a389df621b13e4a18b112ce58dc"
+    },
+    {
+      "path": "pagefind/fragment/en_4e549b1.pf_fragment",
+      "bytes": 1925,
+      "sha256": "313b3d0e5db53c8ac2d204df02161ad8196a698ce971cecb7a53413b34c43124"
+    },
+    {
+      "path": "pagefind/fragment/en_5935775.pf_fragment",
+      "bytes": 2168,
+      "sha256": "769fe1dbee3542fa1f712ca9a23b22a9e038c52c06c79328a285a8d0ce239e47"
+    },
+    {
+      "path": "pagefind/fragment/en_693640c.pf_fragment",
+      "bytes": 2111,
+      "sha256": "60896ab1783526917dad05174d704b6e229306be16146f905b44f4fdb904f2b8"
+    },
+    {
+      "path": "pagefind/fragment/en_70c7d75.pf_fragment",
+      "bytes": 2306,
+      "sha256": "140df520f314704b12d8d60b8474100e13951e7b5d8e7c985e5768c02c1f364f"
+    },
+    {
+      "path": "pagefind/fragment/en_73f098d.pf_fragment",
+      "bytes": 2199,
+      "sha256": "cc7141c8efb8d1fc7e41a7ce43d10c3e830f7c84028cbe5af13472478889c751"
+    },
+    {
+      "path": "pagefind/fragment/en_77ad5a2.pf_fragment",
+      "bytes": 1611,
+      "sha256": "a07866f6103e86d108fdc212555fd7699764281b0a01db4f95d8b3a50a570aff"
+    },
+    {
+      "path": "pagefind/fragment/en_89bb897.pf_fragment",
+      "bytes": 1939,
+      "sha256": "6e084b7d94dbb3c66eb6af41c95c73968025a3f7f94e8ad05dda6a7b81ef006d"
+    },
+    {
+      "path": "pagefind/fragment/en_8ac6831.pf_fragment",
+      "bytes": 1809,
+      "sha256": "5df52e23ddf39f38e05e9bdc33832f4b689c41c2e5965572c746a7cd181d5c43"
+    },
+    {
+      "path": "pagefind/fragment/en_8fcc966.pf_fragment",
+      "bytes": 2030,
+      "sha256": "dfafb4397f1173d3ef439f77fb7e6acac5d31fbdbb622ef3416d0c0f3d9e7d31"
+    },
+    {
+      "path": "pagefind/fragment/en_9865ad3.pf_fragment",
+      "bytes": 2698,
+      "sha256": "b762501ca4731e8c468b62dc4a81b641e2358678783a11c7612f12662010d277"
+    },
+    {
+      "path": "pagefind/fragment/en_9964a32.pf_fragment",
+      "bytes": 1960,
+      "sha256": "a3b6a64cc1030fd065718f4590cfb49479bdf7115b5e934e532c723c3787c801"
+    },
+    {
+      "path": "pagefind/fragment/en_9abb1df.pf_fragment",
+      "bytes": 3654,
+      "sha256": "b9e8889d77f9791946bfc82f6eeb0b883cc4904b0dd05c738262136070d59247"
+    },
+    {
+      "path": "pagefind/fragment/en_a020d96.pf_fragment",
+      "bytes": 2866,
+      "sha256": "4c6d7d6f43c6efc227b2f92e40e80d813d24c772312260d29e1370ec7ef25366"
+    },
+    {
+      "path": "pagefind/fragment/en_a5f2c42.pf_fragment",
+      "bytes": 53521,
+      "sha256": "072aac05a8c4d2d49eba9c4e113cc8dd638ef95210196ef2b3ad453e59af02e7"
+    },
+    {
+      "path": "pagefind/fragment/en_a738b94.pf_fragment",
+      "bytes": 2304,
+      "sha256": "d9421e15f35ab12d3f4c5302996d0a7d3ddcc04538937403c9eb68749497e98c"
+    },
+    {
+      "path": "pagefind/fragment/en_b2cab37.pf_fragment",
+      "bytes": 2382,
+      "sha256": "1b4ff6ff2973a80a837771fe7832cb531d55c1f66547a4454d2190952d7b6a46"
+    },
+    {
+      "path": "pagefind/fragment/en_b411a49.pf_fragment",
+      "bytes": 3160,
+      "sha256": "fc4bbd7c629b669e9e7da29e080f7cc35b7f50655209632931b4a1fb7d6b893c"
+    },
+    {
+      "path": "pagefind/fragment/en_b49157c.pf_fragment",
+      "bytes": 1866,
+      "sha256": "68539438e80695bd28eda12e2783064d3f20801c69f5ed9dfdae541fc4551d20"
+    },
+    {
+      "path": "pagefind/fragment/en_b52edda.pf_fragment",
+      "bytes": 3368,
+      "sha256": "7eeb11a80a0cd9bcf2117a9f6c20599cf277a5bf941534792b4e5de8cc2b78e7"
+    },
+    {
+      "path": "pagefind/fragment/en_b768fee.pf_fragment",
+      "bytes": 1577,
+      "sha256": "0166a1da94d9cf36b62ce57a01a6179c7184645abf184f08c7da316b9d96b9fb"
+    },
+    {
+      "path": "pagefind/fragment/en_bb7812a.pf_fragment",
+      "bytes": 2697,
+      "sha256": "ae2ea432dadf0c48709e14c1eb16837031038f6224349a3143f10f9d2db3db37"
+    },
+    {
+      "path": "pagefind/fragment/en_c12353b.pf_fragment",
+      "bytes": 2609,
+      "sha256": "de79932479cff9179e040bc8714e27216273f6c083e1a67ef56f003bfc44be0b"
+    },
+    {
+      "path": "pagefind/fragment/en_ca88dc7.pf_fragment",
+      "bytes": 2331,
+      "sha256": "669743371308ff0f265f39563070e595ae1e03903cc0804ec2623a25e82b426e"
+    },
+    {
+      "path": "pagefind/fragment/en_cdea575.pf_fragment",
+      "bytes": 2087,
+      "sha256": "87d711a6875977251fd65ad83ef805197aa3c94b8ac546a8efa6034f52ec85f2"
+    },
+    {
+      "path": "pagefind/fragment/en_d1a92d5.pf_fragment",
+      "bytes": 2353,
+      "sha256": "c057e7073dad3aebfaae8042250c144c3a9f9b841bbfa2a8b9ba167373190107"
+    },
+    {
+      "path": "pagefind/fragment/en_d9822a7.pf_fragment",
+      "bytes": 3877,
+      "sha256": "9321155a2bc26465dd1ca540139669183c713a3e1fbfe59e6b584888d3f13705"
+    },
+    {
+      "path": "pagefind/fragment/en_ddb402f.pf_fragment",
+      "bytes": 3780,
+      "sha256": "d774fb9972e40209ae253b26963f1a48862ea73024e8b915ac667515d29c4639"
+    },
+    {
+      "path": "pagefind/fragment/en_e1756b8.pf_fragment",
+      "bytes": 3285,
+      "sha256": "0b2ad45f3616e4c5ee9563df7815988d5709a3663bb37e10532afe6bd9bae7d4"
+    },
+    {
+      "path": "pagefind/fragment/en_e3e26dc.pf_fragment",
+      "bytes": 3291,
+      "sha256": "30ff4b3e941e349ccea0c281721016c881abc7a69189597aa188988d82f6b651"
+    },
+    {
+      "path": "pagefind/fragment/en_e51d7e4.pf_fragment",
+      "bytes": 2563,
+      "sha256": "23e646a1813c4c2c954716b7c81f583d5dfdc74941fb3486f781764731c123d9"
+    },
+    {
+      "path": "pagefind/fragment/en_f493c62.pf_fragment",
+      "bytes": 2758,
+      "sha256": "d2afe4f39e4b613e206ab55de08a6bfff6052e016e34f34f627b5735eb0df705"
+    },
+    {
+      "path": "pagefind/fragment/en_fa72252.pf_fragment",
+      "bytes": 2766,
+      "sha256": "a6f740a697d094cd5ef5d82f89132fffab9653be490ad32052b6b1c28ebbf2f9"
+    },
+    {
+      "path": "pagefind/fragment/en_ff2b473.pf_fragment",
+      "bytes": 2227,
+      "sha256": "023c7d247a699bd34894fc3d5b1c55f39f44de2a21cb46f9517cfaed44553988"
+    },
+    {
+      "path": "pagefind/fragment/en_ff3f81b.pf_fragment",
+      "bytes": 2437,
+      "sha256": "9db7a6ad251fd8ee6ebc8987f80261b3176c3a4f04c582ef12395edbd5f1f343"
+    },
+    {
+      "path": "pagefind/fragment/en_ffaf439.pf_fragment",
+      "bytes": 1792,
+      "sha256": "d05ef7d6c7567297eb00d6dbc7d39a072fa9eb1a055b3971c304752e0a874a33"
+    },
+    {
+      "path": "pagefind/fragment/zh_10b5111.pf_fragment",
+      "bytes": 3805,
+      "sha256": "b761455b2931d0e8606209c05df9c8a5a4b7c8f2095f54c37d79164c95c8c527"
+    },
+    {
+      "path": "pagefind/fragment/zh_1246479.pf_fragment",
+      "bytes": 3503,
+      "sha256": "cba5c1ab9b6472d84b6deab89817e394b5703c5fd24ae32f87ee82f9a557673a"
+    },
+    {
+      "path": "pagefind/fragment/zh_125f232.pf_fragment",
+      "bytes": 2919,
+      "sha256": "5018266ba52d1b8687dc1feeb56c67752af05610558589ddbf268fbcfd6ab7c0"
+    },
+    {
+      "path": "pagefind/fragment/zh_1685971.pf_fragment",
+      "bytes": 2453,
+      "sha256": "fc947468093517f106fca2333f5aa9841c137e2e11bd4a878e9b3a4a81a5ab54"
+    },
+    {
+      "path": "pagefind/fragment/zh_1d1f442.pf_fragment",
+      "bytes": 2225,
+      "sha256": "b3b711e21b89aad7808c760ed888fa15590b8dba5a99f00d239ad15ae2fcde96"
+    },
+    {
+      "path": "pagefind/fragment/zh_2821f98.pf_fragment",
+      "bytes": 2550,
+      "sha256": "33c87019c492e57cbff1b32e8b97fbdab64b0f3c589c2d27242c42cb47976a62"
+    },
+    {
+      "path": "pagefind/fragment/zh_2c7dbce.pf_fragment",
+      "bytes": 4282,
+      "sha256": "90507acf6bd57a0d8179a888756085a948b9ecb61b99eecea4df260ebd70ddb6"
+    },
+    {
+      "path": "pagefind/fragment/zh_2fcd3d5.pf_fragment",
+      "bytes": 3152,
+      "sha256": "c4db614d561a9a1977c80b38b49993e8b934957a7d223d7fc8f8d88a391148e1"
+    },
+    {
+      "path": "pagefind/fragment/zh_3a9e1bc.pf_fragment",
+      "bytes": 3297,
+      "sha256": "054553e0fad39a4bd4da922f48d280a69f3878ae4d487935556ceec4448f817e"
+    },
+    {
+      "path": "pagefind/fragment/zh_43e8932.pf_fragment",
+      "bytes": 2845,
+      "sha256": "7dc326c1757ebd94ec7d8367c2604a211709904af6dcfbdff40d9d198c6ace71"
+    },
+    {
+      "path": "pagefind/fragment/zh_5119fe2.pf_fragment",
+      "bytes": 3303,
+      "sha256": "203a7707e932db8b78e824ccf30a22136d2512abc154c283f017d61487c6f295"
+    },
+    {
+      "path": "pagefind/fragment/zh_5b65d71.pf_fragment",
+      "bytes": 3531,
+      "sha256": "86a219a5ff41297514d59acdf53dfb1ba6a4d51dfadf9bfb7f68de80da4a1375"
+    },
+    {
+      "path": "pagefind/fragment/zh_5ca287b.pf_fragment",
+      "bytes": 2861,
+      "sha256": "288e424dde8a8f2ef1371b225d8c814aa9ad56b731583aa0f00d0bc3555708d3"
+    },
+    {
+      "path": "pagefind/fragment/zh_627d2fa.pf_fragment",
+      "bytes": 2734,
+      "sha256": "7929146c7e6093976804ee48d2abee75efecb78366e1b04ae1edf238493dd09e"
+    },
+    {
+      "path": "pagefind/fragment/zh_62cbc1f.pf_fragment",
+      "bytes": 2690,
+      "sha256": "f9633ab3d440b25eed9210dbdff60e0de0754a67d1a111af96c48b3f083970d7"
+    },
+    {
+      "path": "pagefind/fragment/zh_6801dd8.pf_fragment",
+      "bytes": 2751,
+      "sha256": "375a0f221148a15bdc9e63bd21486db662d7fd05d925adfc9e1c6733e6a1f533"
+    },
+    {
+      "path": "pagefind/fragment/zh_73bd999.pf_fragment",
+      "bytes": 2351,
+      "sha256": "89b2cb57a0473629bd736e154dfaf0325f9767d0634bb6d067599e2eefdd3c32"
+    },
+    {
+      "path": "pagefind/fragment/zh_7461e69.pf_fragment",
+      "bytes": 4136,
+      "sha256": "96e6e376c9ac242a31ab121ec281defa6876c5645faaaf7b2cf45ff7a2be5ea5"
+    },
+    {
+      "path": "pagefind/fragment/zh_77b845d.pf_fragment",
+      "bytes": 2421,
+      "sha256": "f6f8419870ea9810a6ecf2229e78d62c4d1b28f3d7b7f47b0a9386085ae8af17"
+    },
+    {
+      "path": "pagefind/fragment/zh_78327ce.pf_fragment",
+      "bytes": 4387,
+      "sha256": "e8ce48ca2df726fea7cfbe259b24bbaf362b9c58152dbf65ee8bea117e03c1f6"
+    },
+    {
+      "path": "pagefind/fragment/zh_7968dbb.pf_fragment",
+      "bytes": 2929,
+      "sha256": "0d128e71a885ef24f0254c4167a1e8dbd1341216c56ea98d18e14b74b98631fd"
+    },
+    {
+      "path": "pagefind/fragment/zh_7d2bfc7.pf_fragment",
+      "bytes": 2627,
+      "sha256": "01c18a9880293a648dd8363443bcb8d379433a026cf5dea7315c34d21d824fc1"
+    },
+    {
+      "path": "pagefind/fragment/zh_8746946.pf_fragment",
+      "bytes": 3338,
+      "sha256": "58168ed8e1f5e47ee317a05c46b993ca78d89c5d9ec11ef6e8cc0eecb83a0222"
+    },
+    {
+      "path": "pagefind/fragment/zh_943e698.pf_fragment",
+      "bytes": 2663,
+      "sha256": "b6ce52d40db7363fc64b902af2d191b9567b651a390cde68fe668137e43b1457"
+    },
+    {
+      "path": "pagefind/fragment/zh_9d8c723.pf_fragment",
+      "bytes": 2125,
+      "sha256": "401c27f15627e1cb62e248e6e77af94f64c8dddc06bb5cf8fbce4378084c7edc"
+    },
+    {
+      "path": "pagefind/fragment/zh_a13ce06.pf_fragment",
+      "bytes": 2494,
+      "sha256": "7c9fd55d5a8398ac390c6b49973dc5e10d80f846b26dfcf2aa3653ff08ffbc0e"
+    },
+    {
+      "path": "pagefind/fragment/zh_a3a7bc4.pf_fragment",
+      "bytes": 3161,
+      "sha256": "c6a3aa3d449b2141c748846c32a98f917b122f4fcf875280aced894127453b1a"
+    },
+    {
+      "path": "pagefind/fragment/zh_ab366fa.pf_fragment",
+      "bytes": 2883,
+      "sha256": "d167a12d61e43e2da5a33b8258d977951fa86ec38a8f38b15a909403eef9a2bb"
+    },
+    {
+      "path": "pagefind/fragment/zh_ad1e928.pf_fragment",
+      "bytes": 4269,
+      "sha256": "98a1c43f014712f1a4547cc497a885b52aeb93e67a04e0f63b96cadd78d7958d"
+    },
+    {
+      "path": "pagefind/fragment/zh_af85689.pf_fragment",
+      "bytes": 2582,
+      "sha256": "4a8f0d19fa15f5dc11437ee997f44af656898227154d6262a4509c726ee2064a"
+    },
+    {
+      "path": "pagefind/fragment/zh_b37974c.pf_fragment",
+      "bytes": 2991,
+      "sha256": "0b20eb9565fccc6270b97aadca186a6cf2850a778d00352deaa0d55116b32a44"
+    },
+    {
+      "path": "pagefind/fragment/zh_c29f658.pf_fragment",
+      "bytes": 3988,
+      "sha256": "8615602333d74ac2b92d920098109981ecea5bf95a5f6424a3e02ac775fc60d6"
+    },
+    {
+      "path": "pagefind/fragment/zh_ca98f9b.pf_fragment",
+      "bytes": 2506,
+      "sha256": "841dda41c67c24099e4067ca0858e764ffa33e288d05829e11730c96da1f04d8"
+    },
+    {
+      "path": "pagefind/fragment/zh_cb95f22.pf_fragment",
+      "bytes": 3585,
+      "sha256": "9d7d5eaeb67a23c84fa19854475b1714a33d10b8add0c47d42fb763f63bbc360"
+    },
+    {
+      "path": "pagefind/fragment/zh_cd72541.pf_fragment",
+      "bytes": 4454,
+      "sha256": "b1987f15839b5b89b412623ea6669900692d248d0d003aee76f6d866b34b464e"
+    },
+    {
+      "path": "pagefind/fragment/zh_cddb668.pf_fragment",
+      "bytes": 2176,
+      "sha256": "9a027f2e4dde2ab4ef2008c18a9ec6a986aa75a98bc1f8f69ebf451681b4ea7c"
+    },
+    {
+      "path": "pagefind/fragment/zh_ce6d5e9.pf_fragment",
+      "bytes": 2743,
+      "sha256": "710607f91d7c8410bbd4f6f75987982592ff90091a2edc5468c79d62146294e5"
+    },
+    {
+      "path": "pagefind/fragment/zh_d3b7a02.pf_fragment",
+      "bytes": 2897,
+      "sha256": "dcc862f0708d6cdd12f2dcd80ca7d851002a2af0f8ebc426d04b18114ddbd02d"
+    },
+    {
+      "path": "pagefind/fragment/zh_d47de41.pf_fragment",
+      "bytes": 60919,
+      "sha256": "253eb9e92484db51b6c18227a558b5fa0088b71186fb6a2852fb2e1fe4f436d6"
+    },
+    {
+      "path": "pagefind/fragment/zh_df3d1ca.pf_fragment",
+      "bytes": 3582,
+      "sha256": "34ad578a642c29e63a3d8344ed6be2c9b11d4ecdde4f3bcbf26be0e92aaa5854"
+    },
+    {
+      "path": "pagefind/fragment/zh_e53de92.pf_fragment",
+      "bytes": 2677,
+      "sha256": "f19e832adc877e7d78cebfd325d895da2b244ededc997e720fc869f65ae31919"
+    },
+    {
+      "path": "pagefind/fragment/zh_e56e8bc.pf_fragment",
+      "bytes": 2970,
+      "sha256": "2fe4a03cec35b35af092f13049f6f5f54cac77d1ab38a44338cfab4705bbc565"
+    },
+    {
+      "path": "pagefind/fragment/zh_eafdb31.pf_fragment",
+      "bytes": 4554,
+      "sha256": "e284548895551c18095661d76bd313b94a7eea6eea4d334094f373d012615e1d"
+    },
+    {
+      "path": "pagefind/fragment/zh_ebb231b.pf_fragment",
+      "bytes": 2203,
+      "sha256": "3590779950ed9777480539039e8a7ea1b9084a8dd8a59793b601b1d2146a2bc9"
+    },
+    {
+      "path": "pagefind/fragment/zh_f7f4b33.pf_fragment",
+      "bytes": 4113,
+      "sha256": "6841fe97551cb67d80d7aedfde2ddc62103ab8060d4dc5e81c7fce00cabc8577"
+    },
+    {
+      "path": "pagefind/index/en_4d09198.pf_index",
+      "bytes": 24081,
+      "sha256": "82b9b6457b2f346b826a3897da423f720168c7d88680929aae2007c28a4a9959"
+    },
+    {
+      "path": "pagefind/index/en_4f19881.pf_index",
+      "bytes": 37336,
+      "sha256": "ec4b15d47ca6fafeba46b8fc7c421e8570e57d7016e7b3d3ebfbca1abca2268b"
+    },
+    {
+      "path": "pagefind/index/en_57bc9ec.pf_index",
+      "bytes": 34829,
+      "sha256": "47b7a25aa13d4c645979cb96b460c56d782c76f59d456486dfe484f3e87ae005"
+    },
+    {
+      "path": "pagefind/index/en_649039d.pf_index",
+      "bytes": 33263,
+      "sha256": "2ff9ec28e1f3be250c898c7b72ab33d2febb64fdd45271a79c14851044768df4"
+    },
+    {
+      "path": "pagefind/index/en_dd3c628.pf_index",
+      "bytes": 63065,
+      "sha256": "4e968c3fcac6fed2e098e360f2c19842e669a1091197705fa54e359397d3bce2"
+    },
+    {
+      "path": "pagefind/index/zh_218883a.pf_index",
+      "bytes": 32521,
+      "sha256": "e2a02698e9923a43bbdd65c94ed21fae29f8c5f8f3480b80aae11aacbd60e378"
+    },
+    {
+      "path": "pagefind/index/zh_291fb9d.pf_index",
+      "bytes": 34102,
+      "sha256": "3aee3eba877b01810d9eb52ce81f90170e1252c5072e92012f6c5ca3b9663368"
+    },
+    {
+      "path": "pagefind/index/zh_8bd75c8.pf_index",
+      "bytes": 35113,
+      "sha256": "85c733b9730305b010b740f10fad3d8a539bc09a23913b1a6c81ae6e1915e42d"
+    },
+    {
+      "path": "pagefind/index/zh_ce7a286.pf_index",
+      "bytes": 36018,
+      "sha256": "8d76cc6556654aa728c7b04b50e862b6b2fca2c89cb75463c2a8c12b0a7564d2"
+    },
+    {
+      "path": "pagefind/index/zh_f04be1d.pf_index",
+      "bytes": 35268,
+      "sha256": "31cdbfee31c263636e5561082b659db4e95b1cf375dc1cdf4bb1f8a3e261e587"
+    },
+    {
+      "path": "pagefind/pagefind-component-ui.css",
+      "bytes": 41830,
+      "sha256": "de389c7e5d87d6e2b10d65fb1e36e8989a12a2ad8dd6239b7e070d81fb5d8b0d"
+    },
+    {
+      "path": "pagefind/pagefind-component-ui.js",
+      "bytes": 195382,
+      "sha256": "33118ab8dce1ffebbe19ccac557a93f77c426a2919a9998198f03a19b67062ed"
+    },
+    {
+      "path": "pagefind/pagefind-entry.json",
+      "bytes": 230,
+      "sha256": "fdb402802f1c5ef5e060f6e452e5c2f1ce37dd9cddec8966d6e17664cf106ed6"
+    },
+    {
+      "path": "pagefind/pagefind-highlight.js",
+      "bytes": 43108,
+      "sha256": "0caad31cffdf8dec87cd6857a78e7e5aa2ae10edee32b19e2fa53f213310b984"
+    },
+    {
+      "path": "pagefind/pagefind-modular-ui.css",
+      "bytes": 7336,
+      "sha256": "653ab29e4de5629f6ddf5f6fcdf5d2b3eb539a8c07fff8a56b8ce2156a570788"
+    },
+    {
+      "path": "pagefind/pagefind-modular-ui.js",
+      "bytes": 19597,
+      "sha256": "39d9b3c338dd374f86fd457c1926c3e4f27c628b5451796d5c263cb50bf6f7cb"
+    },
+    {
+      "path": "pagefind/pagefind-ui.css",
+      "bytes": 14482,
+      "sha256": "e113b816110ed07b017613e901addfe635350f2a5b84990aa76c91a74b158084"
+    },
+    {
+      "path": "pagefind/pagefind-ui.js",
+      "bytes": 124640,
+      "sha256": "ba87d660e86ab592d47e615148bb95b6f44c90a925f67957dffcf5cf2175eacc"
+    },
+    {
+      "path": "pagefind/pagefind-worker.js",
+      "bytes": 56362,
+      "sha256": "702351b9df98f0b575a684eefc094bc78b1b9d18dce7852ab71f1ca5382af034"
+    },
+    {
+      "path": "pagefind/pagefind.en_513a97abfb.pf_meta",
+      "bytes": 554,
+      "sha256": "ac07d3b3c83254dc7d84cf0d660af7d338b384e98105d1d1c368101344859fbe"
+    },
+    {
+      "path": "pagefind/pagefind.js",
+      "bytes": 59368,
+      "sha256": "cc9764728dddc2b069b1d56aedbe3ccc156f41662f440f0f135e85140af56717"
+    },
+    {
+      "path": "pagefind/pagefind.zh_2fbe8f8cf2.pf_meta",
+      "bytes": 545,
+      "sha256": "8e98bbb367051c3fe5da9b6a9c378d8af1ee01742a6f7bd725d64174b6fd0c2d"
+    },
+    {
+      "path": "pagefind/wasm.en.pagefind",
+      "bytes": 72209,
+      "sha256": "bb16c9e6d3d214d4d05cccca51df7b487b86b3657318da767f6ca9e0a2e7259d"
+    },
+    {
+      "path": "pagefind/wasm.unknown.pagefind",
+      "bytes": 68024,
+      "sha256": "3a74cefceacd066e8d3bc8c52e7bc1c869544ca3d9031b44a9b7136356d5d7f4"
+    },
+    {
+      "path": "privacy-policy/index.html",
+      "bytes": 25712,
+      "sha256": "357aec7c9cc8e835918662ef66e0db63faf9c90bbe3cbf059a83ca68e18a245d"
+    },
+    {
+      "path": "recent/index.html",
+      "bytes": 27962,
+      "sha256": "4a7f3c7cf36af9157f89bb275e877a3d9ee42e0bc56a52dffc7721c0bd88350f"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 93,
+      "sha256": "b11d321416973e25467db91097a1b6e73efb089a5c2db28323f3843dcf20fe62"
+    },
+    {
+      "path": "rss.xml",
+      "bytes": 332,
+      "sha256": "ee54efb176a5b806a5ec9752c89f8ace414737484ff7792d1dfe415bc5070fbc"
+    },
+    {
+      "path": "sitemap-0.xml",
+      "bytes": 14309,
+      "sha256": "b9f802d179512fd18f6bb02de9edeb7d14cd0a17313a02200b17f55bbc1bb575"
+    },
+    {
+      "path": "sitemap-index.xml",
+      "bytes": 248,
+      "sha256": "a3da453cb18034572b75a8f2835bbd5fd356a604458c473ea6f45956f813d4ed"
+    },
+    {
+      "path": "tags/index.html",
+      "bytes": 25128,
+      "sha256": "5398576f4ce40c7d3087d4f695a3d15ac289e6b795f6a9836b346a9522d7dcd0"
+    },
+    {
+      "path": "terms-of-service/index.html",
+      "bytes": 24819,
+      "sha256": "a0a2b765e5e0bdd0b9ab378df1a64d2d47c83a8014a72b5ca63b0ec93115c80b"
+    },
+    {
+      "path": "zh/about/index.html",
+      "bytes": 24350,
+      "sha256": "fafca5dbdf80a10c126e7e77f2a1d3d4d014f1ee3ceac2aabb2e93b1cf637f77"
+    },
+    {
+      "path": "zh/codes/index.html",
+      "bytes": 28424,
+      "sha256": "10d8a75bf873d431afff0ea43d8318d396eb313bf1599671c010d624ddb90b60"
+    },
+    {
+      "path": "zh/contact/index.html",
+      "bytes": 24075,
+      "sha256": "9b09000e010ff836b373ed7ed67210700ba50081fa0385341279c1a9a2047096"
+    },
+    {
+      "path": "zh/copyright/index.html",
+      "bytes": 24065,
+      "sha256": "2e1bab37e8e5cdbaf32b1dec79319af91d0f8ac6bf3e65cb4b73d41fdbe666d0"
+    },
+    {
+      "path": "zh/faq/index.html",
+      "bytes": 25753,
+      "sha256": "4f6c35da2c90148021bb37d2cd51e97b9e33b31f3a59b2346be92aa027134964"
+    },
+    {
+      "path": "zh/guides/index.html",
+      "bytes": 28427,
+      "sha256": "e2b4718ff41b97e6aa736d9b5e756e6c178bf378bf236d2f1bd985292eb36b6d"
+    },
+    {
+      "path": "zh/index.html",
+      "bytes": 34017,
+      "sha256": "a6c8ea8c1d8307b56bdfdcf4b3ea30225cf6a711b91e858845fd5c3ffe14d585"
+    },
+    {
+      "path": "zh/items/index.html",
+      "bytes": 28469,
+      "sha256": "817425f44501a6e98aec930f97e0f5154f4b16f4a223da9c6315140a59a44661"
+    },
+    {
+      "path": "zh/landing/community/index.html",
+      "bytes": 436262,
+      "sha256": "807690e1a77c4d0897948c6c4d8b6576b72cade15579cf8b249aa643976a33bd"
+    },
+    {
+      "path": "zh/landing/comparison/index.html",
+      "bytes": 52137,
+      "sha256": "eaf60ce1fea35701c2abd35e8589a937e748744b79e2835e42902082977f121a"
+    },
+    {
+      "path": "zh/landing/docs/add-ga4/index.html",
+      "bytes": 76861,
+      "sha256": "1fd3c3cbc30c8802b4d95a7015f8b121f7bd1e7fda3b767364c6b54df2c20c2c"
+    },
+    {
+      "path": "zh/landing/docs/ai-ops/index.html",
+      "bytes": 82574,
+      "sha256": "90f37f72aa0902310b1fdbb6e12d45148fc60d1dc2b71251f8398f345fe0e688"
+    },
+    {
+      "path": "zh/landing/docs/appendix-red-lines/index.html",
+      "bytes": 73513,
+      "sha256": "c54c0c9d225741bacb79336a66d588661ee01773c034b61207327c8f241e9faf"
+    },
+    {
+      "path": "zh/landing/docs/architecture/index.html",
+      "bytes": 83125,
+      "sha256": "f4feebb823a93bf10b452a745aca13da2f5aded6ff4d108899dde9d9006d52bc"
+    },
+    {
+      "path": "zh/landing/docs/batch-pages/index.html",
+      "bytes": 82791,
+      "sha256": "8fa0280f88ee2297844adf9f2c589435d747309af616aaeadc08478135b69240"
+    },
+    {
+      "path": "zh/landing/docs/categories-and-locales/index.html",
+      "bytes": 76384,
+      "sha256": "88fb8ddbab93418e821c0e642ca8aeaf4f5f36daaea1981ef92c7fa98bc15a4b"
+    },
+    {
+      "path": "zh/landing/docs/clone-your-site/index.html",
+      "bytes": 78537,
+      "sha256": "171a4ffe0f155e40cdfeed6891c3376ba990a277a3aebe709788b81276cf40d7"
+    },
+    {
+      "path": "zh/landing/docs/codes-page/index.html",
+      "bytes": 76538,
+      "sha256": "8e243c8e1bdcc27bf5e994d8fef25e9d5eef1c99c750bf5f775e638b056682a0"
+    },
+    {
+      "path": "zh/landing/docs/content-pipeline/index.html",
+      "bytes": 76461,
+      "sha256": "713e65838a37d84fcd3fd1ff155e63612d85f11ef44df73a0b06488e89d661dd"
+    },
+    {
+      "path": "zh/landing/docs/contribute-back/index.html",
+      "bytes": 72442,
+      "sha256": "998b2dec27dd1747a497e23cf2566401c061e8bdbfab475c162d69d2d088b443"
+    },
+    {
+      "path": "zh/landing/docs/day-one-list/index.html",
+      "bytes": 77267,
+      "sha256": "5641a34c4fec434aedc2e1977c2b5e72c6116a670829a878cb1dfc6e39cc9f9e"
+    },
+    {
+      "path": "zh/landing/docs/dev/index.html",
+      "bytes": 43136,
+      "sha256": "fe1088aadfe2b672aa1c7aede111d32a44382227708e58aca5efed54cb6d9df2"
+    },
+    {
+      "path": "zh/landing/docs/enable-ads/index.html",
+      "bytes": 80781,
+      "sha256": "e41a9b9e8626418fd40bb8d670e4ed1a48287533e23c06a05d7168aa1dfa8f20"
+    },
+    {
+      "path": "zh/landing/docs/find-candidates/index.html",
+      "bytes": 75460,
+      "sha256": "3bee7b24ad4c4914bbe721edfed3ca2de58ad9a54768ee100c34e21de0fe4f0d"
+    },
+    {
+      "path": "zh/landing/docs/first-article/index.html",
+      "bytes": 78887,
+      "sha256": "f10425a104162fe66e3f0dac5601657f6d2129287255cfabdd184831f54e68a5"
+    },
+    {
+      "path": "zh/landing/docs/first-week-numbers/index.html",
+      "bytes": 76168,
+      "sha256": "8e50c2f855ccef69ff3b67a911a1068413cafbbec3eb14ab1806a60a30b92d37"
+    },
+    {
+      "path": "zh/landing/docs/get-on-google/index.html",
+      "bytes": 82751,
+      "sha256": "10bd0be34b18e4b300489a0663511a44a7bd77eb4a6869403b6db1ad54f97f56"
+    },
+    {
+      "path": "zh/landing/docs/get-paid/index.html",
+      "bytes": 77833,
+      "sha256": "d7d02df0012ea32f0ebd3648a98330e2431089e3509c366e59a270947fed0b5c"
+    },
+    {
+      "path": "zh/landing/docs/glossary-and-commands/index.html",
+      "bytes": 74616,
+      "sha256": "ebfca8decc753c2f7098324ea98fb102432342e0f3652bb886c15a23fd7da165"
+    },
+    {
+      "path": "zh/landing/docs/how-this-business-works/index.html",
+      "bytes": 73729,
+      "sha256": "66fff9e61624a98d9ae1bbbf1b970de7360a2580f4ffa61ac1cb6146874e2641"
+    },
+    {
+      "path": "zh/landing/docs/index.html",
+      "bytes": 49296,
+      "sha256": "6de2e8f2074c5585aa7f44d30b7077c5245cad9337f1663ea2dd0998791f6c25"
+    },
+    {
+      "path": "zh/landing/docs/install-counters/index.html",
+      "bytes": 75855,
+      "sha256": "813f5ca9dd945c168944ba42f9e314db842a7548e0dff6dd59ba4bb7a5f89747"
+    },
+    {
+      "path": "zh/landing/docs/install-tools/index.html",
+      "bytes": 82036,
+      "sha256": "d7ea5cc4e1cd576868d9e3517513b85ae8a5163419ed322520418f8f2eb9a8f0"
+    },
+    {
+      "path": "zh/landing/docs/integrations/index.html",
+      "bytes": 77369,
+      "sha256": "d4fa7d4c47be414cccb5d1b7f6daf0af01b23f336543c75accfae0ee9b2b7c06"
+    },
+    {
+      "path": "zh/landing/docs/launch-batch-plan/index.html",
+      "bytes": 73748,
+      "sha256": "5f25c3dabd72861f95ad73bba4c14f9e5826c61c43c67e0aa17b529f6446086e"
+    },
+    {
+      "path": "zh/landing/docs/learn/index.html",
+      "bytes": 66609,
+      "sha256": "19c48931636359e6badcf5908d8a33f2ac4c6167c78ecbf523a9439f2d068f92"
+    },
+    {
+      "path": "zh/landing/docs/multi-site/index.html",
+      "bytes": 77803,
+      "sha256": "de4f36fd2fdf66758b3a6ea7f14a1da0c2c5c4c6a60fdd4e3136221d6f4f06ce"
+    },
+    {
+      "path": "zh/landing/docs/put-site-online/index.html",
+      "bytes": 82323,
+      "sha256": "6aca89316e5f235a0a07e695351a6403d8a34975875aa78a2c384f03034d669a"
+    },
+    {
+      "path": "zh/landing/docs/quality-gate/index.html",
+      "bytes": 75377,
+      "sha256": "c404859063678a4c12658d95dac5f1d5d4d54c3819b74b44d555c5837c8ea235"
+    },
+    {
+      "path": "zh/landing/docs/rank-one-keyword/index.html",
+      "bytes": 78017,
+      "sha256": "09e3a7254d3a05d71829e67e6a4bd044e4f6ad7502ee09cabddf472c7623cf85"
+    },
+    {
+      "path": "zh/landing/docs/read-google-trends/index.html",
+      "bytes": 75744,
+      "sha256": "2949bacb40801cc020bdc967c9f851531e3fed7bb1895e8a461d5166e3049b7f"
+    },
+    {
+      "path": "zh/landing/docs/read-serp/index.html",
+      "bytes": 75297,
+      "sha256": "816cb66ddd2a203a755d52e715bafdcb7714b8f834ee4c9ca3e80eec3d529e76"
+    },
+    {
+      "path": "zh/landing/docs/rebrand-your-site/index.html",
+      "bytes": 80901,
+      "sha256": "3379616bd89d652e8c225e46a16446e3597d009964261bbb872b31b131472a66"
+    },
+    {
+      "path": "zh/landing/docs/run-your-site/index.html",
+      "bytes": 78881,
+      "sha256": "cca41a3ba73679428de1d89a04fd8e88b24b2232f25ef11d82b5664c03a949d5"
+    },
+    {
+      "path": "zh/landing/docs/score-and-decide/index.html",
+      "bytes": 78781,
+      "sha256": "1cc6bcef7a5df86cfa767cc961e2bd41ea9a4499692e4a4129e2d62cdbbcb708"
+    },
+    {
+      "path": "zh/landing/docs/search-intent/index.html",
+      "bytes": 74803,
+      "sha256": "bcd1dd25cf01431e4e15173d7473c4f8195e755df85890d9bc72bfc3ceff30f4"
+    },
+    {
+      "path": "zh/landing/docs/sync-upstream/index.html",
+      "bytes": 75294,
+      "sha256": "034a05ce1183b1020b99b1f529ac5134e51d05ea5957f148fa0542ca0680ff3c"
+    },
+    {
+      "path": "zh/landing/docs/the-roadmap/index.html",
+      "bytes": 73495,
+      "sha256": "fd6153555e437a3c1f46dfca852184c3fc0238402300303109e6f9f4cfb6c611"
+    },
+    {
+      "path": "zh/landing/docs/theme-and-homepage/index.html",
+      "bytes": 77462,
+      "sha256": "2bad5264a939ed258bab08fe67c2242b0aef95fb87434f084d263660d886e6cb"
+    },
+    {
+      "path": "zh/landing/docs/tier-list-and-media/index.html",
+      "bytes": 76743,
+      "sha256": "b2b3b309a0edae00b30fc609276db1d08397e59faa33b84fdb397a1dcece33aa"
+    },
+    {
+      "path": "zh/landing/docs/troubleshooting-tree/index.html",
+      "bytes": 72956,
+      "sha256": "ae6a652e37e3b9139fec972da8efba7d4d95dd94ec283275bbc3a3f13a7d5282"
+    },
+    {
+      "path": "zh/landing/docs/trust-and-backlinks/index.html",
+      "bytes": 77703,
+      "sha256": "c9af1c07cfefc5e5f19256bde4c35a80b5d6c2b8130b8964ac9a94734efa18a9"
+    },
+    {
+      "path": "zh/landing/docs/verify-your-changes/index.html",
+      "bytes": 79886,
+      "sha256": "21d10bcec30d36ca4893b81c3cdf679c1b4ebf5b9b3ee60832a7d31e8dcaac8e"
+    },
+    {
+      "path": "zh/landing/docs/weekly-ops/index.html",
+      "bytes": 83904,
+      "sha256": "68d7a71b4a6561556243c0b1e632551337051c77f2bdf9d29c6494195a24b1e6"
+    },
+    {
+      "path": "zh/landing/index.html",
+      "bytes": 86008,
+      "sha256": "b3167675a0ed4f8322b0090ded8b82234a124f9e23eb6c9d83f0122e02fe6dfb"
+    },
+    {
+      "path": "zh/landing/privacy/index.html",
+      "bytes": 34975,
+      "sha256": "2d30a875abb8f6dc4d4606501fa13a92025df8a78eb96413cb7b0078fb357687"
+    },
+    {
+      "path": "zh/landing/templates/index.html",
+      "bytes": 47797,
+      "sha256": "1326fba4d44046b8856dc70cbcf268137b8386bfac51351d0ec42179086c48af"
+    },
+    {
+      "path": "zh/privacy-policy/index.html",
+      "bytes": 25780,
+      "sha256": "6bf9f553265a4cf31805a0250d07989738b1f243e18ae243a2e4aa1ee0a3c477"
+    },
+    {
+      "path": "zh/recent/index.html",
+      "bytes": 27895,
+      "sha256": "ceb445dc9a0c1e5e384be252532396c3ee4eac645e009f857d3ed55c54a4d8d9"
+    },
+    {
+      "path": "zh/tags/index.html",
+      "bytes": 25207,
+      "sha256": "1cdef3d45c61d12d5935c694b7425f1e3f7b07045b598d39fcfbbfb7d896331f"
+    },
+    {
+      "path": "zh/terms-of-service/index.html",
+      "bytes": 24887,
+      "sha256": "cb688e7605e68774b0893fded1f76482ad2978d4c51132223c8226ea67d64911"
+    }
+  ],
+  "excluded_original_ad_files": [
+    "incontent-728x90.html",
+    "native-banner.html",
+    "sidebar-160x300.html",
+    "sidebar-160x600.html",
+    "sidebar-300x250.html",
+    "sticky-320x50.html"
+  ],
+  "checks": {
+    "all_drafts_excluded": true,
+    "sitemap_domain": true,
+    "canonical_domain": true,
+    "no_integration_loaders_or_ad_iframes": true,
+    "preview_noindex_header_configured": true
+  },
+  "commands": [
+    {
+      "command": [
+        "pnpm",
+        "check-config"
+      ],
+      "started_at": "2026-10-09T05:59:51.999934+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/pnpm-check-config.log"
+    },
+    {
+      "command": [
+        "pnpm",
+        "exec",
+        "vitest",
+        "run",
+        "tests/seo.test.ts",
+        "tests/url.test.ts"
+      ],
+      "started_at": "2026-10-09T05:59:55.042081+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/pnpm-exec-vitest-run-tests-seo.test.ts-tests-url.test.ts.log"
+    },
+    {
+      "command": [
+        "pnpm",
+        "build"
+      ],
+      "started_at": "2026-10-09T05:59:58.890445+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/pnpm-build.log"
+    },
+    {
+      "command": [
+        "pnpm",
+        "check-links"
+      ],
+      "started_at": "2026-10-09T06:00:18.911794+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/pnpm-check-links.log"
+    }
+  ],
+  "local_upload_smoke": {
+    "checked_at": "2026-10-09T06:01:26.959510+00:00",
+    "local_upload_smoke": true,
+    "online_verified": false,
+    "status": 200,
+    "title": "Clover Time Wiki \u2014 Codes, Guides & Tier Lists",
+    "canonical": "https://clover-time-wiki-preview.pages.dev/",
+    "viewport_width": 375,
+    "document_width": 375,
+    "ad_iframes": 0,
+    "giscus_frames": 0,
+    "integration_requests": []
+  },
+  "upload_link_check": {
+    "command": "tsx /workspace/AnvilWiki/scripts/check-links.ts",
+    "cwd": ".tmp/clover-time-deploy-20261009/audit",
+    "exit_code": 0,
+    "links": 9733,
+    "html_files": 123
+  },
+  "wrangler": {
+    "version": "4.149.0",
+    "whoami": "Pages permissions corrected; account Pages API HTTP 200, project create and upload succeeded.",
+    "project_create_help_verified": true,
+    "pages_deploy_help_verified": true
+  },
+  "environment_config_draft": {
+    "saved": true,
+    "secrets": [
+      "CLOUDFLARE_API_TOKEN"
+    ],
+    "environment_variables": [
+      "CLOUDFLARE_ACCOUNT_ID"
+    ],
+    "start_skill_updated": true,
+    "install_script_changed": false,
+    "runtime_authentication_verified": true,
+    "start_skill_deployment_status_updated": true
+  },
+  "official_docs_request": {
+    "url": "https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/",
+    "status": 403
+  },
+  "command_logs": [
+    {
+      "path": ".tmp/clover-time-deploy-20261009/pnpm-build.log",
+      "sha256": "bd99e9541c87b4487b58ac99f0d9b9ac4b4a2663298cc1c24d3e77c636fee162",
+      "tail": [
+        "  Indexed 90 pages",
+        "  Indexed 12582 words",
+        "  Indexed 0 filters",
+        "  Indexed 0 sorts",
+        "Note: Pagefind doesn't support stemming for the language zh. ",
+        "Search will still work, but will not match across root words.",
+        "Note: Pagefind doesn't support stemming for the language zh. ",
+        "Search will still work, but will not match across root words.",
+        "",
+        "Finished in 1.864 seconds",
+        "[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=e96f9a271a applied to 122 pages; range-media lowered in 4 files",
+        "[IndexNow] No .indexnow-key or legacy INDEXNOW_KEY configured; key file emission skipped."
+      ]
+    },
+    {
+      "path": ".tmp/clover-time-deploy-20261009/pnpm-check-config.log",
+      "sha256": "b4ec65014261cb1061f5a44f539cdea93120ff518e29bb84d151db1bc0cd0fa4",
+      "tail": [
+        "  \u2705 all locales consistent",
+        "",
+        "3. Homepage displayType enum (all locale JSONs)",
+        "  \u2705 all displayTypes valid",
+        "",
+        "4. Deployment domain (wrangler.toml SITE_URL \u2194 site.ts domain)",
+        "  \u2705 env SITE_URL \u2192 https://clover-time-wiki-preview.pages.dev matches site.ts domain",
+        "",
+        "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "",
+        "\u2705 Config is consistent.",
+        ""
+      ]
+    },
+    {
+      "path": ".tmp/clover-time-deploy-20261009/pnpm-check-links.log",
+      "sha256": "74e18cfba8981e49f3abe87e8a7fcebab5f69ecef0de2f133eb25592f9bfc3bf",
+      "tail": [
+        "Already up to date",
+        "Done in 1.2s using pnpm v11.1.1",
+        "$ tsx scripts/check-links.ts",
+        "",
+        "\ud83d\udd17 Internal link audit \u2014 9733 links across 129 pages",
+        "",
+        "\u2705 All internal links resolve."
+      ]
+    },
+    {
+      "path": ".tmp/clover-time-deploy-20261009/pnpm-exec-vitest-run-tests-seo.test.ts-tests-url.test.ts.log",
+      "sha256": "ae5b0d0e30915cf350387038fbdbbb657614f6b1135be4f3656cf6b333c01a9a",
+      "tail": [
+        "Already up to date",
+        "Done in 1.1s using pnpm v11.1.1",
+        "",
+        " RUN  v4.1.11 /workspace/AnvilWiki",
+        "",
+        "",
+        " Test Files  2 passed (2)",
+        "      Tests  37 passed (37)",
+        "   Start at  05:59:57",
+        "   Duration  838ms (transform 235ms, setup 0ms, import 377ms, tests 76ms, environment 1ms)",
+        ""
+      ]
+    },
+    {
+      "path": ".tmp/clover-time-deploy-20261009/upload-check-links.log",
+      "sha256": "72ccff7388bb5d5367fc2966edfe440cf50205009a920253cb93e87ee41b9f25",
+      "tail": [
+        "",
+        "\ud83d\udd17 Internal link audit \u2014 9733 links across 123 pages",
+        "",
+        "\u2705 All internal links resolve."
+      ]
+    }
+  ],
+  "pages_access_ready": true,
+  "latest_attempt": {
+    "operation": "upload-final",
+    "exit_code": 0,
+    "online_checks_passed": true,
+    "deployment_id": "00762cd2-e829-49e4-a998-dd7e0fb8c6a5"
+  },
+  "initial_prepared_files": [
+    {
+      "path": "404.html",
+      "bytes": 16885,
+      "sha256": "94dc278d10f0d4fa8156161309c8a50b736d2e4dc287a1324befd7f18288139c"
+    },
+    {
+      "path": "_astro/SearchButton.CYUbtIx8.css",
+      "bytes": 66575,
+      "sha256": "7ae65f855250d5f47499cfeadae7433fb48d9a39830a268610cc34126491be86"
+    },
+    {
+      "path": "_astro/clover-time-en-codes-all-codes.4_WQiHSK.png",
+      "bytes": 151190,
+      "sha256": "f8518a0b1d216902685304aae605a63fc911d0c03d20fb662d9bd4fd717db2a1"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-beginner-guide.CycXeR_5.png",
+      "bytes": 154280,
+      "sha256": "5fa1df932ab939f05687f99e899f05cf62cf78da8bb4e5bacff59c82ee897331"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp.png",
+      "bytes": 154193,
+      "sha256": "db71722d3b3d81e7aa69074ab08ef41c92dcd549c6f8b6600eadbefe55b01d57"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz.png",
+      "bytes": 151684,
+      "sha256": "15758c60ac515e8f4afa2e2a35837f8dded87baca46b5a6e00d00ebf64be6b9f"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y.png",
+      "bytes": 155562,
+      "sha256": "ee30a283b98568d646a09efbeef7ce2b79e34f57bbace1dee86af148dfdfb341"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-reroll.B__B2th3.png",
+      "bytes": 152107,
+      "sha256": "fdfeafd9b3c4f63d592aefe3e6e36ba844700cebb09de0e240e0e5367f702a22"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-patch-notes.CLppRUsb.png",
+      "bytes": 155119,
+      "sha256": "c177e71556ec9c1294366a1d5b07fa8261d1fb1978e4dffb1b9083ac34f1661d"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-race-tier-list.DZQYa27b.png",
+      "bytes": 152373,
+      "sha256": "c7c696a3c3886530485f2053c57a05230fa65ba56122e8ce8e51ea7d051022bb"
+    },
+    {
+      "path": "_astro/clover-time-en-items-anti-magic.CW7sZd9a.png",
+      "bytes": 154254,
+      "sha256": "3854c5a0fd8ba5fe0d9d4f6389bb79f3b237d479e50e23cd52627d893456be28"
+    },
+    {
+      "path": "_astro/clover-time-en-items-poison.CyOkuVZP.png",
+      "bytes": 153168,
+      "sha256": "6c345eb732b11fd82aaca798dbb7d952635474cebb481e72f57ab8a074e4e5fb"
+    },
+    {
+      "path": "_astro/page.CMFgH77u.js",
+      "bytes": 2487,
+      "sha256": "ac7efac5537306a54aaa0fe168258f00a0fa1361649ab43da4435e6d84041a5f"
+    },
+    {
+      "path": "_headers",
+      "bytes": 2523,
+      "sha256": "41abcb28c22d06022b53d57110a24c81f7e9bd2c86fe55d31e730a89f92faf8c"
+    },
+    {
+      "path": "_redirects",
+      "bytes": 4430,
+      "sha256": "69dd900e860beab3dbd5b4bcc9d6cd0431efeeba3495bf755f2c044c3bdb04c2"
+    },
+    {
+      "path": "about/index.html",
+      "bytes": 24282,
+      "sha256": "e4843b4c62f98905dff2b912f68568a1e99208df6c91fd30a3964567950fca26"
+    },
+    {
+      "path": "ads.txt",
+      "bytes": 466,
+      "sha256": "c129985a3fb1d17ac3b1e15cec5f00e44aea17e5ad3122eb6d2a268ccef13389"
+    },
+    {
+      "path": "android-chrome-192x192.png",
+      "bytes": 4695,
+      "sha256": "71df3ac21b7f360bc12d39f4b41dd1ef9375b2d7cbe3f038071ce4623b2cb1f2"
+    },
+    {
+      "path": "android-chrome-512x512.png",
+      "bytes": 6367,
+      "sha256": "52f0898580816b01e624c3387c1fb11add12808a9bd7fac26f5debb7a59e5509"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 4226,
+      "sha256": "ff2f444e5036d19ed034ee559684b32e5603b3f51f947e09e6c7b91b6c0a80e4"
+    },
+    {
+      "path": "codes/index.html",
+      "bytes": 28453,
+      "sha256": "71f6e039d0b15f61d01bad7b303d2165d9326767b4d6fb3446e50d7d96695e50"
+    },
+    {
+      "path": "contact/index.html",
+      "bytes": 23989,
+      "sha256": "2706abced65e1626a3d1e76c900be32eca9ce653954ae6b1674a9e0712bbd8a2"
+    },
+    {
+      "path": "copyright/index.html",
+      "bytes": 23997,
+      "sha256": "2202d0f74f236ea2002afdf547e5ccb11959d74008ee7bfc061888161fe1153d"
+    },
+    {
+      "path": "faq/index.html",
+      "bytes": 25722,
+      "sha256": "44f3dc34d629683db3a100cc87e4b2fe914e2794ac23a5470d6a335f565d8b2d"
+    },
+    {
+      "path": "favicon-16x16.png",
+      "bytes": 412,
+      "sha256": "c418718cb43bfb9fe76172953094389cbe079306958b00d25575a49a7bdc5559"
+    },
+    {
+      "path": "favicon-32x32.png",
+      "bytes": 708,
+      "sha256": "0907dc456efcc919a7bbd2452da1b6cac1e6fc03914ba6a70885141b73bddf99"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 2389,
+      "sha256": "74ef25c109aab9f10da5d71dd8a85279d199f82d96afc806511c2de26ce80f32"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 305,
+      "sha256": "ae388c22f53e4b2e32f6005daeefa33fc2992aef3a7f5e858c5dd1cfedeaa08c"
+    },
+    {
+      "path": "google8362d9398114b66b.html",
+      "bytes": 53,
+      "sha256": "927737cd158418567b85fdee9e8f55f6a60c885a3cb1b095254732d38383145e"
+    },
+    {
+      "path": "guides/index.html",
+      "bytes": 28448,
+      "sha256": "c5f989154d7a3900dcb5cda0ccfe4237b5c0a58f0d78bbfcf6d1f9a5c74eaab8"
+    },
+    {
+      "path": "images/articles/weapon-frostpike.png",
+      "bytes": 30162,
+      "sha256": "ec829b1a18c019ed2012ec0e72bd4ed61a01265196b9637ee0b1eb3f22124c98"
+    },
+    {
+      "path": "images/articles/weapon-voidforge.png",
+      "bytes": 31188,
+      "sha256": "5911ec427ea1f27089f36a5e75fba2a5c77f9a7b654ef81de673a3eafeb85168"
+    },
+    {
+      "path": "images/hero.svg",
+      "bytes": 710,
+      "sha256": "f4ce904a0604ef3edde0b5d7ca4940ee50dbbb389d7d135d05f70a08c139dc7e"
+    },
+    {
+      "path": "images/hero.webp",
+      "bytes": 17360,
+      "sha256": "8c4c61f6ebe4f162d3bde68435c5684a5acbdda03d0d08c396252123c20b5b58"
+    },
+    {
+      "path": "images/showcase/demo-article.webp",
+      "bytes": 64240,
+      "sha256": "7b7f42c14bfc8ada9bf1cb694fe16b8bf43dfdab87d95d98c5a2fd8093f6000c"
+    },
+    {
+      "path": "images/showcase/demo-codes.webp",
+      "bytes": 57034,
+      "sha256": "8429478127d205742483557fd3613dbf5a4260512f3f2660a39fab8540fed115"
+    },
+    {
+      "path": "images/showcase/demo-home.webp",
+      "bytes": 23514,
+      "sha256": "92086c8a7b0ceb8fd388f8458a5ea575b68007e5d8e82a1b0e535ff710d504da"
+    },
+    {
+      "path": "images/showcase/demo-mobile.webp",
+      "bytes": 18096,
+      "sha256": "c69d4e8db3db17f86b6882d93f00e1dd9a9f2e8dd1fdb28ef0c3ea973c5269fc"
+    },
+    {
+      "path": "images/showcase/demo-tier-list.webp",
+      "bytes": 72746,
+      "sha256": "ca081e281a56f7e9da5e5388175346c862738d90871ed0582c62d7cd3de643ac"
+    },
+    {
+      "path": "images/showcase/sites/aniimo.jpg",
+      "bytes": 79911,
+      "sha256": "4a360d51ec559672f20d57d900f96f2db236ac1d92f17d3f923fd3c1500a44c9"
+    },
+    {
+      "path": "images/showcase/sites/jjs-player-guide.png",
+      "bytes": 66480,
+      "sha256": "fe3ee4459a45e4d3c183473bec2d7225ca9ceaef8a10f795fd12b5cd8bb93783"
+    },
+    {
+      "path": "images/showcase/sites/mortal-shell-ii.png",
+      "bytes": 73035,
+      "sha256": "c8f78b5e5e72b1dba3a3fd7bfacab6fff986abfe39b8c4c24b49ba52adc31934"
+    },
+    {
+      "path": "images/showcase/sites/nomanssky.jpg",
+      "bytes": 82589,
+      "sha256": "2dccb1fa01a785e0693226974ff59c34f2e1f2eadcccf6b190da10e125b3530c"
+    },
+    {
+      "path": "images/showcase/sites/resonance.jpg",
+      "bytes": 79025,
+      "sha256": "bf4fe0b704fd6ba59b79b374e9c50775c4486d23edd6ccb01390936b4e9867c3"
+    },
+    {
+      "path": "images/showcase/sites/sandustry.jpg",
+      "bytes": 90262,
+      "sha256": "b3ad5e2ff38e69fe4d344c6626f761716dad9e7399906daf25f73c21979e4988"
+    },
+    {
+      "path": "images/showcase/sites/sephiria.jpg",
+      "bytes": 58228,
+      "sha256": "f3d57a7bc360e610781e58b1a4b50afd4dcfd2e8edf378016aa8b216dbdc6372"
+    },
+    {
+      "path": "images/showcase/sites/steal-anegg.jpg",
+      "bytes": 81250,
+      "sha256": "cba25b133611755bd5bd5ebaeb9acdf72c8d862a30901f4009be9669921902a9"
+    },
+    {
+      "path": "images/showcase/sites/warhounds.jpg",
+      "bytes": 88467,
+      "sha256": "68d8e6e6990920c611feb8487d809acfdccea2080a251f59a02cd2f497e43bb8"
+    },
+    {
+      "path": "images/wechat-qr.jpg",
+      "bytes": 44497,
+      "sha256": "177c8926da179ad6c78953f7346d50462556725afb91c27ee408e05bda944bf0"
+    },
+    {
+      "path": "index.html",
+      "bytes": 34027,
+      "sha256": "c5ec9facd2be261655b26da5a88e3ada6005f9db30536de9629bb420a995d7f0"
+    },
+    {
+      "path": "items/index.html",
+      "bytes": 28486,
+      "sha256": "2cc085fe1b5ad9e984ae8c26d999022ee188a87d1acc98080cdf2b8ab0650c15"
+    },
+    {
+      "path": "landing/community/index.html",
+      "bytes": 436488,
+      "sha256": "79c801917c05777efb87c7f2bf0480fd407257f6e283f0a5cbb0bf8ce460619b"
+    },
+    {
+      "path": "landing/comparison/index.html",
+      "bytes": 52905,
+      "sha256": "fd537382592de53e1c1901f993e432a880dfdd59a5f74d770cb5c436d42013b1"
+    },
+    {
+      "path": "landing/docs/add-ga4/index.html",
+      "bytes": 76856,
+      "sha256": "b81e683d1a744bf592447cd437e5377f709c5223537fd10d36e4a1465ce4d615"
+    },
+    {
+      "path": "landing/docs/ai-ops/index.html",
+      "bytes": 83146,
+      "sha256": "edc278beaac7849220fb37919c4d70ae36ddbcadad7dc70f576258362a523e7c"
+    },
+    {
+      "path": "landing/docs/appendix-red-lines/index.html",
+      "bytes": 73549,
+      "sha256": "59417a537934f370ad1038af61594f8da1d21c2bc39e8c9afc525e19606f3336"
+    },
+    {
+      "path": "landing/docs/architecture/index.html",
+      "bytes": 86118,
+      "sha256": "1f00ef8a908c81fa03aa98fdec76068c7a191b938eb22a045d73f10a94e523c5"
+    },
+    {
+      "path": "landing/docs/batch-pages/index.html",
+      "bytes": 83704,
+      "sha256": "f8e936633d8c9972b9635a756b2da5f6cbffbcae1cd4df05f086629204f2ec2a"
+    },
+    {
+      "path": "landing/docs/categories-and-locales/index.html",
+      "bytes": 77831,
+      "sha256": "5a4e61380cd20640446e17279655b1c217c420096839b43df824d9b7884b710f"
+    },
+    {
+      "path": "landing/docs/clone-your-site/index.html",
+      "bytes": 78390,
+      "sha256": "e99066d6ffe25bbf747ca9c2ed29e44f5bf0c0846e009f7ffdcd473de8eafbd5"
+    },
+    {
+      "path": "landing/docs/codes-page/index.html",
+      "bytes": 77024,
+      "sha256": "c59c267a831159f957b2c93d0471fa90b0ba2dc2170b02cc7fa7327767c82863"
+    },
+    {
+      "path": "landing/docs/content-pipeline/index.html",
+      "bytes": 76985,
+      "sha256": "1b471b5e74386d600c0f27a655021136c8a68f3dc444ee19ee4037bde9623771"
+    },
+    {
+      "path": "landing/docs/contribute-back/index.html",
+      "bytes": 72540,
+      "sha256": "fa594a3ad3412b1dd5aaeab19857972c8d7063ada82477be368f2745216de631"
+    },
+    {
+      "path": "landing/docs/day-one-list/index.html",
+      "bytes": 77741,
+      "sha256": "b32c26ffcb5e896635b3fc08124e87f2fa1c697bf9b5214ceefc6e9e37edec10"
+    },
+    {
+      "path": "landing/docs/dev/index.html",
+      "bytes": 42820,
+      "sha256": "9c91ee86e6ff701fd17984eeb809f71134dd505fc0301176f52681112d82aa8c"
+    },
+    {
+      "path": "landing/docs/enable-ads/index.html",
+      "bytes": 81020,
+      "sha256": "9d1d21d192ea7b94dade1913ef2ea3998cd68145dd466dc7c1931f82e3c8f341"
+    },
+    {
+      "path": "landing/docs/find-candidates/index.html",
+      "bytes": 75866,
+      "sha256": "48ae67c7705889b35e1b33bf8af818031e6aad1816e8d595dd9e30632d1ccf4f"
+    },
+    {
+      "path": "landing/docs/first-article/index.html",
+      "bytes": 78791,
+      "sha256": "cb48dce3022642645b08abdc6d5675ac9190dcf3dcb759ff044feb7cd792e365"
+    },
+    {
+      "path": "landing/docs/first-week-numbers/index.html",
+      "bytes": 76230,
+      "sha256": "d7d00a81d2a3db76a894d5e8cb1355feddd2afb312b368d06ff451a30a5f05b2"
+    },
+    {
+      "path": "landing/docs/get-on-google/index.html",
+      "bytes": 84364,
+      "sha256": "30fb3d0f49efa66d535b0b9f7910ccbe63889582d27839727ea025584efa3276"
+    },
+    {
+      "path": "landing/docs/get-paid/index.html",
+      "bytes": 78681,
+      "sha256": "4c7a1148c3cc19b5e273efa19a3ecea3d3788e401b698e760b38868fe6f3a8b8"
+    },
+    {
+      "path": "landing/docs/glossary-and-commands/index.html",
+      "bytes": 74966,
+      "sha256": "ce6b48c9f20942da820dbb9b6e40628bcfc448082d0829e67bdbdc2e79e505e3"
+    },
+    {
+      "path": "landing/docs/how-this-business-works/index.html",
+      "bytes": 74171,
+      "sha256": "b8769ec54aeef4a794a7e0e644ca88343934ac774b8b32f724435c6bb7299fa4"
+    },
+    {
+      "path": "landing/docs/index.html",
+      "bytes": 49744,
+      "sha256": "10ab2be56166e1af79337b661d4a85fb437a3b339f545366e368754ea36f3136"
+    },
+    {
+      "path": "landing/docs/install-counters/index.html",
+      "bytes": 75717,
+      "sha256": "e0472b3170056f67de20164f7b7d24d50c716c2a389827d1fb1cbaf25ba2c2df"
+    },
+    {
+      "path": "landing/docs/install-tools/index.html",
+      "bytes": 82731,
+      "sha256": "b759c6b8f0658b59e0f79a4755d28514650442a06709638c43bfb656841bae5a"
+    },
+    {
+      "path": "landing/docs/integrations/index.html",
+      "bytes": 78687,
+      "sha256": "8331ea47abd524776c2e71556f20cb3fed55c1f6cb4ae3709f15ac10dc89ac7b"
+    },
+    {
+      "path": "landing/docs/launch-batch-plan/index.html",
+      "bytes": 74488,
+      "sha256": "58a1bf53e89c5ea014909c59ba6e182402d1fb120bc1b74c3c9d74cb4c22dd49"
+    },
+    {
+      "path": "landing/docs/learn/index.html",
+      "bytes": 65118,
+      "sha256": "4f6dfe9229556d75fc65526f195aee2c9eb91749497f080c6a5c4adcf8a2bac7"
+    },
+    {
+      "path": "landing/docs/multi-site/index.html",
+      "bytes": 78302,
+      "sha256": "daacf0f7b85559a9b62d11b5887c50edd4455c7e9407418cba739435d759d176"
+    },
+    {
+      "path": "landing/docs/put-site-online/index.html",
+      "bytes": 83860,
+      "sha256": "174f0485a09b8cc6dd060984085906525b7074d3b7d7f5d1a0372937e7527039"
+    },
+    {
+      "path": "landing/docs/quality-gate/index.html",
+      "bytes": 75632,
+      "sha256": "f538db5c81277ff9d5751149b7ed1ce34b0f8e3c1088eb422414d093a1d16f41"
+    },
+    {
+      "path": "landing/docs/rank-one-keyword/index.html",
+      "bytes": 77649,
+      "sha256": "3fe5f20343db7cdb06285e7f0a9a72caefdf24ba2825ab1ceb743916d9e2e356"
+    },
+    {
+      "path": "landing/docs/read-google-trends/index.html",
+      "bytes": 76216,
+      "sha256": "d16b3d617f274d70cfc72b5b6731a2a4e248c2ee293989b07a30b56cf02d9c0f"
+    },
+    {
+      "path": "landing/docs/read-serp/index.html",
+      "bytes": 75774,
+      "sha256": "a432550b38e38c9eb54646dbc0a044223d2fd2187c85e74c81ec4ab167260466"
+    },
+    {
+      "path": "landing/docs/rebrand-your-site/index.html",
+      "bytes": 81908,
+      "sha256": "e08684e89939ff06d2c62de05d324313a31275100ba917958d120c1ccd364a80"
+    },
+    {
+      "path": "landing/docs/run-your-site/index.html",
+      "bytes": 79294,
+      "sha256": "b0102cdb7807707b540fe05ff2ec8d9df2e7ee873a3931a27db695ba7b41506a"
+    },
+    {
+      "path": "landing/docs/score-and-decide/index.html",
+      "bytes": 79667,
+      "sha256": "fb11d0ae17243575306df98ccad2267d1aa427779dfc5995317b1ca464fc10e1"
+    },
+    {
+      "path": "landing/docs/search-intent/index.html",
+      "bytes": 75533,
+      "sha256": "f87d68be5c542d595c5f8070340823c2edf7992c0b6f7797c5f1074e6cc4d56b"
+    },
+    {
+      "path": "landing/docs/sync-upstream/index.html",
+      "bytes": 75430,
+      "sha256": "318d1525eb4442284fba5f4ebad4958eeb65aae1be842f34ee7fd72344322283"
+    },
+    {
+      "path": "landing/docs/the-roadmap/index.html",
+      "bytes": 73467,
+      "sha256": "0f7b4f51812712200b1d5993caab77bd9f461f2d83d6e69b5aad5a7c183e7e17"
+    },
+    {
+      "path": "landing/docs/theme-and-homepage/index.html",
+      "bytes": 78175,
+      "sha256": "45fe8c4f813c7a4cf86b6e79b58e78963f33149b2a757a9cfbfa3213881ddeca"
+    },
+    {
+      "path": "landing/docs/tier-list-and-media/index.html",
+      "bytes": 77115,
+      "sha256": "06b8fb6604a678f46497155f6cb335fd6f07e0bb1b293264cd25690a74a0a0e7"
+    },
+    {
+      "path": "landing/docs/troubleshooting-tree/index.html",
+      "bytes": 73197,
+      "sha256": "834d0181ae48a4cf74e4faf3f184519830f8c26a601f328a3ae9afb9878ed543"
+    },
+    {
+      "path": "landing/docs/trust-and-backlinks/index.html",
+      "bytes": 78107,
+      "sha256": "080c476f2b274f05b01cb38cbf8f5c10a99577d7e03d18d5b339fafef8a0d50f"
+    },
+    {
+      "path": "landing/docs/verify-your-changes/index.html",
+      "bytes": 80581,
+      "sha256": "e7a6e52fc510f65a9942f5548530d5272a5c9d0ac149d9b8215eeee93649086f"
+    },
+    {
+      "path": "landing/docs/weekly-ops/index.html",
+      "bytes": 84383,
+      "sha256": "077d7f9c3e274c2f3e3d5155624aee558a712430324439f36abae360ff15a830"
+    },
+    {
+      "path": "landing/index.html",
+      "bytes": 86782,
+      "sha256": "77b3a469cd4c5c2b9f51b75a2c20716eca345e8a1a8d878e30ef8ab8a759a30c"
+    },
+    {
+      "path": "landing/templates/index.html",
+      "bytes": 47883,
+      "sha256": "e86b6e067ef5c350a885dc6e726488ca7d1de4faf47edcea55f61030e5974eaa"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 203,
+      "sha256": "3099e96b7723fc2ec4b3f1cb7214864b6fb314089957d7f46e1cdf1982e38b16"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 537,
+      "sha256": "9d10d3c0fd9c2fa1e580605fc256d704c1752acdd1e067fe3f2a1ee713d57fd0"
+    },
+    {
+      "path": "pagefind/fragment/en_108397d.pf_fragment",
+      "bytes": 2632,
+      "sha256": "eeeeadde5bea4135a08ac05ea1084cfba8c95a9fad42af2bdb89ef1d09e0b70f"
+    },
+    {
+      "path": "pagefind/fragment/en_13fe2c8.pf_fragment",
+      "bytes": 3627,
+      "sha256": "6cab6bcfad6515d2574fb6c7da4a67ab9f4385801a5973151273dce1c097e7a2"
+    },
+    {
+      "path": "pagefind/fragment/en_1f6422a.pf_fragment",
+      "bytes": 3367,
+      "sha256": "e14d3053509bbb2b6f3b89031ce8164a9cf079dd5e9e9b934a080e3b0f0903a2"
+    },
+    {
+      "path": "pagefind/fragment/en_25f1bbe.pf_fragment",
+      "bytes": 2588,
+      "sha256": "4a6809880a208c794460f73853ed67b408c69f12c2e4bcb915bc5feba8c6050f"
+    },
+    {
+      "path": "pagefind/fragment/en_289a33e.pf_fragment",
+      "bytes": 2118,
+      "sha256": "ad10ee13bff2f502af2e0403e85e979110e8facdcc7e89890d26e0e734b3b97a"
+    },
+    {
+      "path": "pagefind/fragment/en_2b1a6f6.pf_fragment",
+      "bytes": 2081,
+      "sha256": "05a5774b9fd262db72803a789ea8b19071532115a0e93d7bc5ead5c4b63eb442"
+    },
+    {
+      "path": "pagefind/fragment/en_2ff2d91.pf_fragment",
+      "bytes": 2275,
+      "sha256": "c2a836308687140fbbf2fa29e0386e7d8d725112d723854608bee9ebf57a42c8"
+    },
+    {
+      "path": "pagefind/fragment/en_3b691eb.pf_fragment",
+      "bytes": 2349,
+      "sha256": "6669d24c1c4b759cabb1f73d8d6854f33f5a207e6c020c70a0fe193909620af8"
+    },
+    {
+      "path": "pagefind/fragment/en_4415f83.pf_fragment",
+      "bytes": 2036,
+      "sha256": "8fd60c9207256405378b8c406c966751228a810d1e2529dfb73ceb737f69f03a"
+    },
+    {
+      "path": "pagefind/fragment/en_4c78936.pf_fragment",
+      "bytes": 2099,
+      "sha256": "b2450b51908fcc8d323a6e9128e3ca9c964e9a389df621b13e4a18b112ce58dc"
+    },
+    {
+      "path": "pagefind/fragment/en_4e549b1.pf_fragment",
+      "bytes": 1925,
+      "sha256": "313b3d0e5db53c8ac2d204df02161ad8196a698ce971cecb7a53413b34c43124"
+    },
+    {
+      "path": "pagefind/fragment/en_5935775.pf_fragment",
+      "bytes": 2168,
+      "sha256": "769fe1dbee3542fa1f712ca9a23b22a9e038c52c06c79328a285a8d0ce239e47"
+    },
+    {
+      "path": "pagefind/fragment/en_693640c.pf_fragment",
+      "bytes": 2111,
+      "sha256": "60896ab1783526917dad05174d704b6e229306be16146f905b44f4fdb904f2b8"
+    },
+    {
+      "path": "pagefind/fragment/en_70c7d75.pf_fragment",
+      "bytes": 2306,
+      "sha256": "140df520f314704b12d8d60b8474100e13951e7b5d8e7c985e5768c02c1f364f"
+    },
+    {
+      "path": "pagefind/fragment/en_73f098d.pf_fragment",
+      "bytes": 2199,
+      "sha256": "cc7141c8efb8d1fc7e41a7ce43d10c3e830f7c84028cbe5af13472478889c751"
+    },
+    {
+      "path": "pagefind/fragment/en_77ad5a2.pf_fragment",
+      "bytes": 1611,
+      "sha256": "a07866f6103e86d108fdc212555fd7699764281b0a01db4f95d8b3a50a570aff"
+    },
+    {
+      "path": "pagefind/fragment/en_89bb897.pf_fragment",
+      "bytes": 1939,
+      "sha256": "6e084b7d94dbb3c66eb6af41c95c73968025a3f7f94e8ad05dda6a7b81ef006d"
+    },
+    {
+      "path": "pagefind/fragment/en_8ac6831.pf_fragment",
+      "bytes": 1809,
+      "sha256": "5df52e23ddf39f38e05e9bdc33832f4b689c41c2e5965572c746a7cd181d5c43"
+    },
+    {
+      "path": "pagefind/fragment/en_8fcc966.pf_fragment",
+      "bytes": 2030,
+      "sha256": "dfafb4397f1173d3ef439f77fb7e6acac5d31fbdbb622ef3416d0c0f3d9e7d31"
+    },
+    {
+      "path": "pagefind/fragment/en_9865ad3.pf_fragment",
+      "bytes": 2698,
+      "sha256": "b762501ca4731e8c468b62dc4a81b641e2358678783a11c7612f12662010d277"
+    },
+    {
+      "path": "pagefind/fragment/en_9964a32.pf_fragment",
+      "bytes": 1960,
+      "sha256": "a3b6a64cc1030fd065718f4590cfb49479bdf7115b5e934e532c723c3787c801"
+    },
+    {
+      "path": "pagefind/fragment/en_9abb1df.pf_fragment",
+      "bytes": 3654,
+      "sha256": "b9e8889d77f9791946bfc82f6eeb0b883cc4904b0dd05c738262136070d59247"
+    },
+    {
+      "path": "pagefind/fragment/en_a020d96.pf_fragment",
+      "bytes": 2866,
+      "sha256": "4c6d7d6f43c6efc227b2f92e40e80d813d24c772312260d29e1370ec7ef25366"
+    },
+    {
+      "path": "pagefind/fragment/en_a5f2c42.pf_fragment",
+      "bytes": 53521,
+      "sha256": "072aac05a8c4d2d49eba9c4e113cc8dd638ef95210196ef2b3ad453e59af02e7"
+    },
+    {
+      "path": "pagefind/fragment/en_a738b94.pf_fragment",
+      "bytes": 2304,
+      "sha256": "d9421e15f35ab12d3f4c5302996d0a7d3ddcc04538937403c9eb68749497e98c"
+    },
+    {
+      "path": "pagefind/fragment/en_b2cab37.pf_fragment",
+      "bytes": 2382,
+      "sha256": "1b4ff6ff2973a80a837771fe7832cb531d55c1f66547a4454d2190952d7b6a46"
+    },
+    {
+      "path": "pagefind/fragment/en_b411a49.pf_fragment",
+      "bytes": 3160,
+      "sha256": "fc4bbd7c629b669e9e7da29e080f7cc35b7f50655209632931b4a1fb7d6b893c"
+    },
+    {
+      "path": "pagefind/fragment/en_b49157c.pf_fragment",
+      "bytes": 1866,
+      "sha256": "68539438e80695bd28eda12e2783064d3f20801c69f5ed9dfdae541fc4551d20"
+    },
+    {
+      "path": "pagefind/fragment/en_b52edda.pf_fragment",
+      "bytes": 3368,
+      "sha256": "7eeb11a80a0cd9bcf2117a9f6c20599cf277a5bf941534792b4e5de8cc2b78e7"
+    },
+    {
+      "path": "pagefind/fragment/en_b768fee.pf_fragment",
+      "bytes": 1577,
+      "sha256": "0166a1da94d9cf36b62ce57a01a6179c7184645abf184f08c7da316b9d96b9fb"
+    },
+    {
+      "path": "pagefind/fragment/en_bb7812a.pf_fragment",
+      "bytes": 2697,
+      "sha256": "ae2ea432dadf0c48709e14c1eb16837031038f6224349a3143f10f9d2db3db37"
+    },
+    {
+      "path": "pagefind/fragment/en_c12353b.pf_fragment",
+      "bytes": 2609,
+      "sha256": "de79932479cff9179e040bc8714e27216273f6c083e1a67ef56f003bfc44be0b"
+    },
+    {
+      "path": "pagefind/fragment/en_ca88dc7.pf_fragment",
+      "bytes": 2331,
+      "sha256": "669743371308ff0f265f39563070e595ae1e03903cc0804ec2623a25e82b426e"
+    },
+    {
+      "path": "pagefind/fragment/en_cdea575.pf_fragment",
+      "bytes": 2087,
+      "sha256": "87d711a6875977251fd65ad83ef805197aa3c94b8ac546a8efa6034f52ec85f2"
+    },
+    {
+      "path": "pagefind/fragment/en_d1a92d5.pf_fragment",
+      "bytes": 2353,
+      "sha256": "c057e7073dad3aebfaae8042250c144c3a9f9b841bbfa2a8b9ba167373190107"
+    },
+    {
+      "path": "pagefind/fragment/en_d9822a7.pf_fragment",
+      "bytes": 3877,
+      "sha256": "9321155a2bc26465dd1ca540139669183c713a3e1fbfe59e6b584888d3f13705"
+    },
+    {
+      "path": "pagefind/fragment/en_ddb402f.pf_fragment",
+      "bytes": 3780,
+      "sha256": "d774fb9972e40209ae253b26963f1a48862ea73024e8b915ac667515d29c4639"
+    },
+    {
+      "path": "pagefind/fragment/en_e1756b8.pf_fragment",
+      "bytes": 3285,
+      "sha256": "0b2ad45f3616e4c5ee9563df7815988d5709a3663bb37e10532afe6bd9bae7d4"
+    },
+    {
+      "path": "pagefind/fragment/en_e3e26dc.pf_fragment",
+      "bytes": 3291,
+      "sha256": "30ff4b3e941e349ccea0c281721016c881abc7a69189597aa188988d82f6b651"
+    },
+    {
+      "path": "pagefind/fragment/en_e51d7e4.pf_fragment",
+      "bytes": 2563,
+      "sha256": "23e646a1813c4c2c954716b7c81f583d5dfdc74941fb3486f781764731c123d9"
+    },
+    {
+      "path": "pagefind/fragment/en_f493c62.pf_fragment",
+      "bytes": 2758,
+      "sha256": "d2afe4f39e4b613e206ab55de08a6bfff6052e016e34f34f627b5735eb0df705"
+    },
+    {
+      "path": "pagefind/fragment/en_fa72252.pf_fragment",
+      "bytes": 2766,
+      "sha256": "a6f740a697d094cd5ef5d82f89132fffab9653be490ad32052b6b1c28ebbf2f9"
+    },
+    {
+      "path": "pagefind/fragment/en_ff2b473.pf_fragment",
+      "bytes": 2227,
+      "sha256": "023c7d247a699bd34894fc3d5b1c55f39f44de2a21cb46f9517cfaed44553988"
+    },
+    {
+      "path": "pagefind/fragment/en_ff3f81b.pf_fragment",
+      "bytes": 2437,
+      "sha256": "9db7a6ad251fd8ee6ebc8987f80261b3176c3a4f04c582ef12395edbd5f1f343"
+    },
+    {
+      "path": "pagefind/fragment/en_ffaf439.pf_fragment",
+      "bytes": 1792,
+      "sha256": "d05ef7d6c7567297eb00d6dbc7d39a072fa9eb1a055b3971c304752e0a874a33"
+    },
+    {
+      "path": "pagefind/fragment/zh_10b5111.pf_fragment",
+      "bytes": 3805,
+      "sha256": "b761455b2931d0e8606209c05df9c8a5a4b7c8f2095f54c37d79164c95c8c527"
+    },
+    {
+      "path": "pagefind/fragment/zh_1246479.pf_fragment",
+      "bytes": 3503,
+      "sha256": "cba5c1ab9b6472d84b6deab89817e394b5703c5fd24ae32f87ee82f9a557673a"
+    },
+    {
+      "path": "pagefind/fragment/zh_125f232.pf_fragment",
+      "bytes": 2919,
+      "sha256": "5018266ba52d1b8687dc1feeb56c67752af05610558589ddbf268fbcfd6ab7c0"
+    },
+    {
+      "path": "pagefind/fragment/zh_1685971.pf_fragment",
+      "bytes": 2453,
+      "sha256": "fc947468093517f106fca2333f5aa9841c137e2e11bd4a878e9b3a4a81a5ab54"
+    },
+    {
+      "path": "pagefind/fragment/zh_1d1f442.pf_fragment",
+      "bytes": 2225,
+      "sha256": "b3b711e21b89aad7808c760ed888fa15590b8dba5a99f00d239ad15ae2fcde96"
+    },
+    {
+      "path": "pagefind/fragment/zh_2821f98.pf_fragment",
+      "bytes": 2550,
+      "sha256": "33c87019c492e57cbff1b32e8b97fbdab64b0f3c589c2d27242c42cb47976a62"
+    },
+    {
+      "path": "pagefind/fragment/zh_2c7dbce.pf_fragment",
+      "bytes": 4282,
+      "sha256": "90507acf6bd57a0d8179a888756085a948b9ecb61b99eecea4df260ebd70ddb6"
+    },
+    {
+      "path": "pagefind/fragment/zh_2fcd3d5.pf_fragment",
+      "bytes": 3152,
+      "sha256": "c4db614d561a9a1977c80b38b49993e8b934957a7d223d7fc8f8d88a391148e1"
+    },
+    {
+      "path": "pagefind/fragment/zh_3a9e1bc.pf_fragment",
+      "bytes": 3297,
+      "sha256": "054553e0fad39a4bd4da922f48d280a69f3878ae4d487935556ceec4448f817e"
+    },
+    {
+      "path": "pagefind/fragment/zh_43e8932.pf_fragment",
+      "bytes": 2845,
+      "sha256": "7dc326c1757ebd94ec7d8367c2604a211709904af6dcfbdff40d9d198c6ace71"
+    },
+    {
+      "path": "pagefind/fragment/zh_5119fe2.pf_fragment",
+      "bytes": 3303,
+      "sha256": "203a7707e932db8b78e824ccf30a22136d2512abc154c283f017d61487c6f295"
+    },
+    {
+      "path": "pagefind/fragment/zh_5b65d71.pf_fragment",
+      "bytes": 3531,
+      "sha256": "86a219a5ff41297514d59acdf53dfb1ba6a4d51dfadf9bfb7f68de80da4a1375"
+    },
+    {
+      "path": "pagefind/fragment/zh_5ca287b.pf_fragment",
+      "bytes": 2861,
+      "sha256": "288e424dde8a8f2ef1371b225d8c814aa9ad56b731583aa0f00d0bc3555708d3"
+    },
+    {
+      "path": "pagefind/fragment/zh_627d2fa.pf_fragment",
+      "bytes": 2734,
+      "sha256": "7929146c7e6093976804ee48d2abee75efecb78366e1b04ae1edf238493dd09e"
+    },
+    {
+      "path": "pagefind/fragment/zh_62cbc1f.pf_fragment",
+      "bytes": 2690,
+      "sha256": "f9633ab3d440b25eed9210dbdff60e0de0754a67d1a111af96c48b3f083970d7"
+    },
+    {
+      "path": "pagefind/fragment/zh_6801dd8.pf_fragment",
+      "bytes": 2751,
+      "sha256": "375a0f221148a15bdc9e63bd21486db662d7fd05d925adfc9e1c6733e6a1f533"
+    },
+    {
+      "path": "pagefind/fragment/zh_73bd999.pf_fragment",
+      "bytes": 2351,
+      "sha256": "89b2cb57a0473629bd736e154dfaf0325f9767d0634bb6d067599e2eefdd3c32"
+    },
+    {
+      "path": "pagefind/fragment/zh_7461e69.pf_fragment",
+      "bytes": 4136,
+      "sha256": "96e6e376c9ac242a31ab121ec281defa6876c5645faaaf7b2cf45ff7a2be5ea5"
+    },
+    {
+      "path": "pagefind/fragment/zh_77b845d.pf_fragment",
+      "bytes": 2421,
+      "sha256": "f6f8419870ea9810a6ecf2229e78d62c4d1b28f3d7b7f47b0a9386085ae8af17"
+    },
+    {
+      "path": "pagefind/fragment/zh_78327ce.pf_fragment",
+      "bytes": 4387,
+      "sha256": "e8ce48ca2df726fea7cfbe259b24bbaf362b9c58152dbf65ee8bea117e03c1f6"
+    },
+    {
+      "path": "pagefind/fragment/zh_7968dbb.pf_fragment",
+      "bytes": 2929,
+      "sha256": "0d128e71a885ef24f0254c4167a1e8dbd1341216c56ea98d18e14b74b98631fd"
+    },
+    {
+      "path": "pagefind/fragment/zh_7d2bfc7.pf_fragment",
+      "bytes": 2627,
+      "sha256": "01c18a9880293a648dd8363443bcb8d379433a026cf5dea7315c34d21d824fc1"
+    },
+    {
+      "path": "pagefind/fragment/zh_8746946.pf_fragment",
+      "bytes": 3338,
+      "sha256": "58168ed8e1f5e47ee317a05c46b993ca78d89c5d9ec11ef6e8cc0eecb83a0222"
+    },
+    {
+      "path": "pagefind/fragment/zh_943e698.pf_fragment",
+      "bytes": 2663,
+      "sha256": "b6ce52d40db7363fc64b902af2d191b9567b651a390cde68fe668137e43b1457"
+    },
+    {
+      "path": "pagefind/fragment/zh_9d8c723.pf_fragment",
+      "bytes": 2125,
+      "sha256": "401c27f15627e1cb62e248e6e77af94f64c8dddc06bb5cf8fbce4378084c7edc"
+    },
+    {
+      "path": "pagefind/fragment/zh_a13ce06.pf_fragment",
+      "bytes": 2494,
+      "sha256": "7c9fd55d5a8398ac390c6b49973dc5e10d80f846b26dfcf2aa3653ff08ffbc0e"
+    },
+    {
+      "path": "pagefind/fragment/zh_a3a7bc4.pf_fragment",
+      "bytes": 3161,
+      "sha256": "c6a3aa3d449b2141c748846c32a98f917b122f4fcf875280aced894127453b1a"
+    },
+    {
+      "path": "pagefind/fragment/zh_ab366fa.pf_fragment",
+      "bytes": 2883,
+      "sha256": "d167a12d61e43e2da5a33b8258d977951fa86ec38a8f38b15a909403eef9a2bb"
+    },
+    {
+      "path": "pagefind/fragment/zh_ad1e928.pf_fragment",
+      "bytes": 4269,
+      "sha256": "98a1c43f014712f1a4547cc497a885b52aeb93e67a04e0f63b96cadd78d7958d"
+    },
+    {
+      "path": "pagefind/fragment/zh_af85689.pf_fragment",
+      "bytes": 2582,
+      "sha256": "4a8f0d19fa15f5dc11437ee997f44af656898227154d6262a4509c726ee2064a"
+    },
+    {
+      "path": "pagefind/fragment/zh_b37974c.pf_fragment",
+      "bytes": 2991,
+      "sha256": "0b20eb9565fccc6270b97aadca186a6cf2850a778d00352deaa0d55116b32a44"
+    },
+    {
+      "path": "pagefind/fragment/zh_c29f658.pf_fragment",
+      "bytes": 3988,
+      "sha256": "8615602333d74ac2b92d920098109981ecea5bf95a5f6424a3e02ac775fc60d6"
+    },
+    {
+      "path": "pagefind/fragment/zh_ca98f9b.pf_fragment",
+      "bytes": 2506,
+      "sha256": "841dda41c67c24099e4067ca0858e764ffa33e288d05829e11730c96da1f04d8"
+    },
+    {
+      "path": "pagefind/fragment/zh_cb95f22.pf_fragment",
+      "bytes": 3585,
+      "sha256": "9d7d5eaeb67a23c84fa19854475b1714a33d10b8add0c47d42fb763f63bbc360"
+    },
+    {
+      "path": "pagefind/fragment/zh_cd72541.pf_fragment",
+      "bytes": 4454,
+      "sha256": "b1987f15839b5b89b412623ea6669900692d248d0d003aee76f6d866b34b464e"
+    },
+    {
+      "path": "pagefind/fragment/zh_cddb668.pf_fragment",
+      "bytes": 2176,
+      "sha256": "9a027f2e4dde2ab4ef2008c18a9ec6a986aa75a98bc1f8f69ebf451681b4ea7c"
+    },
+    {
+      "path": "pagefind/fragment/zh_ce6d5e9.pf_fragment",
+      "bytes": 2743,
+      "sha256": "710607f91d7c8410bbd4f6f75987982592ff90091a2edc5468c79d62146294e5"
+    },
+    {
+      "path": "pagefind/fragment/zh_d3b7a02.pf_fragment",
+      "bytes": 2897,
+      "sha256": "dcc862f0708d6cdd12f2dcd80ca7d851002a2af0f8ebc426d04b18114ddbd02d"
+    },
+    {
+      "path": "pagefind/fragment/zh_d47de41.pf_fragment",
+      "bytes": 60919,
+      "sha256": "253eb9e92484db51b6c18227a558b5fa0088b71186fb6a2852fb2e1fe4f436d6"
+    },
+    {
+      "path": "pagefind/fragment/zh_df3d1ca.pf_fragment",
+      "bytes": 3582,
+      "sha256": "34ad578a642c29e63a3d8344ed6be2c9b11d4ecdde4f3bcbf26be0e92aaa5854"
+    },
+    {
+      "path": "pagefind/fragment/zh_e53de92.pf_fragment",
+      "bytes": 2677,
+      "sha256": "f19e832adc877e7d78cebfd325d895da2b244ededc997e720fc869f65ae31919"
+    },
+    {
+      "path": "pagefind/fragment/zh_e56e8bc.pf_fragment",
+      "bytes": 2970,
+      "sha256": "2fe4a03cec35b35af092f13049f6f5f54cac77d1ab38a44338cfab4705bbc565"
+    },
+    {
+      "path": "pagefind/fragment/zh_eafdb31.pf_fragment",
+      "bytes": 4554,
+      "sha256": "e284548895551c18095661d76bd313b94a7eea6eea4d334094f373d012615e1d"
+    },
+    {
+      "path": "pagefind/fragment/zh_ebb231b.pf_fragment",
+      "bytes": 2203,
+      "sha256": "3590779950ed9777480539039e8a7ea1b9084a8dd8a59793b601b1d2146a2bc9"
+    },
+    {
+      "path": "pagefind/fragment/zh_f7f4b33.pf_fragment",
+      "bytes": 4113,
+      "sha256": "6841fe97551cb67d80d7aedfde2ddc62103ab8060d4dc5e81c7fce00cabc8577"
+    },
+    {
+      "path": "pagefind/index/en_181a632.pf_index",
+      "bytes": 24081,
+      "sha256": "ba5277143ea675d4093170db89778475619d8a8db41cfd2a2a7fa1d91a10700b"
+    },
+    {
+      "path": "pagefind/index/en_71c6add.pf_index",
+      "bytes": 63052,
+      "sha256": "e9d8e684112659703e30aab97ee72b7f98dbb9a45f01698ffd595fa1e2873ec2"
+    },
+    {
+      "path": "pagefind/index/en_84d8199.pf_index",
+      "bytes": 33276,
+      "sha256": "813c8725d3c8028f0cfb28776c07731013e109b297dc85167529289a4ed1e0c1"
+    },
+    {
+      "path": "pagefind/index/en_9b43e4a.pf_index",
+      "bytes": 34878,
+      "sha256": "76086d835957795dcc4fb10182da1bab4c8f2c7f798f2d72b9ebc8fdebd44f9d"
+    },
+    {
+      "path": "pagefind/index/en_a3af748.pf_index",
+      "bytes": 37300,
+      "sha256": "782c99b2fa40f419b6a2b8cc18460a85bc9d92be4ad642441b4d1b676eb07a47"
+    },
+    {
+      "path": "pagefind/index/zh_684c276.pf_index",
+      "bytes": 35096,
+      "sha256": "d734d897d8721404d56c36331483678c61538ee4be5c087a2c0f5f3337714294"
+    },
+    {
+      "path": "pagefind/index/zh_87a9e49.pf_index",
+      "bytes": 32542,
+      "sha256": "3572667cb7e8615b7068a5cec3ec1224a3e3ea928890ebeceabffd37773791f1"
+    },
+    {
+      "path": "pagefind/index/zh_94eaf6e.pf_index",
+      "bytes": 36048,
+      "sha256": "fb378b09661691cc1802770a621b26dc0c8b0ee553f331a35f526bbba695604c"
+    },
+    {
+      "path": "pagefind/index/zh_c7f2fe7.pf_index",
+      "bytes": 34134,
+      "sha256": "82fabada57a604e0b29395858d2fb36e52c33cb0500e53598ed7278dfb6ec8aa"
+    },
+    {
+      "path": "pagefind/index/zh_d073b6b.pf_index",
+      "bytes": 35329,
+      "sha256": "f9b279ed7a64287a0927494f79742b8cedc5971b3a457682d5451f5a25c3437b"
+    },
+    {
+      "path": "pagefind/pagefind-component-ui.css",
+      "bytes": 41830,
+      "sha256": "de389c7e5d87d6e2b10d65fb1e36e8989a12a2ad8dd6239b7e070d81fb5d8b0d"
+    },
+    {
+      "path": "pagefind/pagefind-component-ui.js",
+      "bytes": 195382,
+      "sha256": "33118ab8dce1ffebbe19ccac557a93f77c426a2919a9998198f03a19b67062ed"
+    },
+    {
+      "path": "pagefind/pagefind-entry.json",
+      "bytes": 230,
+      "sha256": "8108b931d949a2b23928100f8db477a1a4572272dad2a8efa3f32004a958f9d1"
+    },
+    {
+      "path": "pagefind/pagefind-highlight.js",
+      "bytes": 43108,
+      "sha256": "0caad31cffdf8dec87cd6857a78e7e5aa2ae10edee32b19e2fa53f213310b984"
+    },
+    {
+      "path": "pagefind/pagefind-modular-ui.css",
+      "bytes": 7336,
+      "sha256": "653ab29e4de5629f6ddf5f6fcdf5d2b3eb539a8c07fff8a56b8ce2156a570788"
+    },
+    {
+      "path": "pagefind/pagefind-modular-ui.js",
+      "bytes": 19597,
+      "sha256": "39d9b3c338dd374f86fd457c1926c3e4f27c628b5451796d5c263cb50bf6f7cb"
+    },
+    {
+      "path": "pagefind/pagefind-ui.css",
+      "bytes": 14482,
+      "sha256": "e113b816110ed07b017613e901addfe635350f2a5b84990aa76c91a74b158084"
+    },
+    {
+      "path": "pagefind/pagefind-ui.js",
+      "bytes": 124640,
+      "sha256": "ba87d660e86ab592d47e615148bb95b6f44c90a925f67957dffcf5cf2175eacc"
+    },
+    {
+      "path": "pagefind/pagefind-worker.js",
+      "bytes": 56362,
+      "sha256": "702351b9df98f0b575a684eefc094bc78b1b9d18dce7852ab71f1ca5382af034"
+    },
+    {
+      "path": "pagefind/pagefind.en_40a87096f6.pf_meta",
+      "bytes": 554,
+      "sha256": "4cce1c5016c0bc5f0ba3b132f6f3d15ab107c0943a60fad7d90546bb1802865f"
+    },
+    {
+      "path": "pagefind/pagefind.js",
+      "bytes": 59368,
+      "sha256": "cc9764728dddc2b069b1d56aedbe3ccc156f41662f440f0f135e85140af56717"
+    },
+    {
+      "path": "pagefind/pagefind.zh_9017936eac.pf_meta",
+      "bytes": 545,
+      "sha256": "78cdcb7192c0f30c56828497fd6bdbe87f07b42be596e7264f18122711df6bee"
+    },
+    {
+      "path": "pagefind/wasm.en.pagefind",
+      "bytes": 72209,
+      "sha256": "bb16c9e6d3d214d4d05cccca51df7b487b86b3657318da767f6ca9e0a2e7259d"
+    },
+    {
+      "path": "pagefind/wasm.unknown.pagefind",
+      "bytes": 68024,
+      "sha256": "3a74cefceacd066e8d3bc8c52e7bc1c869544ca3d9031b44a9b7136356d5d7f4"
+    },
+    {
+      "path": "privacy-policy/index.html",
+      "bytes": 25712,
+      "sha256": "59c03d0358e665e2447eb4c0b3e2ddbf422b04da4de487bcc39869dbf900b65a"
+    },
+    {
+      "path": "recent/index.html",
+      "bytes": 27962,
+      "sha256": "940d0583d4a8ce75915a123330ba3cc6217554e5f1d02696aed65eebd766db5e"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 93,
+      "sha256": "b11d321416973e25467db91097a1b6e73efb089a5c2db28323f3843dcf20fe62"
+    },
+    {
+      "path": "rss.xml",
+      "bytes": 332,
+      "sha256": "ee54efb176a5b806a5ec9752c89f8ace414737484ff7792d1dfe415bc5070fbc"
+    },
+    {
+      "path": "sitemap-0.xml",
+      "bytes": 14309,
+      "sha256": "b9f802d179512fd18f6bb02de9edeb7d14cd0a17313a02200b17f55bbc1bb575"
+    },
+    {
+      "path": "sitemap-index.xml",
+      "bytes": 248,
+      "sha256": "a3da453cb18034572b75a8f2835bbd5fd356a604458c473ea6f45956f813d4ed"
+    },
+    {
+      "path": "tags/index.html",
+      "bytes": 25128,
+      "sha256": "d26a9982e8155ae9bb30c052f6a31b72bcc6c4e9a0ec9b1bb0c92e78917ffb2d"
+    },
+    {
+      "path": "terms-of-service/index.html",
+      "bytes": 24819,
+      "sha256": "2bd39f7afc76523ae50630b695a2accac6ea5293003b29081a5e5a9e7e90b8ce"
+    },
+    {
+      "path": "zh/about/index.html",
+      "bytes": 24350,
+      "sha256": "6255a16d4ed94d8aea664eedc9d02e9db67e9fa2bcfc3e7f4bbc5eca5c6cd21b"
+    },
+    {
+      "path": "zh/codes/index.html",
+      "bytes": 28424,
+      "sha256": "3ce2d419b300d1ed020dadd6728726244a8412872040d9043e6fdfd60e6439a5"
+    },
+    {
+      "path": "zh/contact/index.html",
+      "bytes": 24057,
+      "sha256": "762a91a523130d6b6bb07343cbb24d9253bf4340da1c3fba1b6a00566c12a67b"
+    },
+    {
+      "path": "zh/copyright/index.html",
+      "bytes": 24065,
+      "sha256": "1b5835b9e31c0c42d1f90af64f2fbaa935b073e61da089d3c58dce871ea8ea1a"
+    },
+    {
+      "path": "zh/faq/index.html",
+      "bytes": 25753,
+      "sha256": "8937a61025e51436756d3df96311a7149954ac00586c23f48d44901c22622c44"
+    },
+    {
+      "path": "zh/guides/index.html",
+      "bytes": 28427,
+      "sha256": "2c3d12e363ab3941c51ae72e7c67c66e14bc044ff71ece207a9ebaf74670c749"
+    },
+    {
+      "path": "zh/index.html",
+      "bytes": 34017,
+      "sha256": "6dc7a278c49556fa60eec8398b7f4cc38a8dddfc42f801afb9c4180cf8a88e8b"
+    },
+    {
+      "path": "zh/items/index.html",
+      "bytes": 28469,
+      "sha256": "bc9651e7c576d432bd67e41a0b55a02dded94c9e27d8b0565a71d3974d89bdc6"
+    },
+    {
+      "path": "zh/landing/community/index.html",
+      "bytes": 436262,
+      "sha256": "cf8d165a706c81bf559c2125d3a0e58f692a5e7c521ead114177a4f0ad021ee4"
+    },
+    {
+      "path": "zh/landing/comparison/index.html",
+      "bytes": 52137,
+      "sha256": "8a983c99824f2675ea8bffceb93b01f3747594ed63df17abcbe96c88563ce933"
+    },
+    {
+      "path": "zh/landing/docs/add-ga4/index.html",
+      "bytes": 76861,
+      "sha256": "825baa3dd20982c079fff2b8d39b248ed14d76c4fb9c36c1f8fe6669612b02a3"
+    },
+    {
+      "path": "zh/landing/docs/ai-ops/index.html",
+      "bytes": 82574,
+      "sha256": "c4bd5f7a37bff75661885efb3accba07ab2e9806a938f6455795f9d328080985"
+    },
+    {
+      "path": "zh/landing/docs/appendix-red-lines/index.html",
+      "bytes": 73513,
+      "sha256": "6a55961e335a79fe0c0ddd11a53009acf6061e3236bede594d394bf212d4087e"
+    },
+    {
+      "path": "zh/landing/docs/architecture/index.html",
+      "bytes": 83125,
+      "sha256": "7afbb99dd2df8d1a865aa6b6bcbfdf3a08ad601b2784ab4b62d7afa91f6eda3f"
+    },
+    {
+      "path": "zh/landing/docs/batch-pages/index.html",
+      "bytes": 82791,
+      "sha256": "ac8c9b107909f6044bd54737036f1e688e5bdd6b226542c3b510773ab138fdf1"
+    },
+    {
+      "path": "zh/landing/docs/categories-and-locales/index.html",
+      "bytes": 76384,
+      "sha256": "f21243d6bb9527a6bc7bb77d0d79520f13db18f89877f723590a0676f85c3a26"
+    },
+    {
+      "path": "zh/landing/docs/clone-your-site/index.html",
+      "bytes": 78537,
+      "sha256": "6f74c2731a0f620ff1b9309667163a3c0ba7936c43f2c94ff0547f8d370c195f"
+    },
+    {
+      "path": "zh/landing/docs/codes-page/index.html",
+      "bytes": 76538,
+      "sha256": "a2a2d91c20b9f4e089ddccba88581eadbdcfdcc8cce0d2c9512c37e7c90cc0b9"
+    },
+    {
+      "path": "zh/landing/docs/content-pipeline/index.html",
+      "bytes": 76461,
+      "sha256": "e8030b0c62442c5b5d8091c70740a948f3365d4a4adc731a6aabb46a54d623dc"
+    },
+    {
+      "path": "zh/landing/docs/contribute-back/index.html",
+      "bytes": 72442,
+      "sha256": "7e52ba86823467ebc28de1bfd0caaaed3062b31edae17f2dc31a09221e666674"
+    },
+    {
+      "path": "zh/landing/docs/day-one-list/index.html",
+      "bytes": 77267,
+      "sha256": "3a8e2f454ebc04a1f8a26cee756a9d8f14c431fc4b13eec4fe4f2ba641197b92"
+    },
+    {
+      "path": "zh/landing/docs/dev/index.html",
+      "bytes": 43136,
+      "sha256": "ed33d06ce7bd8c320a7b84692e2f18fcbe5fed606709226339f0c2b803f5cfba"
+    },
+    {
+      "path": "zh/landing/docs/enable-ads/index.html",
+      "bytes": 80781,
+      "sha256": "f635de8f9b96cc7a1699a43434aeaeda330f54980ea1ac1274b163076f7e122c"
+    },
+    {
+      "path": "zh/landing/docs/find-candidates/index.html",
+      "bytes": 75460,
+      "sha256": "3d56e7acbbb42a796f07a4a2d794d3e6a7531b49e8270ecd32a73b39365c6bae"
+    },
+    {
+      "path": "zh/landing/docs/first-article/index.html",
+      "bytes": 78887,
+      "sha256": "6c250e18cec9be93c44b414c021a78ad135771e12e59af0fe724c3dd2c2fc93d"
+    },
+    {
+      "path": "zh/landing/docs/first-week-numbers/index.html",
+      "bytes": 76168,
+      "sha256": "dc00ee3df04138fb2d42202d4db710591ae55d651f6f4cdd2899765cef021336"
+    },
+    {
+      "path": "zh/landing/docs/get-on-google/index.html",
+      "bytes": 82751,
+      "sha256": "9ea8889ba97f1716f5a809d20c887392a2058d9b6736ba11ceff9a136cf5de99"
+    },
+    {
+      "path": "zh/landing/docs/get-paid/index.html",
+      "bytes": 77833,
+      "sha256": "e11392357c52dd9e9f162098225ceca8be675f2698c7e597ee4f35969efdb645"
+    },
+    {
+      "path": "zh/landing/docs/glossary-and-commands/index.html",
+      "bytes": 74616,
+      "sha256": "3de880825a7321ea0c28672a010eb41d61e2e981b4ab745589ebf6fd4db409f3"
+    },
+    {
+      "path": "zh/landing/docs/how-this-business-works/index.html",
+      "bytes": 73729,
+      "sha256": "62c8376ea829687fc688f8efbbf29e1b4903aa6d4d6fc16c8c9ce6057720ae97"
+    },
+    {
+      "path": "zh/landing/docs/index.html",
+      "bytes": 49296,
+      "sha256": "6b2cc5269abd78f6c5ef0b0c6c22d83e02e66936af68d7712460faf6e85af096"
+    },
+    {
+      "path": "zh/landing/docs/install-counters/index.html",
+      "bytes": 75855,
+      "sha256": "22481c2fbd896fa88b86576d1cc669e7df3b17443a962e7ac65bc9e0ab944e72"
+    },
+    {
+      "path": "zh/landing/docs/install-tools/index.html",
+      "bytes": 82036,
+      "sha256": "332509030828ec1138ac04354b4d68062bbf02b683702897dc034118f421d63c"
+    },
+    {
+      "path": "zh/landing/docs/integrations/index.html",
+      "bytes": 77369,
+      "sha256": "db857d596cd85519b184372badddc9e556fbd7ce18cb6cc21d52ea99b2c86c74"
+    },
+    {
+      "path": "zh/landing/docs/launch-batch-plan/index.html",
+      "bytes": 73748,
+      "sha256": "ad6ab2105eb096ffb2de56ab1b666a9a29582fdb833a0ce84c4b63f1538bf919"
+    },
+    {
+      "path": "zh/landing/docs/learn/index.html",
+      "bytes": 66609,
+      "sha256": "974f9424ec2556143faa19573a881807cd00955d129cb1888f7ff460f30de575"
+    },
+    {
+      "path": "zh/landing/docs/multi-site/index.html",
+      "bytes": 77803,
+      "sha256": "d010de88408c1bf100a290f99dbfe9f133f351690763fdfae5f9c028fbbb8fa2"
+    },
+    {
+      "path": "zh/landing/docs/put-site-online/index.html",
+      "bytes": 82323,
+      "sha256": "8fe35ef4d1b13424b2201e681b2e27153b58c15e325df259a6e8815ad0e40c93"
+    },
+    {
+      "path": "zh/landing/docs/quality-gate/index.html",
+      "bytes": 75377,
+      "sha256": "1bb5cccb518db4035867c04b56c730128460a0f33f1d0c6d22af68351f04f7be"
+    },
+    {
+      "path": "zh/landing/docs/rank-one-keyword/index.html",
+      "bytes": 78017,
+      "sha256": "0e80db29e1f4da19134d19c3ef97d54050a44682155e347818032a14f8f50177"
+    },
+    {
+      "path": "zh/landing/docs/read-google-trends/index.html",
+      "bytes": 75744,
+      "sha256": "73d4468a11e282c883a7e67818c8060148e86eae133b1c43771a504bde5247dc"
+    },
+    {
+      "path": "zh/landing/docs/read-serp/index.html",
+      "bytes": 75297,
+      "sha256": "3b35ecfc6c287e9cfe66c54961351a0bacc0b545eff8b5a3add6783ed74680d1"
+    },
+    {
+      "path": "zh/landing/docs/rebrand-your-site/index.html",
+      "bytes": 80901,
+      "sha256": "19cf548ef03f991e641d366c524463a7216beca33922a11749118380019e510f"
+    },
+    {
+      "path": "zh/landing/docs/run-your-site/index.html",
+      "bytes": 78881,
+      "sha256": "12965e2f96dc3a42e3cf399bd24931c0ab418990db67e1491f111fbc1feef48c"
+    },
+    {
+      "path": "zh/landing/docs/score-and-decide/index.html",
+      "bytes": 78781,
+      "sha256": "814b88042425fad480514ed249a1f7ccf2f8c252370c2d1bdecbd76e327b0ba4"
+    },
+    {
+      "path": "zh/landing/docs/search-intent/index.html",
+      "bytes": 74803,
+      "sha256": "3e5245811c7f0fd49039cabecfb60a6d811fa0bb4ae8409071791c09517532bd"
+    },
+    {
+      "path": "zh/landing/docs/sync-upstream/index.html",
+      "bytes": 75294,
+      "sha256": "d838477787eeeeb12fa5a962a6a248815eedd727caac6bb464cc7dc39112601a"
+    },
+    {
+      "path": "zh/landing/docs/the-roadmap/index.html",
+      "bytes": 73495,
+      "sha256": "5d5abea8cd1eb246a19cad1d45ef0da96ca4d2d76424c387a68e2a4025bc9db5"
+    },
+    {
+      "path": "zh/landing/docs/theme-and-homepage/index.html",
+      "bytes": 77462,
+      "sha256": "360beb87f8b714c915fa06b87432a8b357bc10947a390ccf215cfc89e214643a"
+    },
+    {
+      "path": "zh/landing/docs/tier-list-and-media/index.html",
+      "bytes": 76743,
+      "sha256": "d05ffef7a37146fd4d3eda48aaf8bd8356ec147ee1d46b1bb281f5d9a7a35baf"
+    },
+    {
+      "path": "zh/landing/docs/troubleshooting-tree/index.html",
+      "bytes": 72956,
+      "sha256": "24d5588975892ae634b0fde4348d1f687e2ff99bcacf5786b1a5d4b7f1f9a089"
+    },
+    {
+      "path": "zh/landing/docs/trust-and-backlinks/index.html",
+      "bytes": 77703,
+      "sha256": "9917e66031817d8c2e526e71e3a5cd146b3ba662926f2d34ccec5e36762c12fd"
+    },
+    {
+      "path": "zh/landing/docs/verify-your-changes/index.html",
+      "bytes": 79886,
+      "sha256": "34ddca4ce45c25c86ab1827a2e055ad2fab183b48c23c7d708031b4a9233fa3c"
+    },
+    {
+      "path": "zh/landing/docs/weekly-ops/index.html",
+      "bytes": 83904,
+      "sha256": "7c883a9bc11decfd00da3522e960e1fea09fda2d330ff56ddee98a36d9b092f5"
+    },
+    {
+      "path": "zh/landing/index.html",
+      "bytes": 86008,
+      "sha256": "4afc18c84b7cd489e07ba150abfe3005b7d566e741765d130ee6c6ef65060c32"
+    },
+    {
+      "path": "zh/landing/privacy/index.html",
+      "bytes": 34975,
+      "sha256": "a90fad458905ade4bba9b122da655f917e15cbb7660d52c4a07d1061bc820733"
+    },
+    {
+      "path": "zh/landing/templates/index.html",
+      "bytes": 47797,
+      "sha256": "dd6e2943a041455f924c8dd914b2c95287ca2164d82645a0c668a6a03267901d"
+    },
+    {
+      "path": "zh/privacy-policy/index.html",
+      "bytes": 25780,
+      "sha256": "855e53c0bcf7e717821e37abdf876034e99e4ff14e005f4ebd4f14d1b308e940"
+    },
+    {
+      "path": "zh/recent/index.html",
+      "bytes": 27895,
+      "sha256": "50f1c328594eae597b743333c97a1db9807ad78daa7db45735c0ab864dc7f8c3"
+    },
+    {
+      "path": "zh/tags/index.html",
+      "bytes": 25207,
+      "sha256": "38894b87b496c3422699d907805143a7f0dba2387b92b16397561b8110bccf29"
+    },
+    {
+      "path": "zh/terms-of-service/index.html",
+      "bytes": 24887,
+      "sha256": "54b574f93d5d6ac042b71239eec4fa1029f2409de92c8df0950ad16b1976751c"
+    }
+  ],
+  "site_url": "https://clover-time-wiki-preview.pages.dev",
+  "deployment_id": "00762cd2-e829-49e4-a998-dd7e0fb8c6a5",
+  "deployment_url": "https://00762cd2.clover-time-wiki-preview.pages.dev",
+  "final_checked_at": "2026-10-09T13:03:12.124894+00:00",
+  "upload_directory": ".tmp/clover-time-deploy-20261009/upload-final",
+  "total_bytes": 12776430,
+  "auth_checks_before_update": {
+    "checked_at": "2026-10-09T08:57:10.364526+00:00",
+    "credentials_present": true,
+    "checks": [
+      {
+        "operation": "token_verify",
+        "http_status": 200,
+        "success": true,
+        "errors": [],
+        "token_status": "active"
+      },
+      {
+        "operation": "pages_projects",
+        "http_status": 403,
+        "success": false,
+        "errors": [
+          {
+            "code": 10000,
+            "message": "Authentication error"
+          }
+        ]
+      }
+    ],
+    "uploaded": false
+  },
+  "auth_checks": {
+    "checked_at": "2026-10-09T12:55:40.581694+00:00",
+    "http_status": 200,
+    "success": true,
+    "errors": [],
+    "project_list_access_verified": true
+  },
+  "remote_commands": [
+    {
+      "operation": "create",
+      "started_at": "2026-10-09T12:56:02.171628+00:00",
+      "finished_at": "2026-10-09T12:56:04.422047+00:00",
+      "exit_code": 1,
+      "log": ".tmp/clover-time-deploy-20261009/create.log"
+    },
+    {
+      "operation": "create-pages",
+      "args": [
+        "pages",
+        "project",
+        "create",
+        "clover-time-wiki-preview",
+        "--production-branch",
+        "main",
+        "--force"
+      ],
+      "started_at": "2026-10-09T12:56:26.405355+00:00",
+      "finished_at": "2026-10-09T12:56:29.434070+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/create-pages.log"
+    },
+    {
+      "operation": "upload-pages",
+      "args": [
+        "pages",
+        "deploy",
+        "/workspace/AnvilWiki/.tmp/clover-time-deploy-20261009/upload",
+        "--project-name",
+        "clover-time-wiki-preview",
+        "--branch",
+        "main",
+        "--commit-dirty=true",
+        "--force"
+      ],
+      "started_at": "2026-10-09T12:56:29.434516+00:00",
+      "finished_at": "2026-10-09T12:56:42.626364+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/upload-pages.log"
+    },
+    {
+      "operation": "upload-contact-fix",
+      "started_at": "2026-10-09T13:00:51.079392+00:00",
+      "finished_at": "2026-10-09T13:01:00.091065+00:00",
+      "exit_code": 0,
+      "args": [
+        "pages",
+        "deploy",
+        "/workspace/AnvilWiki/.tmp/clover-time-deploy-20261009/upload-contact-fix",
+        "--project-name",
+        "clover-time-wiki-preview",
+        "--branch",
+        "main",
+        "--commit-dirty=true"
+      ],
+      "log": ".tmp/clover-time-deploy-20261009/upload-contact-fix.log"
+    },
+    {
+      "operation": "upload-final",
+      "started_at": "2026-10-09T13:02:16.403701+00:00",
+      "finished_at": "2026-10-09T13:02:24.961464+00:00",
+      "exit_code": 0,
+      "args": [
+        "pages",
+        "deploy",
+        "/workspace/AnvilWiki/.tmp/clover-time-deploy-20261009/upload-final",
+        "--project-name",
+        "clover-time-wiki-preview",
+        "--branch",
+        "main",
+        "--commit-dirty=true"
+      ],
+      "log": ".tmp/clover-time-deploy-20261009/upload-final.log"
+    }
+  ],
+  "initial_browser_routes": {
+    "checked_at": "2026-10-09T12:58:55.577441+00:00",
+    "browser": "Chromium",
+    "proxy_used": true,
+    "tls_verification_disabled": false,
+    "checks": [
+      {
+        "path": "/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "Clover Time Wiki \u2014 Codes, Guides & Tier Lists",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/",
+        "ad_iframes": 0,
+        "giscus_frames": 0
+      },
+      {
+        "path": "/codes/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "Clover Time Codes",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/codes/"
+      },
+      {
+        "path": "/guides/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "Clover Time Guides",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/guides/"
+      },
+      {
+        "path": "/items/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "Clover Time Grimoires",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/items/"
+      },
+      {
+        "path": "/about/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "About \u2014 Clover Time Wiki",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/about/"
+      },
+      {
+        "path": "/contact/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "Contact \u2014 Clover Time Wiki",
+        "document_width": 536,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/contact/"
+      },
+      {
+        "path": "/privacy-policy/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "Privacy Policy \u2014 Clover Time Wiki",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/privacy-policy/"
+      },
+      {
+        "path": "/terms-of-service/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "Terms of Service \u2014 Clover Time Wiki",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/terms-of-service/"
+      },
+      {
+        "path": "/copyright/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "Copyright \u2014 Clover Time Wiki",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/copyright/"
+      },
+      {
+        "path": "/zh/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "AnvilWiki \u2014 \u5f00\u6e90\u6e38\u620f Wiki \u6a21\u677f + AI \u5185\u5bb9\u5de5\u4f5c\u6d41",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/zh/landing/"
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "correct_domain": true
+      },
+      {
+        "path": "/pagefind/pagefind.js",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/ads/incontent-728x90.html",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/codes/all-codes/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/guides/beginner-guide/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/guides/fishing-fragments/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/guides/grimoire-tier-list/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/guides/how-to-redeem-codes/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/guides/how-to-reroll/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/guides/patch-notes/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/guides/race-tier-list/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/items/anti-magic/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "/items/poison/",
+        "status": 404,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN"
+      },
+      {
+        "path": "https://19eb6c7e.clover-time-wiki-preview.pages.dev/",
+        "status": 200,
+        "x_robots_tag": "noindex, nofollow",
+        "x_content_type_options": "nosniff",
+        "x_frame_options": "SAMEORIGIN",
+        "title": "Clover Time Wiki \u2014 Codes, Guides & Tier Lists",
+        "document_width": 375,
+        "canonical": "https://clover-time-wiki-preview.pages.dev/"
+      }
+    ],
+    "integration_requests": []
+  },
+  "initial_http_client_errors": [
+    {
+      "path": "/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN",
+      "clover_identity": false
+    },
+    {
+      "path": "/codes/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/guides/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/items/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/about/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/contact/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/privacy/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/terms/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/sitemap-index.xml",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/pagefind/pagefind.js",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/ads/incontent-728x90.html",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/codes/all-codes/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/guides/beginner-guide/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/guides/fishing-fragments/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/guides/grimoire-tier-list/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/guides/how-to-redeem-codes/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/guides/how-to-reroll/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/guides/patch-notes/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/guides/race-tier-list/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/items/anti-magic/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "/items/poison/",
+      "status": 403,
+      "bytes": 17,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": "SAMEORIGIN"
+    },
+    {
+      "path": "https://19eb6c7e.clover-time-wiki-preview.pages.dev/",
+      "status": 503,
+      "bytes": 294,
+      "x_robots_tag": null,
+      "x_content_type_options": null,
+      "x_frame_options": null
+    }
+  ],
+  "online_interactions": {
+    "checked_at": "2026-10-09T13:00:26.392685+00:00",
+    "mobile_menu_open": true,
+    "mobile_menu_links": [
+      "/codes/",
+      "/guides/",
+      "/items/",
+      "/",
+      "/zh/"
+    ],
+    "search_result_count": 11,
+    "search_sample_urls": [
+      "https://clover-time-wiki-preview.pages.dev/landing/comparison/",
+      "https://clover-time-wiki-preview.pages.dev/landing/templates/",
+      "https://clover-time-wiki-preview.pages.dev/landing/"
+    ],
+    "search_closed": true,
+    "failed_requests": [],
+    "integration_requests": []
+  },
+  "final_online": {
+    "checked_at": "2026-10-09T13:03:12.124894+00:00",
+    "project_name": "clover-time-wiki-preview",
+    "site_url": "https://clover-time-wiki-preview.pages.dev",
+    "deployment_id": "00762cd2-e829-49e4-a998-dd7e0fb8c6a5",
+    "deployment_url": "https://00762cd2.clover-time-wiki-preview.pages.dev",
+    "environment": "production",
+    "cloudflare_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-09T13:02:22.606248Z",
+      "status": "success"
+    },
+    "browser_checks": [
+      {
+        "path": "/",
+        "status": 200,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/",
+        "x_robots_tag": "noindex, nofollow",
+        "width": 375,
+        "title": "Clover Time Wiki \u2014 Codes, Guides & Tier Lists",
+        "canonical": "https://clover-time-wiki-preview.pages.dev/",
+        "body_matches_upload": true
+      },
+      {
+        "path": "/contact/",
+        "status": 200,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/contact/",
+        "x_robots_tag": "noindex, nofollow",
+        "width": 375,
+        "title": "Contact \u2014 Clover Time Wiki",
+        "canonical": "https://clover-time-wiki-preview.pages.dev/contact/",
+        "body_matches_upload": true
+      },
+      {
+        "path": "/zh/",
+        "status": 200,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/zh/",
+        "x_robots_tag": "noindex, nofollow",
+        "width": 375,
+        "title": "Clover Time Wiki\uff1a\u5151\u6362\u7801\u3001\u653b\u7565\u4e0e\u9b54\u5bfc\u4e66",
+        "canonical": "https://clover-time-wiki-preview.pages.dev/zh/",
+        "body_matches_upload": true
+      },
+      {
+        "path": "/zh",
+        "status": 200,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/zh/",
+        "x_robots_tag": "noindex, nofollow",
+        "width": 375,
+        "title": "Clover Time Wiki\uff1a\u5151\u6362\u7801\u3001\u653b\u7565\u4e0e\u9b54\u5bfc\u4e66",
+        "canonical": "https://clover-time-wiki-preview.pages.dev/zh/",
+        "body_matches_upload": true
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "status": 200,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/sitemap-0.xml",
+        "x_robots_tag": "noindex, nofollow",
+        "draft_urls_absent": true,
+        "body_matches_upload": true
+      },
+      {
+        "path": "/ads/incontent-728x90.html",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/ads/incontent-728x90.html",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/codes/all-codes/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/codes/all-codes/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/guides/beginner-guide/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/guides/beginner-guide/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/guides/fishing-fragments/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/guides/fishing-fragments/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/guides/grimoire-tier-list/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/guides/grimoire-tier-list/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/guides/how-to-redeem-codes/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/guides/how-to-redeem-codes/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/guides/how-to-reroll/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/guides/how-to-reroll/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/guides/patch-notes/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/guides/patch-notes/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/guides/race-tier-list/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/guides/race-tier-list/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/items/anti-magic/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/items/anti-magic/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "/items/poison/",
+        "status": 404,
+        "final_url": "https://clover-time-wiki-preview.pages.dev/items/poison/",
+        "x_robots_tag": "noindex, nofollow"
+      },
+      {
+        "path": "https://00762cd2.clover-time-wiki-preview.pages.dev/",
+        "status": 200,
+        "final_url": "https://00762cd2.clover-time-wiki-preview.pages.dev/",
+        "x_robots_tag": "noindex, nofollow"
+      }
+    ],
+    "integration_requests": [],
+    "failed_requests": [],
+    "screenshots": [
+      {
+        "path": "docs/clover-time/evidence/cloudflare-20261009-contact-mobile.png",
+        "sha256": "7b9e137f3122c1820a6a8aefad8a2720a7a0856ec9b0bf9cee4a5287838003c0"
+      },
+      {
+        "path": "docs/clover-time/evidence/cloudflare-20261009-home-mobile.png",
+        "sha256": "7e5dd469209b40ae9df002280ce673154a35459a40c5e2f5447cb54115486fe6"
+      },
+      {
+        "path": "docs/clover-time/evidence/cloudflare-20261009-home-zh-mobile.png",
+        "sha256": "2e987b4d9e1ecbac77718ed370fbdc94044a94cae03e1ca4dcab795e84ed6c56"
+      }
+    ]
+  },
+  "contact_fix_commands": [
+    {
+      "command": [
+        "pnpm",
+        "build"
+      ],
+      "started_at": "2026-10-09T12:59:53.811335+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/contact-fix-build.log"
+    },
+    {
+      "command": [
+        "pnpm",
+        "check-links"
+      ],
+      "started_at": "2026-10-09T13:00:01.469209+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/contact-fix-links.log"
+    }
+  ],
+  "locale_fix_commands": [
+    {
+      "command": [
+        "pnpm",
+        "exec",
+        "vitest",
+        "run",
+        "tests/redirects.test.ts"
+      ],
+      "started_at": "2026-10-09T13:02:07.670204+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/locale-fix-tests.log"
+    },
+    {
+      "command": [
+        "pnpm",
+        "build"
+      ],
+      "started_at": "2026-10-09T13:02:09.185045+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/locale-fix-build.log"
+    },
+    {
+      "command": [
+        "pnpm",
+        "check-links"
+      ],
+      "started_at": "2026-10-09T13:02:15.129371+00:00",
+      "exit_code": 0,
+      "log": ".tmp/clover-time-deploy-20261009/locale-fix-links.log"
+    }
+  ],
+  "local_contact_fix": {
+    "checked_at": "2026-10-09T13:00:50.590622+00:00",
+    "status": 200,
+    "width": 375,
+    "viewport": 375
+  },
+  "final_lint": {
+    "command": "pnpm exec eslint tests/redirects.test.ts src/components/layout/LegalContent.astro",
+    "exit_code": 0
+  },
+  "deployment_notes": [
+    "Wrangler defaults to Workers delegation for new projects; creation failed with missing Worker entry point. Official CLI Pages force option used once to create the dedicated Pages project; later updates used normal pages deploy.",
+    "Python urllib receives Cloudflare 1010 on Pages; ordinary Chromium through the existing proxy verified live pages with TLS verification intact.",
+    "Fixed contact URL mobile overflow and upstream Chinese homepage redirect before final delivery."
+  ],
+  "deployment_logs": [
+    {
+      "path": ".tmp/clover-time-deploy-20261009/create.log",
+      "sha256": "70ffc70dd6967c9b638ba8d45d448ccebd3381a08f2665eae00a171b450c5707",
+      "tail": [
+        "  ",
+        "  ",
+        "  If are uploading a directory of assets, you can either:",
+        "  - Specify the path to the directory of assets via the command line: (ex: `npx wrangler deploy --assets=./dist`)",
+        "  - Or add the following to your \"wrangler.toml\" file:",
+        "  ",
+        "  ```",
+        "  [assets]",
+        "  directory = \"./dist\"",
+        "  ",
+        "  ```",
+        "  ",
+        "",
+        "",
+        "\ud83e\udeb5  Logs were written to \"/home/agent/.config/.wrangler/logs/wrangler-2026-10-09_12-56-03_136.log\""
+      ]
+    },
+    {
+      "path": ".tmp/clover-time-deploy-20261009/create-pages.log",
+      "sha256": "eb998c43dd964c3362345f8c130a6c3f073d1d3da7132d9bd26cea0cb6dab0e9",
+      "tail": [
+        "\u001b[33m\u25b2 \u001b[43;33m[\u001b[43;30mWARNING\u001b[43;33m]\u001b[0m \u001b[1mProxy environment variables detected. We'll use your proxy for fetch requests.\u001b[0m",
+        "",
+        "",
+        "",
+        " \u26c5\ufe0f wrangler 4.149.0",
+        "\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "\u2728 Successfully created the 'clover-time-wiki-preview' project. It will be available at https://clover-time-wiki-preview.pages.dev/ once you create your first deployment.",
+        "To deploy a folder of assets, run 'wrangler pages deploy [directory]'.",
+        "Notice to agents: this project was created directly on Cloudflare Pages because --force was set, bypassing delegation to Cloudflare Workers. This is the only time you need --force: this project now exists, so subsequent commands will run directly against Cloudflare Pages and will not be delegated to Cloudflare Workers. Do not pass --force on future commands."
+      ]
+    },
+    {
+      "path": ".tmp/clover-time-deploy-20261009/upload-pages.log",
+      "sha256": "5be4c834d0ec803432db2cb34916b980cc0d1d71dcbd6ed1086207fc90ead2b5",
+      "tail": [
+        "",
+        "",
+        "",
+        " \u26c5\ufe0f wrangler 4.149.0",
+        "\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "Uploading... (0/282)",
+        "Uploading... (94/282)",
+        "Uploading... (188/282)",
+        "Uploading... (282/282)",
+        "\u2728 Success! Uploaded 282 files (3.27 sec)",
+        "",
+        "\u2728 Uploading _headers",
+        "\u2728 Uploading _redirects",
+        "\ud83c\udf0e Deploying...",
+        "\u2728 Deployment complete! Take a peek over at https://19eb6c7e.clover-time-wiki-preview.pages.dev"
+      ]
+    },
+    {
+      "path": ".tmp/clover-time-deploy-20261009/upload-contact-fix.log",
+      "sha256": "34a000c8515a7fa3befb63bcc1277ec672cf670a48fa403731e37e1dbd98ccd7",
+      "tail": [
+        "",
+        "",
+        "",
+        " \u26c5\ufe0f wrangler 4.149.0",
+        "\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "Uploading... (146/282)",
+        "Uploading... (191/282)",
+        "Uploading... (236/282)",
+        "Uploading... (282/282)",
+        "\u2728 Success! Uploaded 136 files (146 already uploaded) (2.82 sec)",
+        "",
+        "\u2728 Uploading _headers",
+        "\u2728 Uploading _redirects",
+        "\ud83c\udf0e Deploying...",
+        "\u2728 Deployment complete! Take a peek over at https://a0b053d0.clover-time-wiki-preview.pages.dev"
+      ]
+    },
+    {
+      "path": ".tmp/clover-time-deploy-20261009/upload-final.log",
+      "sha256": "212e3c8abdca74b53a8c0d92764e7d685d17de0b1987cf180fcad27db89e8710",
+      "tail": [
+        "\u001b[33m\u25b2 \u001b[43;33m[\u001b[43;30mWARNING\u001b[43;33m]\u001b[0m \u001b[1mProxy environment variables detected. We'll use your proxy for fetch requests.\u001b[0m",
+        "",
+        "",
+        "",
+        " \u26c5\ufe0f wrangler 4.149.0",
+        "\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "Uploading... (281/282)",
+        "Uploading... (282/282)",
+        "\u2728 Success! Uploaded 1 files (281 already uploaded) (0.98 sec)",
+        "",
+        "\u2728 Uploading _headers",
+        "\u2728 Uploading _redirects",
+        "\ud83c\udf0e Deploying...",
+        "\u2728 Deployment complete! Take a peek over at https://00762cd2.clover-time-wiki-preview.pages.dev"
+      ]
+    }
+  ],
+  "prepared_checked_at": "2026-10-09T06:00:49.859215+00:00"
+}

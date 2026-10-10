@@ -1,0 +1,132 @@
+[
+  {
+    "article": "src/content/wiki/en/codes/all-codes.mdx",
+    "image": "src/assets/covers/clover-time-en-codes-all-codes.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "f8518a0b1d216902685304aae605a63fc911d0c03d20fb662d9bd4fd717db2a1",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "Clover Time Codes - Verification Draft — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  },
+  {
+    "article": "src/content/wiki/en/guides/beginner-guide.mdx",
+    "image": "src/assets/covers/clover-time-en-guides-beginner-guide.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "5fa1df932ab939f05687f99e899f05cf62cf78da8bb4e5bacff59c82ee897331",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "Clover Time Beginner Guide: Tools and Your First Grimoire — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  },
+  {
+    "article": "src/content/wiki/en/guides/fishing-fragments.mdx",
+    "image": "src/assets/covers/clover-time-en-guides-fishing-fragments.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "db71722d3b3d81e7aa69074ab08ef41c92dcd549c6f8b6600eadbefe55b01d57",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "Clover Time Fishing and Fragments - Verification Draft — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  },
+  {
+    "article": "src/content/wiki/en/guides/grimoire-tier-list.mdx",
+    "image": "src/assets/covers/clover-time-en-guides-grimoire-tier-list.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "15758c60ac515e8f4afa2e2a35837f8dded87baca46b5a6e00d00ebf64be6b9f",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "Clover Time Grimoire Tier List - Research Draft — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  },
+  {
+    "article": "src/content/wiki/en/guides/how-to-redeem-codes.mdx",
+    "image": "src/assets/covers/clover-time-en-guides-how-to-redeem-codes.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "ee30a283b98568d646a09efbeef7ce2b79e34f57bbace1dee86af148dfdfb341",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "How to Redeem Clover Time Codes - Verification Draft — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  },
+  {
+    "article": "src/content/wiki/en/guides/how-to-reroll.mdx",
+    "image": "src/assets/covers/clover-time-en-guides-how-to-reroll.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "fdfeafd9b3c4f63d592aefe3e6e36ba844700cebb09de0e240e0e5367f702a22",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "How to Reroll in Clover Time - Verification Draft — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  },
+  {
+    "article": "src/content/wiki/en/guides/patch-notes.mdx",
+    "image": "src/assets/covers/clover-time-en-guides-patch-notes.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "c177e71556ec9c1294366a1d5b07fa8261d1fb1978e4dffb1b9083ac34f1661d",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "Clover Time Patch Notes - Announcement Research Draft — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  },
+  {
+    "article": "src/content/wiki/en/guides/race-tier-list.mdx",
+    "image": "src/assets/covers/clover-time-en-guides-race-tier-list.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "c7c696a3c3886530485f2053c57a05230fa65ba56122e8ce8e51ea7d051022bb",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "Clover Time Race Tier List - Research Draft — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  },
+  {
+    "article": "src/content/wiki/en/items/anti-magic.mdx",
+    "image": "src/assets/covers/clover-time-en-items-anti-magic.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "3854c5a0fd8ba5fe0d9d4f6389bb79f3b237d479e50e23cd52627d893456be28",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "Clover Time Anti Magic - Entity Research Draft — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  },
+  {
+    "article": "src/content/wiki/en/items/poison.mdx",
+    "image": "src/assets/covers/clover-time-en-items-poison.png",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "6c345eb732b11fd82aaca798dbb7d952635474cebb481e72f57ab8a074e4e5fb",
+    "purpose": "Original title cover; not a gameplay screenshot",
+    "license": "Original site typography and layout; bundled Lato font under OFL",
+    "alt": "Clover Time Poison - Entity Research Draft — text cover",
+    "footer": "Clover Time · Independent fan wiki"
+  }
+]

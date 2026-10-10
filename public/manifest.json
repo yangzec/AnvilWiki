@@ -1,7 +1,7 @@
 {
-  "name": "Anvil Quest Wiki",
-  "short_name": "AQ Wiki",
-  "description": "Complete Anvil Quest wiki with boss guides, codes, and tier lists.",
+  "name": "Clover Time Wiki",
+  "short_name": "CT Wiki",
+  "description": "Independent Clover Time guides and reference pages with cited sources and clearly identified verification limits.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

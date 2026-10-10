@@ -116,15 +116,15 @@ describe('SEO helpers', () => {
         categoryLabel: 'ボス一覧',
         title: 'エンバーファング攻略',
         slug: 'emberfang',
-        locale: 'ja',
+        locale: 'zh',
       });
-      expect(json.itemListElement[0].item).toMatch(/\/ja\/$/);
+      expect(json.itemListElement[0].item).toMatch(/\/zh\/$/);
     });
   });
 
   describe('simpleBreadcrumbJsonLd', () => {
     it('emits the Home item with a trailing slash for every locale', () => {
-      for (const locale of ['en', 'ja'] as const) {
+      for (const locale of ['en', 'zh'] as const) {
         const json = simpleBreadcrumbJsonLd({
           pageLabel: 'All Bosses',
           path: '/bosses/',
@@ -182,8 +182,9 @@ describe('SEO helpers', () => {
     });
 
     it('skips the suffix when the title already carries the game name', () => {
-      const t = pageTitle('Anvil Quest Boss Guide');
-      expect(t).toBe('Anvil Quest Boss Guide');
+      const title = `${site.game.name} Boss Guide`;
+      const t = pageTitle(title);
+      expect(t).toBe(title);
     });
 
     it('switches to the short suffix for long titles (>50 chars)', () => {
@@ -194,17 +195,17 @@ describe('SEO helpers', () => {
   });
 
   describe('fallbackDetailPaths', () => {
-    const locales = ['en', 'ja'] as const;
+    const locales = ['en', 'zh'] as const;
     // Coverage shape mirrors astro.config's localeCoverage: "cat/slug" →
     // locales that really have a published MDX.
     const coverage = new Map<string, Set<string>>([
-      // English-only article → /ja/ URL is a fallback page.
+      // English-only article → /zh/ URL is a fallback page.
       ['bosses/stormcaller', new Set(['en'])],
       // Translated in both locales → both URLs are real pages.
-      ['bosses/emberfang', new Set(['en', 'ja'])],
-      // ja-only article → /ja/ is real; en never falls back (no /ja/-owned
+      ['bosses/emberfang', new Set(['en', 'zh'])],
+      // ja-only article → /zh/ is real; en never falls back (no /zh/-owned
       // English URL exists to begin with).
-      ['guides/ja-only', new Set(['ja'])],
+      ['guides/ja-only', new Set(['zh'])],
       // Nested slug folds into the key after the category.
       ['guides/nested/deep-slug', new Set(['en'])],
       // CJK slug keeps raw filesystem names (sitemap filter decodes first).
@@ -213,16 +214,16 @@ describe('SEO helpers', () => {
 
     it('derives one path per non-default locale missing a translation of a default-locale article', () => {
       expect(fallbackDetailPaths(coverage, locales, 'en')).toEqual([
-        '/ja/bosses/stormcaller',
-        '/ja/guides/nested/deep-slug',
-        '/ja/items/熔炉之心',
+        '/zh/bosses/stormcaller',
+        '/zh/guides/nested/deep-slug',
+        '/zh/items/熔炉之心',
       ]);
     });
 
     it('never emits paths for the default locale, translated slugs, or locale-owned articles', () => {
       const paths = fallbackDetailPaths(coverage, locales, 'en');
       expect(paths).not.toContain('/en/bosses/stormcaller');
-      expect(paths).not.toContain('/ja/bosses/emberfang');
+      expect(paths).not.toContain('/zh/bosses/emberfang');
       expect(paths).not.toContain('/en/guides/ja-only');
       // With a single locale there is nothing to fall back to.
       expect(fallbackDetailPaths(coverage, ['en'], 'en')).toEqual([]);

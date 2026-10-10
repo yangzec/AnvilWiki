@@ -1,0 +1,1032 @@
+{
+  "verified_at_beijing": "2026-10-09T13:28:48.248159+08:00",
+  "head": "ce64308f494df793f07c5b0b304737a65c61eba4",
+  "agents": [
+    "acceptance_actions",
+    "acceptance_entities",
+    "acceptance_engineering",
+    "acceptance_interface"
+  ],
+  "reports": [
+    {
+      "path": "docs/clover-time/acceptance-audit-20261009-actions.md",
+      "sha256": "81e29c9248f799e42df4e50d3c949f2c59b56a2ba82dd79618b2b3dfc72f3ffd"
+    },
+    {
+      "path": "docs/clover-time/acceptance-audit-20261009-entities.md",
+      "sha256": "5fbd9f5a6e36eede874445a7ad619ebebc1c138ef7de83f4380d74cbecfafb61"
+    },
+    {
+      "path": "docs/clover-time/acceptance-audit-20261009-engineering.md",
+      "sha256": "8f67286972c4f64aba3acfa8768c78946c25af7c8c0f1de0e9b968c2782fb4c8"
+    },
+    {
+      "path": "docs/clover-time/acceptance-audit-20261009-interface.md",
+      "sha256": "c509827211a77a12883256bae5ce35e92887b2262a07a86f5c06b6b9c87ab78a"
+    }
+  ],
+  "commands": [
+    {
+      "command": "pnpm check-config",
+      "exit_code": 0,
+      "started_beijing": "2026-10-09T13:20:08.820098+08:00",
+      "finished_beijing": "2026-10-09T13:20:13.412276+08:00",
+      "seconds": 4.59,
+      "log": ".tmp/clover-time-acceptance-20261009/A3/01-check-config.log"
+    },
+    {
+      "command": "pnpm check-content",
+      "exit_code": 0,
+      "started_beijing": "2026-10-09T13:20:13.413301+08:00",
+      "finished_beijing": "2026-10-09T13:20:16.563988+08:00",
+      "seconds": 3.15,
+      "log": ".tmp/clover-time-acceptance-20261009/A3/02-check-content.log"
+    },
+    {
+      "command": "pnpm check-i18n --strict-ui",
+      "exit_code": 0,
+      "started_beijing": "2026-10-09T13:20:16.565783+08:00",
+      "finished_beijing": "2026-10-09T13:20:18.884255+08:00",
+      "seconds": 2.32,
+      "log": ".tmp/clover-time-acceptance-20261009/A3/03-check-i18n.log"
+    },
+    {
+      "command": "pnpm lint",
+      "exit_code": 0,
+      "started_beijing": "2026-10-09T13:20:18.884895+08:00",
+      "finished_beijing": "2026-10-09T13:20:32.072690+08:00",
+      "seconds": 13.2,
+      "log": ".tmp/clover-time-acceptance-20261009/A3/04-lint.log"
+    },
+    {
+      "command": "pnpm typecheck",
+      "exit_code": 0,
+      "started_beijing": "2026-10-09T13:20:32.460224+08:00",
+      "finished_beijing": "2026-10-09T13:21:13.024077+08:00",
+      "seconds": 40.55,
+      "log": ".tmp/clover-time-acceptance-20261009/A3/05-typecheck.log"
+    },
+    {
+      "command": "pnpm test",
+      "exit_code": 0,
+      "started_beijing": "2026-10-09T13:21:13.024784+08:00",
+      "finished_beijing": "2026-10-09T13:21:22.089523+08:00",
+      "seconds": 9.06,
+      "log": ".tmp/clover-time-acceptance-20261009/A3/06-test.log"
+    },
+    {
+      "command": "pnpm build",
+      "exit_code": 0,
+      "started_beijing": "2026-10-09T13:21:22.090674+08:00",
+      "finished_beijing": "2026-10-09T13:21:40.375611+08:00",
+      "seconds": 18.28,
+      "log": ".tmp/clover-time-acceptance-20261009/A3/07-build.log"
+    },
+    {
+      "command": "pnpm check-links",
+      "exit_code": 0,
+      "started_beijing": "2026-10-09T13:21:40.376366+08:00",
+      "finished_beijing": "2026-10-09T13:21:43.904855+08:00",
+      "seconds": 3.53,
+      "log": ".tmp/clover-time-acceptance-20261009/A3/08-check-links.log"
+    },
+    {
+      "command": "pnpm refresh-audit",
+      "exit_code": 0,
+      "started_beijing": "2026-10-09T13:21:43.906101+08:00",
+      "finished_beijing": "2026-10-09T13:21:47.119182+08:00",
+      "seconds": 3.21,
+      "log": ".tmp/clover-time-acceptance-20261009/A3/09-refresh-audit.log"
+    }
+  ],
+  "command_log_sha256": {
+    ".tmp/clover-time-acceptance-20261009/A3/08-check-links.log": "5d9cedb0ee340254cbd0bd3b736d79b6b616906518b2bdc53219e396d5b3597c",
+    ".tmp/clover-time-acceptance-20261009/A3/02-check-content.log": "a41696a354573e233721add8fde9ab11f34d6f1e48ee176c80383444486dbd90",
+    ".tmp/clover-time-acceptance-20261009/A3/01-check-config.log": "bf088a971cf149290b924312bbfd762e88515bda6d3d8a8a4ba2697572fb005e",
+    ".tmp/clover-time-acceptance-20261009/A3/04-lint.log": "b8f315015b4e697e769ff1ef50251ca1f5f5e06a8f39b1d6ecbc797a7538e465",
+    ".tmp/clover-time-acceptance-20261009/A3/05-typecheck.log": "ebb9d01a779e8a205157b5b768ae10341db236bcd5f8bea74f5ac21f351ddd80",
+    ".tmp/clover-time-acceptance-20261009/A3/06-test.log": "3d6338796d0ab00c2ddba3b86d52df4e33641a8c8c37ef12f0dc7d7bfd900a7b",
+    ".tmp/clover-time-acceptance-20261009/A3/07-build.log": "2e8cb129fc2783420bc4c2a73312e64e15c64b8e3be04655854e73a82fefd233",
+    ".tmp/clover-time-acceptance-20261009/A3/09-refresh-audit.log": "ea330dcb1cca2e4060a271f9cd61f43a65718ae85e5da2863d67d9d8a30a4165",
+    ".tmp/clover-time-acceptance-20261009/A3/03-check-i18n.log": "ab2d041bbc56c0015d687979632c2e3a6a1cb32ec72035c01ba7b1424c8dc32a"
+  },
+  "test_output_excerpt": "Already up to date\nDone in 638ms using pnpm v11.1.1\n$ vitest run\n\n RUN  v4.1.11 /workspace/AnvilWiki\n\nQ1: Q2: Q3: Q4: Q5: Q1: Q2: Q3: Q1: Q2: Q3: Q4: Q1: Q2: Q3: Q1: Q2: Q3: \n Test Files  24 passed (24)\n      Tests  397 passed (397)\n   Start at  05:21:16\n   Duration  5.87s (transform 2.47s, setup 0ms, import 5.61s, tests 1.81s, environment 10ms)\n\n",
+  "tests": {
+    "suites": 24,
+    "passed": 397,
+    "failed": 0,
+    "skipped": 0,
+    "newly_run_this_audit": true
+  },
+  "browser": {
+    "development": {
+      "checked_at": "2026-10-09T13:21:36.066154+08:00",
+      "details": [
+        {
+          "route": "/codes/all-codes/",
+          "status": 200,
+          "title": "Clover Time Codes - Verification Draft",
+          "article_chars": 2926,
+          "h2_count": 5,
+          "canonical": "https://anvil.wiki/codes/all-codes/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        },
+        {
+          "route": "/guides/beginner-guide/",
+          "status": 200,
+          "title": "Clover Time Beginner Guide: Tools and Your First Grimoire",
+          "article_chars": 8426,
+          "h2_count": 9,
+          "canonical": "https://anvil.wiki/guides/beginner-guide/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        },
+        {
+          "route": "/guides/fishing-fragments/",
+          "status": 200,
+          "title": "Clover Time Fishing and Fragments - Verification Draft",
+          "article_chars": 5899,
+          "h2_count": 8,
+          "canonical": "https://anvil.wiki/guides/fishing-fragments/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        },
+        {
+          "route": "/guides/grimoire-tier-list/",
+          "status": 200,
+          "title": "Clover Time Grimoire Tier List - Research Draft",
+          "article_chars": 7163,
+          "h2_count": 7,
+          "canonical": "https://anvil.wiki/guides/grimoire-tier-list/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        },
+        {
+          "route": "/guides/how-to-redeem-codes/",
+          "status": 200,
+          "title": "How to Redeem Clover Time Codes - Verification Draft",
+          "article_chars": 3632,
+          "h2_count": 6,
+          "canonical": "https://anvil.wiki/guides/how-to-redeem-codes/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        },
+        {
+          "route": "/guides/how-to-reroll/",
+          "status": 200,
+          "title": "How to Reroll in Clover Time - Verification Draft",
+          "article_chars": 5654,
+          "h2_count": 7,
+          "canonical": "https://anvil.wiki/guides/how-to-reroll/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        },
+        {
+          "route": "/guides/patch-notes/",
+          "status": 200,
+          "title": "Clover Time Patch Notes - Announcement Research Draft",
+          "article_chars": 3761,
+          "h2_count": 7,
+          "canonical": "https://anvil.wiki/guides/patch-notes/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        },
+        {
+          "route": "/guides/race-tier-list/",
+          "status": 200,
+          "title": "Clover Time Race Tier List - Research Draft",
+          "article_chars": 6680,
+          "h2_count": 6,
+          "canonical": "https://anvil.wiki/guides/race-tier-list/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        },
+        {
+          "route": "/items/anti-magic/",
+          "status": 200,
+          "title": "Clover Time Anti Magic - Entity Research Draft",
+          "article_chars": 8689,
+          "h2_count": 10,
+          "canonical": "https://anvil.wiki/items/anti-magic/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        },
+        {
+          "route": "/items/poison/",
+          "status": 200,
+          "title": "Clover Time Poison - Entity Research Draft",
+          "article_chars": 6250,
+          "h2_count": 6,
+          "canonical": "https://anvil.wiki/items/poison/",
+          "robots": "max-image-preview:large",
+          "independent_notice_visible_text": true
+        }
+      ],
+      "screens": [
+        {
+          "route": "/guides/grimoire-tier-list/",
+          "width": 1440,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/guides-grimoire-tier-list-1440.png",
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "tables": [
+            {
+              "tableWidth": 768,
+              "parentClient": 768,
+              "parentScroll": 768,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 768,
+              "parentClient": 768,
+              "parentScroll": 768,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 768,
+              "parentClient": 768,
+              "parentScroll": 768,
+              "overflowX": "visible",
+              "canScroll": false
+            }
+          ]
+        },
+        {
+          "route": "/guides/race-tier-list/",
+          "width": 1440,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/guides-race-tier-list-1440.png",
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "tables": [
+            {
+              "tableWidth": 768,
+              "parentClient": 768,
+              "parentScroll": 768,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 768,
+              "parentClient": 768,
+              "parentScroll": 768,
+              "overflowX": "visible",
+              "canScroll": false
+            }
+          ]
+        },
+        {
+          "route": "/items/anti-magic/",
+          "width": 1440,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/items-anti-magic-1440.png",
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "tables": [
+            {
+              "tableWidth": 768,
+              "parentClient": 768,
+              "parentScroll": 768,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 768,
+              "parentClient": 768,
+              "parentScroll": 768,
+              "overflowX": "visible",
+              "canScroll": false
+            }
+          ]
+        },
+        {
+          "route": "/items/poison/",
+          "width": 1440,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/items-poison-1440.png",
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "tables": [
+            {
+              "tableWidth": 768,
+              "parentClient": 768,
+              "parentScroll": 768,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 768,
+              "parentClient": 768,
+              "parentScroll": 768,
+              "overflowX": "visible",
+              "canScroll": false
+            }
+          ]
+        },
+        {
+          "route": "/codes/all-codes/",
+          "width": 1440,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/codes-all-codes-1440.png",
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "tables": []
+        },
+        {
+          "route": "/guides/beginner-guide/",
+          "width": 1440,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/guides-beginner-guide-1440.png",
+          "viewport": 1440,
+          "documentWidth": 1440,
+          "tables": []
+        },
+        {
+          "route": "/guides/grimoire-tier-list/",
+          "width": 375,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/guides-grimoire-tier-list-375.png",
+          "viewport": 375,
+          "documentWidth": 375,
+          "tables": [
+            {
+              "tableWidth": 343,
+              "parentClient": 343,
+              "parentScroll": 343,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 343,
+              "parentClient": 343,
+              "parentScroll": 343,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 417,
+              "parentClient": 343,
+              "parentScroll": 343,
+              "overflowX": "visible",
+              "canScroll": false
+            }
+          ]
+        },
+        {
+          "route": "/guides/race-tier-list/",
+          "width": 375,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/guides-race-tier-list-375.png",
+          "viewport": 375,
+          "documentWidth": 375,
+          "tables": [
+            {
+              "tableWidth": 343,
+              "parentClient": 343,
+              "parentScroll": 343,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 343,
+              "parentClient": 343,
+              "parentScroll": 343,
+              "overflowX": "visible",
+              "canScroll": false
+            }
+          ]
+        },
+        {
+          "route": "/items/anti-magic/",
+          "width": 375,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/items-anti-magic-375.png",
+          "viewport": 375,
+          "documentWidth": 375,
+          "tables": [
+            {
+              "tableWidth": 343,
+              "parentClient": 343,
+              "parentScroll": 343,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 343,
+              "parentClient": 343,
+              "parentScroll": 343,
+              "overflowX": "visible",
+              "canScroll": false
+            }
+          ]
+        },
+        {
+          "route": "/items/poison/",
+          "width": 375,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/items-poison-375.png",
+          "viewport": 375,
+          "documentWidth": 375,
+          "tables": [
+            {
+              "tableWidth": 343,
+              "parentClient": 343,
+              "parentScroll": 343,
+              "overflowX": "visible",
+              "canScroll": false
+            },
+            {
+              "tableWidth": 343,
+              "parentClient": 343,
+              "parentScroll": 343,
+              "overflowX": "visible",
+              "canScroll": false
+            }
+          ]
+        },
+        {
+          "route": "/codes/all-codes/",
+          "width": 375,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/codes-all-codes-375.png",
+          "viewport": 375,
+          "documentWidth": 375,
+          "tables": []
+        },
+        {
+          "route": "/guides/beginner-guide/",
+          "width": 375,
+          "screenshot": "/workspace/AnvilWiki/.tmp/clover-time-acceptance-20261009/A4/guides-beginner-guide-375.png",
+          "viewport": 375,
+          "documentWidth": 375,
+          "tables": []
+        }
+      ],
+      "home": {
+        "h1": "Clover Time Wiki",
+        "nav": [
+          {
+            "label": "Codes",
+            "matches": 2,
+            "hrefs": [
+              "/codes/",
+              "/codes/"
+            ]
+          },
+          {
+            "label": "Guides",
+            "matches": 2,
+            "hrefs": [
+              "/guides/",
+              "/guides/"
+            ]
+          },
+          {
+            "label": "Items",
+            "matches": 2,
+            "hrefs": [
+              "/items/",
+              "/items/"
+            ]
+          }
+        ],
+        "body": "Clover Time\n\nFAN-MADE WIKI\n\nClover Time Wiki\n\nExplore the Black Clover-inspired Roblox RPG by AnimeCore Studio. Guides are being researched before publication.\n\nPlay Clover Time\nBrowse guides\n\nQUICK START\n\nJump straight in\n1\nCodes\n\nCode reports and redemption guidance.\n\nOpen\n2\nGuides\n\nBeginner progression and game systems.\n\nOpen\n3\nGrimoires\n\nAbility and acquisition references.\n\nOpen\nLatest guides\nBrowse all\n\nCODES\n\nClover Time Codes - Verification Draft\n\nA research draft for Clover Time codes, separating published code claims from rewards and redemption results that still need testing.\n\nGUIDES\n\nClover Time Beginner Guide: Tools and Your First Grimoire\n\nResearch starter-tool quests and the first Grimoire route in Clover Time, with attributed sources and clear limits on unverified steps.\n\nGUIDES\n\nClover Time Fishing and Fragments - Verification Draft\n\nA fishing research draft with attributed rod, bait, and Golden Marlin reports, plus unresolved controls, costs, and fragment-reward details.\n\nGUIDES\n\nClover Time Grimoire Tier List - Research Draft\n\nA draft grimoire comparison awaiting a verified roster, source-backed abilities, ranking criteria, and a stated gameplay context.\n\nGUIDES\n\nHow to Redeem Clover Time Codes - Verification Draft\n\nA redemption research draft with inspected lobby and Settings screenshots, while eligibility, current code validity, and response messages remain unverified.\n\nGUIDES\n\nHow to Reroll in Clover Time - Verification Draft\n\nA reroll-guide draft awaiting verified menu locations, eligible attributes, costs, and replacement or retention rules.\n\nBROWSE\n\nWiki sections\nCodes\nGuides\nItems\nExplore\n\nBrowse researched reference pages as they become available.\n\nCode reports\n\nNo codes are currently verified by this wiki.\n\nView all\n\nExplore Clover Time\n\nVisit the official Roblox experience to begin playing.\n\nPlay Clover Time",
+        "/about/": {
+          "status": 200,
+          "body": "About\n\nLast updated: 2026-08-11\n\nClover Time Wiki is an independent fan wiki for Clover Time, a Action RPG on Roblox developed by AnimeCore Studio. We are not affiliated with the developer or Roblox.\n\nGuides and Reference Pages\n\nWe research beginner progression, Grimoires, character systems, activities, and code redemption. Pages are published only when their core claims have enough supporting evidence.\n\nSources and Verification\n\nOfficial descriptions, third-party reports, video observations, and gameplay tests are distinct kinds of evidence. A cited article does not mean we personally tested its claims. Historical code reports do not establish current validity.\n\nGame Information\n\nVisit the official Roblox experience for the developer's game description.\n\nContact\n\nA public contact channel for this wiki is not yet available. The official game link above is operated by the game developer, not this wiki."
+        },
+        "/contact/": {
+          "status": 200,
+          "body": "Contact\n\nLast updated: 2026-08-11\n\nContact Clover Time Wiki\n\nClover Time Wiki is an independent fan wiki. The official game link is a developer-operated resource, not a contact channel for this wiki.\n\nCommunity\nOfficial game website: https://www.roblox.com/games/93934100402512/Clover-Time\nContributing\n\nGuides should cite their sources and distinguish observed results from third-party reports. A public contribution channel is not yet available.\n\nReporting Issues\n\nFor copyright or takedown requests, see our Copyright page."
+        },
+        "/zh/": {
+          "status": 200,
+          "body": "Clover Time\n\n独立玩家 WIKI\n\nClover Time Wiki\n\n探索 AnimeCore Studio 开发的 Roblox RPG。攻略核对完成后才会公开。\n\n进入 Clover Time\n浏览攻略\n\n快速入口\n\n选择栏目\n1\n兑换码\n\n兑换码报告与操作说明。\n\n打开\n2\n攻略\n\n新手成长与游戏系统。\n\n打开\n3\n魔导书\n\n能力与获取途径参考。\n\n打开\n最新攻略\n浏览全部\n\n尚无公开攻略，研究草稿正在核对。\n\n浏览\n\nWiki 栏目\n兑换码\n攻略\n魔导书\n探索 Wiki\n\n核对完成的资料会陆续公开。\n\n兑换码报告\n\n本站当前没有已核实的有效码。\n\n查看全部\n\n探索 Clover Time\n\n前往 Roblox 官方体验开始游戏。\n\n进入 Clover Time"
+        }
+      }
+    },
+    "production": {
+      "checked_at": "2026-10-09T13:23:08.463239+08:00",
+      "details": [
+        {
+          "route": "/codes/all-codes/",
+          "status": 404,
+          "dist_exists": false
+        },
+        {
+          "route": "/guides/beginner-guide/",
+          "status": 404,
+          "dist_exists": false
+        },
+        {
+          "route": "/guides/fishing-fragments/",
+          "status": 404,
+          "dist_exists": false
+        },
+        {
+          "route": "/guides/grimoire-tier-list/",
+          "status": 404,
+          "dist_exists": false
+        },
+        {
+          "route": "/guides/how-to-redeem-codes/",
+          "status": 404,
+          "dist_exists": false
+        },
+        {
+          "route": "/guides/how-to-reroll/",
+          "status": 404,
+          "dist_exists": false
+        },
+        {
+          "route": "/guides/patch-notes/",
+          "status": 404,
+          "dist_exists": false
+        },
+        {
+          "route": "/guides/race-tier-list/",
+          "status": 404,
+          "dist_exists": false
+        },
+        {
+          "route": "/items/anti-magic/",
+          "status": 404,
+          "dist_exists": false
+        },
+        {
+          "route": "/items/poison/",
+          "status": 404,
+          "dist_exists": false
+        }
+      ],
+      "pages": [
+        {
+          "route": "/",
+          "status": 200,
+          "main": "Clover Time\n\nFAN-MADE WIKI\n\nClover Time Wiki\n\nExplore the Black Clover-inspired Roblox RPG by AnimeCore Studio. Guides are being researched before publication.\n\nPlay Clover Time\nBrowse guides\n\nQUICK START\n\nJump straight in\n1\nCodes\n\nCode reports and redemption guidance.\n\nOpen\n2\nGuides\n\nBeginner progression and game systems.\n\nOpen\n3\nGrimoires\n\nAbility and acquisition references.\n\nOpen\nLatest guides\nBrowse all\n\nNo published guides yet. Research drafts are being checked.\n\nBROWSE\n\nWiki sections\nCodes\nGuides\nItems\nExplore\n\nBrowse researched reference pages as they become available.\n\nCode reports\n\nNo codes are currently verified by this wiki.\n\nView all\n\nExplore Clover Time\n\nVisit the official Roblox experience to begin playing.\n\nPlay Clover Time",
+          "canonical": "https://anvil.wiki/",
+          "robots": "max-image-preview:large",
+          "hreflang": [
+            {
+              "lang": "en",
+              "href": "https://anvil.wiki/"
+            },
+            {
+              "lang": "zh",
+              "href": "https://anvil.wiki/zh/"
+            },
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        },
+        {
+          "route": "/codes/",
+          "status": 200,
+          "main": "Home / Clover Time Codes\nClover Time Codes\n\nBrowse code reports and redemption guidance. Only entries with sufficient evidence will be published.\n\nNo published guides yet. Research drafts are being checked.",
+          "canonical": "https://anvil.wiki/codes/",
+          "robots": "noindex, nofollow",
+          "hreflang": [
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/codes/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        },
+        {
+          "route": "/guides/",
+          "status": 200,
+          "main": "Home / Clover Time Guides\nClover Time Guides\n\nExplore beginner progression, character systems, and activities with clearly attributed sources.\n\nNo published guides yet. Research drafts are being checked.",
+          "canonical": "https://anvil.wiki/guides/",
+          "robots": "noindex, nofollow",
+          "hreflang": [
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/guides/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        },
+        {
+          "route": "/items/",
+          "status": 200,
+          "main": "Home / Clover Time Grimoires\nClover Time Grimoires\n\nRead researched Grimoire references, including their documented abilities and acquisition methods.\n\nNo published guides yet. Research drafts are being checked.",
+          "canonical": "https://anvil.wiki/items/",
+          "robots": "noindex, nofollow",
+          "hreflang": [
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/items/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        },
+        {
+          "route": "/about/",
+          "status": 200,
+          "main": "About\n\nLast updated: 2026-08-11\n\nClover Time Wiki is an independent fan wiki for Clover Time, a Action RPG on Roblox developed by AnimeCore Studio. We are not affiliated with the developer or Roblox.\n\nGuides and Reference Pages\n\nWe research beginner progression, Grimoires, character systems, activities, and code redemption. Pages are published only when their core claims have enough supporting evidence.\n\nSources and Verification\n\nOfficial descriptions, third-party reports, video observations, and gameplay tests are distinct kinds of evidence. A cited article does not mean we personally tested its claims. Historical code reports do not establish current validity.\n\nGame Information\n\nVisit the official Roblox experience for the developer's game description.\n\nContact\n\nA public contact channel for this wiki is not yet available. The official game link above is operated by the game developer, not this wiki.",
+          "canonical": "https://anvil.wiki/about/",
+          "robots": "max-image-preview:large",
+          "hreflang": [
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/about/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        },
+        {
+          "route": "/contact/",
+          "status": 200,
+          "main": "Contact\n\nLast updated: 2026-08-11\n\nContact Clover Time Wiki\n\nClover Time Wiki is an independent fan wiki. The official game link is a developer-operated resource, not a contact channel for this wiki.\n\nCommunity\nOfficial game website: https://www.roblox.com/games/93934100402512/Clover-Time\nContributing\n\nGuides should cite their sources and distinguish observed results from third-party reports. A public contribution channel is not yet available.\n\nReporting Issues\n\nFor copyright or takedown requests, see our Copyright page.",
+          "canonical": "https://anvil.wiki/contact/",
+          "robots": "max-image-preview:large",
+          "hreflang": [
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/contact/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        },
+        {
+          "route": "/privacy-policy/",
+          "status": 200,
+          "main": "Privacy Policy\n\nLast updated: 2026-08-11\n\nThis privacy policy describes how Clover Time Wiki (\"we\", \"us\", or \"our\") handles information when you visit this website.\n\nInformation We Collect\n\nClover Time Wiki is a static website. We do not require you to create an account or submit personal information. We do not directly collect or store personal data.\n\nThird-Party Services\n\nWhen enabled, third-party services may collect information as described in their respective privacy policies:\n\nAdvertising partners (e.g. Google AdSense, Adsterra) — may use cookies to serve relevant ads. You can opt out of personalized advertising via your browser settings.\nAnalytics (e.g. Google Analytics, Cloudflare Web Analytics) — GA may collect anonymized usage data such as page views and approximate location (cookie-based, loaded only after you accept the consent banner); Cloudflare Web Analytics is cookieless and collects aggregate page-view data.\nCloudflare — when used as the hosting provider, it may process basic request data for security and performance (and serve Web Analytics when enabled, see above).\nComments (giscus, opt-in) — when the comment section is enabled, giscus.app loads an embedded GitHub view; viewing it exposes your IP address and browser info to that service, and signing in to comment is handled by GitHub under its own privacy policy.\nEmbedded videos (YouTube) — pages with videos load thumbnail images from i.ytimg.com and, after you press play, the YouTube player from youtube-nocookie.com. Until you interact, no YouTube cookies are set.\nCookies\n\nSome third-party services set cookies. You can control cookies through your browser settings. Disabling cookies may affect ad personalization but will not prevent you from accessing site content.\n\nChildren's Privacy\n\nClover Time Wiki is not directed at children under 13, and we do not knowingly collect information from children.\n\nChanges to This Policy\n\nWe may update this policy from time to time. Changes will be posted on this page.",
+          "canonical": "https://anvil.wiki/privacy-policy/",
+          "robots": "max-image-preview:large",
+          "hreflang": [
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/privacy-policy/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        },
+        {
+          "route": "/terms-of-service/",
+          "status": 200,
+          "main": "Terms of Service\n\nLast updated: 2026-08-11\n\nBy accessing Clover Time Wiki, you agree to the following terms of service.\n\nUse of Content\n\nAll guides, articles, and reference material on this site are provided for personal, non-commercial use. You may not copy, republish, or redistribute our content without attribution and a link back to the original page.\n\nAccuracy\n\nWe strive for accuracy but make no warranties regarding the completeness or correctness of any content. Clover Time is frequently updated, and information may become outdated. Always verify critical information in-game.\n\nThird-Party Links\n\nThis site links to external websites (official game channels, video tutorials, etc.) that we do not control. We are not responsible for the content or practices of third-party sites.\n\nTrademarks\n\nClover Time and related trademarks, logos, and assets belong to their respective rights holders. Clover Time Wiki is an independent fan project and is not affiliated with or endorsed by AnimeCore Studio.\n\nLimitation of Liability\n\nUse of this site is at your own risk. We are not liable for any damages arising from your use of the site or reliance on its content.\n\nChanges to These Terms\n\nWe may revise these terms at any time. Continued use of the site after changes constitutes acceptance of the updated terms.",
+          "canonical": "https://anvil.wiki/terms-of-service/",
+          "robots": "max-image-preview:large",
+          "hreflang": [
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/terms-of-service/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        },
+        {
+          "route": "/copyright/",
+          "status": 200,
+          "main": "Copyright\n\nLast updated: 2026-08-11\n\nCopyright Notice\n\n© 2026 Clover Time Wiki. All original articles, guides, and written content on this site are the intellectual property of Clover Time Wiki and its contributors.\n\nGame Assets\n\nGame names, characters, logos, and artwork belong to their respective rights holders. References on this wiki are for informational purposes and do not imply permission to reuse protected assets. Clover Time Wiki claims no ownership of any Clover Time intellectual property.\n\nDMCA / Takedown\n\nA public contact channel for this wiki is not yet available.\n\nFan-Made Notice\n\nAn independent fan wiki. Not affiliated with AnimeCore Studio or Roblox.",
+          "canonical": "https://anvil.wiki/copyright/",
+          "robots": "max-image-preview:large",
+          "hreflang": [
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/copyright/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        },
+        {
+          "route": "/zh/",
+          "status": 200,
+          "main": "Clover Time\n\n独立玩家 WIKI\n\nClover Time Wiki\n\n探索 AnimeCore Studio 开发的 Roblox RPG。攻略核对完成后才会公开。\n\n进入 Clover Time\n浏览攻略\n\n快速入口\n\n选择栏目\n1\n兑换码\n\n兑换码报告与操作说明。\n\n打开\n2\n攻略\n\n新手成长与游戏系统。\n\n打开\n3\n魔导书\n\n能力与获取途径参考。\n\n打开\n最新攻略\n浏览全部\n\n尚无公开攻略，研究草稿正在核对。\n\n浏览\n\nWiki 栏目\n兑换码\n攻略\n魔导书\n探索 Wiki\n\n核对完成的资料会陆续公开。\n\n兑换码报告\n\n本站当前没有已核实的有效码。\n\n查看全部\n\n探索 Clover Time\n\n前往 Roblox 官方体验开始游戏。\n\n进入 Clover Time",
+          "canonical": "https://anvil.wiki/zh/",
+          "robots": "max-image-preview:large",
+          "hreflang": [
+            {
+              "lang": "en",
+              "href": "https://anvil.wiki/"
+            },
+            {
+              "lang": "zh",
+              "href": "https://anvil.wiki/zh/"
+            },
+            {
+              "lang": "x-default",
+              "href": "https://anvil.wiki/"
+            }
+          ],
+          "giscusScriptCount": 0,
+          "bodyWidth": 1440,
+          "viewport": 1440
+        }
+      ],
+      "desktop_nav": [
+        {
+          "label": "Codes",
+          "url": "http://127.0.0.1:4322/codes/",
+          "h1": "Clover Time Codes"
+        },
+        {
+          "label": "Guides",
+          "url": "http://127.0.0.1:4322/guides/",
+          "h1": "Clover Time Guides"
+        },
+        {
+          "label": "Items",
+          "url": "http://127.0.0.1:4322/items/",
+          "h1": "Clover Time Grimoires"
+        }
+      ],
+      "searches": [
+        {
+          "query": "Poison",
+          "dialog": "Clear\n\n1 result for Poison\n\nAdd Categories and Add Languages\n\nRequest 1: Add a navigation category (e.g. “weapons”)\n\nthen add the first article) mkdir -p src/content/wiki/en/weapons # 2. Config: add\n\nEsc\nClose\n·\n↵\nSearch\nPowered by Pagefind",
+          "results": [
+            {
+              "text": "Add Categories and Add Languages",
+              "url": "/landing/docs/categories-and-locales/"
+            },
+            {
+              "text": "Request 1: Add a navigation category (e.g. “weapons”)",
+              "url": "/landing/docs/categories-and-locales/#request-1-add-a-navigation-category-eg-weapons"
+            }
+          ]
+        },
+        {
+          "query": "Clover Time",
+          "dialog": "Clear\n\n3 results for Clover Time\n\nRun Your Site: See It Working in Three Steps\n\nStep 3: get it running, look at the sample\n\nthe terminal and press Control + C to stop it (you’ll start\n\nThree classic mistakes (made for you in advance)\n\nin advance). localhost:4321 won’t open: nine times in ten, pnpm dev has\n\n✅ Acceptance (all must hold)\n\nyou stopped it with Control + C.\n\nAppendix A · The Red-Line Master List\n\nBacklinks\n\nContent first; quality trades when the time comes (Lesson 29). Hundreds of\n\nNext\n\nNext. Appendix B · The Troubleshooting Tree. Appendix C · Glossary &\n\nMake It Yours: One Command, One Q&A\n\napply-template asks one question at a time and rewrites every config. Full\n\nA true scene first\n\nbank clerk, one question at a time, and rewrites every config file\n\nThree classic mistakes (made for you in advance)\n\nnothing corrupts. check-config glows red: nine times in ten a category is\n\nEsc\nClose\n·\n↵\nSearch\nPowered by Pagefind",
+          "results": [
+            {
+              "text": "Run Your Site: See It Working in Three Steps",
+              "url": "/landing/docs/run-your-site/"
+            },
+            {
+              "text": "Step 3: get it running, look at the sample",
+              "url": "/landing/docs/run-your-site/#step-3-get-it-running-look-at-the-sample"
+            },
+            {
+              "text": "Three classic mistakes (made for you in advance)",
+              "url": "/landing/docs/run-your-site/#three-classic-mistakes-made-for-you-in-advance"
+            },
+            {
+              "text": "✅ Acceptance (all must hold)",
+              "url": "/landing/docs/run-your-site/#-acceptance-all-must-hold"
+            },
+            {
+              "text": "Appendix A · The Red-Line Master List",
+              "url": "/landing/docs/appendix-red-lines/"
+            },
+            {
+              "text": "Backlinks",
+              "url": "/landing/docs/appendix-red-lines/#backlinks"
+            },
+            {
+              "text": "Next",
+              "url": "/landing/docs/appendix-red-lines/#next"
+            },
+            {
+              "text": "Make It Yours: One Command, One Q&A",
+              "url": "/landing/docs/rebrand-your-site/"
+            },
+            {
+              "text": "A true scene first",
+              "url": "/landing/docs/rebrand-your-site/#a-true-scene-first"
+            },
+            {
+              "text": "Three classic mistakes (made for you in advance)",
+              "url": "/landing/docs/rebrand-your-site/#three-classic-mistakes-made-for-you-in-advance"
+            }
+          ]
+        },
+        {
+          "query": "redeem",
+          "dialog": "Clear\n\n8 results for redeem\n\nThe Codes Page: Biggest Traffic, Biggest Risk\n\nOne fake code — a player redeems nothing — and your site\n\nThe manual’s thickest red line\n\ncodes array (code/reward/status/expiryDate/source); the body covers how-to-redeem steps + FAQ (H2s as\n\nDouble red lines for video-sourced material\n\ntrue until you verify by hand (redeem the code, check the number).\n\nThe standard draft-to-live move\n\nby item when you have time (redeem each code, recheck each number)\n\nThe Day-One 10-Page List: Turning a Decision into a Writing Plan\n\nand discussion bait. A “how to redeem codes” FAQ page — catches\n\nStep 1: why these ten pages\n\nand discussion bait. A “how to redeem codes” FAQ page — catches\n\nStep 2: have AI turn the verdict into the plan\n\nmost-important-boss guides, tier list, \"how to redeem codes\" FAQ. Add: pages for\n\nYour First Guide: One Hour of Play, One QA-Passing Page\n\nA true scene first\n\nThey want You build codes / redeem. redeemable codes. the codes page\n\nWhere to Find Candidates: 20 Minutes a Day, 10 Candidates\n\nDiscover (sort: Rising / Up-and-Coming). Where “redeem codes” searchers are densest. 3-5.\n\nStep 1: scout three channels daily (20 minutes)\n\nDiscover (sort: Rising / Up-and-Coming). Where “redeem codes” searchers are densest. 3-5.\n\nAnvilWiki Page Formats\n\nCodes page The freshness page: every redeem code with reward, status, expiry\n\nLoad more results\nEsc\nClose\n·\n↵\nSearch\nPowered by Pagefind",
+          "results": [
+            {
+              "text": "The Codes Page: Biggest Traffic, Biggest Risk",
+              "url": "/landing/docs/codes-page/"
+            },
+            {
+              "text": "The manual’s thickest red line",
+              "url": "/landing/docs/codes-page/#the-manuals-thickest-red-line"
+            },
+            {
+              "text": "Double red lines for video-sourced material",
+              "url": "/landing/docs/codes-page/#double-red-lines-for-video-sourced-material"
+            },
+            {
+              "text": "The standard draft-to-live move",
+              "url": "/landing/docs/codes-page/#the-standard-draft-to-live-move"
+            },
+            {
+              "text": "The Day-One 10-Page List: Turning a Decision into a Writing Plan",
+              "url": "/landing/docs/day-one-list/"
+            },
+            {
+              "text": "Step 1: why these ten pages",
+              "url": "/landing/docs/day-one-list/#step-1-why-these-ten-pages"
+            },
+            {
+              "text": "Step 2: have AI turn the verdict into the plan",
+              "url": "/landing/docs/day-one-list/#step-2-have-ai-turn-the-verdict-into-the-plan"
+            },
+            {
+              "text": "Your First Guide: One Hour of Play, One QA-Passing Page",
+              "url": "/landing/docs/first-article/"
+            },
+            {
+              "text": "A true scene first",
+              "url": "/landing/docs/first-article/#a-true-scene-first"
+            },
+            {
+              "text": "Where to Find Candidates: 20 Minutes a Day, 10 Candidates",
+              "url": "/landing/docs/find-candidates/"
+            },
+            {
+              "text": "Step 1: scout three channels daily (20 minutes)",
+              "url": "/landing/docs/find-candidates/#step-1-scout-three-channels-daily-20-minutes"
+            },
+            {
+              "text": "AnvilWiki Page Formats",
+              "url": "/landing/templates/"
+            }
+          ]
+        }
+      ],
+      "search_esc_closed": true,
+      "mobile_nav": {
+        "url": "http://127.0.0.1:4322/guides/",
+        "h1": "Clover Time Guides",
+        "viewport": 375,
+        "bodyWidth": 375
+      },
+      "requests_to_giscus": [],
+      "sitemap_draft_matches": []
+    },
+    "supplement": {
+      "zh_fallback": {
+        "h1": "Clover Time Poison - Entity Research Draft",
+        "robots": "noindex, nofollow",
+        "canonical": "https://anvil.wiki/zh/items/poison/"
+      },
+      "third_party_pages": [
+        {
+          "route": "/",
+          "status": 200,
+          "scripts": [
+            "/_astro/page.CMFgH77u.js"
+          ],
+          "iframes": [],
+          "analyticsInlinePresent": false,
+          "h1": "Clover Time Wiki"
+        },
+        {
+          "route": "/about/",
+          "status": 200,
+          "scripts": [
+            "/_astro/page.CMFgH77u.js"
+          ],
+          "iframes": [],
+          "analyticsInlinePresent": false,
+          "h1": "About"
+        },
+        {
+          "route": "/landing/docs/categories-and-locales/",
+          "status": 200,
+          "scripts": [
+            "/_astro/page.CMFgH77u.js"
+          ],
+          "iframes": [],
+          "analyticsInlinePresent": false,
+          "h1": "Add Categories and Add Languages"
+        }
+      ],
+      "external_requests": []
+    }
+  },
+  "pages": [
+    {
+      "page": "P01",
+      "core_status": "not_met",
+      "formal_page_accepted": false,
+      "remaining": "No current valid code or proof of no valid codes"
+    },
+    {
+      "page": "P02",
+      "core_status": "partial",
+      "formal_page_accepted": false,
+      "remaining": "No verified submit/eligibility/failure result"
+    },
+    {
+      "page": "P03",
+      "core_status": "partial",
+      "formal_page_accepted": false,
+      "remaining": "Version scope, Tier II rationale, entity cross-links"
+    },
+    {
+      "page": "P04",
+      "core_status": "public_source_core_pass",
+      "formal_page_accepted": false,
+      "remaining": "Publication links and ranking version context"
+    },
+    {
+      "page": "P05",
+      "core_status": "partial",
+      "formal_page_accepted": false,
+      "remaining": "No verified full first-growth route"
+    },
+    {
+      "page": "P06",
+      "core_status": "partial",
+      "formal_page_accepted": false,
+      "remaining": "Roll cost and replace/keep result unverified"
+    },
+    {
+      "page": "P07",
+      "core_status": "partial",
+      "formal_page_accepted": false,
+      "remaining": "C-row HUD transcription not reliable; publication cross-links"
+    },
+    {
+      "page": "P08",
+      "core_status": "public_source_core_pass",
+      "formal_page_accepted": false,
+      "remaining": "Source pronoun clarity and publication cross-links"
+    },
+    {
+      "page": "P09",
+      "core_status": "partial",
+      "formal_page_accepted": false,
+      "remaining": "Catch/conversion output and requirements unverified"
+    },
+    {
+      "page": "P10",
+      "core_status": "not_met",
+      "formal_page_accepted": false,
+      "remaining": "No official dated changes"
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "docs/clover-time/evidence/audit-20261009-production-home-mobile.png",
+      "sha256": "a868b239385e7480bea4c6c603dabd08c0a1f4cddcbdf80a6532a0f53a8d522c",
+      "origin": ".tmp/clover-time-acceptance-20261009/A4/production-home-375.png",
+      "kind": "Own local site screenshot; not Roblox gameplay"
+    },
+    {
+      "path": "docs/clover-time/evidence/audit-20261009-production-search-poison.png",
+      "sha256": "d02ba66fc664b9e984a0a5ccda93eec1cdd0c132eb882fc3146a65e28dd6f85a",
+      "origin": ".tmp/clover-time-acceptance-20261009/A4/production-search-poison.png",
+      "kind": "Own local site screenshot; not Roblox gameplay"
+    },
+    {
+      "path": "docs/clover-time/evidence/audit-20261009-development-table-mobile.png",
+      "sha256": "553d7afa2c37fe6961b8938f750ab45a3aed1aad9c716a885aea08c0bcad534a",
+      "origin": ".tmp/clover-time-acceptance-20261009/A4/dev-grimoire-table-375-scroll.png",
+      "kind": "Own local site screenshot; not Roblox gameplay"
+    }
+  ],
+  "root_rechecks": [
+    "Read all four reports and actual command exits / test log.",
+    "Verified all nine command log hashes.",
+    "Viewed original Gamepur reroll screenshot; Fire Ball E and Fire Ground Hold R visible.",
+    "Read Roonby original equip paragraph.",
+    "Viewed low-resolution C-row crop; do not certify Dual Slashes or a replacement reading.",
+    "Viewed production mobile home, Poison search, mobile table screenshots.",
+    "Read source domain, environment conditions and masked nonempty upstream deployment fields.",
+    "Checked all ten production detail paths and sitemap exclusions."
+  ],
+  "protected_working_files": {
+    "baseline": 392,
+    "changed": 0
+  },
+  "corrections_to_prior_assessment": [
+    "Specific Anti Magic / Poison roll result, equipment transaction, every skill input and full Awakening are not original mandatory entity acceptance gates.",
+    "P04 and P08 have core public-source evidence; full-page acceptance remains incomplete.",
+    "Prior statement that all five Anti Magic names were independently confirmed by HUD is withdrawn for the C-row.",
+    "No exact gameVersion field is newly required for every entity; rankings need supported applicable scope, and supplied version identifiers must be meaningful."
+  ],
+  "release_ready": false,
+  "formal_pages_accepted": 0,
+  "draft_pages": 10,
+  "no_content_or_config_changes": true,
+  "no_git_commit_or_deployment": true,
+  "documentation_links_checked": {
+    "checked": 187,
+    "broken": 0
+  },
+  "final_root_protected_files_check": {
+    "checked": 392,
+    "changed": 0
+  }
+}

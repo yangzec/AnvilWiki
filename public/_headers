@@ -12,6 +12,7 @@
 # page for template users — the stable subset below never fights monetization.
 
 /*
+  X-Robots-Tag: noindex, nofollow
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
   X-Content-Type-Options: nosniff

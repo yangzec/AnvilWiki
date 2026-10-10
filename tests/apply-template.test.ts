@@ -799,7 +799,7 @@ describe('hyphen locales (zh-tw / pt-br) generate legal TypeScript', () => {
 describe('demo locale deletion is content-aware (rebranded locales must survive re-runs)', () => {
   test('the shipped demo locale files still carry the site.name marker (marker drift guard)', () => {
     for (const locale of ['en', 'ja']) {
-      const raw = readFileSync(join(repoRoot, 'src/locales', `${locale}.json`), 'utf8');
+      const raw = readFileSync(join(repoRoot, 'tests/fixtures/anvil-template/src/locales', `${locale}.json`), 'utf8');
       expect(isDemoLocaleContent(raw)).toBe(true);
     }
   });
@@ -829,7 +829,7 @@ describe('demo article clearing is content-aware (re-runs must keep user work)',
     // article that never mentions the demo game, content-aware clearing would
     // KEEP it forever — this goes red in the template repo until the article
     // carries the marker. Vacuous in forks after a first-run clear.
-    const base = join(repoRoot, 'src/content/wiki');
+    const base = join(repoRoot, 'tests/fixtures/anvil-template/src/content/wiki');
     const walk = (dir: string): string[] =>
       existsSync(dir)
         ? readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
@@ -901,7 +901,7 @@ describe('setup.yml demo-author removal still matches the real authors.ts', () =
     // either, `\s` spans newlines in both, lazy `.*?` behaves identically.
     // re.sub replaces ALL occurrences → the `g` flag.
     const demoAuthorRe = new RegExp(pyPattern, 'g');
-    const src = readFileSync(join(repoRoot, 'src/config/authors.ts'), 'utf8');
+    const src = readFileSync(join(repoRoot, 'tests/fixtures/anvil-template/src/config/authors.ts'), 'utf8');
     const after = src.replace(demoAuthorRe, '\n');
     // The demo identity is gone — comment line AND entry line.
     expect(after).not.toContain('Forge Master Kael');
@@ -1030,8 +1030,8 @@ describe('re-run identity detection (S12: re-run = confirm current, never demo d
     expect(empty.releaseDate).toBe('');
   });
 
-  test('the shipped demo site.ts parses as the demo identity (drift guard)', () => {
-    const raw = readFileSync(join(repoRoot, 'src/config/site.ts'), 'utf8');
+  test('the original template fixture parses as the demo identity (drift guard)', () => {
+    const raw = readFileSync(join(repoRoot, 'tests/fixtures/anvil-template/src/config/site.ts'), 'utf8');
     const id = parseSiteTsIdentity(raw);
     expect(id).not.toBeNull();
     expect(isDemoSiteTsIdentity(id!)).toBe(true);
@@ -1348,7 +1348,7 @@ describe('rewriteLocaleJson overview/home are re-run-aware (M2)', () => {
 
 describe('stripDemoAuthors — the CLI authors.ts regex (real-file contract + setup.yml parity)', () => {
   test('removes exactly the demo block from the shipped authors.ts, byte-preserving the rest', () => {
-    const src = readFileSync(join(repoRoot, 'src/config/authors.ts'), 'utf8');
+    const src = readFileSync(join(repoRoot, 'tests/fixtures/anvil-template/src/config/authors.ts'), 'utf8');
     const once = stripDemoAuthors(src);
     expect(once.changed).toBe(true);
     expect(once.cleaned).not.toContain('Forge Master Kael');
@@ -1372,7 +1372,7 @@ describe('stripDemoAuthors — the CLI authors.ts regex (real-file contract + se
     const yml = readFileSync(join(repoRoot, '.github/workflows/setup.yml'), 'utf8');
     const literal = yml.match(/re\.sub\(r"((?:[^"\\]|\\.)*)", '\\n', s\)/);
     expect(literal, 'setup.yml demo-author re.sub literal not found — step rewritten?').toBeTruthy();
-    const src = readFileSync(join(repoRoot, 'src/config/authors.ts'), 'utf8');
+    const src = readFileSync(join(repoRoot, 'tests/fixtures/anvil-template/src/config/authors.ts'), 'utf8');
     // Python↔JS semantics for THIS pattern are 1:1 (same argument as the
     // setup.yml contract test above); re.sub is global.
     const afterPy = src.replace(new RegExp(literal![1], 'g'), '\n');

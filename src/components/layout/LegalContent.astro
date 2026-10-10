@@ -16,37 +16,15 @@ const year = new Date().getFullYear();
 {
   page === 'about' && (
     <>
-      <p>
-        {site.name} is a fan-made community wiki dedicated to {game}, a {site.game.genre} on{' '}
-        {site.game.platform} developed by {site.game.developer}. Our mission is to provide accurate,
-        up-to-date guides, tips, and reference material to help players get the most out of the
-        game.
-      </p>
-      <h2>What We Cover</h2>
-      <ul>
-        <li>Boss strategies and attack patterns</li>
-        <li>Item locations, stats, and crafting recipes</li>
-        <li>Active redeemable codes (updated daily)</li>
-        <li>Tier lists and build recommendations</li>
-        <li>Progression guides for new and returning players</li>
-      </ul>
-      <h2>Community-Driven</h2>
-      <p>
-        This wiki is maintained by volunteers. If you spot an error or have content to contribute,
-        join our Discord and let us know. All content is freely accessible — no account required.
-      </p>
+      <p>{site.name} is an independent fan wiki for {game}, a {site.game.genre} on {site.game.platform} developed by {site.game.developer}. We are not affiliated with the developer or Roblox.</p>
+      <h2>Guides and Reference Pages</h2>
+      <p>We research beginner progression, Grimoires, character systems, activities, and code redemption. Research previews clearly identify their verification limits. A complete guide is accepted only when its core claims have enough supporting evidence.</p>
+      <h2>Sources and Verification</h2>
+      <p>Official descriptions, third-party reports, video observations, and gameplay tests are distinct kinds of evidence. A cited article does not mean we personally tested its claims. Historical code reports do not establish current validity.</p>
+      <h2>Game Information</h2>
+      <p><a href={site.social.official} target="_blank" rel="noopener noreferrer">Visit the official Roblox experience</a> for the developer's game description.</p>
       <h2>Contact</h2>
-      <p>
-        Reach us via our{' '}
-        <a href={site.social.discord} target="_blank" rel="noopener noreferrer">
-          Discord server
-        </a>{' '}
-        or{' '}
-        <a href={site.social.official} target="_blank" rel="noopener noreferrer">
-          the game's official channels
-        </a>
-        .
-      </p>
+      {site.contactEmail ? <p><a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a></p> : <p>A public contact channel for this wiki is not yet available. The official game link above is operated by the game developer, not this wiki.</p>}
     </>
   )
 }
@@ -65,7 +43,7 @@ const year = new Date().getFullYear();
       </p>
       <h2>Third-Party Services</h2>
       <p>
-        We use third-party services that may collect information as described in their respective
+        When enabled, third-party services may collect information as described in their respective
         privacy policies:
       </p>
       <ul>
@@ -80,7 +58,7 @@ const year = new Date().getFullYear();
           and collects aggregate page-view data.
         </li>
         <li>
-          <strong>Cloudflare</strong> — our hosting provider, which may process basic request data
+          <strong>Cloudflare</strong> — when used as the hosting provider, it may process basic request data
           for security and performance (and serve Web Analytics when enabled, see above).
         </li>
         <li>
@@ -135,8 +113,7 @@ const year = new Date().getFullYear();
       </p>
       <h2>Trademarks</h2>
       <p>
-        {game} and all related trademarks, logos, and assets are the property of{' '}
-        {site.game.developer}. {site.name} is an independent fan project and is not affiliated with
+        {game} and related trademarks, logos, and assets belong to their respective rights holders. {site.name} is an independent fan project and is not affiliated with
         or endorsed by {site.game.developer}.
       </p>
       <h2>Limitation of Liability</h2>
@@ -163,20 +140,11 @@ const year = new Date().getFullYear();
       </p>
       <h2>Game Assets</h2>
       <p>
-        {game}, including its name, logo, characters, artwork, and other related assets, is the
-        property of {site.game.developer}. All {game} content is used on this wiki under fair use
-        for the purpose of providing informational guides to players. {site.name} claims no
+        Game names, characters, logos, and artwork belong to their respective rights holders. References on this wiki are for informational purposes and do not imply permission to reuse protected assets. {site.name} claims no
         ownership of any {game} intellectual property.
       </p>
       <h2>DMCA / Takedown</h2>
-      <p>
-        If you believe any content on this site infringes your copyright, please contact us via our{' '}
-        <a href={site.social.discord} target="_blank" rel="noopener noreferrer">
-          Discord server
-        </a>{' '}
-        with a detailed description of the allegedly infringing material. We will review and respond
-        to valid requests promptly.
-      </p>
+      {site.contactEmail ? <p>Send a detailed description of the allegedly infringing material to <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.</p> : <p>A public contact channel for this wiki is not yet available.</p>}
       <h2>Fan-Made Notice</h2>
       <p>{site.legalNotice}</p>
     </>
@@ -189,14 +157,14 @@ const year = new Date().getFullYear();
       {/* h2, not h1 — LegalPage already renders the page H1 (single-H1 rule). */}
       <h2>Contact {site.name}</h2>
       <p>
-        {site.name} is a fan-made wiki. Reach us or contribute through any of the channels below.
+        {site.name} is an independent fan wiki. The official game link is a developer-operated resource, not a contact channel for this wiki.
       </p>
       <h2>Community</h2>
       <ul>
         {site.social.official && (
           <li>
             <strong>Official game website:</strong>{' '}
-            <a href={site.social.official} target="_blank" rel="noopener noreferrer">
+            <a href={site.social.official} class="break-all" target="_blank" rel="noopener noreferrer">
               {site.social.official}
             </a>
           </li>
@@ -233,8 +201,7 @@ const year = new Date().getFullYear();
       </ul>
       <h2>Contributing</h2>
       <p>
-        Found a typo or outdated info? Want to add a guide? This wiki is open source — submit changes
-        via pull requests or through any channel listed above.
+        Guides should cite their sources and distinguish observed results from third-party reports. A public contribution channel is not yet available.
       </p>
       <h2>Reporting Issues</h2>
       <p>

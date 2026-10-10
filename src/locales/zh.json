@@ -1,0 +1,251 @@
+{
+  "$schema": "../../docs/home.schema.json",
+  "site": {
+    "name": "Clover Time Wiki",
+    "shortName": "CT Wiki",
+    "description": "Clover Time 玩家 Wiki，提供新手入门、角色选择、魔导书、战斗、钓鱼与探索攻略。",
+    "tagline": "探索 Clover Time",
+    "legalNotice": "独立玩家 Wiki，与 AnimeCore Studio 或 Roblox 无隶属关系。"
+  },
+  "nav": {
+    "home": "首页",
+    "toggleTheme": "切换主题",
+    "menu": "菜单",
+    "close": "关闭",
+    "search": "搜索",
+    "language": "语言",
+    "codes": "兑换码",
+    "guides": "攻略",
+    "items": "魔导书"
+  },
+  "search": {
+    "placeholder": "搜索 Wiki……",
+    "noResults": "未找到结果",
+    "loadError": "搜索加载失败，请刷新后重试。"
+  },
+  "shared": {
+    "lastUpdated": "最后更新",
+    "publishedOn": "发布时间",
+    "noArticles": "本栏目暂时没有文章。",
+    "defaultListDescription": "浏览全部 {title} 文章。",
+    "relatedArticles": "相关攻略",
+    "onThisPage": "本页目录",
+    "browseAll": "浏览全部",
+    "viewAll": "查看全部",
+    "commentsHeading": "评论",
+    "share": "分享",
+    "copyLink": "复制链接",
+    "copied": "已复制！",
+    "consentText": "启用分析或广告服务时，可能使用 Cookie。",
+    "accept": "接受",
+    "decline": "拒绝",
+    "consentTitle": "Cookie",
+    "bossCard": {
+      "title": "Boss Overview",
+      "hp": "HP",
+      "weakness": "Weakness",
+      "resistant": "Resistant",
+      "location": "Location",
+      "level": "Rec. Level"
+    },
+    "codesTable": {
+      "active": "有效兑换码",
+      "expired": "过期兑换码",
+      "reward": "奖励",
+      "expires": "到期时间",
+      "source": "来源",
+      "code": "兑换码"
+    },
+    "codesFaq": [
+      {
+        "question": "在哪里输入 Clover Time 兑换码？",
+        "answer": "使用大厅的 Codes 输入框，或在游戏中打开 Menu 和 Settings。"
+      },
+      {
+        "question": "如何提交兑换码？",
+        "answer": "按原样输入兑换码，去除多余空格后按 Enter 提交。"
+      }
+    ],
+    "possiblyOutdated": "本攻略最后核对于",
+    "outdatedNote": "游戏可能已更新，部分内容可能过时。",
+    "prevArticle": "上一篇",
+    "nextArticle": "下一篇",
+    "minuteRead": "分钟阅读",
+    "wasThisHelpful": "这篇攻略有帮助吗？",
+    "feedbackThanks": "感谢反馈！",
+    "sponsoredLabel": "赞助",
+    "relatedVideos": "相关视频",
+    "gallery": "图片",
+    "gameVersion": "游戏版本",
+    "allTags": "全部标签",
+    "tagsIndexDescription": "按主题浏览文章。",
+    "articlesCount": "篇文章",
+    "recentTitle": "最近更新",
+    "recentDescription": "按时间查看最新文章。",
+    "sponsorTitle": "支持 Wiki",
+    "sponsorText": "如果攻略有帮助，可以支持本站。",
+    "sponsorButton": "支持本站",
+    "notFoundSearchHint": "试试站内搜索。",
+    "notFoundPopular": "常用入口",
+    "notFoundTitle": "404 - 未找到页面",
+    "notFoundDescription": "请求的页面不存在。",
+    "notFoundHeading": "未找到页面",
+    "notFoundText": "页面可能已移除或暂时不可用。",
+    "notFoundBackHome": "返回首页",
+    "galleryLabels": {
+      "close": "关闭",
+      "prev": "上一张",
+      "next": "下一张"
+    },
+    "quickAnswer": "快速解答",
+    "skipToContent": "跳到正文",
+    "tapToCopy": "点击复制",
+    "open": "打开",
+    "playVideo": "播放视频",
+    "watchVideo": "观看视频",
+    "gameTrailer": "预告片",
+    "closeAd": "关闭广告",
+    "adLabel": "广告",
+    "codesFaqTitle": "兑换码常见问题",
+    "faqTitle": "常见问题",
+    "toggleTheme": "切换主题",
+    "themeToggleTitle": "浅色／深色／纯黑",
+    "fallbackNotice": "正文使用英文",
+    "copyQuickAnswer": "复制快速解答",
+    "feedbackYes": "有帮助",
+    "feedbackNo": "没有帮助",
+    "breadcrumbAria": "面包屑导航",
+    "wikiNavAria": "Wiki 导航",
+    "paginationAria": "文章导航"
+  },
+  "overview": {
+    "codes": {
+      "overviewTitle": "Clover Time 兑换码",
+      "overviewDescription": "找到兑换入口，了解兑换码的输入方法。"
+    },
+    "guides": {
+      "overviewTitle": "Clover Time 攻略",
+      "overviewDescription": "查看新手成长、角色系统和活动攻略；正文使用英文。"
+    },
+    "items": {
+      "overviewTitle": "Clover Time 魔导书",
+      "overviewDescription": "查看魔导书能力、战斗特点与稀有度分类。"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Clover Time Wiki：兑换码、攻略与魔导书",
+      "description": "Clover Time 玩家 Wiki，提供新手入门、角色选择、魔导书、战斗、钓鱼与探索攻略。"
+    },
+    "updates": {
+      "title": "最新攻略"
+    },
+    "popular": {
+      "badge": "浏览",
+      "title": "Wiki 栏目",
+      "quickLinks": [
+        {
+          "label": "兑换码",
+          "href": "/codes/"
+        },
+        {
+          "label": "攻略",
+          "href": "/guides/"
+        },
+        {
+          "label": "魔导书",
+          "href": "/items/"
+        }
+      ]
+    },
+    "closingCta": {
+      "title": "探索 Clover Time",
+      "description": "前往 Roblox 官方体验开始游戏。",
+      "primary": "进入 Clover Time",
+      "secondary": ""
+    },
+    "hero": {
+      "badge": "玩家 Wiki",
+      "title": "Clover Time Wiki",
+      "description": "浏览 Clover Time 新手入门、种族选择、魔导书能力与成长攻略，按主题找到你需要的玩法资料。",
+      "ctaPrimary": "进入 Clover Time",
+      "ctaSecondary": "浏览攻略",
+      "videoId": "",
+      "image": "/images/clover-time-hero.webp",
+      "imageAlt": "幻想风景与魔法书的原创主题插画。",
+      "imageCaption": "原创主题插画"
+    },
+    "start": {
+      "badge": "快速入口",
+      "title": "选择栏目",
+      "cards": [
+        {
+          "number": "1",
+          "title": "兑换码",
+          "description": "找到兑换入口，了解兑换码的输入方法。",
+          "icon": "lucide:ticket",
+          "href": "/codes/"
+        },
+        {
+          "number": "2",
+          "title": "攻略",
+          "description": "新手成长与游戏系统。",
+          "icon": "lucide:compass",
+          "href": "/guides/"
+        },
+        {
+          "number": "3",
+          "title": "魔导书",
+          "description": "能力与获取途径参考。",
+          "icon": "lucide:book-open",
+          "href": "/items/"
+        }
+      ]
+    },
+    "explore": {
+      "title": "探索 Wiki",
+      "description": "查找新手攻略、角色选择与魔导书资料。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "兑换码与兑换方法",
+          "description": "找到兑换入口，了解兑换码的输入方法。",
+          "href": "/codes/",
+          "displayType": "badge-list",
+          "highlights": [],
+          "icon": "lucide:ticket"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于本站",
+      "items": [
+        {
+          "question": "这是 Clover Time 官方网站吗？",
+          "answer": "不是。本站是独立玩家 Wiki，与 AnimeCore Studio 或 Roblox 无隶属关系。"
+        },
+        {
+          "question": "新手应该从哪里开始？",
+          "answer": "先阅读新手入门，再比较种族与魔导书，选择适合自己的角色发展方向。"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "playGame": "进入 Clover Time",
+    "officialDiscord": "Official Discord",
+    "officialYoutube": "Official YouTube",
+    "officialTwitter": "Official Twitter",
+    "officialReddit": "Official Reddit",
+    "about": "关于本站",
+    "faq": "常见问题",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "使用条款",
+    "copyright": "版权说明",
+    "contact": "联系",
+    "copyrightText": "© 2026 Clover Time Wiki. All rights reserved.",
+    "community": "游戏入口",
+    "legal": "法律信息"
+  }
+}

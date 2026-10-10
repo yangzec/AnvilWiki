@@ -1,0 +1,87 @@
+{
+  "art_and_diagrams": [
+    {
+      "path": "public/images/articles/clover-time/beginner-concept.png",
+      "source": "/workspace/generated_images/exec-b4592005-ceb7-456c-aa95-a7ac978c8a88.png",
+      "kind": "generated original concept illustration",
+      "is_gameplay": false,
+      "sha256": "10c1892101203a0f7f711e1fe7499759e0618cba8c5091c47661759cf380c4d1"
+    },
+    {
+      "path": "public/images/articles/clover-time/anti-magic-concept.png",
+      "source": "/workspace/generated_images/exec-f9a384be-ef9e-45a3-be5c-1dd7a390a860.png",
+      "kind": "generated original concept illustration",
+      "is_gameplay": false,
+      "sha256": "4e3569e3141278d9f5a666837345d862b7dd6a30fcd998667b558db6dea58bd2"
+    },
+    {
+      "path": "public/images/articles/clover-time/poison-concept.png",
+      "source": "/workspace/generated_images/exec-ed8daa88-cf54-4745-92dd-a45f21563d14.png",
+      "kind": "generated original concept illustration",
+      "is_gameplay": false,
+      "sha256": "feba94faa1a9ba3677d9c1ac829208e4408db5bd5b390b732f34bbba3b9cbde0"
+    },
+    {
+      "path": "public/images/articles/clover-time/all-codes-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "d8cfa6f5eb1d5bf95063bd7dcf25e726c03808816999e63644c0d98ac938735b"
+    },
+    {
+      "path": "public/images/articles/clover-time/how-to-redeem-codes-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "41cfa858fcce0364a3242b3b57265138fade0b7e5ad4a7e4263daf085e1477de"
+    },
+    {
+      "path": "public/images/articles/clover-time/grimoire-tier-list-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "16ab0f1f96972199950315928e06a074003b73033b43a651dc1a8b9d206ea9fa"
+    },
+    {
+      "path": "public/images/articles/clover-time/race-tier-list-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "a9ffe941ae2c851ea800afd7f426440605c47eb9fea9078fa467fa2bbbc12648"
+    },
+    {
+      "path": "public/images/articles/clover-time/beginner-guide-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "2f32574a6a98fce50cd3579000eb452e06478e75cea34835298a36c764bfe474"
+    },
+    {
+      "path": "public/images/articles/clover-time/how-to-reroll-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "ff451e1a4f86f1d4fd671e97ce2319dec43e7ea5cfedf925869917362e3907a2"
+    },
+    {
+      "path": "public/images/articles/clover-time/anti-magic-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "f651e599b52c6dd0bb8decf113e326c82e5be7f5a67533eed4809b2d5a8f7215"
+    },
+    {
+      "path": "public/images/articles/clover-time/poison-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "1a2e94709575f236440831f1a2ee6d4bebe38401d4bb9241c488c303db4ca71c"
+    },
+    {
+      "path": "public/images/articles/clover-time/fishing-fragments-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "b0cb515162e62d61bc6aec62b27b79ee64372788cb73e8df17d75b77ce345b4a"
+    },
+    {
+      "path": "public/images/articles/clover-time/patch-notes-overview.svg",
+      "kind": "original source-attributed explanatory diagram",
+      "is_gameplay": false,
+      "sha256": "9d0882fe5c237348c41bedcfd6ac190bc8932f095524d0093dccebc92ad598fb"
+    }
+  ],
+  "existing_cover_count": 10,
+  "note": "Original project graphics only; no third-party gameplay images copied."
+}

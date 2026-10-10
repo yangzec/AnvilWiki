@@ -1,0 +1,24 @@
+{
+  "mobile_menu": true,
+  "search_ui": true,
+  "search_results": [
+    {
+      "query": "Clover Time Beginner Guide: Tools and Your First Grimoire",
+      "urls": []
+    },
+    {
+      "query": "Poison",
+      "urls": [
+        "/landing/docs/categories-and-locales/"
+      ]
+    },
+    {
+      "query": "Clover Time",
+      "urls": [
+        "/landing/docs/run-your-site/",
+        "/landing/docs/appendix-red-lines/",
+        "/landing/docs/rebrand-your-site/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "recorded_at": "2026-10-09T07:58:36.551433+08:00",
+  "game_session_performed": false,
+  "articles": [
+    {
+      "name": "gamepur-grimoire",
+      "url": "https://www.gamepur.com/guides/how-to-get-grimoire-clover-time",
+      "http": 200,
+      "bytes": 1167787,
+      "body_read": true,
+      "cached_at": "2026-10-09T07:50:44.757229+08:00",
+      "html_sha256": "9cf918fd80fe397b866659435777d9a8f0bc93b0b700cb3abab3553e90171b56",
+      "date_metadata": [
+        {
+          "@type": [
+            "WebPage",
+            "FAQPage"
+          ],
+          "datePublished": "2026-10-05T05:01:54+00:00",
+          "dateModified": "2026-10-05T05:01:58+00:00"
+        }
+      ]
+    },
+    {
+      "name": "roonby-grimoire",
+      "url": "https://roonby.com/2026/10/02/how-to-get-a-grimoire-in-clover-time-guide/",
+      "http": 200,
+      "bytes": 43028,
+      "body_read": true,
+      "cached_at": "2026-10-09T07:50:47.124260+08:00",
+      "html_sha256": "146a54454935f1708001901346607b85993363cec814f7ca40a7696331d12c59",
+      "date_metadata": [
+        {
+          "@type": "Article",
+          "datePublished": "2026-10-02T17:59:29+00:00",
+          "dateModified": null
+        },
+        {
+          "@type": "WebPage",
+          "datePublished": "2026-10-02T17:59:29+00:00",
+          "dateModified": null
+        }
+      ]
+    },
+    {
+      "name": "gamepur-crystal",
+      "url": "https://www.gamepur.com/guides/how-to-get-crystal-mana-clover-time",
+      "http": 200,
+      "bytes": 1167572,
+      "body_read": true,
+      "cached_at": "2026-10-09T07:50:49.456791+08:00",
+      "html_sha256": "7bf258746f6a286976a5ccd5eb28fd53607767cc4679d9b5a446effc966f216a",
+      "date_metadata": [
+        {
+          "@type": [
+            "WebPage",
+            "FAQPage"
+          ],
+          "datePublished": "2026-10-05T05:23:40+00:00",
+          "dateModified": "2026-10-05T05:23:45+00:00"
+        }
+      ]
+    },
+    {
+      "name": "gamepur-races",
+      "url": "https://www.gamepur.com/guides/clover-time-races-tier-list",
+      "http": 200,
+      "bytes": 1171790,
+      "body_read": true,
+      "cached_at": "2026-10-09T07:52:11.642205+08:00",
+      "html_sha256": "ccf5d0fed0f0dd2a4d88f254b38c52f7c7442516e20ff4aa82afb9148c3b4894",
+      "date_metadata": [
+        {
+          "@type": [
+            "WebPage",
+            "FAQPage"
+          ],
+          "datePublished": "2026-10-05T04:32:32+00:00",
+          "dateModified": "2026-10-05T04:36:22+00:00"
+        }
+      ]
+    },
+    {
+      "name": "gamesgg-grimoires",
+      "url": "https://games.gg/roblox/guides/clover-time-grimoire-tier-list/",
+      "http": 200,
+      "bytes": 343643,
+      "body_read": true,
+      "cached_at": "2026-10-09T07:52:14.967135+08:00",
+      "html_sha256": "5649358fe39bb3883a93be5917bdbdd5e270fe013041ac0a19294d43ee5d3b76",
+      "date_metadata": [
+        {
+          "@type": "Article",
+          "datePublished": "2026-10-07T22:05:03.466Z",
+          "dateModified": "2026-10-07T22:05:03.371Z"
+        }
+      ]
+    },
+    {
+      "name": "player-wiki-updates",
+      "url": "https://clovertime.wiki/updates",
+      "http": 200,
+      "body_read": true,
+      "cached_at": "2026-10-09T07:53:22.546677+08:00",
+      "html_sha256": "4f84018ab401dda48049318a52d4eea66ac8a465e47b7128fdf59e0a85564b66",
+      "date_metadata": [],
+      "page_claimed_last_checked": "2026-10-04",
+      "observation": "Only experience-record creation on 2026-03-16; explicitly no detailed patch entries."
+    }
+  ],
+  "images": [
+    {
+      "name": "gamepur-tower-interface",
+      "url": "https://www.gamepur.com/wp-content/uploads/2026/10/how-to-reroll-grimoire-clover-time.webp",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 357196,
+      "sha256": "77c947bfac43f7649fc058c3728825808035222c911cca877b775d886416bba0",
+      "size": [
+        1919,
+        1079
+      ],
+      "actually_viewed": true,
+      "observation": "Grimoire Roll; E; Read; crystal icon x1; Epic 1/50, Legendary 1/100, Mythic 1/250; Roblox Plus cuts every count by 30%; v0.10.41-T",
+      "capture_date": null,
+      "current_game_session": false,
+      "published_to_site_assets": false
+    },
+    {
+      "name": "gamepur-crystal-interface",
+      "url": "https://www.gamepur.com/wp-content/uploads/2026/10/how-to-get-mana-crystal-clover-time.webp",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 186811,
+      "sha256": "34e674b34c37a99e5efc4d68f30c868c1691ed330d333ca9498f945393866a09",
+      "size": [
+        1919,
+        1079
+      ],
+      "actually_viewed": true,
+      "observation": "AFK Rewards; 15m +1 Spin; 30m Random 2x Buff; ONE TIME 3x Crystal Mana at 168h; not a fishing reward screenshot",
+      "capture_date": null,
+      "current_game_session": false,
+      "published_to_site_assets": false
+    },
+    {
+      "url": "https://www.gamepur.com/wp-content/uploads/2026/10/how-to-reroll-class-race-trait-clover-time.webp",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 306372,
+      "sha256": "4d0a755b4cc5dab89803a75831e8f8d7e1029815b9adbdbc8fea023005c25397",
+      "size": [
+        1919,
+        1079
+      ],
+      "actually_viewed": true,
+      "observation": "Hage Priest - Spins (2) - Special (0); Race/Social Class/Trait; Human/Commoner/Fast Learner; Roll/Get Special; Human Mana Regen 2.5%; v0.10.41-T",
+      "capture_date": null,
+      "current_game_session": false,
+      "published_to_site_assets": false
+    }
+  ],
+  "public_trello_media": [
+    {
+      "name": "poison-card",
+      "url": "https://trello.com/c/ishInW3U.json",
+      "http": 200,
+      "mime": "application/json; charset=utf-8",
+      "sha256": "aede3c17f4fee35751e6337ee836a8cf7a8386c872fa3a513345faa3da7fee5f",
+      "published_to_site_assets": false
+    },
+    {
+      "name": "anti-counter",
+      "url": "https://trello.com/1/cards/6aa0ae6b1e33bd6787f13670/attachments/6aa1ebeb67da72c5501dec5b/previews/6aa1ebf667da72c5501e00e8/download/Counter_g.gif",
+      "http": 200,
+      "mime": "image/gif",
+      "sha256": "3ad8c0eafc65943f82a6e5844dab46016b8db9016824bf7c1fb97e6eca906419",
+      "size": [
+        430,
+        240
+      ],
+      "n_frames": 41,
+      "duration_ms": 4100,
+      "frame_times": [
+        {
+          "index": 0,
+          "ms": 0
+        },
+        {
+          "index": 1,
+          "ms": 100
+        },
+        {
+          "index": 2,
+          "ms": 200
+        },
+        {
+          "index": 3,
+          "ms": 300
+        },
+        {
+          "index": 4,
+          "ms": 400
+        },
+        {
+          "index": 5,
+          "ms": 500
+        },
+        {
+          "index": 6,
+          "ms": 600
+        },
+        {
+          "index": 7,
+          "ms": 700
+        },
+        {
+          "index": 8,
+          "ms": 800
+        },
+        {
+          "index": 9,
+          "ms": 900
+        },
+        {
+          "index": 10,
+          "ms": 1000
+        },
+        {
+          "index": 11,
+          "ms": 1100
+        },
+        {
+          "index": 12,
+          "ms": 1200
+        },
+        {
+          "index": 13,
+          "ms": 1300
+        },
+        {
+          "index": 14,
+          "ms": 1400
+        },
+        {
+          "index": 15,
+          "ms": 1500
+        },
+        {
+          "index": 16,
+          "ms": 1600
+        },
+        {
+          "index": 17,
+          "ms": 1700
+        },
+        {
+          "index": 18,
+          "ms": 1800
+        },
+        {
+          "index": 19,
+          "ms": 1900
+        },
+        {
+          "index": 20,
+          "ms": 2000
+        },
+        {
+          "index": 21,
+          "ms": 2100
+        },
+        {
+          "index": 22,
+          "ms": 2200
+        },
+        {
+          "index": 23,
+          "ms": 2300
+        },
+        {
+          "index": 24,
+          "ms": 2400
+        },
+        {
+          "index": 25,
+          "ms": 2500
+        },
+        {
+          "index": 26,
+          "ms": 2600
+        },
+        {
+          "index": 27,
+          "ms": 2700
+        },
+        {
+          "index": 28,
+          "ms": 2800
+        },
+        {
+          "index": 29,
+          "ms": 2900
+        },
+        {
+          "index": 30,
+          "ms": 3000
+        },
+        {
+          "index": 31,
+          "ms": 3100
+        },
+        {
+          "index": 32,
+          "ms": 3200
+        },
+        {
+          "index": 33,
+          "ms": 3300
+        },
+        {
+          "index": 34,
+          "ms": 3400
+        },
+        {
+          "index": 35,
+          "ms": 3500
+        },
+        {
+          "index": 36,
+          "ms": 3600
+        },
+        {
+          "index": 37,
+          "ms": 3700
+        },
+        {
+          "index": 38,
+          "ms": 3800
+        },
+        {
+          "index": 39,
+          "ms": 3900
+        },
+        {
+          "index": 40,
+          "ms": 4000
+        }
+      ],
+      "extracted_frames": [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40
+      ],
+      "viewed_frames": [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40
+      ],
+      "observation": "Counter X in HUD; combat and surrounding impact effect; no keypress display or unlock evidence",
+      "full_playback": false,
+      "published_to_site_assets": false
+    },
+    {
+      "name": "anti-transform",
+      "url": "https://trello.com/1/cards/6aa0ae6b1e33bd6787f13670/attachments/6aa2039d055e70acc23fc628/previews/6aa203b2055e70acc23fe3b0/download/Tform_2_Anti.gif",
+      "http": 200,
+      "mime": "image/gif",
+      "sha256": "dbd5ce0136912a725033c333f280f858c6e885033e7bc9977d46587fcc53227b",
+      "size": [
+        430,
+        240
+      ],
+      "n_frames": 75,
+      "duration_ms": 7500,
+      "frame_times": [
+        {
+          "index": 0,
+          "ms": 0
+        },
+        {
+          "index": 1,
+          "ms": 100
+        },
+        {
+          "index": 2,
+          "ms": 200
+        },
+        {
+          "index": 3,
+          "ms": 300
+        },
+        {
+          "index": 4,
+          "ms": 400
+        },
+        {
+          "index": 5,
+          "ms": 500
+        },
+        {
+          "index": 6,
+          "ms": 600
+        },
+        {
+          "index": 7,
+          "ms": 700
+        },
+        {
+          "index": 8,
+          "ms": 800
+        },
+        {
+          "index": 9,
+          "ms": 900
+        },
+        {
+          "index": 10,
+          "ms": 1000
+        },
+        {
+          "index": 11,
+          "ms": 1100
+        },
+        {
+          "index": 12,
+          "ms": 1200
+        },
+        {
+          "index": 13,
+          "ms": 1300
+        },
+        {
+          "index": 14,
+          "ms": 1400
+        },
+        {
+          "index": 15,
+          "ms": 1500
+        },
+        {
+          "index": 16,
+          "ms": 1600
+        },
+        {
+          "index": 17,
+          "ms": 1700
+        },
+        {
+          "index": 18,
+          "ms": 1800
+        },
+        {
+          "index": 19,
+          "ms": 1900
+        },
+        {
+          "index": 20,
+          "ms": 2000
+        },
+        {
+          "index": 21,
+          "ms": 2100
+        },
+        {
+          "index": 22,
+          "ms": 2200
+        },
+        {
+          "index": 23,
+          "ms": 2300
+        },
+        {
+          "index": 24,
+          "ms": 2400
+        },
+        {
+          "index": 25,
+          "ms": 2500
+        },
+        {
+          "index": 26,
+          "ms": 2600
+        },
+        {
+          "index": 27,
+          "ms": 2700
+        },
+        {
+          "index": 28,
+          "ms": 2800
+        },
+        {
+          "index": 29,
+          "ms": 2900
+        },
+        {
+          "index": 30,
+          "ms": 3000
+        },
+        {
+          "index": 31,
+          "ms": 3100
+        },
+        {
+          "index": 32,
+          "ms": 3200
+        },
+        {
+          "index": 33,
+          "ms": 3300
+        },
+        {
+          "index": 34,
+          "ms": 3400
+        },
+        {
+          "index": 35,
+          "ms": 3500
+        },
+        {
+          "index": 36,
+          "ms": 3600
+        },
+        {
+          "index": 37,
+          "ms": 3700
+        },
+        {
+          "index": 38,
+          "ms": 3800
+        },
+        {
+          "index": 39,
+          "ms": 3900
+        },
+        {
+          "index": 40,
+          "ms": 4000
+        },
+        {
+          "index": 41,
+          "ms": 4100
+        },
+        {
+          "index": 42,
+          "ms": 4200
+        },
+        {
+          "index": 43,
+          "ms": 4300
+        },
+        {
+          "index": 44,
+          "ms": 4400
+        },
+        {
+          "index": 45,
+          "ms": 4500
+        },
+        {
+          "index": 46,
+          "ms": 4600
+        },
+        {
+          "index": 47,
+          "ms": 4700
+        },
+        {
+          "index": 48,
+          "ms": 4800
+        },
+        {
+          "index": 49,
+          "ms": 4900
+        },
+        {
+          "index": 50,
+          "ms": 5000
+        },
+        {
+          "index": 51,
+          "ms": 5100
+        },
+        {
+          "index": 52,
+          "ms": 5200
+        },
+        {
+          "index": 53,
+          "ms": 5300
+        },
+        {
+          "index": 54,
+          "ms": 5400
+        },
+        {
+          "index": 55,
+          "ms": 5500
+        },
+        {
+          "index": 56,
+          "ms": 5600
+        },
+        {
+          "index": 57,
+          "ms": 5700
+        },
+        {
+          "index": 58,
+          "ms": 5800
+        },
+        {
+          "index": 59,
+          "ms": 5900
+        },
+        {
+          "index": 60,
+          "ms": 6000
+        },
+        {
+          "index": 61,
+          "ms": 6100
+        },
+        {
+          "index": 62,
+          "ms": 6200
+        },
+        {
+          "index": 63,
+          "ms": 6300
+        },
+        {
+          "index": 64,
+          "ms": 6400
+        },
+        {
+          "index": 65,
+          "ms": 6500
+        },
+        {
+          "index": 66,
+          "ms": 6600
+        },
+        {
+          "index": 67,
+          "ms": 6700
+        },
+        {
+          "index": 68,
+          "ms": 6800
+        },
+        {
+          "index": 69,
+          "ms": 6900
+        },
+        {
+          "index": 70,
+          "ms": 7000
+        },
+        {
+          "index": 71,
+          "ms": 7100
+        },
+        {
+          "index": 72,
+          "ms": 7200
+        },
+        {
+          "index": 73,
+          "ms": 7300
+        },
+        {
+          "index": 74,
+          "ms": 7400
+        }
+      ],
+      "extracted_frames": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        74
+      ],
+      "viewed_frames": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        74
+      ],
+      "observation": "Transformation animation and dark wing; HUD hidden; no G input, full meter, or prerequisites shown",
+      "full_playback": false,
+      "published_to_site_assets": false
+    }
+  ],
+  "official_recheck": [
+    {
+      "url": "https://games.roblox.com/v1/games?universeIds=9891331827",
+      "checked_at": "2026-10-09T07:57:00.046395+08:00",
+      "http": 200,
+      "public_metadata": {
+        "id": 9891331827,
+        "name": "Clover Time [BETA RELEASE]",
+        "description": "🍀 Clover Time | Anime RPG🍀\n\n🚧 BETA 0.1 — STILL IN EARLY PHASE!\n\nRoll for legendary Grimoires, master spells, fly on Magic Brooms, and become the strongest mage \n\nAwaken Anti-Magic, command Battle Lightning, or burn foes with Flame. Fight bosses, team up in Magic Squads, and earn rewards even AFK!\n\n⚔️ FEATURES:\n📖 Roll & Master Grimoires (Anti-Magic, Lightning, Flame & more!)\n💥 Action Combat, Spell Combos & Awakenings\n🧹 Magic Broom Flight & World Exploration\n👥 Magic Squads: Team up to defeat Bosses\n\n🌐 JOIN THE COMMUNITY:\n✨ Join our Roblox Group & Community Server for rewards, codes & update sneak peeks!\n👍 Like & Favorite ⭐ to support the game!\n\nThis game is in beta, expect bugs.\n\n📱 Mobile | 💻 PC | 🎮 Console",
+        "creator": {
+          "id": 175661976,
+          "name": "AnimeCore Studio",
+          "type": "Group",
+          "isRNVAccount": false,
+          "hasVerifiedBadge": false
+        },
+        "rootPlaceId": 93934100402512,
+        "created": "2026-03-16T02:01:25.047Z",
+        "updated": "2026-10-08T20:26:13.928Z"
+      }
+    },
+    {
+      "url": "https://groups.roblox.com/v1/groups/175661976",
+      "checked_at": "2026-10-09T07:57:02.937520+08:00",
+      "http": 200,
+      "public_metadata": {
+        "id": 175661976,
+        "name": "AnimeCore Studio",
+        "description": "",
+        "shout": null
+      }
+    }
+  ],
+  "search_requests": [
+    {
+      "url": "https://www.youtube.com/results?search_query=Clover+Time+codes+reroll+Roblox",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.bing.com/search?q=%22Clover+Time%22+%22reroll%22+site%3Ayoutube.com%2Fwatch",
+      "http": 200,
+      "title": [
+        "&quot;Clover Time&quot; &quot;reroll&quot; site:youtube.com/watch - Search"
+      ],
+      "results": [
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=5027427dbb40ef26d7d73bb4e9f8460432459f718195721691cab0f0c4c98f92JmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=20b01773-cefb-6d8d-273b-009fcf166c2c&u=a1aHR0cHM6Ly93d3cuY2xvdmVyLmNvbS9sb2dpbg&ntb=1",
+          "title": "Login | Clover Web Dashboard"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=daa246d9005bcc999021e0495d3bee0899851413de68c1b24677c0a2582594c2JmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=20b01773-cefb-6d8d-273b-009fcf166c2c&u=a1aHR0cHM6Ly93d3cuY2xvdmVyLmNvbS9sb2dpbj93ZWJSZWRpcmVjdFVybD0lMkZkYXNoYm9hcmQlMkY&ntb=1",
+          "title": "Clover Dashboard"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=c237a58420de966d01b9e5ae0a5104a328f089c92f5bd7e885e1a23f24d82d3dJmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=20b01773-cefb-6d8d-273b-009fcf166c2c&u=a1aHR0cHM6Ly9jdXN0b21lcnMuY2xvdmVyLmNvbS9nZXQv&ntb=1",
+          "title": "Clover"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=71d8b17922dba90be89f97708dc3aa8b0f16f25ba5dc43e63ca3b73bca142bd5JmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=20b01773-cefb-6d8d-273b-009fcf166c2c&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ2xvdmVy&ntb=1",
+          "title": "Clover - Wikipedia"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=f760c0bb2e21228c4257f1c2e3bb0fe4d4b929ec44abfe295a2a583ede0604b6JmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=20b01773-cefb-6d8d-273b-009fcf166c2c&u=a1aHR0cHM6Ly91ay5jbG92ZXIuY29tL2xvZ2luLw&ntb=1",
+          "title": "Log in to our portals | Clover"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=1db9744776d6b84342618bc73393255e03e507894f17588489349ab83467b1ceJmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=20b01773-cefb-6d8d-273b-009fcf166c2c&u=a1aHR0cHM6Ly9jdXN0b21lcnMuY2xvdmVyLmNvbS9wcm9maWxlLw&ntb=1",
+          "title": "Clover"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=376ec49b0aff5ccae90ce2d37866648ec1b3c9183dd6b8d09a1743c40e448a32JmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=20b01773-cefb-6d8d-273b-009fcf166c2c&u=a1aHR0cHM6Ly93d3cuY2xvdmVyaGVhbHRoLmNvbS8&ntb=1",
+          "title": "2027 Medicare Advantage Plans | $0 Premium PPO Plans | Clover ..."
+        }
+      ]
+    },
+    {
+      "url": "https://www.bing.com/search?q=%22Clover+Time%22+%2250KLIKES%22+video",
+      "http": 200,
+      "title": [
+        "&quot;Clover Time&quot; &quot;50KLIKES&quot; video - Search"
+      ],
+      "results": [
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=12cbe4b16738b7ffc57a6f37e66f835ab5282d17c4f416df8de38824bbfd2daaJmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=03396535-26dd-6dd0-2207-72d927d06c57&u=a1aHR0cHM6Ly93d3cuY2xvdmVyLmNvbS9sb2dpbg&ntb=1",
+          "title": "Login | Clover Web Dashboard"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=60cdff353538afb809865e6f9aeede54dc8d98e55dfd4cee93d8c66bfb854479JmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=03396535-26dd-6dd0-2207-72d927d06c57&u=a1aHR0cHM6Ly93d3cuY2xvdmVyLmNvbS9sb2dpbj93ZWJSZWRpcmVjdFVybD0lMkZkYXNoYm9hcmQlMkY&ntb=1",
+          "title": "Clover Dashboard"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=38024eebe94f6f30d61c3e30687f68835f550c1991df505c2192c038c9c58dd4JmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=03396535-26dd-6dd0-2207-72d927d06c57&u=a1aHR0cHM6Ly9jdXN0b21lcnMuY2xvdmVyLmNvbS9nZXQv&ntb=1",
+          "title": "Clover"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=11b7347bafb0eb2caa2f1b67dbc0d5a9fafb0872e339ca596d124aa428fb387aJmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=03396535-26dd-6dd0-2207-72d927d06c57&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ2xvdmVy&ntb=1",
+          "title": "Clover - Wikipedia"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=640cb890514af9c5e84b597fc4dc5d71f5fdb772343b41f0e36ac9862b8add92JmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=03396535-26dd-6dd0-2207-72d927d06c57&u=a1aHR0cHM6Ly91ay5jbG92ZXIuY29tL2xvZ2luLw&ntb=1",
+          "title": "Log in to our portals | Clover"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=8a52e8561a83755076ab19363662cea26d02ba4aae28cf057d3e3017041979edJmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=03396535-26dd-6dd0-2207-72d927d06c57&u=a1aHR0cHM6Ly9jdXN0b21lcnMuY2xvdmVyLmNvbS9wcm9maWxlLw&ntb=1",
+          "title": "Clover"
+        },
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=61468d87c5e7011cb2ec97f50db7b7c9e48a18af6af88f7458c4792c6d2ac2fbJmltdHM9MTc5MTQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=03396535-26dd-6dd0-2207-72d927d06c57&u=a1aHR0cHM6Ly93d3cuY2xvdmVyaGVhbHRoLmNvbS8&ntb=1",
+          "title": "2027 Medicare Advantage Plans | $0 Premium PPO Plans | Clover ..."
+        }
+      ]
+    },
+    {
+      "url": "https://search.yahoo.com/search?p=%22Clover%20Time%22%20reroll%20fishing%20grimoire",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://search.brave.com/search?q=%22Clover%20Time%22%20reroll%20fishing%20grimoire",
+      "status": 200
+    },
+    {
+      "query": "\"Clover Time\" reroll spins video",
+      "url": "https://search.brave.com/search?q=%22Clover%20Time%22%20reroll%20spins%20video",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "query": "\"Clover Time\" fishing fragments recipe",
+      "url": "https://search.brave.com/search?q=%22Clover%20Time%22%20fishing%20fragments%20recipe",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "query": "\"Clover Time\" update patch notes developer October 2026",
+      "url": "https://search.brave.com/search?q=%22Clover%20Time%22%20update%20patch%20notes%20developer%20October%202026",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "limits": [
+    "No current code success, reroll transaction, fishing conversion, or dated developer patch announcement",
+    "Search results and new YouTube IDs remain leads; no video watched",
+    "Public Trello ownership is not proven by a developer backlink"
+  ]
+}

@@ -1,15 +1,16 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, test } from 'vitest';
+import { defaultLocale, locales } from '../src/i18n/routing';
 
 /**
  * public/_redirects carries demo-layer exact-path 301s, in two rule classes:
  *
  * 1. Handbook lesson slugs removed by the handbook restructures (v1.14
  *    chapter split, v2.8.0-v2.12.0 teaching redesign).
- * 2. Locale entry points — the demo wiki ships en (no prefix) and ja; zh
- *    exists only as the project-site landing layer at /zh/landing/. Visitors
- *    guessing /zh or /en hit a hard 404 otherwise (reported 2026-09-28).
+ * 2. English locale aliases — /en resolves to the default wiki home.
+ *    Active non-default locales have generated wiki homes and must not
+ *    be redirected to the template landing pages.
  *
  * These tests pin the file's contract:
  *   - exact-path rules only (placeholder rules looped with Cloudflare's
@@ -42,8 +43,6 @@ const LOCALE_PREFIXES = ['', '/zh'] as const;
 
 /** Locale-entry rules: [source, target] — targets are live demo routes. */
 const LOCALE_ENTRY_RULES: Array<readonly [string, string]> = [
-  ['/zh/', '/zh/landing/'],
-  ['/zh', '/zh/landing/'],
   ['/en/', '/'],
   ['/en', '/'],
 ];
@@ -176,6 +175,16 @@ describe('public/_redirects (locale entry points)', () => {
   });
 
   test('no source has a live route — redirects must never shadow real pages', () => {
+    // [locale]/index.astro generates homes from routing.ts even when there
+    // is no physical src/pages/zh/index.astro file. A literal-file check
+    // alone missed the upstream /zh/ redirect hiding the Chinese wiki.
+    for (const rule of localeEntryRules) {
+      const sourceLocale = rule.source.split('/')[1];
+      expect(
+        sourceLocale !== defaultLocale && locales.some((locale) => locale === sourceLocale),
+        `${rule.source} would hide a generated wiki homepage`,
+      ).toBe(false);
+    }
     // If any of these ever becomes a real page, the 301 would hide it
     // (Cloudflare applies _redirects before static assets) — fail loudly.
     expect(existsSync(`${repoRoot}src/pages/zh/index.astro`), 'src/pages/zh/index.astro').toBe(

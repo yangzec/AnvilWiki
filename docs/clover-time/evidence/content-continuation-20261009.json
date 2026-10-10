@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-10-09T00:41:02.191270+08:00",
+  "routes": [
+    {
+      "route": "/codes/all-codes/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    },
+    {
+      "route": "/guides/how-to-redeem-codes/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    },
+    {
+      "route": "/guides/grimoire-tier-list/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    },
+    {
+      "route": "/guides/race-tier-list/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    },
+    {
+      "route": "/guides/beginner-guide/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    },
+    {
+      "route": "/guides/how-to-reroll/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    },
+    {
+      "route": "/items/anti-magic/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    },
+    {
+      "route": "/items/poison/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    },
+    {
+      "route": "/guides/fishing-fragments/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    },
+    {
+      "route": "/guides/patch-notes/",
+      "http": 200,
+      "production_detail_absent": true,
+      "updated_content_visible": true
+    }
+  ],
+  "sitemap_excludes_all_ten": true,
+  "metadata_and_mdx": "10/10 passed",
+  "build_exit": 0,
+  "content_lint_exit": 0,
+  "content_lint_warnings": 10,
+  "unit_tests_rerun": false,
+  "check_links_exit": 0,
+  "checked_links": 9733,
+  "html_files": 129
+}

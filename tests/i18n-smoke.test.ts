@@ -14,6 +14,7 @@ import { describe, expect, it } from 'vitest';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { getUi } from '~/i18n/ui';
+import { locales, defaultLocale } from '~/i18n/routing';
 
 const ROOT = path.resolve(__dirname, '..');
 const LOCALE_ROUTES_DIR = path.join(ROOT, 'src/pages/[locale]');
@@ -66,7 +67,7 @@ describe('i18n: getUi results are deeply frozen (read-only by contract AND at ru
   // every other locale's view. ui.ts deep-freezes all results so mutation
   // throws (strict-mode modules) instead.
   it('every locale flavor is deeply frozen (en, cached merge, unknown-locale copy)', () => {
-    const ja = getUi('ja');
+    const ja = getUi(locales.find((l) => l !== defaultLocale) ?? defaultLocale);
     expect(Object.isFrozen(ja)).toBe(true);
     expect(Object.isFrozen(ja.home)).toBe(true);
     expect(Object.isFrozen(getUi('en').shared)).toBe(true);
@@ -75,7 +76,7 @@ describe('i18n: getUi results are deeply frozen (read-only by contract AND at ru
   });
 
   it('mutating a cached locale result throws (no silent cross-locale poisoning)', () => {
-    const ja = getUi('ja');
+    const ja = getUi(locales.find((l) => l !== defaultLocale) ?? defaultLocale);
     expect(() => {
       (ja as Record<string, unknown>).nav = 'poison';
     }).toThrow();

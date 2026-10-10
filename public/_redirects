@@ -7,11 +7,9 @@
 #    (2026-09-02). Old bookmarks and search entries land on the successor
 #    lesson instead of a 404. Mapping source: the redesign spec
 #    (docs/superpowers/specs/2026-09-02-handbook-teaching-redesign.md).
-# 2. Locale entry points — the demo wiki ships en (no prefix) and ja; zh
-#    exists only as the project-site landing layer at /zh/landing/. Visitors
-#    guessing /zh or /en hit a hard 404 (reported 2026-09-28): Cloudflare
-#    only slash-normalizes paths that resolve to a real asset, so both slash
-#    forms need their own rule.
+# 2. English locale aliases — English lives at /, so /en resolves there.
+#    Chinese is an active wiki locale with a generated /zh/ homepage;
+#    never redirect it to the template landing site.
 #
 # EXACT PATHS ONLY. Placeholder/splat rules here once looped forever with
 # Cloudflare's directory normalization (301 -> internal slash normalization ->
@@ -66,9 +64,6 @@
 /zh/landing/docs/sync-and-contribute /zh/landing/docs/sync-upstream/ 301
 /zh/landing/docs/ci-and-security /zh/landing/docs/verify-your-changes/ 301
 
-# Locale entry points (2026-09-29): /zh lands on the project-site Chinese
-# homepage, /en on the English wiki home (the default locale lives at /).
-/zh/ /zh/landing/ 301
-/zh /zh/landing/ 301
+# English locale aliases (the default locale lives at /).
 /en/ / 301
 /en / 301

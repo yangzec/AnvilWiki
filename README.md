@@ -1,5 +1,13 @@
 # AnvilWiki ⚒️
 
+> **游戏源码分支：[`clover-time`](https://github.com/yangzec/AnvilWiki/tree/clover-time)**。Clover Time 的源码、配置、配图、调研和验收文档统一在此分支维护。当前 Cloudflare 网站部署仍为 a1074fde，源码仍保留草稿隔离；Git 同步与网站部署分别进行。
+
+> **当前主站：[clovertime.world](https://clovertime.world/)**，中文入口为 [clovertime.world/zh/](https://clovertime.world/zh/)。部署 a1074fde 已按内置文章 Skill 修订 10 篇英文稿：39 个分节直答、50 条专属问答、PvE 对比表与 8 张导航／操作图。公开页面不展示研究标签、来源备注或未确认清单。[Skill 执行交付](docs/clover-time/skills-content-20261010.md)。域名和 HTTPS 均 active；GA4 G-XH7GWVG8ZK 已接入，访客同意后加载；Cloudflare 原有边缘 beacon 保留。[统计验收](docs/clover-time/ga4-binding-20261010.md)。
+
+> **本工作区：Clover Time 玩家 Wiki。** [Cloudflare Pages 备用入口](https://clover-time-wiki-preview.pages.dev/) 提供同一批 10 页英文正文、首页大图、10 张插画封面和 10 张正文主题插画，以及 8 张自有图库示意图，配套四叶草品牌和栏目图标；中文导航使用英文正文，尚未制作中文译文。旧研究说明图素材保留，正文已撤下引用。网站仍保持 noindex，广告／评论关闭；[配图与图标记录](docs/clover-time/visual-refresh-20261010.md)。
+>
+> 在 `/workspace/AnvilWiki` 激活 `/workspace/.anvil-toolchain/activate.sh` 后运行 `pnpm dev`。10 篇源码仍为 `draft: true`，默认 `pnpm build` 排除它们；更新可阅读预览使用 `python3 scripts/build-research-preview.py --output-dir .tmp/<task>/review-<new-id>`，检查后上传其 `upload/`。配置在 `src/config/`、界面在 `src/locales/`、英文稿在 `src/content/wiki/en/`；[媒体说明](docs/clover-time/evidence/visual-refresh-media-20261010.json)。以下保留上游模板说明。
+
 > 带 AI 内容工作流的游戏 wiki 模板——广告收入 100% 归你。
 > 开源、Cloudflare Pages 原生优化、零成本免费部署上线。
 > fork 后 5 条命令 + 一次点选部署上线;唯一必要开销是一个域名——不会编程也走得完(双手册带路)。

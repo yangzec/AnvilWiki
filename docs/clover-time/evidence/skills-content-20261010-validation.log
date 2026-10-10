@@ -1,0 +1,336 @@
+
+=== content ===
+Already up to date
+Done in 318ms using pnpm v11.1.1
+$ tsx scripts/check-content.ts
+
+📝 Content lint — 10 MDX files
+
+
+✅ Content lint clean.
+
+=== formal_build ===
+Already up to date
+Done in 300ms using pnpm v11.1.1
+$ astro build
+03:07:09 [vite] Re-optimizing dependencies because vite config has changed
+03:07:10 [content] Syncing content
+03:07:10 [content] Astro config changed
+03:07:10 [content] Clearing content store
+03:07:10 [content] Synced content
+03:07:10 [types] Generated 912ms
+03:07:10 [build] output: "static"
+03:07:10 [build] mode: "static"
+03:07:10 [build] directory: /workspace/AnvilWiki/dist/
+03:07:10 [build] Collecting build info...
+03:07:10 [build] ✓ Completed in 954ms.
+03:07:10 [build] Building static entrypoints...
+03:07:11 [astro-icon] Loaded icons from src/icons, lucide
+03:07:11 [vite] ✓ built in 1.43s
+03:07:12 [vite] ✓ built in 39ms
+03:07:12 [build] Rearranging server assets...
+
+ generating static routes 
+03:07:12   ├─ /404.html (+14ms) 
+03:07:12   ├─ /about/index.html (+5ms) 
+03:07:12   ├─ /contact/index.html (+2ms) 
+03:07:12   ├─ /copyright/index.html (+3ms) 
+03:07:12   ├─ /faq/index.html (+9ms) 
+03:07:12   ├─ /landing/community/index.html (+18ms) 
+03:07:12   ├─ /landing/comparison/index.html (+4ms) 
+03:07:12   ├─ /landing/docs/dev/index.html (+9ms) 
+03:07:12   ├─ /landing/docs/learn/index.html (+7ms) 
+03:07:12   ├─ /landing/docs/add-ga4/index.html (+7ms) 
+03:07:12   ├─ /landing/docs/ai-ops/index.html (+9ms) 
+03:07:12   ├─ /landing/docs/appendix-red-lines/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/architecture/index.html (+4ms) 
+03:07:12   ├─ /landing/docs/batch-pages/index.html (+4ms) 
+03:07:12   ├─ /landing/docs/categories-and-locales/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/clone-your-site/index.html (+4ms) 
+03:07:12   ├─ /landing/docs/codes-page/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/content-pipeline/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/contribute-back/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/day-one-list/index.html (+2ms) 
+03:07:12   ├─ /landing/docs/enable-ads/index.html (+6ms) 
+03:07:12   ├─ /landing/docs/find-candidates/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/first-article/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/first-week-numbers/index.html (+2ms) 
+03:07:12   ├─ /landing/docs/get-on-google/index.html (+2ms) 
+03:07:12   ├─ /landing/docs/get-paid/index.html (+2ms) 
+03:07:12   ├─ /landing/docs/glossary-and-commands/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/how-this-business-works/index.html (+2ms) 
+03:07:12   ├─ /landing/docs/install-counters/index.html (+4ms) 
+03:07:12   ├─ /landing/docs/install-tools/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/integrations/index.html (+10ms) 
+03:07:12   ├─ /landing/docs/launch-batch-plan/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/multi-site/index.html (+7ms) 
+03:07:12   ├─ /landing/docs/put-site-online/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/quality-gate/index.html (+4ms) 
+03:07:12   ├─ /landing/docs/rank-one-keyword/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/read-google-trends/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/read-serp/index.html (+2ms) 
+03:07:12   ├─ /landing/docs/rebrand-your-site/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/run-your-site/index.html (+2ms) 
+03:07:12   ├─ /landing/docs/score-and-decide/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/search-intent/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/sync-upstream/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/the-roadmap/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/theme-and-homepage/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/tier-list-and-media/index.html (+6ms) 
+03:07:12   ├─ /landing/docs/troubleshooting-tree/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/trust-and-backlinks/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/verify-your-changes/index.html (+2ms) 
+03:07:12   ├─ /landing/docs/weekly-ops/index.html (+3ms) 
+03:07:12   ├─ /landing/docs/index.html (+3ms) 
+03:07:12   ├─ /landing/templates/index.html (+3ms) 
+03:07:12   ├─ /landing/index.html (+9ms) 
+03:07:12   ├─ /llms.txt (+2ms) 
+03:07:12   ├─ /privacy-policy/index.html (+2ms) 
+03:07:12   ├─ /recent/index.html (+3ms) 
+03:07:12   ├─ /robots.txt (+1ms) 
+03:07:12   ├─ /rss.xml (+29ms) 
+03:07:12   ├─ /tags/index.html (+4ms) 
+03:07:12   ├─ /terms-of-service/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/community/index.html (+10ms) 
+03:07:12   ├─ /zh/landing/comparison/index.html (+6ms) 
+03:07:12   ├─ /zh/landing/docs/dev/index.html (+4ms) 
+03:07:12   ├─ /zh/landing/docs/learn/index.html (+4ms) 
+03:07:12   ├─ /zh/landing/docs/add-ga4/index.html (+4ms) 
+03:07:12   ├─ /zh/landing/docs/ai-ops/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/appendix-red-lines/index.html (+5ms) 
+03:07:12   ├─ /zh/landing/docs/architecture/index.html (+7ms) 
+03:07:12   ├─ /zh/landing/docs/batch-pages/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/categories-and-locales/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/clone-your-site/index.html (+4ms) 
+03:07:12   ├─ /zh/landing/docs/codes-page/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/content-pipeline/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/contribute-back/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/day-one-list/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/enable-ads/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/find-candidates/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/first-article/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/first-week-numbers/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/get-on-google/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/get-paid/index.html (+6ms) 
+03:07:12   ├─ /zh/landing/docs/glossary-and-commands/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/how-this-business-works/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/install-counters/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/install-tools/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/integrations/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/launch-batch-plan/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/multi-site/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/put-site-online/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/quality-gate/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/rank-one-keyword/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/read-google-trends/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/read-serp/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/rebrand-your-site/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/run-your-site/index.html (+6ms) 
+03:07:12   ├─ /zh/landing/docs/score-and-decide/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/search-intent/index.html (+6ms) 
+03:07:12   ├─ /zh/landing/docs/sync-upstream/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/docs/the-roadmap/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/theme-and-homepage/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/tier-list-and-media/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/troubleshooting-tree/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/trust-and-backlinks/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/verify-your-changes/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/weekly-ops/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/docs/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/privacy/index.html (+2ms) 
+03:07:12   ├─ /zh/landing/templates/index.html (+3ms) 
+03:07:12   ├─ /zh/landing/index.html (+8ms) 
+03:07:12   ├─ /zh/faq/index.html (+2ms) 
+03:07:12   ├─ /zh/recent/index.html (+2ms) 
+03:07:12   ├─ /zh/tags/index.html (+4ms) 
+03:07:12   ├─ /zh/about/index.html (+1ms) 
+03:07:12   ├─ /zh/privacy-policy/index.html (+1ms) 
+03:07:12   ├─ /zh/terms-of-service/index.html (+2ms) 
+03:07:12   ├─ /zh/copyright/index.html (+1ms) 
+03:07:12   ├─ /zh/contact/index.html (+1ms) 
+03:07:12   ├─ /zh/index.html (+3ms) 
+03:07:12   ├─ /zh/codes/index.html (+2ms) 
+03:07:12   ├─ /zh/guides/index.html (+2ms) 
+03:07:12   ├─ /zh/items/index.html (+2ms) 
+03:07:12   ├─ /index.html (+2ms) 
+03:07:12   ├─ /codes/index.html (+2ms) 
+03:07:12   ├─ /guides/index.html (+2ms) 
+03:07:12   ├─ /items/index.html (+2ms) 
+03:07:12 ✓ Completed in 536ms.
+
+03:07:12 [build] ✓ Completed in 2.05s.
+03:07:12 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+03:07:12 [build] 122 page(s) built in 3.03s
+03:07:12 [build] Complete!
+$ pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts
+
+Running Pagefind v1.5.2 (Extended)
+Running from: "/workspace/AnvilWiki"
+Source:       "dist"
+Output:       "dist/pagefind"
+
+[Walking source directory]
+Found 129 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+1 page found without an <html> element. 
+Pages without an outer <html> element will not be processed by default. 
+If adding this element is not possible, use the root selector config to target a different root element.
+  * "/google8362d9398114b66b.html" has no <html> element
+
+[Reading languages]
+Discovered 2 languages: zh, en
+
+[Building search indexes]
+Total: 
+  Indexed 2 languages
+  Indexed 90 pages
+  Indexed 12582 words
+  Indexed 0 filters
+  Indexed 0 sorts
+Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
+Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
+
+Finished in 0.480 seconds
+[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=e96f9a271a applied to 122 pages; range-media lowered in 4 files
+[IndexNow] No .indexnow-key or legacy INDEXNOW_KEY configured; key file emission skipped.
+
+=== formal_links ===
+Already up to date
+Done in 308ms using pnpm v11.1.1
+$ tsx scripts/check-links.ts
+
+🔗 Internal link audit — 9733 links across 129 pages
+
+✅ All internal links resolve.
+
+=== targeted_tests ===
+Already up to date
+Done in 324ms using pnpm v11.1.1
+
+ RUN  v4.1.11 /workspace/AnvilWiki
+
+
+ Test Files  3 passed (3)
+      Tests  49 passed (49)
+   Start at  03:03:40
+   Duration  439ms (transform 182ms, setup 0ms, import 475ms, tests 28ms, environment 0ms)
+
+
+=== full_suite_with_existing_failures ===
+Already up to date
+Done in 341ms using pnpm v11.1.1
+$ vitest run -- tests/seo.test.ts tests/content-links.test.ts tests/codes-consistency.test.ts
+
+ RUN  v4.1.11 /workspace/AnvilWiki
+
+stderr | tests/apply-template.test.ts
+⚠️ the existing home namespace in en.json holds edited copy (FAQ entries or custom highlight labels) — the homepage preset will REPLACE it. Re-apply your edits afterwards, or re-run with preset "keep" to preserve it.
+
+ ❯ tests/apply-template.test.ts (93 tests | 1 failed) 85ms
+     × DEMO_VAR_VALUES covers every live value in the shipped wrangler.toml (drift guard) 15ms
+ ❯ tests/workflows.test.ts (46 tests | 1 failed) 314ms
+     × the FORKER warning block is actually removed (real-header fixture), and absence warns instead of failing 11ms
+Q1: Q2: Q3: Q4: Q5: Q1: Q2: Q3: Q1: Q2: Q3: Q4: Q1: Q2: Q3: Q1: Q2: Q3: 
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/apply-template.test.ts > rewriteWranglerVars is value-aware (a re-run must not wipe the user env — S1) > DEMO_VAR_VALUES covers every live value in the shipped wrangler.toml (drift guard)
+AssertionError: unregistered demo value: "https://clovertime.world": expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/apply-template.test.ts:277:9
+    275|         v === '' || genericDefaults.has(v) || v === 'Announcements' ||…
+    276|         `unregistered demo value: "${v}"`,
+    277|       ).toBe(true);
+       |         ^
+    278|     }
+    279|     // Paired-rule guard: the shipped file must carry Announcements TO…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  tests/workflows.test.ts > setup.yml python [vars] rewrite is value-aware (executes the real heredoc) > the FORKER warning block is actually removed (real-header fixture), and absence warns instead of failing
+AssertionError: expected '# Dedicated Clove' to contain 'FORKERS READ THIS FIRST'
+
+Expected: "FORKERS READ THIS FIRST"
+Received: "# Dedicated Clove"
+
+ ❯ tests/workflows.test.ts:573:20
+    571|     const real = readFileSync(join(root, 'wrangler.toml'), 'utf8');
+    572|     const header = real.slice(0, real.indexOf('END FORKER WARNING') + …
+    573|     expect(header).toContain('FORKERS READ THIS FIRST');
+       |                    ^
+    574|     const { out } = runVarsRewrite(`${header}\n\n${demoVars}`);
+    575|     expect(out).not.toContain('FORKERS');
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  2 failed | 22 passed (24)
+      Tests  2 failed | 395 passed (397)
+   Start at  03:03:22
+   Duration  2.14s (transform 975ms, setup 0ms, import 1.97s, tests 719ms, environment 3ms)
+
+[ELIFECYCLE] Test failed. See above for more details.
+
+=== scaffold_dry_run ===
+Already up to date
+Done in 317ms using pnpm v11.1.1
+$ tsx scripts/bulk-new-posts.ts .tmp/clover-time-skills-20261010/new-posts.csv --dry-run
+
+📝 AnvilWiki — bulk article scaffold (.tmp/clover-time-skills-20261010/new-posts.csv)
+
+
+🔍 Dry run — nothing written. Plan:
+
+  − src/content/wiki/en/codes/all-codes.mdx  (target file already exists (never overwritten))
+  − src/content/wiki/en/guides/how-to-redeem-codes.mdx  (target file already exists (never overwritten))
+  − src/content/wiki/en/guides/how-to-reroll.mdx  (target file already exists (never overwritten))
+  − src/content/wiki/en/guides/beginner-guide.mdx  (target file already exists (never overwritten))
+  − src/content/wiki/en/guides/grimoire-tier-list.mdx  (target file already exists (never overwritten))
+  − src/content/wiki/en/guides/race-tier-list.mdx  (target file already exists (never overwritten))
+  − src/content/wiki/en/items/anti-magic.mdx  (target file already exists (never overwritten))
+  − src/content/wiki/en/items/poison.mdx  (target file already exists (never overwritten))
+  − src/content/wiki/en/guides/fishing-fragments.mdx  (target file already exists (never overwritten))
+  − src/content/wiki/en/guides/patch-notes.mdx  (target file already exists (never overwritten))
+
+Plan: create 0, skip 10. Re-run without --dry-run to write.
+
+=== failed_svg_export ===
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-config"], "exit_code": 0, "log": ".tmp/clover-time-skills-20261010/review-1/pnpm---config.verify-deps-before-run=false-check-config.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-content"], "exit_code": 0, "log": ".tmp/clover-time-skills-20261010/review-1/pnpm---config.verify-deps-before-run=false-check-content.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "build"], "exit_code": 1, "log": ".tmp/clover-time-skills-20261010/review-1/pnpm---config.verify-deps-before-run=false-build.log"}
+Failed: pnpm --config.verify-deps-before-run=false build; inspect /workspace/AnvilWiki/.tmp/clover-time-skills-20261010/review-1/pnpm---config.verify-deps-before-run=false-build.log
+
+=== successful_png_export ===
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-config"], "exit_code": 0, "log": ".tmp/clover-time-skills-20261010/review-2/pnpm---config.verify-deps-before-run=false-check-config.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-content"], "exit_code": 0, "log": ".tmp/clover-time-skills-20261010/review-2/pnpm---config.verify-deps-before-run=false-check-content.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "build"], "exit_code": 0, "log": ".tmp/clover-time-skills-20261010/review-2/pnpm---config.verify-deps-before-run=false-build.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-links"], "exit_code": 0, "log": ".tmp/clover-time-skills-20261010/review-2/pnpm---config.verify-deps-before-run=false-check-links.log"}
+{"upload_directory": ".tmp/clover-time-skills-20261010/review-2/upload", "articles": 10, "files": 417}
+
+=== deploy ===
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+
+ ⛅️ wrangler 4.149.0
+────────────────────
+Uploading... (313/415)
+Uploading... (347/415)
+Uploading... (381/415)
+Uploading... (415/415)
+✨ Success! Uploaded 102 files (313 already uploaded) (2.04 sec)
+
+✨ Uploading _headers
+✨ Uploading _redirects
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://a1074fde.clover-time-wiki-preview.pages.dev

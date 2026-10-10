@@ -51,5 +51,8 @@ reports/
 # local tool output (review reports etc.)
 out/
 
+# Task-local research helpers and temporary browser state
+.tmp/
+
 # anvil-ops site-local ops data (metrics --import-aio --save CSV archives) — never swept into a submit PR
 ops/

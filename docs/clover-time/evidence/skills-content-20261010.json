@@ -1,0 +1,1213 @@
+{
+  "recorded_at_beijing": "2026-10-10 11:10",
+  "skills_applied": {
+    ".agent/skills/anvil-new-article/SKILL.md": "84658146a62f4c91d53162ea7aceefc1c77682c20c03d15ed66ed781b120050a",
+    ".agent/skills/anvil-batch-articles/SKILL.md": "e46584005fae9471b9fe973ef8bd8ec1ff1140c86cde461d497ac465acf75b9e"
+  },
+  "writing_audit": {
+    "articles": [
+      {
+        "path": "src/content/wiki/en/codes/all-codes.mdx",
+        "route": "/codes/all-codes/",
+        "title": "Clover Time Codes: Redemption Menus & Roll Resources",
+        "sha256": "ff47414f7ef0b69567721350c20dbd2ad05a87b79c7eb295a0e78e41ff910c5d",
+        "h2": [
+          {
+            "question": "Where can you redeem Clover Time codes?",
+            "answer_words": 45
+          },
+          {
+            "question": "How do you keep code text separate from an announcement?",
+            "answer_words": 47
+          },
+          {
+            "question": "Which roll balance should you check after redemption?",
+            "answer_words": 48
+          }
+        ],
+        "faq": [
+          [
+            "What does the lobby code box say?",
+            "The lobby input is labelled Codes and uses Enter code... as its placeholder."
+          ],
+          [
+            "Can I reach the code input without leaving the world?",
+            "Yes. During play, open Menu, then Settings, and find the Codes section."
+          ],
+          [
+            "Should I copy the reward description into the input?",
+            "Copy only the promotion string. Keep any letters, numbers, or punctuation that form part of the code."
+          ],
+          [
+            "Is the Special balance part of the Mana Crystal counter?",
+            "No. Special is displayed separately in the character-roll panel; Mana Crystals belong to Grimoire rolls."
+          ],
+          [
+            "Where should I look for a character-roll balance?",
+            "Open the character-roll panel and read the Spins and Special balances above the Race, Social Class, and Trait columns."
+          ]
+        ],
+        "internal_links": [
+          "/guides/beginner-guide/",
+          "/guides/how-to-redeem-codes/",
+          "/guides/how-to-reroll/"
+        ],
+        "gallery_count": 0,
+        "tags": [
+          "codes"
+        ]
+      },
+      {
+        "path": "src/content/wiki/en/guides/beginner-guide.mdx",
+        "route": "/guides/beginner-guide/",
+        "title": "Clover Time Beginner Guide: Character Setup, Combat & Magic",
+        "sha256": "0417c9bae1d9866ca1a8f6b2c1be3d58537a93e6fd4100809bcc7e2520202d7d",
+        "h2": [
+          {
+            "question": "How should a beginner start Clover Time?",
+            "answer_words": 49
+          },
+          {
+            "question": "What should you look for in early gathering tasks?",
+            "answer_words": 50
+          },
+          {
+            "question": "How can you learn combat before combining spells?",
+            "answer_words": 49
+          },
+          {
+            "question": "How do you locate the Grimoire Tower and its roll point?",
+            "answer_words": 50
+          },
+          {
+            "question": "How does broom travel expand your exploration?",
+            "answer_words": 51
+          }
+        ],
+        "faq": [
+          [
+            "Which character categories should I read on a new character?",
+            "Read Race, Social Class, and Trait separately. Each describes a different part of your setup."
+          ],
+          [
+            "What is M1 in a combat guide?",
+            "M1 refers to the basic attack used when practising a weapon and learning enemy attack range."
+          ],
+          [
+            "Which tool is associated with crop activities?",
+            "The Rake is used for crop activities; the Axe is used for chopping trees."
+          ],
+          [
+            "What compass marker points toward Grimoire rolls?",
+            "Follow the tower icon to the Grimoire Tower."
+          ],
+          [
+            "Which quest introduces broom balance training?",
+            "Master Elsie provides Learning to Fly, which introduces the broom balance activity."
+          ]
+        ],
+        "internal_links": [
+          "/guides/fishing-fragments/",
+          "/guides/grimoire-tier-list/",
+          "/guides/how-to-reroll/",
+          "/guides/patch-notes/"
+        ],
+        "gallery_count": 2,
+        "tags": [
+          "guide"
+        ]
+      },
+      {
+        "path": "src/content/wiki/en/guides/fishing-fragments.mdx",
+        "route": "/guides/fishing-fragments/",
+        "title": "Clover Time Fishing Guide: Rods, Bait & Mana Materials",
+        "sha256": "6313e8a09674d2c8a9c1ff3797eb95e5a2214fd55f78919951e0a428a90ecc09",
+        "h2": [
+          {
+            "question": "How do you prepare to fish in Clover Time?",
+            "answer_words": 53
+          },
+          {
+            "question": "What is the PC sequence for catching a fish?",
+            "answer_words": 51
+          },
+          {
+            "question": "How should you organise fish and Mana Crystal materials?",
+            "answer_words": 53
+          },
+          {
+            "question": "What should you consider before selling a fishing catch?",
+            "answer_words": 52
+          }
+        ],
+        "faq": [
+          [
+            "What two supplies are needed for fishing?",
+            "Prepare a fishing rod and bait."
+          ],
+          [
+            "Where should I stand before opening the fishing interaction?",
+            "Approach river or sea water with the rod equipped."
+          ],
+          [
+            "What does V do in the PC fishing sequence?",
+            "V starts the fishing interaction and bait selection."
+          ],
+          [
+            "What follows the bite in the catch sequence?",
+            "Complete the clicking minigame, then inspect your inventory for the catch."
+          ],
+          [
+            "Can I treat a Mana Crystal Fragment as a whole crystal?",
+            "Keep fragments and complete Mana Crystals separate. Whole crystals are the Grimoire-roll resource."
+          ]
+        ],
+        "internal_links": [
+          "/guides/beginner-guide/",
+          "/guides/grimoire-tier-list/",
+          "/guides/how-to-reroll/",
+          "/guides/patch-notes/"
+        ],
+        "gallery_count": 2,
+        "tags": [
+          "guide"
+        ]
+      },
+      {
+        "path": "src/content/wiki/en/guides/grimoire-tier-list.mdx",
+        "route": "/guides/grimoire-tier-list/",
+        "title": "Clover Time Grimoire Tier List: PvE Roles & Rarities",
+        "sha256": "0cfff5de42eab0f4ccb6cec28540efc60aeffad509e650b728ed844bc3fdfaff",
+        "h2": [
+          {
+            "question": "Which Grimoires lead this Clover Time PvE tier list?",
+            "answer_words": 52
+          },
+          {
+            "question": "How does acquisition rarity differ from a PvE tier?",
+            "answer_words": 52
+          },
+          {
+            "question": "Why choose Anti Magic or Poison for different encounters?",
+            "answer_words": 50
+          },
+          {
+            "question": "When should you keep developing your current Grimoire?",
+            "answer_words": 52
+          }
+        ],
+        "faq": [
+          [
+            "Does this Grimoire ranking cover PvP?",
+            "The comparison is organised around PvE kit roles and progression. It does not assign PvP placements."
+          ],
+          [
+            "Are Fire and Explosive Flame the same book?",
+            "No. Fire is Common, while Explosive Flame is a separate Epic Grimoire."
+          ],
+          [
+            "Which rarity group contains Poison?",
+            "Poison belongs to the Epic group alongside Explosive Flame."
+          ],
+          [
+            "Why does an Uncommon book appear in Tier II?",
+            "Ice offers area attacks and freezing effects. Combat role and acquisition rarity answer different questions."
+          ],
+          [
+            "Are books ordered within Tier II or Tier III?",
+            "No. Each group contains alternatives with different roles; their row order is not a further ranking."
+          ]
+        ],
+        "internal_links": [
+          "/guides/beginner-guide/",
+          "/guides/race-tier-list/",
+          "/items/anti-magic/",
+          "/items/poison/"
+        ],
+        "gallery_count": 0,
+        "tags": [
+          "guide"
+        ]
+      },
+      {
+        "path": "src/content/wiki/en/guides/how-to-redeem-codes.mdx",
+        "route": "/guides/how-to-redeem-codes/",
+        "title": "How to Redeem Codes in Clover Time: Lobby & Settings",
+        "sha256": "7e8f032ea1616c087b8717d74f857da8d88fd61b2eab832e3aff046976c7498d",
+        "h2": [
+          {
+            "question": "How do you redeem a Clover Time code from the lobby?",
+            "answer_words": 46
+          },
+          {
+            "question": "How can you submit a code during a game session?",
+            "answer_words": 49
+          },
+          {
+            "question": "What should you inspect when the entry is not accepted?",
+            "answer_words": 48
+          },
+          {
+            "question": "How do you choose the next menu after entering a code?",
+            "answer_words": 48
+          }
+        ],
+        "faq": [
+          [
+            "Which corner of the lobby contains code redemption?",
+            "The Codes field is at the bottom left of the lobby screen."
+          ],
+          [
+            "Which key submits a promotion on PC?",
+            "Press Enter after placing the promotion text in the Codes input."
+          ],
+          [
+            "What is the in-world navigation sequence?",
+            "Open Menu, choose Settings, and locate Codes."
+          ],
+          [
+            "Should I enter several promotion strings in one submission?",
+            "Enter one code at a time so you can match each game response to the correct attempt."
+          ],
+          [
+            "What text should I compare after an unsuccessful entry?",
+            "Compare the code string, including letters, numbers, punctuation, and accidental spaces or line breaks."
+          ]
+        ],
+        "internal_links": [
+          "/codes/all-codes/",
+          "/guides/beginner-guide/",
+          "/guides/how-to-reroll/"
+        ],
+        "gallery_count": 2,
+        "tags": [
+          "guide"
+        ]
+      },
+      {
+        "path": "src/content/wiki/en/guides/how-to-reroll.mdx",
+        "route": "/guides/how-to-reroll/",
+        "title": "How to Reroll in Clover Time: Race, Social Class & Trait",
+        "sha256": "5170745c6b49aea96dbd900cb38598722652a2394a71696319f66d90a00eef90",
+        "h2": [
+          {
+            "question": "How do you open Clover Time character rerolls?",
+            "answer_words": 49
+          },
+          {
+            "question": "What is the difference between Race, Social Class, and Trait?",
+            "answer_words": 49
+          },
+          {
+            "question": "How should you inspect a character-roll action?",
+            "answer_words": 50
+          },
+          {
+            "question": "Why are character Spins separate from Grimoire rolls?",
+            "answer_words": 49
+          }
+        ],
+        "faq": [
+          [
+            "What is the lobby route to the roll panel?",
+            "Select Customize, then Rolls."
+          ],
+          [
+            "Which NPC opens character options in the village?",
+            "Hage Priest in the starting village church provides the character-option menu."
+          ],
+          [
+            "Does choosing Elf also choose a Social Class?",
+            "Elf is a Race. Social Class and Trait are displayed in their own columns."
+          ],
+          [
+            "Where does Mana Sensitive belong?",
+            "Mana Sensitive belongs to Trait, alongside options such as Fast Learner and Chosen One."
+          ],
+          [
+            "Which currency belongs to the Grimoire Tower?",
+            "Mana Crystals belong to Grimoire rolls. Character Spins are a separate resource."
+          ]
+        ],
+        "internal_links": [
+          "/guides/beginner-guide/",
+          "/guides/grimoire-tier-list/",
+          "/guides/race-tier-list/"
+        ],
+        "gallery_count": 2,
+        "tags": [
+          "guide"
+        ]
+      },
+      {
+        "path": "src/content/wiki/en/guides/patch-notes.mdx",
+        "route": "/guides/patch-notes/",
+        "title": "Clover Time Beta 0.1: Features, Platforms & Update Channels",
+        "sha256": "100280507d8d85629dde56e54a4b5535f442664519c3feee7d5b7880f5a7fba7",
+        "h2": [
+          {
+            "question": "What is Clover Time Beta 0.1?",
+            "answer_words": 52
+          },
+          {
+            "question": "Which features shape the game's progression?",
+            "answer_words": 52
+          },
+          {
+            "question": "Where can you follow updates on your platform?",
+            "answer_words": 52
+          }
+        ],
+        "faq": [
+          [
+            "Who develops Clover Time?",
+            "The Roblox experience is developed by AnimeCore Studio."
+          ],
+          [
+            "What does the Beta 0.1 label describe?",
+            "It is the Beta version label in the official Roblox game description."
+          ],
+          [
+            "Which platforms does Clover Time support?",
+            "PC, mobile, and console are supported."
+          ],
+          [
+            "What is the purpose of Magic Squads?",
+            "Magic Squads let players team up for boss fights."
+          ],
+          [
+            "Where can I follow developer information?",
+            "Use the official Roblox experience, AnimeCore Studio group, and community server for game information and update previews."
+          ]
+        ],
+        "internal_links": [
+          "/codes/all-codes/",
+          "/guides/beginner-guide/",
+          "/guides/grimoire-tier-list/",
+          "/guides/how-to-reroll/",
+          "/items/anti-magic/"
+        ],
+        "gallery_count": 0,
+        "tags": [
+          "guide"
+        ]
+      },
+      {
+        "path": "src/content/wiki/en/guides/race-tier-list.mdx",
+        "route": "/guides/race-tier-list/",
+        "title": "Clover Time Race Tier List: PvE Passives & Build Choices",
+        "sha256": "eb11d634a68becfe41d0d12e0d327345c5cf83da1340fb8eb025e26361fc50a4",
+        "h2": [
+          {
+            "question": "Which race should you compare first in Clover Time?",
+            "answer_words": 51
+          },
+          {
+            "question": "Which attributes distinguish the five race packages?",
+            "answer_words": 51
+          },
+          {
+            "question": "Why are Sovereign and Chosen One outside the race table?",
+            "answer_words": 52
+          },
+          {
+            "question": "How can you apply the ranking before choosing another roll?",
+            "answer_words": 53
+          }
+        ],
+        "faq": [
+          [
+            "How many races are included in this comparison?",
+            "Five: Human, Dwarf, Human-Dwarf, Elf, and Devil."
+          ],
+          [
+            "What is the main reason to compare Elf?",
+            "Elf emphasises mana capacity and recovery, alongside regeneration and EXP benefits."
+          ],
+          [
+            "What separates Human-Dwarf from Dwarf in this table?",
+            "Human-Dwarf includes a mixed sustain and EXP package; Dwarf is compared for sustain and resource attributes."
+          ],
+          [
+            "Is Sovereign an additional race?",
+            "No. Sovereign is a Social Class, displayed separately from Race."
+          ],
+          [
+            "Does S-tier measure levelling speed?",
+            "The tier compares passive packages. It is not a timed levelling result or a numerical damage score."
+          ]
+        ],
+        "internal_links": [
+          "/guides/grimoire-tier-list/",
+          "/guides/how-to-reroll/",
+          "/items/anti-magic/",
+          "/items/poison/"
+        ],
+        "gallery_count": 0,
+        "tags": [
+          "guide"
+        ]
+      },
+      {
+        "path": "src/content/wiki/en/items/anti-magic.mdx",
+        "route": "/items/anti-magic/",
+        "title": "Clover Time Anti Magic Guide: Sword Skills & PvE Practice",
+        "sha256": "3cb56db024e1fb03ce116546840b421793ee26ea11fd242c78a9712d4d7e5fce",
+        "h2": [
+          {
+            "question": "What is the Anti Magic Grimoire in Clover Time?",
+            "answer_words": 54
+          },
+          {
+            "question": "Which base sword skills and PC labels should you learn?",
+            "answer_words": 48
+          },
+          {
+            "question": "How should you practise Anti Magic against PvE enemies?",
+            "answer_words": 54
+          },
+          {
+            "question": "How do Awakening and Poison change the comparison?",
+            "answer_words": 52
+          }
+        ],
+        "faq": [
+          [
+            "What acquisition rarity does Anti Magic have?",
+            "Anti Magic belongs to the Mythic Grimoire group."
+          ],
+          [
+            "Which PC label belongs to Anti Magic Cut?",
+            "Anti Magic Cut is paired with E on the PC skill bar."
+          ],
+          [
+            "Which PC labels belong to Counter and Dual Spin?",
+            "Counter is paired with X, and Dual Spin is paired with Z."
+          ],
+          [
+            "What should I observe while practising Rush Divider?",
+            "Observe the approach distance and the position where your character finishes the attack."
+          ],
+          [
+            "Should base sword practice and Awakening practice be separate?",
+            "Yes. Awakening changes the character and combat kit, so learn the base tools and transformed abilities separately."
+          ]
+        ],
+        "internal_links": [
+          "/guides/beginner-guide/",
+          "/guides/grimoire-tier-list/",
+          "/guides/race-tier-list/",
+          "/items/poison/"
+        ],
+        "gallery_count": 0,
+        "tags": [
+          "items",
+          "guide"
+        ]
+      },
+      {
+        "path": "src/content/wiki/en/items/poison.mdx",
+        "route": "/items/poison/",
+        "title": "Clover Time Poison Guide: Mist, Explosion & Clone Control",
+        "sha256": "bdb524cf47d7091d38a6ec314f628d81a8889c4fe9e04864983da791491639dd",
+        "h2": [
+          {
+            "question": "What does the Poison Grimoire offer in Clover Time?",
+            "answer_words": 52
+          },
+          {
+            "question": "How do the projectile, mist, and explosion differ?",
+            "answer_words": 53
+          },
+          {
+            "question": "How do you think about Stop Clone and Order Clone?",
+            "answer_words": 53
+          },
+          {
+            "question": "When is Poison worth comparing with a sword kit?",
+            "answer_words": 53
+          }
+        ],
+        "faq": [
+          [
+            "Is Poison in the Legendary rarity group?",
+            "Poison is Epic. Battle Lightning belongs to the Legendary group."
+          ],
+          [
+            "Where does the Poison explosion occur?",
+            "The explosion occurs in an area around the user, making approach and nearby threats part of the decision."
+          ],
+          [
+            "What must an enemy do to take mist damage?",
+            "The mist damages targets within its area, so target movement affects the usefulness of its placement."
+          ],
+          [
+            "What does Stop Clone ask the summon to do?",
+            "Stop Clone asks the clone to stop and hold its position."
+          ],
+          [
+            "How does Order Clone differ from placing mist?",
+            "Order Clone directs the summon toward a target. Mist placement creates a damage area and is a separate action."
+          ]
+        ],
+        "internal_links": [
+          "/guides/beginner-guide/",
+          "/guides/grimoire-tier-list/",
+          "/guides/race-tier-list/",
+          "/items/anti-magic/"
+        ],
+        "gallery_count": 0,
+        "tags": [
+          "items",
+          "guide"
+        ]
+      }
+    ],
+    "article_count": 10,
+    "h2_count": 39,
+    "faq_count": 50,
+    "gallery_count": 8,
+    "duplicate_headings": 0,
+    "duplicate_answers": 0,
+    "codes_entries": 0,
+    "all_source_articles_remain_drafts": true,
+    "skill_files": {
+      ".agent/skills/anvil-new-article/SKILL.md": "84658146a62f4c91d53162ea7aceefc1c77682c20c03d15ed66ed781b120050a",
+      ".agent/skills/anvil-batch-articles/SKILL.md": "e46584005fae9471b9fe973ef8bd8ec1ff1140c86cde461d497ac465acf75b9e"
+    },
+    "explicit_adaptations": [
+      "Existing URLs retained: scaffolding dry run skips all 10 existing articles.",
+      "Existing meaningful tag vocabulary is codes/guide/items; retained relevant 1–2 tags instead of attaching unrelated tags to reach 3–5.",
+      "User requested no public source or uncertainty notes; unsupported facts omitted, provenance remains in internal documents.",
+      "No active codes or dated patch changes fabricated; those two original search intents remain incomplete.",
+      "SVG diagrams rendered to PNG inputs for the unchanged Astro WebP gallery pipeline."
+    ],
+    "changed_articles": {
+      "src/content/wiki/en/codes/all-codes.mdx": {
+        "before": "955528cde880924e9bd2163558e74d3868b2530c7860831af3df986cce41def3",
+        "after": "ff47414f7ef0b69567721350c20dbd2ad05a87b79c7eb295a0e78e41ff910c5d"
+      },
+      "src/content/wiki/en/guides/beginner-guide.mdx": {
+        "before": "6bfebac5fbb49ed4d1d7f41f5ce10532e1bbf565ae98bc0e6979fcf18cb105e4",
+        "after": "0417c9bae1d9866ca1a8f6b2c1be3d58537a93e6fd4100809bcc7e2520202d7d"
+      },
+      "src/content/wiki/en/guides/fishing-fragments.mdx": {
+        "before": "6c7957eb77a2a89b83b48e3977c18d7e2f92a5ccac11be79c7512e36bfab57a4",
+        "after": "6313e8a09674d2c8a9c1ff3797eb95e5a2214fd55f78919951e0a428a90ecc09"
+      },
+      "src/content/wiki/en/guides/grimoire-tier-list.mdx": {
+        "before": "a60163d4e5b0b7a70a7b59cd61d8dae2e3f9df2919347c918aad1627f4182efa",
+        "after": "0cfff5de42eab0f4ccb6cec28540efc60aeffad509e650b728ed844bc3fdfaff"
+      },
+      "src/content/wiki/en/guides/how-to-redeem-codes.mdx": {
+        "before": "ffb51e6e59e2fe187ef1264e344ebd2640cfe90ce057ae9192c55c4e51273360",
+        "after": "7e8f032ea1616c087b8717d74f857da8d88fd61b2eab832e3aff046976c7498d"
+      },
+      "src/content/wiki/en/guides/how-to-reroll.mdx": {
+        "before": "0f0c1155a9ab8482a0d9af0436ca5b373df1d5ada3169b83d0aa846f7d395348",
+        "after": "5170745c6b49aea96dbd900cb38598722652a2394a71696319f66d90a00eef90"
+      },
+      "src/content/wiki/en/guides/patch-notes.mdx": {
+        "before": "96bfc56f16f3198f9dc786795f058eabdf14c9528f9745e15d610eb51fa45ad1",
+        "after": "100280507d8d85629dde56e54a4b5535f442664519c3feee7d5b7880f5a7fba7"
+      },
+      "src/content/wiki/en/guides/race-tier-list.mdx": {
+        "before": "45b21a9a43efda1fedc7a6d813bb57798f920173928810496a00f0bd974a608c",
+        "after": "eb11d634a68becfe41d0d12e0d327345c5cf83da1340fb8eb025e26361fc50a4"
+      },
+      "src/content/wiki/en/items/anti-magic.mdx": {
+        "before": "826f2281d2a7cdf13c30fae1cc9bc451bd21223225a0b29017ef5d1e09520c3a",
+        "after": "3cb56db024e1fb03ce116546840b421793ee26ea11fd242c78a9712d4d7e5fce"
+      },
+      "src/content/wiki/en/items/poison.mdx": {
+        "before": "a327aaaba3a24153ae1b7c26cf4d1f076861a64217773ebc4d25935c375830a4",
+        "after": "bdb524cf47d7091d38a6ec314f628d81a8889c4fe9e04864983da791491639dd"
+      }
+    }
+  },
+  "deployment": {
+    "id": "a1074fde-a54f-4086-b1ad-657cfefdf207",
+    "url": "https://a1074fde.clover-time-wiki-preview.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-10T03:07:46.294289Z",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-10T03:07:47.607377Z",
+      "status": "success"
+    },
+    "aliases": [
+      "https://clovertime.world"
+    ]
+  },
+  "browser": {
+    "local": {
+      "origin": "http://127.0.0.1:4184",
+      "checks": [
+        {
+          "route": "/codes/all-codes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/codes/all-codes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/codes/all-codes/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/beginner-guide/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/beginner-guide/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/beginner-guide/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/fishing-fragments/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/fishing-fragments/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/fishing-fragments/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/grimoire-tier-list/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/grimoire-tier-list/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/grimoire-tier-list/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/how-to-redeem-codes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/how-to-redeem-codes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/how-to-redeem-codes/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/how-to-reroll/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/how-to-reroll/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/how-to-reroll/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/patch-notes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/patch-notes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/patch-notes/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/race-tier-list/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/race-tier-list/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/race-tier-list/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/items/anti-magic/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/items/anti-magic/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/items/anti-magic/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/items/poison/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/items/poison/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/items/poison/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        }
+      ],
+      "passed": 30
+    },
+    "online": {
+      "origin": "https://clovertime.world",
+      "checks": [
+        {
+          "route": "/codes/all-codes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/codes/all-codes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/codes/all-codes/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/beginner-guide/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/beginner-guide/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/beginner-guide/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/fishing-fragments/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/fishing-fragments/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/fishing-fragments/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/grimoire-tier-list/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/grimoire-tier-list/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/grimoire-tier-list/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/how-to-redeem-codes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/how-to-redeem-codes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/how-to-redeem-codes/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/how-to-reroll/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/how-to-reroll/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/how-to-reroll/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 2,
+          "ok": true
+        },
+        {
+          "route": "/guides/patch-notes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/patch-notes/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/patch-notes/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/race-tier-list/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/guides/race-tier-list/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/guides/race-tier-list/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/items/anti-magic/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/items/anti-magic/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/items/anti-magic/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/items/poison/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/zh/items/poison/",
+          "width": 375,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        },
+        {
+          "route": "/items/poison/",
+          "width": 1440,
+          "faq_count": 5,
+          "gallery_count": 0,
+          "ok": true
+        }
+      ],
+      "passed": 30
+    }
+  },
+  "test_results": {
+    "targeted": {
+      "suites": 3,
+      "passed": 49,
+      "failed": 0
+    },
+    "full_suite": {
+      "suites": 24,
+      "passed": 395,
+      "failed": 2,
+      "skipped": 0,
+      "failure_inputs_unchanged": true,
+      "failures": [
+        "apply-template: demo whitelist rejects existing SITE_URL https://clovertime.world",
+        "workflows: real-header fixture requires removed FORKER template header"
+      ]
+    }
+  },
+  "checks": {
+    "check_content": 0,
+    "formal_build": 0,
+    "formal_links": 0,
+    "isolated_check_config": 0,
+    "isolated_check_content": 0,
+    "isolated_build": 0,
+    "isolated_links": 0,
+    "formal_link_count": 9733,
+    "isolated_link_count": 10933,
+    "git_diff_check": 0
+  },
+  "media": [
+    {
+      "path": "src/assets/covers/clover-time-flow-beginner-systems.png",
+      "sha256": "3b97c588e04d8e2bb8166c81451cde94334cef43de800d84631f498f179c0e57",
+      "bytes": 61842
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-beginner-systems.svg",
+      "sha256": "fdb0312e4162f155830225745ba2e72086a2189eeeb924545221248e7705d1e4",
+      "bytes": 2044
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-beginner-tower.png",
+      "sha256": "b129420990643f1a65ab69db7efda9e8eaa2f5914868d70d769caf08281f705b",
+      "bytes": 60846
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-beginner-tower.svg",
+      "sha256": "06a1b5505649a5009dc9ec8b8bea6d9033530c13d98ffe91c0350243d81c7963",
+      "bytes": 1973
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-fishing-catch.png",
+      "sha256": "819cc3d4a7ee64d7de12ecfb78cdc076f36240a2807a7d68d79d94820424d8eb",
+      "bytes": 57167
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-fishing-catch.svg",
+      "sha256": "1538a2046f48035a32af4fb9a7431c8e57c7b1addc9e2d316f878586b3e011cd",
+      "bytes": 2022
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-fishing-preparation.png",
+      "sha256": "e6a1c6c23be0a8748aa39baa1d1e6a73c25b382d0af525f1c02645ef79d2e740",
+      "bytes": 57706
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-fishing-preparation.svg",
+      "sha256": "2108b72794d1098feb10bf1b4b93190092f7992cf47fb7b4550f095f71f80fe5",
+      "bytes": 1942
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-redeem-lobby.png",
+      "sha256": "2e88c3f78ca1a678452d3ed6d5fdbd8d38d2178132d4e0b4fd8f55776712dd9c",
+      "bytes": 58285
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-redeem-lobby.svg",
+      "sha256": "325466e1ee927731e461ba9b645a3accdeb9b9fbd27f82ecf336441ee5ee6943",
+      "bytes": 2020
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-redeem-settings.png",
+      "sha256": "8b8498e20c314af3692f799fb388488f664a6a5e72bdd1b7581a9283c5e6a3cb",
+      "bytes": 56623
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-redeem-settings.svg",
+      "sha256": "d9fbc1064c23d706a9310d6ef1ae578d261422a052d2418a0ce062d27ac39c0a",
+      "bytes": 1927
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-reroll-columns.png",
+      "sha256": "580d86c543de5de935f15a66935c39bafe900eeef7bf83a19e422ed3cc8efd7a",
+      "bytes": 58977
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-reroll-columns.svg",
+      "sha256": "02474ef0f257a9aa7f6fe5aefe0285918583b0e005bc998adb4b725d6dac256e",
+      "bytes": 2038
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-reroll-resources.png",
+      "sha256": "19bb83de4ed5e11c948782b99df30ab31c9c7ab19edc9a8e0a552e188c218ae4",
+      "bytes": 57766
+    },
+    {
+      "path": "src/assets/covers/clover-time-flow-reroll-resources.svg",
+      "sha256": "8833a121ef7c7b3efd4d9acab20f3fe87bbeed0f59c200acd7d76f88dd3f9e94",
+      "bytes": 1947
+    }
+  ],
+  "archive_inputs": [
+    "docs/clover-time/evidence/editorial-source-records-20261010.json",
+    "docs/clover-time/evidence/editorial-official-game-20261010.json",
+    "docs/clover-time/character-magic-fishing-research.md",
+    "docs/clover-time/independent-source-research.md",
+    "docs/clover-time/autonomous-research-20261009.md",
+    "docs/clover-time/ranking-entity-review-20261009.md",
+    "docs/clover-time/subagent-acceptance-20261009.md"
+  ],
+  "game_session_performed": false,
+  "fresh_youtube_viewing_performed": false,
+  "codes_entries": 0,
+  "formal_fact_acceptance": "0/10 unchanged; no draft promotion",
+  "framework_or_configuration_changes": false,
+  "git_commit_or_push": false,
+  "dns_changes": false,
+  "validation_log": "docs/clover-time/evidence/skills-content-20261010-validation.log",
+  "validation_log_sha256": "c4041b33c4df7991a5fa3b5740097747a1faac744664134df800f17068f172c6",
+  "search": {
+    "query": "Poison",
+    "title": "Clover Time Poison Guide: Mist, Explosion & Clone Control",
+    "href": "/zh/items/poison/",
+    "ok": true
+  }
+}

@@ -1,0 +1,3382 @@
+{
+  "status": "research_preview_deployed_and_verified",
+  "verified_at_beijing": "2026-10-10 07:21",
+  "formal_acceptance": "0/10",
+  "source_drafts": 10,
+  "source_drafts_unchanged_after_export": true,
+  "ordinary_build_excludes_all_ten": true,
+  "cloudflare": {
+    "id": "a9d83b4a-b99c-426e-a83a-f5f75ff29f93",
+    "url": "https://a9d83b4a.clover-time-wiki-preview.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-09T23:19:20.349534Z",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-09T23:19:21.71408Z",
+      "status": "success"
+    },
+    "project": "clover-time-wiki-preview",
+    "primary_url": "https://clover-time-wiki-preview.pages.dev",
+    "files_verified": 374,
+    "branch": "main",
+    "commit_dirty": true
+  },
+  "manifest": {
+    "mode": "research-preview",
+    "formal_acceptance": "0/10",
+    "chinese_ui_views": "English body, visibly labelled; not translations",
+    "upload_directory": ".tmp/clover-time-content-preview-20261010/review-5/upload",
+    "articles": [
+      {
+        "source": "src/content/wiki/en/codes/all-codes.mdx",
+        "route": "/codes/all-codes/",
+        "source_sha256": "d627c58c49dc15ef6b967675770813779629306c0b85fe0b0ee17a85a95247ab",
+        "source_draft": true,
+        "review_only": true
+      },
+      {
+        "source": "src/content/wiki/en/guides/beginner-guide.mdx",
+        "route": "/guides/beginner-guide/",
+        "source_sha256": "afffd8ce896ee08e03bd64218e0e0fd26515af158456f060a80700612c8b158c",
+        "source_draft": true,
+        "review_only": true
+      },
+      {
+        "source": "src/content/wiki/en/guides/fishing-fragments.mdx",
+        "route": "/guides/fishing-fragments/",
+        "source_sha256": "c6e094a3f78fd1d13fbfe97ddaaf8e7a122cd5ac316850e0e6860e758c9c16fe",
+        "source_draft": true,
+        "review_only": true
+      },
+      {
+        "source": "src/content/wiki/en/guides/grimoire-tier-list.mdx",
+        "route": "/guides/grimoire-tier-list/",
+        "source_sha256": "c2e6784cd2eb91d01de095c688b1cbddd12ecd87eb0a36b61e0622b6e2b82e28",
+        "source_draft": true,
+        "review_only": true
+      },
+      {
+        "source": "src/content/wiki/en/guides/how-to-redeem-codes.mdx",
+        "route": "/guides/how-to-redeem-codes/",
+        "source_sha256": "e56fde108546dd9cc8554d9addc558a26a156015f267ed8b349d401704256cac",
+        "source_draft": true,
+        "review_only": true
+      },
+      {
+        "source": "src/content/wiki/en/guides/how-to-reroll.mdx",
+        "route": "/guides/how-to-reroll/",
+        "source_sha256": "6e239180e47a20f9d142c2c30a94347bf6b0ecb84e574771532f96fbf7ee1109",
+        "source_draft": true,
+        "review_only": true
+      },
+      {
+        "source": "src/content/wiki/en/guides/patch-notes.mdx",
+        "route": "/guides/patch-notes/",
+        "source_sha256": "b791fa5d867b89b910f96a2f6903da43d849b5750f1ba80291abaa92e4cbaaf1",
+        "source_draft": true,
+        "review_only": true
+      },
+      {
+        "source": "src/content/wiki/en/guides/race-tier-list.mdx",
+        "route": "/guides/race-tier-list/",
+        "source_sha256": "8a14836e8a8085afa78689cfb3cdea13921510017ab56559227c1ef8b98d52c0",
+        "source_draft": true,
+        "review_only": true
+      },
+      {
+        "source": "src/content/wiki/en/items/anti-magic.mdx",
+        "route": "/items/anti-magic/",
+        "source_sha256": "add1e6d3c042f5e001f7d7cfbe9bfea5d6828e23a1f2d2ca9452274a8fb49ce1",
+        "source_draft": true,
+        "review_only": true
+      },
+      {
+        "source": "src/content/wiki/en/items/poison.mdx",
+        "route": "/items/poison/",
+        "source_sha256": "cf03d82942ad28c3489c54e2e001770557c05b031f618f393a5f1436eebbb68e",
+        "source_draft": true,
+        "review_only": true
+      }
+    ],
+    "commands": [
+      {
+        "command": [
+          "pnpm",
+          "--config.verify-deps-before-run=false",
+          "check-config"
+        ],
+        "exit_code": 0,
+        "log": ".tmp/clover-time-content-preview-20261010/review-5/pnpm---config.verify-deps-before-run=false-check-config.log"
+      },
+      {
+        "command": [
+          "pnpm",
+          "--config.verify-deps-before-run=false",
+          "check-content"
+        ],
+        "exit_code": 0,
+        "log": ".tmp/clover-time-content-preview-20261010/review-5/pnpm---config.verify-deps-before-run=false-check-content.log"
+      },
+      {
+        "command": [
+          "pnpm",
+          "--config.verify-deps-before-run=false",
+          "build"
+        ],
+        "exit_code": 0,
+        "log": ".tmp/clover-time-content-preview-20261010/review-5/pnpm---config.verify-deps-before-run=false-build.log"
+      },
+      {
+        "command": [
+          "pnpm",
+          "--config.verify-deps-before-run=false",
+          "check-links"
+        ],
+        "exit_code": 0,
+        "log": ".tmp/clover-time-content-preview-20261010/review-5/pnpm---config.verify-deps-before-run=false-check-links.log"
+      }
+    ],
+    "files": [
+      {
+        "path": "404.html",
+        "bytes": 16885,
+        "sha256": "1f38aab0312c0475dc8c0ddb626bef351546ba9b84a88710de34c9d307e66994"
+      },
+      {
+        "path": "_astro/SearchButton.C33PKj8g.css",
+        "bytes": 66607,
+        "sha256": "1610d44a8c84c8db625de6dfba9f18f147c12ce7b0f58b795de7ee5cb7707382"
+      },
+      {
+        "path": "_astro/clover-time-en-codes-all-codes.4_WQiHSK.png",
+        "bytes": 151190,
+        "sha256": "f8518a0b1d216902685304aae605a63fc911d0c03d20fb662d9bd4fd717db2a1"
+      },
+      {
+        "path": "_astro/clover-time-en-codes-all-codes.4_WQiHSK_DHMme.webp",
+        "bytes": 11184,
+        "sha256": "00a0bb7cd54bb8e6e99d7f162b417e45b94e1dc055719c139d02b1bc1a142e05"
+      },
+      {
+        "path": "_astro/clover-time-en-codes-all-codes.4_WQiHSK_WjGBY.webp",
+        "bytes": 5236,
+        "sha256": "66b5cf707cbe8c2fb9c7ca973764c0df4a3958d747a1db755eaaa878a9b9eb6a"
+      },
+      {
+        "path": "_astro/clover-time-en-codes-all-codes.4_WQiHSK_Z1qzYSM.webp",
+        "bytes": 2220,
+        "sha256": "290e12afd92c502a8fe97cef936faabd058da05a1f9d19a87e955338b64a6e49"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-beginner-guide.CycXeR_5.png",
+        "bytes": 154280,
+        "sha256": "5fa1df932ab939f05687f99e899f05cf62cf78da8bb4e5bacff59c82ee897331"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-beginner-guide.CycXeR_5_Z15koRF.webp",
+        "bytes": 12560,
+        "sha256": "08c1f2563a8d9793bb64eb3cc85deafef3021ac37b22738f0fb750c71daa96ed"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-beginner-guide.CycXeR_5_Z2egkb7.webp",
+        "bytes": 2386,
+        "sha256": "7770faa4916f5b5a2a764dd400770b5309f120d083176ee6ee6b9d559054f332"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-beginner-guide.CycXeR_5_ZdRQVz.webp",
+        "bytes": 5618,
+        "sha256": "ac3b180b1453cbb045eff57ce455768b498213cea085ecf8cbb3681f374a3f48"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp.png",
+        "bytes": 154193,
+        "sha256": "db71722d3b3d81e7aa69074ab08ef41c92dcd549c6f8b6600eadbefe55b01d57"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp_1ufntR.webp",
+        "bytes": 5652,
+        "sha256": "833bf33da91aa48d787bca5a77e22631bd9deb226fd05465e48ccf87a3077038"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp_S22tA.webp",
+        "bytes": 2492,
+        "sha256": "3a85ad41aa57c32b09d7825164a4bfd8ee953f716cfa0c46cb5df66cc0e1587a"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp_ZeOxWs.webp",
+        "bytes": 12290,
+        "sha256": "1e6b3e8f96adae39fe679e28a99ee7ec0b67dded646dca13d4feef20fcdbe936"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz.png",
+        "bytes": 151684,
+        "sha256": "15758c60ac515e8f4afa2e2a35837f8dded87baca46b5a6e00d00ebf64be6b9f"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz_Z1L51V1.webp",
+        "bytes": 11702,
+        "sha256": "e908f3a2e7bfb6da3a83ddfc7ce6f8b62e7f6f34f95e05359632e957289ccb9d"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz_Z1nixBC.webp",
+        "bytes": 2410,
+        "sha256": "7d20065830606813a41fd73002f06b765aff6f1c6a7618c683e269091b00c67a"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz_fkjm6.webp",
+        "bytes": 5500,
+        "sha256": "83e3acfbae909bb388b371067a213bfb88baee02d2e63f1ea4a1a9f75aff0902"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y.png",
+        "bytes": 155562,
+        "sha256": "ee30a283b98568d646a09efbeef7ce2b79e34f57bbace1dee86af148dfdfb341"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y_40Mww.webp",
+        "bytes": 12784,
+        "sha256": "424a6f75b4a92fd2926b5dd6cbe63f5aaf46465352362e9188d7d5ec384611d6"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y_Iotva.webp",
+        "bytes": 5796,
+        "sha256": "681025fe971b9c9d482a385e112b89d1bc4935fa110746b155ebc610573247ab"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y_Z270KKF.webp",
+        "bytes": 2512,
+        "sha256": "ca9a72c6a6de8dfbc3e6e9a6ecdd71782665848d0c46edc028c7f11f5f3d3b07"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-how-to-reroll.B__B2th3.png",
+        "bytes": 152107,
+        "sha256": "fdfeafd9b3c4f63d592aefe3e6e36ba844700cebb09de0e240e0e5367f702a22"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-how-to-reroll.B__B2th3_Z24nDUt.webp",
+        "bytes": 5530,
+        "sha256": "9f940e15e7c0d826cd06d090a273daf9d43d9c7f7beff7968a5f1cf71162784a"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-how-to-reroll.B__B2th3_ZIg3zX.webp",
+        "bytes": 2428,
+        "sha256": "0e8af33c0af2f85ffa8821ffc2e0f8d8dd12ab58c9ad076a09e70aab62551afe"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-how-to-reroll.B__B2th3_Zk2Ixw.webp",
+        "bytes": 11864,
+        "sha256": "153c6074ecb4a031f673a71ffdb32d251ac1fca2cc0a9a6c4f702434a387ac1c"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-patch-notes.CLppRUsb.png",
+        "bytes": 155119,
+        "sha256": "c177e71556ec9c1294366a1d5b07fa8261d1fb1978e4dffb1b9083ac34f1661d"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-patch-notes.CLppRUsb_1JFBkG.webp",
+        "bytes": 5942,
+        "sha256": "f593f2ae697ff1d796cc2e02d949c1c620e40581719ea4a675e27ff697217445"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-patch-notes.CLppRUsb_Z24cmW0.webp",
+        "bytes": 2662,
+        "sha256": "ddde55c32fc3680c1d91b097fcac0659565ecfeaac5d52d31736c6e18aabd673"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-patch-notes.CLppRUsb_Z2eJXLx.webp",
+        "bytes": 12908,
+        "sha256": "a944feb292a0c72d6795cdb49d7bd0b13d1a5d553ccfde592c3610333c6a8cb3"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-race-tier-list.DZQYa27b.png",
+        "bytes": 152373,
+        "sha256": "c7c696a3c3886530485f2053c57a05230fa65ba56122e8ce8e51ea7d051022bb"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-race-tier-list.DZQYa27b_Z1Wggv.webp",
+        "bytes": 5592,
+        "sha256": "ed476a36b8b5ce66e55b1872c55d838656478ff88649afb9853d302f4b3fe6df"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-race-tier-list.DZQYa27b_Z22kIv3.webp",
+        "bytes": 2416,
+        "sha256": "ece79b8ddeaf8adfbfd3c2aeeaa11565bfc1f6801788c6e125e4baf58ccaa85a"
+      },
+      {
+        "path": "_astro/clover-time-en-guides-race-tier-list.DZQYa27b_ZSoNcB.webp",
+        "bytes": 11710,
+        "sha256": "8729f950eeeed3cda80ca93cdcb80ec205159f41c5bdadec17155220d818b901"
+      },
+      {
+        "path": "_astro/clover-time-en-items-anti-magic.CW7sZd9a.png",
+        "bytes": 154254,
+        "sha256": "3854c5a0fd8ba5fe0d9d4f6389bb79f3b237d479e50e23cd52627d893456be28"
+      },
+      {
+        "path": "_astro/clover-time-en-items-anti-magic.CW7sZd9a_2glfKs.webp",
+        "bytes": 2528,
+        "sha256": "c3ad58f897d9a880becd536dc009684f2f6bac76ead8d26f938a6a8ed8f1e741"
+      },
+      {
+        "path": "_astro/clover-time-en-items-anti-magic.CW7sZd9a_Z1RRF4M.webp",
+        "bytes": 6026,
+        "sha256": "e8233fdf23ee8864943b912804a77d8302387f35a1c03345d537e1a199aa6d81"
+      },
+      {
+        "path": "_astro/clover-time-en-items-anti-magic.CW7sZd9a_Z8842A.webp",
+        "bytes": 12324,
+        "sha256": "9ddd6dce5efc9e33641c362c2de1efa2a91433116ab82299d16b61b8850cf8f5"
+      },
+      {
+        "path": "_astro/clover-time-en-items-poison.CyOkuVZP.png",
+        "bytes": 153168,
+        "sha256": "6c345eb732b11fd82aaca798dbb7d952635474cebb481e72f57ab8a074e4e5fb"
+      },
+      {
+        "path": "_astro/clover-time-en-items-poison.CyOkuVZP_2k2iuJ.webp",
+        "bytes": 2430,
+        "sha256": "fc3414e2f956633c9e65576f4db1bcbcbce7d074815509fac2e96cc493ef6997"
+      },
+      {
+        "path": "_astro/clover-time-en-items-poison.CyOkuVZP_Zxf3jN.webp",
+        "bytes": 5588,
+        "sha256": "4b8c958d3d1a58c898e213986dc20b55b6975c17483924bec7d4a3e5f738f401"
+      },
+      {
+        "path": "_astro/clover-time-en-items-poison.CyOkuVZP_pL0lW.webp",
+        "bytes": 11712,
+        "sha256": "8802ce741ccb504834a459a59b3e1ceaa4a66e1f45a874980c798d1de0f7b053"
+      },
+      {
+        "path": "_astro/page.CMFgH77u.js",
+        "bytes": 2487,
+        "sha256": "ac7efac5537306a54aaa0fe168258f00a0fa1361649ab43da4435e6d84041a5f"
+      },
+      {
+        "path": "_headers",
+        "bytes": 2523,
+        "sha256": "41abcb28c22d06022b53d57110a24c81f7e9bd2c86fe55d31e730a89f92faf8c"
+      },
+      {
+        "path": "_redirects",
+        "bytes": 4160,
+        "sha256": "f2effb5afda8ee3f4393d569cc2cddf449d7aeb1c9e5a454d3b194272df39b46"
+      },
+      {
+        "path": "about/index.html",
+        "bytes": 24351,
+        "sha256": "c020a5d92a3bfa0b5542df28cf0ea9ecec49d2be0e6c0290da16b162f8f6cff7"
+      },
+      {
+        "path": "ads.txt",
+        "bytes": 466,
+        "sha256": "c129985a3fb1d17ac3b1e15cec5f00e44aea17e5ad3122eb6d2a268ccef13389"
+      },
+      {
+        "path": "android-chrome-192x192.png",
+        "bytes": 4695,
+        "sha256": "71df3ac21b7f360bc12d39f4b41dd1ef9375b2d7cbe3f038071ce4623b2cb1f2"
+      },
+      {
+        "path": "android-chrome-512x512.png",
+        "bytes": 6367,
+        "sha256": "52f0898580816b01e624c3387c1fb11add12808a9bd7fac26f5debb7a59e5509"
+      },
+      {
+        "path": "apple-touch-icon.png",
+        "bytes": 4226,
+        "sha256": "ff2f444e5036d19ed034ee559684b32e5603b3f51f947e09e6c7b91b6c0a80e4"
+      },
+      {
+        "path": "codes/all-codes/index.html",
+        "bytes": 54152,
+        "sha256": "5873b60c50a9b139939e792b5fe776038eb3f7fc57289e69149e2631dae972ce"
+      },
+      {
+        "path": "codes/index.html",
+        "bytes": 29281,
+        "sha256": "35f3f8b316fc001f9d3246cbaaa4085581a8b9ba095f0d8621d261ffb79ce6ba"
+      },
+      {
+        "path": "contact/index.html",
+        "bytes": 24007,
+        "sha256": "20f9351696b4591fd45b6a4d8436fc00f4d66dd347bc762bfbad5f84e72dd41d"
+      },
+      {
+        "path": "copyright/index.html",
+        "bytes": 23997,
+        "sha256": "241aed7764ac2eafad449ce2a1ce106635dcd1b812e1a71e3eb5d1169766eea4"
+      },
+      {
+        "path": "faq/index.html",
+        "bytes": 25832,
+        "sha256": "32b7a27e06245194341e284c17843d10c4f196d69666b02554a0b252d5f6081a"
+      },
+      {
+        "path": "favicon-16x16.png",
+        "bytes": 412,
+        "sha256": "c418718cb43bfb9fe76172953094389cbe079306958b00d25575a49a7bdc5559"
+      },
+      {
+        "path": "favicon-32x32.png",
+        "bytes": 708,
+        "sha256": "0907dc456efcc919a7bbd2452da1b6cac1e6fc03914ba6a70885141b73bddf99"
+      },
+      {
+        "path": "favicon.ico",
+        "bytes": 2389,
+        "sha256": "74ef25c109aab9f10da5d71dd8a85279d199f82d96afc806511c2de26ce80f32"
+      },
+      {
+        "path": "favicon.svg",
+        "bytes": 305,
+        "sha256": "ae388c22f53e4b2e32f6005daeefa33fc2992aef3a7f5e858c5dd1cfedeaa08c"
+      },
+      {
+        "path": "google8362d9398114b66b.html",
+        "bytes": 53,
+        "sha256": "927737cd158418567b85fdee9e8f55f6a60c885a3cb1b095254732d38383145e"
+      },
+      {
+        "path": "guides/beginner-guide/index.html",
+        "bytes": 66030,
+        "sha256": "4cdeb2d04a1e1fc53813791fe25220b7570ebeb4a6d2c81814a113362a0aded3"
+      },
+      {
+        "path": "guides/fishing-fragments/index.html",
+        "bytes": 62303,
+        "sha256": "382298562a0440a5aa074fd9d27f395a19bed8d6be0561b2bf610145202ecce8"
+      },
+      {
+        "path": "guides/grimoire-tier-list/index.html",
+        "bytes": 63262,
+        "sha256": "eb894d4391de599e829c42b77eace1c20e067dd87463a6dc55795627c25f0c77"
+      },
+      {
+        "path": "guides/how-to-redeem-codes/index.html",
+        "bytes": 57087,
+        "sha256": "0596100af799c44347e9676dd291590422a0492df5250ef23c488ae03cac2d92"
+      },
+      {
+        "path": "guides/how-to-reroll/index.html",
+        "bytes": 60552,
+        "sha256": "aa90feae0eefddeea2c0ff4e6a927349b240d3f796f019d84718c11557f8ed81"
+      },
+      {
+        "path": "guides/index.html",
+        "bytes": 35882,
+        "sha256": "ec030e1e71e9b188e693d2d35efe7cdd4cdbf61e8360cac1befbd3cf5c98f6e1"
+      },
+      {
+        "path": "guides/patch-notes/index.html",
+        "bytes": 59180,
+        "sha256": "f48c09c8c7d0fbe66a8b7effc076e78efb4a3fafe3ba0df0cd9a0da50468a9f6"
+      },
+      {
+        "path": "guides/race-tier-list/index.html",
+        "bytes": 60652,
+        "sha256": "a080f922803ad1157287961f5697eb367a5b7f63a7003e3b554dae13352a98da"
+      },
+      {
+        "path": "images/articles/clover-time/all-codes-overview.svg",
+        "bytes": 2805,
+        "sha256": "d8cfa6f5eb1d5bf95063bd7dcf25e726c03808816999e63644c0d98ac938735b"
+      },
+      {
+        "path": "images/articles/clover-time/anti-magic-concept.png",
+        "bytes": 2374496,
+        "sha256": "4e3569e3141278d9f5a666837345d862b7dd6a30fcd998667b558db6dea58bd2"
+      },
+      {
+        "path": "images/articles/clover-time/anti-magic-overview.svg",
+        "bytes": 2654,
+        "sha256": "f651e599b52c6dd0bb8decf113e326c82e5be7f5a67533eed4809b2d5a8f7215"
+      },
+      {
+        "path": "images/articles/clover-time/beginner-concept.png",
+        "bytes": 2947043,
+        "sha256": "10c1892101203a0f7f711e1fe7499759e0618cba8c5091c47661759cf380c4d1"
+      },
+      {
+        "path": "images/articles/clover-time/beginner-guide-overview.svg",
+        "bytes": 2850,
+        "sha256": "2f32574a6a98fce50cd3579000eb452e06478e75cea34835298a36c764bfe474"
+      },
+      {
+        "path": "images/articles/clover-time/fishing-fragments-overview.svg",
+        "bytes": 2761,
+        "sha256": "b0cb515162e62d61bc6aec62b27b79ee64372788cb73e8df17d75b77ce345b4a"
+      },
+      {
+        "path": "images/articles/clover-time/grimoire-tier-list-overview.svg",
+        "bytes": 2540,
+        "sha256": "16ab0f1f96972199950315928e06a074003b73033b43a651dc1a8b9d206ea9fa"
+      },
+      {
+        "path": "images/articles/clover-time/how-to-redeem-codes-overview.svg",
+        "bytes": 2652,
+        "sha256": "41cfa858fcce0364a3242b3b57265138fade0b7e5ad4a7e4263daf085e1477de"
+      },
+      {
+        "path": "images/articles/clover-time/how-to-reroll-overview.svg",
+        "bytes": 2718,
+        "sha256": "ff451e1a4f86f1d4fd671e97ce2319dec43e7ea5cfedf925869917362e3907a2"
+      },
+      {
+        "path": "images/articles/clover-time/patch-notes-overview.svg",
+        "bytes": 2881,
+        "sha256": "9d0882fe5c237348c41bedcfd6ac190bc8932f095524d0093dccebc92ad598fb"
+      },
+      {
+        "path": "images/articles/clover-time/poison-concept.png",
+        "bytes": 2615604,
+        "sha256": "feba94faa1a9ba3677d9c1ac829208e4408db5bd5b390b732f34bbba3b9cbde0"
+      },
+      {
+        "path": "images/articles/clover-time/poison-overview.svg",
+        "bytes": 2644,
+        "sha256": "1a2e94709575f236440831f1a2ee6d4bebe38401d4bb9241c488c303db4ca71c"
+      },
+      {
+        "path": "images/articles/clover-time/race-tier-list-overview.svg",
+        "bytes": 2651,
+        "sha256": "a9ffe941ae2c851ea800afd7f426440605c47eb9fea9078fa467fa2bbbc12648"
+      },
+      {
+        "path": "images/articles/weapon-frostpike.png",
+        "bytes": 30162,
+        "sha256": "ec829b1a18c019ed2012ec0e72bd4ed61a01265196b9637ee0b1eb3f22124c98"
+      },
+      {
+        "path": "images/articles/weapon-voidforge.png",
+        "bytes": 31188,
+        "sha256": "5911ec427ea1f27089f36a5e75fba2a5c77f9a7b654ef81de673a3eafeb85168"
+      },
+      {
+        "path": "images/hero.svg",
+        "bytes": 710,
+        "sha256": "f4ce904a0604ef3edde0b5d7ca4940ee50dbbb389d7d135d05f70a08c139dc7e"
+      },
+      {
+        "path": "images/hero.webp",
+        "bytes": 17360,
+        "sha256": "8c4c61f6ebe4f162d3bde68435c5684a5acbdda03d0d08c396252123c20b5b58"
+      },
+      {
+        "path": "images/showcase/demo-article.webp",
+        "bytes": 64240,
+        "sha256": "7b7f42c14bfc8ada9bf1cb694fe16b8bf43dfdab87d95d98c5a2fd8093f6000c"
+      },
+      {
+        "path": "images/showcase/demo-codes.webp",
+        "bytes": 57034,
+        "sha256": "8429478127d205742483557fd3613dbf5a4260512f3f2660a39fab8540fed115"
+      },
+      {
+        "path": "images/showcase/demo-home.webp",
+        "bytes": 23514,
+        "sha256": "92086c8a7b0ceb8fd388f8458a5ea575b68007e5d8e82a1b0e535ff710d504da"
+      },
+      {
+        "path": "images/showcase/demo-mobile.webp",
+        "bytes": 18096,
+        "sha256": "c69d4e8db3db17f86b6882d93f00e1dd9a9f2e8dd1fdb28ef0c3ea973c5269fc"
+      },
+      {
+        "path": "images/showcase/demo-tier-list.webp",
+        "bytes": 72746,
+        "sha256": "ca081e281a56f7e9da5e5388175346c862738d90871ed0582c62d7cd3de643ac"
+      },
+      {
+        "path": "images/showcase/sites/aniimo.jpg",
+        "bytes": 79911,
+        "sha256": "4a360d51ec559672f20d57d900f96f2db236ac1d92f17d3f923fd3c1500a44c9"
+      },
+      {
+        "path": "images/showcase/sites/jjs-player-guide.png",
+        "bytes": 66480,
+        "sha256": "fe3ee4459a45e4d3c183473bec2d7225ca9ceaef8a10f795fd12b5cd8bb93783"
+      },
+      {
+        "path": "images/showcase/sites/mortal-shell-ii.png",
+        "bytes": 73035,
+        "sha256": "c8f78b5e5e72b1dba3a3fd7bfacab6fff986abfe39b8c4c24b49ba52adc31934"
+      },
+      {
+        "path": "images/showcase/sites/nomanssky.jpg",
+        "bytes": 82589,
+        "sha256": "2dccb1fa01a785e0693226974ff59c34f2e1f2eadcccf6b190da10e125b3530c"
+      },
+      {
+        "path": "images/showcase/sites/resonance.jpg",
+        "bytes": 79025,
+        "sha256": "bf4fe0b704fd6ba59b79b374e9c50775c4486d23edd6ccb01390936b4e9867c3"
+      },
+      {
+        "path": "images/showcase/sites/sandustry.jpg",
+        "bytes": 90262,
+        "sha256": "b3ad5e2ff38e69fe4d344c6626f761716dad9e7399906daf25f73c21979e4988"
+      },
+      {
+        "path": "images/showcase/sites/sephiria.jpg",
+        "bytes": 58228,
+        "sha256": "f3d57a7bc360e610781e58b1a4b50afd4dcfd2e8edf378016aa8b216dbdc6372"
+      },
+      {
+        "path": "images/showcase/sites/steal-anegg.jpg",
+        "bytes": 81250,
+        "sha256": "cba25b133611755bd5bd5ebaeb9acdf72c8d862a30901f4009be9669921902a9"
+      },
+      {
+        "path": "images/showcase/sites/warhounds.jpg",
+        "bytes": 88467,
+        "sha256": "68d8e6e6990920c611feb8487d809acfdccea2080a251f59a02cd2f497e43bb8"
+      },
+      {
+        "path": "images/wechat-qr.jpg",
+        "bytes": 44497,
+        "sha256": "177c8926da179ad6c78953f7346d50462556725afb91c27ee408e05bda944bf0"
+      },
+      {
+        "path": "index.html",
+        "bytes": 45331,
+        "sha256": "1a88011946e7048059081ca1b4c75bd1a91f01039bbafa252d96e8f8a48007ab"
+      },
+      {
+        "path": "items/anti-magic/index.html",
+        "bytes": 68010,
+        "sha256": "23932325f726d3dd2415ef310e1d7a4bbdb3bce92706602af2bf3223f38d974e"
+      },
+      {
+        "path": "items/index.html",
+        "bytes": 30373,
+        "sha256": "1150bed80ff591c54a50822a2d37794de7dcfef54167788655a39482e433eb31"
+      },
+      {
+        "path": "items/poison/index.html",
+        "bytes": 60115,
+        "sha256": "9c49911c5329a89022723b4b7c98a2ee0163bbde47685542645fa210f2d2c34e"
+      },
+      {
+        "path": "landing/community/index.html",
+        "bytes": 436488,
+        "sha256": "dd6c98ae35fb1ba97cee745c29a0147d0c42561e0331eb81faaebfee6df61c80"
+      },
+      {
+        "path": "landing/comparison/index.html",
+        "bytes": 52905,
+        "sha256": "cbd775221a91a0ab26060bddb8be237c2bc665c666a28fa3656da62fa0655c64"
+      },
+      {
+        "path": "landing/docs/add-ga4/index.html",
+        "bytes": 76856,
+        "sha256": "c990118dfd7950910603f90479b2dd2a4da24ff50d7ae131046bb94637fa7651"
+      },
+      {
+        "path": "landing/docs/ai-ops/index.html",
+        "bytes": 83146,
+        "sha256": "c34faa8760632b646fa974544cc120b7a2f16547f37c7f09ead6f20118999282"
+      },
+      {
+        "path": "landing/docs/appendix-red-lines/index.html",
+        "bytes": 73549,
+        "sha256": "2819091b466707af55ca14e7226c17791f857079d49e95acbfb33df68e063b90"
+      },
+      {
+        "path": "landing/docs/architecture/index.html",
+        "bytes": 86118,
+        "sha256": "1e895aede0d00d576ec13a289a26a6507295132618af9f020b6af445b9be3b03"
+      },
+      {
+        "path": "landing/docs/batch-pages/index.html",
+        "bytes": 83704,
+        "sha256": "9b777d9acb6451ea5d63fa099d085729c147ce1b8bfce5cc7f3a98a633dbd915"
+      },
+      {
+        "path": "landing/docs/categories-and-locales/index.html",
+        "bytes": 77831,
+        "sha256": "a367ce1ab12bc21646bb48ca781747602e023757e83940f63371aab102e07c4a"
+      },
+      {
+        "path": "landing/docs/clone-your-site/index.html",
+        "bytes": 78390,
+        "sha256": "1b5a9bd55a9e33c83117f9229301600f9b227e1fc81fbef3db2a6955f4afa2f6"
+      },
+      {
+        "path": "landing/docs/codes-page/index.html",
+        "bytes": 77024,
+        "sha256": "f8e0ab6d99d4a2cf9bb03bc928ce87caf2dfeb493ed026ab6c1bf173a9bc00bc"
+      },
+      {
+        "path": "landing/docs/content-pipeline/index.html",
+        "bytes": 76985,
+        "sha256": "746740ccd80f4cbaa45741a3b930ec25e4a2f93fa90a72c16f8c6783a5e08b1b"
+      },
+      {
+        "path": "landing/docs/contribute-back/index.html",
+        "bytes": 72540,
+        "sha256": "d5dada5ba8c0cc5c9cda82c2357329d0b0b31421cff4579ebd112564c478949d"
+      },
+      {
+        "path": "landing/docs/day-one-list/index.html",
+        "bytes": 77741,
+        "sha256": "c4c8cd47a160615bd2a3ed46551d51528ce25ff517d0a2378c7d65e030a43535"
+      },
+      {
+        "path": "landing/docs/dev/index.html",
+        "bytes": 42820,
+        "sha256": "b7d5c27fe540baf19f2b63d0a9f2318df1d98a0065781a5310a8e7e36010df38"
+      },
+      {
+        "path": "landing/docs/enable-ads/index.html",
+        "bytes": 81020,
+        "sha256": "5963793eea91143e8e46a9072f33a71aaa55644f6a7882057f7eb823f9709c57"
+      },
+      {
+        "path": "landing/docs/find-candidates/index.html",
+        "bytes": 75866,
+        "sha256": "bfc09faeb6ebfa43496f26fae77924195fadad4a9bdc999e3d768d88231e35e1"
+      },
+      {
+        "path": "landing/docs/first-article/index.html",
+        "bytes": 78791,
+        "sha256": "997e405b5110714d197afa7ea8eb23eb197f208a0758c305b9758bd624bd683d"
+      },
+      {
+        "path": "landing/docs/first-week-numbers/index.html",
+        "bytes": 76230,
+        "sha256": "6a60f4f873e0d7c5e7a9451d1eb377c51dadb0be89ae6dd0222c8dbd1d89c0d8"
+      },
+      {
+        "path": "landing/docs/get-on-google/index.html",
+        "bytes": 84364,
+        "sha256": "40686ea2e647af22d6022ed382b5f76a25587a34665ffa6f313dc36803840aed"
+      },
+      {
+        "path": "landing/docs/get-paid/index.html",
+        "bytes": 78681,
+        "sha256": "001d958a5d7095eaba57e3587b9143e8c9b29d00b380061f5a3daace5dcc69b6"
+      },
+      {
+        "path": "landing/docs/glossary-and-commands/index.html",
+        "bytes": 74966,
+        "sha256": "6c3fdbdafbaff2656e16baa487cd4528cf94dbd954a324365f84003e6061b58b"
+      },
+      {
+        "path": "landing/docs/how-this-business-works/index.html",
+        "bytes": 74171,
+        "sha256": "33f062f6390ebd439939ccdebe0daece6d91d82e1fbd2c2977b488398f0e54cc"
+      },
+      {
+        "path": "landing/docs/index.html",
+        "bytes": 49744,
+        "sha256": "14fe269f350b861451b111b3a7bcb3be5b1b97c7b9bb7747c05c2db724cdc935"
+      },
+      {
+        "path": "landing/docs/install-counters/index.html",
+        "bytes": 75717,
+        "sha256": "1589885f4a28dd952117344c2c7d4b3ae498a4c0adb07aa336a69e3afa26d477"
+      },
+      {
+        "path": "landing/docs/install-tools/index.html",
+        "bytes": 82731,
+        "sha256": "0ddd8566b328ccd69c253e5ebbe1aa2f7d16b5b8c8eddf0f8f9042111aa58501"
+      },
+      {
+        "path": "landing/docs/integrations/index.html",
+        "bytes": 78687,
+        "sha256": "1b94b639905bda0c8f1a57d30359f584ec15a2cc77b245679b847a9041fc197c"
+      },
+      {
+        "path": "landing/docs/launch-batch-plan/index.html",
+        "bytes": 74488,
+        "sha256": "e63bac1a67ea478c50464d0104650ac89d9840be8f484a952163f0a83446380b"
+      },
+      {
+        "path": "landing/docs/learn/index.html",
+        "bytes": 65118,
+        "sha256": "1b265d45f58b5bc6b9827f72422feabb3a2dfbca54c507fd15161bd4dbbe1678"
+      },
+      {
+        "path": "landing/docs/multi-site/index.html",
+        "bytes": 78302,
+        "sha256": "4abe1a0de82be14f246b0cf914d7620daf9cf568104b06bc9d2c927f83d3156e"
+      },
+      {
+        "path": "landing/docs/put-site-online/index.html",
+        "bytes": 83860,
+        "sha256": "4ae6969f579ffa9efff12e91236c5aaf51d3e47ba13fd6b483066fa8e2150140"
+      },
+      {
+        "path": "landing/docs/quality-gate/index.html",
+        "bytes": 75632,
+        "sha256": "b74f3278a601ad13e0bed39b40dfd4ce51e9ca1acd337a3424962302f0c0f0ab"
+      },
+      {
+        "path": "landing/docs/rank-one-keyword/index.html",
+        "bytes": 77649,
+        "sha256": "d066b3321f8ca806632d3bc9b61601843b4906eaca81e9c704de8b8a2d42aa10"
+      },
+      {
+        "path": "landing/docs/read-google-trends/index.html",
+        "bytes": 76216,
+        "sha256": "ea56b9ff3ef311f06e907bb8d75eddfec7ebae778b5e37f8d88ae1069d315e79"
+      },
+      {
+        "path": "landing/docs/read-serp/index.html",
+        "bytes": 75774,
+        "sha256": "557b673909d365890052418dca7e588f6a024b4b40d1aa42fc7e289e79f38dc1"
+      },
+      {
+        "path": "landing/docs/rebrand-your-site/index.html",
+        "bytes": 81908,
+        "sha256": "a9aba517a3493276323c39bc92c04bd6afbf1d86b3a0c8077b04d1a9afbb0930"
+      },
+      {
+        "path": "landing/docs/run-your-site/index.html",
+        "bytes": 79294,
+        "sha256": "057b7b0c5c2f18c842ba8798f6350fff97450c17f2919ef51d06151395abe0f9"
+      },
+      {
+        "path": "landing/docs/score-and-decide/index.html",
+        "bytes": 79667,
+        "sha256": "f76ed37ecf0b3da4aafe593ef5159b4f96868a464a86c3b04d421245abbcc271"
+      },
+      {
+        "path": "landing/docs/search-intent/index.html",
+        "bytes": 75533,
+        "sha256": "2e034f316926f246d99a2e66dc9e8bd38460d377d635a29be76e0d29148e3a4b"
+      },
+      {
+        "path": "landing/docs/sync-upstream/index.html",
+        "bytes": 75430,
+        "sha256": "0f71800da5935dd82e7ce29826b568b333f3d781f1b3ffe8ea621aa3e3ed547c"
+      },
+      {
+        "path": "landing/docs/the-roadmap/index.html",
+        "bytes": 73467,
+        "sha256": "16e81185fe6981080b39eaace0110bd7cdf5e13467d83b8e9295f8eb6a73bebf"
+      },
+      {
+        "path": "landing/docs/theme-and-homepage/index.html",
+        "bytes": 78175,
+        "sha256": "0c2766bbc3a68b970888dac551aee98aa869c9ccbb1f31b7c8e0d15481897653"
+      },
+      {
+        "path": "landing/docs/tier-list-and-media/index.html",
+        "bytes": 77115,
+        "sha256": "fd088dd934c448868dfd01791ecd1ede4f1ec30b6b5ec4cc6106cd503c155a68"
+      },
+      {
+        "path": "landing/docs/troubleshooting-tree/index.html",
+        "bytes": 73197,
+        "sha256": "7412d460996f28fd6af1d15d987fd46fce573f79005fd4aead23a8b2a1ac75fe"
+      },
+      {
+        "path": "landing/docs/trust-and-backlinks/index.html",
+        "bytes": 78107,
+        "sha256": "fe414d638a37f2a15715df78eecb75570ca4da945e7ab7b87035538e6a8bfb7c"
+      },
+      {
+        "path": "landing/docs/verify-your-changes/index.html",
+        "bytes": 80581,
+        "sha256": "24a63c4c7ab0c16e1999ba7fdbfc5bff40863b5c22fd08c805a4cbc1fcc2640d"
+      },
+      {
+        "path": "landing/docs/weekly-ops/index.html",
+        "bytes": 84383,
+        "sha256": "f3b203866f0428e0b27cf8f01f71ba243ec557f141e3ec03df1e250199d2d8d7"
+      },
+      {
+        "path": "landing/index.html",
+        "bytes": 86782,
+        "sha256": "9ba982d0c2ffa9c1ce9b89190d581181265710cc1682a75b1bc621557384412a"
+      },
+      {
+        "path": "landing/templates/index.html",
+        "bytes": 47883,
+        "sha256": "46091883265e55b04937197cd57c53486a42aa4069e9b2a115387c9719498cca"
+      },
+      {
+        "path": "llms.txt",
+        "bytes": 203,
+        "sha256": "3099e96b7723fc2ec4b3f1cb7214864b6fb314089957d7f46e1cdf1982e38b16"
+      },
+      {
+        "path": "manifest.json",
+        "bytes": 537,
+        "sha256": "9d10d3c0fd9c2fa1e580605fc256d704c1752acdd1e067fe3f2a1ee713d57fd0"
+      },
+      {
+        "path": "pagefind/fragment/en_108397d.pf_fragment",
+        "bytes": 2632,
+        "sha256": "eeeeadde5bea4135a08ac05ea1084cfba8c95a9fad42af2bdb89ef1d09e0b70f"
+      },
+      {
+        "path": "pagefind/fragment/en_13fe2c8.pf_fragment",
+        "bytes": 3627,
+        "sha256": "6cab6bcfad6515d2574fb6c7da4a67ab9f4385801a5973151273dce1c097e7a2"
+      },
+      {
+        "path": "pagefind/fragment/en_19b73ff.pf_fragment",
+        "bytes": 1817,
+        "sha256": "4c78a1193a781c248479b1cdbed7c9248454c1db0f919345a175e9256d0ce1de"
+      },
+      {
+        "path": "pagefind/fragment/en_1f6422a.pf_fragment",
+        "bytes": 3367,
+        "sha256": "e14d3053509bbb2b6f3b89031ce8164a9cf079dd5e9e9b934a080e3b0f0903a2"
+      },
+      {
+        "path": "pagefind/fragment/en_20bbcb4.pf_fragment",
+        "bytes": 3781,
+        "sha256": "5084a24c41de9ed64f58eec617a5dacaa2bcc45df8bb5d7dce0911a04c1792f6"
+      },
+      {
+        "path": "pagefind/fragment/en_256cd96.pf_fragment",
+        "bytes": 3788,
+        "sha256": "5667a28aaa25fa9af68e2d0623afe927607c963f4223b92e8f02fdf9352c1109"
+      },
+      {
+        "path": "pagefind/fragment/en_25f1bbe.pf_fragment",
+        "bytes": 2588,
+        "sha256": "4a6809880a208c794460f73853ed67b408c69f12c2e4bcb915bc5feba8c6050f"
+      },
+      {
+        "path": "pagefind/fragment/en_289a33e.pf_fragment",
+        "bytes": 2118,
+        "sha256": "ad10ee13bff2f502af2e0403e85e979110e8facdcc7e89890d26e0e734b3b97a"
+      },
+      {
+        "path": "pagefind/fragment/en_2b1a6f6.pf_fragment",
+        "bytes": 2081,
+        "sha256": "05a5774b9fd262db72803a789ea8b19071532115a0e93d7bc5ead5c4b63eb442"
+      },
+      {
+        "path": "pagefind/fragment/en_2ff2d91.pf_fragment",
+        "bytes": 2275,
+        "sha256": "c2a836308687140fbbf2fa29e0386e7d8d725112d723854608bee9ebf57a42c8"
+      },
+      {
+        "path": "pagefind/fragment/en_3194978.pf_fragment",
+        "bytes": 2669,
+        "sha256": "c329e8e5d9b7cd496dfba86c029945d325b6e5ac5636ce5360583243a1a1dbcc"
+      },
+      {
+        "path": "pagefind/fragment/en_3b691eb.pf_fragment",
+        "bytes": 2349,
+        "sha256": "6669d24c1c4b759cabb1f73d8d6854f33f5a207e6c020c70a0fe193909620af8"
+      },
+      {
+        "path": "pagefind/fragment/en_4415f83.pf_fragment",
+        "bytes": 2036,
+        "sha256": "8fd60c9207256405378b8c406c966751228a810d1e2529dfb73ceb737f69f03a"
+      },
+      {
+        "path": "pagefind/fragment/en_4c78936.pf_fragment",
+        "bytes": 2099,
+        "sha256": "b2450b51908fcc8d323a6e9128e3ca9c964e9a389df621b13e4a18b112ce58dc"
+      },
+      {
+        "path": "pagefind/fragment/en_4e549b1.pf_fragment",
+        "bytes": 1925,
+        "sha256": "313b3d0e5db53c8ac2d204df02161ad8196a698ce971cecb7a53413b34c43124"
+      },
+      {
+        "path": "pagefind/fragment/en_5935775.pf_fragment",
+        "bytes": 2168,
+        "sha256": "769fe1dbee3542fa1f712ca9a23b22a9e038c52c06c79328a285a8d0ce239e47"
+      },
+      {
+        "path": "pagefind/fragment/en_693640c.pf_fragment",
+        "bytes": 2111,
+        "sha256": "60896ab1783526917dad05174d704b6e229306be16146f905b44f4fdb904f2b8"
+      },
+      {
+        "path": "pagefind/fragment/en_70c7d75.pf_fragment",
+        "bytes": 2306,
+        "sha256": "140df520f314704b12d8d60b8474100e13951e7b5d8e7c985e5768c02c1f364f"
+      },
+      {
+        "path": "pagefind/fragment/en_73f098d.pf_fragment",
+        "bytes": 2199,
+        "sha256": "cc7141c8efb8d1fc7e41a7ce43d10c3e830f7c84028cbe5af13472478889c751"
+      },
+      {
+        "path": "pagefind/fragment/en_77ad5a2.pf_fragment",
+        "bytes": 1611,
+        "sha256": "a07866f6103e86d108fdc212555fd7699764281b0a01db4f95d8b3a50a570aff"
+      },
+      {
+        "path": "pagefind/fragment/en_7a2947d.pf_fragment",
+        "bytes": 1452,
+        "sha256": "1d5c742c8a94e9878e80c7a8bd08c34eac2e38970743109df120b85461b84e34"
+      },
+      {
+        "path": "pagefind/fragment/en_7fe6b3d.pf_fragment",
+        "bytes": 3082,
+        "sha256": "29e4522a9b78bcb6c7f5ba3356a6a459bce7f6a58e805a5c05d00e82711c1ad4"
+      },
+      {
+        "path": "pagefind/fragment/en_86f4617.pf_fragment",
+        "bytes": 2535,
+        "sha256": "965f40c8ce8c1c73dbbeddc72a6fbba57ebff8d558910f2f6c948aec5f7f2848"
+      },
+      {
+        "path": "pagefind/fragment/en_89bb897.pf_fragment",
+        "bytes": 1939,
+        "sha256": "6e084b7d94dbb3c66eb6af41c95c73968025a3f7f94e8ad05dda6a7b81ef006d"
+      },
+      {
+        "path": "pagefind/fragment/en_8ac6831.pf_fragment",
+        "bytes": 1809,
+        "sha256": "5df52e23ddf39f38e05e9bdc33832f4b689c41c2e5965572c746a7cd181d5c43"
+      },
+      {
+        "path": "pagefind/fragment/en_8fcc966.pf_fragment",
+        "bytes": 2030,
+        "sha256": "dfafb4397f1173d3ef439f77fb7e6acac5d31fbdbb622ef3416d0c0f3d9e7d31"
+      },
+      {
+        "path": "pagefind/fragment/en_9865ad3.pf_fragment",
+        "bytes": 2698,
+        "sha256": "b762501ca4731e8c468b62dc4a81b641e2358678783a11c7612f12662010d277"
+      },
+      {
+        "path": "pagefind/fragment/en_9964a32.pf_fragment",
+        "bytes": 1960,
+        "sha256": "a3b6a64cc1030fd065718f4590cfb49479bdf7115b5e934e532c723c3787c801"
+      },
+      {
+        "path": "pagefind/fragment/en_9abb1df.pf_fragment",
+        "bytes": 3654,
+        "sha256": "b9e8889d77f9791946bfc82f6eeb0b883cc4904b0dd05c738262136070d59247"
+      },
+      {
+        "path": "pagefind/fragment/en_a020d96.pf_fragment",
+        "bytes": 2866,
+        "sha256": "4c6d7d6f43c6efc227b2f92e40e80d813d24c772312260d29e1370ec7ef25366"
+      },
+      {
+        "path": "pagefind/fragment/en_a5f2c42.pf_fragment",
+        "bytes": 53521,
+        "sha256": "072aac05a8c4d2d49eba9c4e113cc8dd638ef95210196ef2b3ad453e59af02e7"
+      },
+      {
+        "path": "pagefind/fragment/en_a738b94.pf_fragment",
+        "bytes": 2304,
+        "sha256": "d9421e15f35ab12d3f4c5302996d0a7d3ddcc04538937403c9eb68749497e98c"
+      },
+      {
+        "path": "pagefind/fragment/en_b2cab37.pf_fragment",
+        "bytes": 2382,
+        "sha256": "1b4ff6ff2973a80a837771fe7832cb531d55c1f66547a4454d2190952d7b6a46"
+      },
+      {
+        "path": "pagefind/fragment/en_b411a49.pf_fragment",
+        "bytes": 3160,
+        "sha256": "fc4bbd7c629b669e9e7da29e080f7cc35b7f50655209632931b4a1fb7d6b893c"
+      },
+      {
+        "path": "pagefind/fragment/en_b49157c.pf_fragment",
+        "bytes": 1866,
+        "sha256": "68539438e80695bd28eda12e2783064d3f20801c69f5ed9dfdae541fc4551d20"
+      },
+      {
+        "path": "pagefind/fragment/en_b52edda.pf_fragment",
+        "bytes": 3368,
+        "sha256": "7eeb11a80a0cd9bcf2117a9f6c20599cf277a5bf941534792b4e5de8cc2b78e7"
+      },
+      {
+        "path": "pagefind/fragment/en_b768fee.pf_fragment",
+        "bytes": 1577,
+        "sha256": "0166a1da94d9cf36b62ce57a01a6179c7184645abf184f08c7da316b9d96b9fb"
+      },
+      {
+        "path": "pagefind/fragment/en_bb7812a.pf_fragment",
+        "bytes": 2697,
+        "sha256": "ae2ea432dadf0c48709e14c1eb16837031038f6224349a3143f10f9d2db3db37"
+      },
+      {
+        "path": "pagefind/fragment/en_bb9ebd3.pf_fragment",
+        "bytes": 1685,
+        "sha256": "dd6a6a7c122a45a27ac251e49fa5faffaaa8e37149fc15b7561556fc7dd03aa7"
+      },
+      {
+        "path": "pagefind/fragment/en_c12353b.pf_fragment",
+        "bytes": 2609,
+        "sha256": "de79932479cff9179e040bc8714e27216273f6c083e1a67ef56f003bfc44be0b"
+      },
+      {
+        "path": "pagefind/fragment/en_ca88dc7.pf_fragment",
+        "bytes": 2331,
+        "sha256": "669743371308ff0f265f39563070e595ae1e03903cc0804ec2623a25e82b426e"
+      },
+      {
+        "path": "pagefind/fragment/en_cdea575.pf_fragment",
+        "bytes": 2087,
+        "sha256": "87d711a6875977251fd65ad83ef805197aa3c94b8ac546a8efa6034f52ec85f2"
+      },
+      {
+        "path": "pagefind/fragment/en_d1a92d5.pf_fragment",
+        "bytes": 2353,
+        "sha256": "c057e7073dad3aebfaae8042250c144c3a9f9b841bbfa2a8b9ba167373190107"
+      },
+      {
+        "path": "pagefind/fragment/en_d78325f.pf_fragment",
+        "bytes": 2809,
+        "sha256": "e345512cb5f4ab024df483bd078dd3f808da356f1da2bd7f3bf684cf72ece2cd"
+      },
+      {
+        "path": "pagefind/fragment/en_d9822a7.pf_fragment",
+        "bytes": 3877,
+        "sha256": "9321155a2bc26465dd1ca540139669183c713a3e1fbfe59e6b584888d3f13705"
+      },
+      {
+        "path": "pagefind/fragment/en_ddb402f.pf_fragment",
+        "bytes": 3780,
+        "sha256": "d774fb9972e40209ae253b26963f1a48862ea73024e8b915ac667515d29c4639"
+      },
+      {
+        "path": "pagefind/fragment/en_e1756b8.pf_fragment",
+        "bytes": 3285,
+        "sha256": "0b2ad45f3616e4c5ee9563df7815988d5709a3663bb37e10532afe6bd9bae7d4"
+      },
+      {
+        "path": "pagefind/fragment/en_e3e26dc.pf_fragment",
+        "bytes": 3291,
+        "sha256": "30ff4b3e941e349ccea0c281721016c881abc7a69189597aa188988d82f6b651"
+      },
+      {
+        "path": "pagefind/fragment/en_e51d7e4.pf_fragment",
+        "bytes": 2563,
+        "sha256": "23e646a1813c4c2c954716b7c81f583d5dfdc74941fb3486f781764731c123d9"
+      },
+      {
+        "path": "pagefind/fragment/en_f493c62.pf_fragment",
+        "bytes": 2758,
+        "sha256": "d2afe4f39e4b613e206ab55de08a6bfff6052e016e34f34f627b5735eb0df705"
+      },
+      {
+        "path": "pagefind/fragment/en_f6d48f0.pf_fragment",
+        "bytes": 2722,
+        "sha256": "0fc5ab8ec95f36d31d94f93a484b22d10479a1ce4be1d8e3e2b44a9af6f3c446"
+      },
+      {
+        "path": "pagefind/fragment/en_fa72252.pf_fragment",
+        "bytes": 2766,
+        "sha256": "a6f740a697d094cd5ef5d82f89132fffab9653be490ad32052b6b1c28ebbf2f9"
+      },
+      {
+        "path": "pagefind/fragment/en_ff2b473.pf_fragment",
+        "bytes": 2227,
+        "sha256": "023c7d247a699bd34894fc3d5b1c55f39f44de2a21cb46f9517cfaed44553988"
+      },
+      {
+        "path": "pagefind/fragment/en_ff3f81b.pf_fragment",
+        "bytes": 2437,
+        "sha256": "9db7a6ad251fd8ee6ebc8987f80261b3176c3a4f04c582ef12395edbd5f1f343"
+      },
+      {
+        "path": "pagefind/fragment/en_ffaf439.pf_fragment",
+        "bytes": 1792,
+        "sha256": "d05ef7d6c7567297eb00d6dbc7d39a072fa9eb1a055b3971c304752e0a874a33"
+      },
+      {
+        "path": "pagefind/fragment/zh_10b5111.pf_fragment",
+        "bytes": 3805,
+        "sha256": "b761455b2931d0e8606209c05df9c8a5a4b7c8f2095f54c37d79164c95c8c527"
+      },
+      {
+        "path": "pagefind/fragment/zh_1246479.pf_fragment",
+        "bytes": 3503,
+        "sha256": "cba5c1ab9b6472d84b6deab89817e394b5703c5fd24ae32f87ee82f9a557673a"
+      },
+      {
+        "path": "pagefind/fragment/zh_125f232.pf_fragment",
+        "bytes": 2919,
+        "sha256": "5018266ba52d1b8687dc1feeb56c67752af05610558589ddbf268fbcfd6ab7c0"
+      },
+      {
+        "path": "pagefind/fragment/zh_1685936.pf_fragment",
+        "bytes": 3140,
+        "sha256": "74f84ceb1978da2f631d563d9137dcbf0f8b02e071cee59df2f60858461b51a7"
+      },
+      {
+        "path": "pagefind/fragment/zh_1685971.pf_fragment",
+        "bytes": 2453,
+        "sha256": "fc947468093517f106fca2333f5aa9841c137e2e11bd4a878e9b3a4a81a5ab54"
+      },
+      {
+        "path": "pagefind/fragment/zh_1775c8b.pf_fragment",
+        "bytes": 1998,
+        "sha256": "d01dce8c0f97f08241c0effa628667ec7e47952bb33f1a4efb7b993737748369"
+      },
+      {
+        "path": "pagefind/fragment/zh_1d1f442.pf_fragment",
+        "bytes": 2225,
+        "sha256": "b3b711e21b89aad7808c760ed888fa15590b8dba5a99f00d239ad15ae2fcde96"
+      },
+      {
+        "path": "pagefind/fragment/zh_2821f98.pf_fragment",
+        "bytes": 2550,
+        "sha256": "33c87019c492e57cbff1b32e8b97fbdab64b0f3c589c2d27242c42cb47976a62"
+      },
+      {
+        "path": "pagefind/fragment/zh_2c7dbce.pf_fragment",
+        "bytes": 4282,
+        "sha256": "90507acf6bd57a0d8179a888756085a948b9ecb61b99eecea4df260ebd70ddb6"
+      },
+      {
+        "path": "pagefind/fragment/zh_2fcd3d5.pf_fragment",
+        "bytes": 3152,
+        "sha256": "c4db614d561a9a1977c80b38b49993e8b934957a7d223d7fc8f8d88a391148e1"
+      },
+      {
+        "path": "pagefind/fragment/zh_3265e76.pf_fragment",
+        "bytes": 1719,
+        "sha256": "348434a4b8859489d9393f0c2a458148f470e0c24a30bd03ecc41c2f9e81d4d5"
+      },
+      {
+        "path": "pagefind/fragment/zh_34d98de.pf_fragment",
+        "bytes": 3233,
+        "sha256": "659d93530da4db347b1ff82b26d44c3059241baad3d5f1a02eb9d70a925af12d"
+      },
+      {
+        "path": "pagefind/fragment/zh_3a9e1bc.pf_fragment",
+        "bytes": 3297,
+        "sha256": "054553e0fad39a4bd4da922f48d280a69f3878ae4d487935556ceec4448f817e"
+      },
+      {
+        "path": "pagefind/fragment/zh_43e8932.pf_fragment",
+        "bytes": 2845,
+        "sha256": "7dc326c1757ebd94ec7d8367c2604a211709904af6dcfbdff40d9d198c6ace71"
+      },
+      {
+        "path": "pagefind/fragment/zh_5119fe2.pf_fragment",
+        "bytes": 3303,
+        "sha256": "203a7707e932db8b78e824ccf30a22136d2512abc154c283f017d61487c6f295"
+      },
+      {
+        "path": "pagefind/fragment/zh_595dcdc.pf_fragment",
+        "bytes": 2150,
+        "sha256": "dbf27eb85cee87dbddb58026054d0c6ca9c6b9c68dfd5d369e9758635e493887"
+      },
+      {
+        "path": "pagefind/fragment/zh_5b65d71.pf_fragment",
+        "bytes": 3531,
+        "sha256": "86a219a5ff41297514d59acdf53dfb1ba6a4d51dfadf9bfb7f68de80da4a1375"
+      },
+      {
+        "path": "pagefind/fragment/zh_5ca287b.pf_fragment",
+        "bytes": 2861,
+        "sha256": "288e424dde8a8f2ef1371b225d8c814aa9ad56b731583aa0f00d0bc3555708d3"
+      },
+      {
+        "path": "pagefind/fragment/zh_627d2fa.pf_fragment",
+        "bytes": 2734,
+        "sha256": "7929146c7e6093976804ee48d2abee75efecb78366e1b04ae1edf238493dd09e"
+      },
+      {
+        "path": "pagefind/fragment/zh_62cbc1f.pf_fragment",
+        "bytes": 2690,
+        "sha256": "f9633ab3d440b25eed9210dbdff60e0de0754a67d1a111af96c48b3f083970d7"
+      },
+      {
+        "path": "pagefind/fragment/zh_6801dd8.pf_fragment",
+        "bytes": 2751,
+        "sha256": "375a0f221148a15bdc9e63bd21486db662d7fd05d925adfc9e1c6733e6a1f533"
+      },
+      {
+        "path": "pagefind/fragment/zh_73bd999.pf_fragment",
+        "bytes": 2351,
+        "sha256": "89b2cb57a0473629bd736e154dfaf0325f9767d0634bb6d067599e2eefdd3c32"
+      },
+      {
+        "path": "pagefind/fragment/zh_7461e69.pf_fragment",
+        "bytes": 4136,
+        "sha256": "96e6e376c9ac242a31ab121ec281defa6876c5645faaaf7b2cf45ff7a2be5ea5"
+      },
+      {
+        "path": "pagefind/fragment/zh_77b845d.pf_fragment",
+        "bytes": 2421,
+        "sha256": "f6f8419870ea9810a6ecf2229e78d62c4d1b28f3d7b7f47b0a9386085ae8af17"
+      },
+      {
+        "path": "pagefind/fragment/zh_78327ce.pf_fragment",
+        "bytes": 4387,
+        "sha256": "e8ce48ca2df726fea7cfbe259b24bbaf362b9c58152dbf65ee8bea117e03c1f6"
+      },
+      {
+        "path": "pagefind/fragment/zh_7968dbb.pf_fragment",
+        "bytes": 2929,
+        "sha256": "0d128e71a885ef24f0254c4167a1e8dbd1341216c56ea98d18e14b74b98631fd"
+      },
+      {
+        "path": "pagefind/fragment/zh_7d2bfc7.pf_fragment",
+        "bytes": 2627,
+        "sha256": "01c18a9880293a648dd8363443bcb8d379433a026cf5dea7315c34d21d824fc1"
+      },
+      {
+        "path": "pagefind/fragment/zh_82ee2b5.pf_fragment",
+        "bytes": 4301,
+        "sha256": "96190d9d03a6f045f2d028c64f3814e5d876b84b260b2bc6c069be76de37f798"
+      },
+      {
+        "path": "pagefind/fragment/zh_8746946.pf_fragment",
+        "bytes": 3338,
+        "sha256": "58168ed8e1f5e47ee317a05c46b993ca78d89c5d9ec11ef6e8cc0eecb83a0222"
+      },
+      {
+        "path": "pagefind/fragment/zh_91477ab.pf_fragment",
+        "bytes": 3538,
+        "sha256": "34cae5e4ce4da9236bff2a6fe536b950beab0b9d561f3925b1706bad8e632c5e"
+      },
+      {
+        "path": "pagefind/fragment/zh_92c8a2d.pf_fragment",
+        "bytes": 2941,
+        "sha256": "3ec91f373371fe58923b24353a7f05802c72411044e7c78ee3f50018d09dbdc0"
+      },
+      {
+        "path": "pagefind/fragment/zh_943e698.pf_fragment",
+        "bytes": 2663,
+        "sha256": "b6ce52d40db7363fc64b902af2d191b9567b651a390cde68fe668137e43b1457"
+      },
+      {
+        "path": "pagefind/fragment/zh_98b0dfb.pf_fragment",
+        "bytes": 4339,
+        "sha256": "049a58abede09565a9ffcf6651197cd33ec88425add8bb94203934fe366c022b"
+      },
+      {
+        "path": "pagefind/fragment/zh_9d8c723.pf_fragment",
+        "bytes": 2125,
+        "sha256": "401c27f15627e1cb62e248e6e77af94f64c8dddc06bb5cf8fbce4378084c7edc"
+      },
+      {
+        "path": "pagefind/fragment/zh_a13ce06.pf_fragment",
+        "bytes": 2494,
+        "sha256": "7c9fd55d5a8398ac390c6b49973dc5e10d80f846b26dfcf2aa3653ff08ffbc0e"
+      },
+      {
+        "path": "pagefind/fragment/zh_a3a7bc4.pf_fragment",
+        "bytes": 3161,
+        "sha256": "c6a3aa3d449b2141c748846c32a98f917b122f4fcf875280aced894127453b1a"
+      },
+      {
+        "path": "pagefind/fragment/zh_ab366fa.pf_fragment",
+        "bytes": 2883,
+        "sha256": "d167a12d61e43e2da5a33b8258d977951fa86ec38a8f38b15a909403eef9a2bb"
+      },
+      {
+        "path": "pagefind/fragment/zh_ad1e928.pf_fragment",
+        "bytes": 4269,
+        "sha256": "98a1c43f014712f1a4547cc497a885b52aeb93e67a04e0f63b96cadd78d7958d"
+      },
+      {
+        "path": "pagefind/fragment/zh_af85689.pf_fragment",
+        "bytes": 2582,
+        "sha256": "4a8f0d19fa15f5dc11437ee997f44af656898227154d6262a4509c726ee2064a"
+      },
+      {
+        "path": "pagefind/fragment/zh_b37974c.pf_fragment",
+        "bytes": 2991,
+        "sha256": "0b20eb9565fccc6270b97aadca186a6cf2850a778d00352deaa0d55116b32a44"
+      },
+      {
+        "path": "pagefind/fragment/zh_c29f658.pf_fragment",
+        "bytes": 3988,
+        "sha256": "8615602333d74ac2b92d920098109981ecea5bf95a5f6424a3e02ac775fc60d6"
+      },
+      {
+        "path": "pagefind/fragment/zh_c929694.pf_fragment",
+        "bytes": 3090,
+        "sha256": "c45c605b7f096751dc47efb04e203433096d045a1e533757769d0699da417f73"
+      },
+      {
+        "path": "pagefind/fragment/zh_ca98f9b.pf_fragment",
+        "bytes": 2506,
+        "sha256": "841dda41c67c24099e4067ca0858e764ffa33e288d05829e11730c96da1f04d8"
+      },
+      {
+        "path": "pagefind/fragment/zh_cb95f22.pf_fragment",
+        "bytes": 3585,
+        "sha256": "9d7d5eaeb67a23c84fa19854475b1714a33d10b8add0c47d42fb763f63bbc360"
+      },
+      {
+        "path": "pagefind/fragment/zh_cd72541.pf_fragment",
+        "bytes": 4454,
+        "sha256": "b1987f15839b5b89b412623ea6669900692d248d0d003aee76f6d866b34b464e"
+      },
+      {
+        "path": "pagefind/fragment/zh_cddb668.pf_fragment",
+        "bytes": 2176,
+        "sha256": "9a027f2e4dde2ab4ef2008c18a9ec6a986aa75a98bc1f8f69ebf451681b4ea7c"
+      },
+      {
+        "path": "pagefind/fragment/zh_ce6d5e9.pf_fragment",
+        "bytes": 2743,
+        "sha256": "710607f91d7c8410bbd4f6f75987982592ff90091a2edc5468c79d62146294e5"
+      },
+      {
+        "path": "pagefind/fragment/zh_d3b7a02.pf_fragment",
+        "bytes": 2897,
+        "sha256": "dcc862f0708d6cdd12f2dcd80ca7d851002a2af0f8ebc426d04b18114ddbd02d"
+      },
+      {
+        "path": "pagefind/fragment/zh_d47de41.pf_fragment",
+        "bytes": 60919,
+        "sha256": "253eb9e92484db51b6c18227a558b5fa0088b71186fb6a2852fb2e1fe4f436d6"
+      },
+      {
+        "path": "pagefind/fragment/zh_df3d1ca.pf_fragment",
+        "bytes": 3582,
+        "sha256": "34ad578a642c29e63a3d8344ed6be2c9b11d4ecdde4f3bcbf26be0e92aaa5854"
+      },
+      {
+        "path": "pagefind/fragment/zh_e53de92.pf_fragment",
+        "bytes": 2677,
+        "sha256": "f19e832adc877e7d78cebfd325d895da2b244ededc997e720fc869f65ae31919"
+      },
+      {
+        "path": "pagefind/fragment/zh_e56e8bc.pf_fragment",
+        "bytes": 2970,
+        "sha256": "2fe4a03cec35b35af092f13049f6f5f54cac77d1ab38a44338cfab4705bbc565"
+      },
+      {
+        "path": "pagefind/fragment/zh_eafdb31.pf_fragment",
+        "bytes": 4554,
+        "sha256": "e284548895551c18095661d76bd313b94a7eea6eea4d334094f373d012615e1d"
+      },
+      {
+        "path": "pagefind/fragment/zh_ebb231b.pf_fragment",
+        "bytes": 2203,
+        "sha256": "3590779950ed9777480539039e8a7ea1b9084a8dd8a59793b601b1d2146a2bc9"
+      },
+      {
+        "path": "pagefind/fragment/zh_f7f4b33.pf_fragment",
+        "bytes": 4113,
+        "sha256": "6841fe97551cb67d80d7aedfde2ddc62103ab8060d4dc5e81c7fce00cabc8577"
+      },
+      {
+        "path": "pagefind/index/en_303d3d2.pf_index",
+        "bytes": 79931,
+        "sha256": "03551aa18d6baff134b4a47ceed523ceaffaaa7d191ebbd7ac6c2ffa78bb1766"
+      },
+      {
+        "path": "pagefind/index/en_306d7ae.pf_index",
+        "bytes": 32729,
+        "sha256": "41c4b6a533e841f1d83dc64189904e8222dc7fdea516b4e4cb9d7e4e03d6da08"
+      },
+      {
+        "path": "pagefind/index/en_b15bdea.pf_index",
+        "bytes": 32438,
+        "sha256": "3caacb0009e1677a3ad1a13d33217b95ca447303dc69ea04adbf285a8cd79d01"
+      },
+      {
+        "path": "pagefind/index/en_c76cab8.pf_index",
+        "bytes": 36120,
+        "sha256": "f19d197335f33801d80bbaeda228e99eb6c9791f4ab400bb4ad6e84dfecb7ebb"
+      },
+      {
+        "path": "pagefind/index/en_f2cb178.pf_index",
+        "bytes": 33490,
+        "sha256": "4c99fe1b827264efc6a365a1e23b33f2aad10d7c0d7429a091a10bc7571ab377"
+      },
+      {
+        "path": "pagefind/index/zh_3cc31c1.pf_index",
+        "bytes": 34602,
+        "sha256": "e18052d3aaba57a11944d56cbf3025cf07ec58c8864dfa4ccd2422ec5e5deab4"
+      },
+      {
+        "path": "pagefind/index/zh_4a4a2bf.pf_index",
+        "bytes": 26096,
+        "sha256": "31bd8a139de08a6140727e6f8ebe52368728c1c8654b9f3138de1ed3d26d6718"
+      },
+      {
+        "path": "pagefind/index/zh_79fc306.pf_index",
+        "bytes": 35414,
+        "sha256": "488118a9a0f4712c658002915a950469f6f2ce53f399f6f83fc1778fe86921a9"
+      },
+      {
+        "path": "pagefind/index/zh_d4d7f0b.pf_index",
+        "bytes": 35734,
+        "sha256": "ec38a283d13c967d35c9b66a1bdbcb5a64fe38857eff4a041d1612ec2f628ff8"
+      },
+      {
+        "path": "pagefind/index/zh_eb4c0c0.pf_index",
+        "bytes": 34554,
+        "sha256": "0988c8ce9a04ef261b49ae07e44a2b0603401d82ed7290c21a24d9d8cea3cfa3"
+      },
+      {
+        "path": "pagefind/index/zh_f8211bd.pf_index",
+        "bytes": 34370,
+        "sha256": "09fb12fe4b334e8f1c615786e7c2fd71d371702b4523830633a58ce26f5abf8b"
+      },
+      {
+        "path": "pagefind/pagefind-component-ui.css",
+        "bytes": 41830,
+        "sha256": "de389c7e5d87d6e2b10d65fb1e36e8989a12a2ad8dd6239b7e070d81fb5d8b0d"
+      },
+      {
+        "path": "pagefind/pagefind-component-ui.js",
+        "bytes": 195382,
+        "sha256": "33118ab8dce1ffebbe19ccac557a93f77c426a2919a9998198f03a19b67062ed"
+      },
+      {
+        "path": "pagefind/pagefind-entry.json",
+        "bytes": 230,
+        "sha256": "c7f3c64416e930a9e9dc939821d7080e63de96d4dca8a69b146c39a35b94e68a"
+      },
+      {
+        "path": "pagefind/pagefind-highlight.js",
+        "bytes": 43108,
+        "sha256": "0caad31cffdf8dec87cd6857a78e7e5aa2ae10edee32b19e2fa53f213310b984"
+      },
+      {
+        "path": "pagefind/pagefind-modular-ui.css",
+        "bytes": 7336,
+        "sha256": "653ab29e4de5629f6ddf5f6fcdf5d2b3eb539a8c07fff8a56b8ce2156a570788"
+      },
+      {
+        "path": "pagefind/pagefind-modular-ui.js",
+        "bytes": 19597,
+        "sha256": "39d9b3c338dd374f86fd457c1926c3e4f27c628b5451796d5c263cb50bf6f7cb"
+      },
+      {
+        "path": "pagefind/pagefind-ui.css",
+        "bytes": 14482,
+        "sha256": "e113b816110ed07b017613e901addfe635350f2a5b84990aa76c91a74b158084"
+      },
+      {
+        "path": "pagefind/pagefind-ui.js",
+        "bytes": 124640,
+        "sha256": "ba87d660e86ab592d47e615148bb95b6f44c90a925f67957dffcf5cf2175eacc"
+      },
+      {
+        "path": "pagefind/pagefind-worker.js",
+        "bytes": 56362,
+        "sha256": "702351b9df98f0b575a684eefc094bc78b1b9d18dce7852ab71f1ca5382af034"
+      },
+      {
+        "path": "pagefind/pagefind.en_7ce698e8fd.pf_meta",
+        "bytes": 640,
+        "sha256": "f04842f16e8a438a869ed716eaec52aa9e3d7e6b2afed537623ed5bc3d995bf4"
+      },
+      {
+        "path": "pagefind/pagefind.js",
+        "bytes": 59368,
+        "sha256": "cc9764728dddc2b069b1d56aedbe3ccc156f41662f440f0f135e85140af56717"
+      },
+      {
+        "path": "pagefind/pagefind.zh_daf1746c90.pf_meta",
+        "bytes": 654,
+        "sha256": "36cc06dd7844d1fdbc88f628d09db0880a08eb53cb54defe11f5f602d4ec26da"
+      },
+      {
+        "path": "pagefind/wasm.en.pagefind",
+        "bytes": 72209,
+        "sha256": "bb16c9e6d3d214d4d05cccca51df7b487b86b3657318da767f6ca9e0a2e7259d"
+      },
+      {
+        "path": "pagefind/wasm.unknown.pagefind",
+        "bytes": 68024,
+        "sha256": "3a74cefceacd066e8d3bc8c52e7bc1c869544ca3d9031b44a9b7136356d5d7f4"
+      },
+      {
+        "path": "privacy-policy/index.html",
+        "bytes": 25712,
+        "sha256": "357aec7c9cc8e835918662ef66e0db63faf9c90bbe3cbf059a83ca68e18a245d"
+      },
+      {
+        "path": "recent/index.html",
+        "bytes": 38920,
+        "sha256": "b30b2d6a5cbb73f1530371984a9a7a8c29910d5d9679bd06f5b9e0578a073ca0"
+      },
+      {
+        "path": "robots.txt",
+        "bytes": 93,
+        "sha256": "b11d321416973e25467db91097a1b6e73efb089a5c2db28323f3843dcf20fe62"
+      },
+      {
+        "path": "rss.xml",
+        "bytes": 332,
+        "sha256": "ee54efb176a5b806a5ec9752c89f8ace414737484ff7792d1dfe415bc5070fbc"
+      },
+      {
+        "path": "sitemap-0.xml",
+        "bytes": 16691,
+        "sha256": "2b6d3bd8a017e06c7ce8094433e6fa6dababed197e94169b6d1b60c594f39f0d"
+      },
+      {
+        "path": "sitemap-index.xml",
+        "bytes": 248,
+        "sha256": "7ad29b9b75eb3d253b8faf856b1d9f9888d9bbe7c3c607d43bc7c365efd31e70"
+      },
+      {
+        "path": "tags/codes/index.html",
+        "bytes": 28577,
+        "sha256": "d1cad0920727a8ccb52c3481b7d6fbfd98a3c21ee384a272bc7224c1fddde524"
+      },
+      {
+        "path": "tags/guide/index.html",
+        "bytes": 37910,
+        "sha256": "37e00b81a7f42ad6ca9e7eebb0ac38187d1d25824e3604a3b424efad1dfb1c72"
+      },
+      {
+        "path": "tags/index.html",
+        "bytes": 25707,
+        "sha256": "52ec93613846df47172a98f2936a2aa0566de535a937338b47cdbbd852cdbb29"
+      },
+      {
+        "path": "tags/items/index.html",
+        "bytes": 29713,
+        "sha256": "749ed7a5555254c4a2cf0351f3791c93c086787a0a3aef9b98f62c120d8c1a3d"
+      },
+      {
+        "path": "terms-of-service/index.html",
+        "bytes": 24819,
+        "sha256": "a0a2b765e5e0bdd0b9ab378df1a64d2d47c83a8014a72b5ca63b0ec93115c80b"
+      },
+      {
+        "path": "zh/about/index.html",
+        "bytes": 24419,
+        "sha256": "7055db988208a08d829d5a21978906c698e7360fdb4d1f62b2079faffe1a6289"
+      },
+      {
+        "path": "zh/codes/all-codes/index.html",
+        "bytes": 54553,
+        "sha256": "f12556bac07b11edb617a77815882fc28c79edd656d284012ea6f08ffd332f96"
+      },
+      {
+        "path": "zh/codes/index.html",
+        "bytes": 29273,
+        "sha256": "9765569f7f7dc616facf6056876ecec5d7bccaf0f347155c3c5de1da63d18bda"
+      },
+      {
+        "path": "zh/contact/index.html",
+        "bytes": 24075,
+        "sha256": "9b09000e010ff836b373ed7ed67210700ba50081fa0385341279c1a9a2047096"
+      },
+      {
+        "path": "zh/copyright/index.html",
+        "bytes": 24065,
+        "sha256": "2e1bab37e8e5cdbaf32b1dec79319af91d0f8ac6bf3e65cb4b73d41fdbe666d0"
+      },
+      {
+        "path": "zh/faq/index.html",
+        "bytes": 25891,
+        "sha256": "69e539eb36c23d4887d242d92d05fed6517b5a3d3b54b5a3f434d9495a70564e"
+      },
+      {
+        "path": "zh/guides/beginner-guide/index.html",
+        "bytes": 66418,
+        "sha256": "5a048470aa122de908b53e549292da71dab3e10e76252faba894a1d4ba1d1cc9"
+      },
+      {
+        "path": "zh/guides/fishing-fragments/index.html",
+        "bytes": 62699,
+        "sha256": "17bc68f90a470f05a65aa5c60b742ea2f7295552f2723e80df5baaedd43c7917"
+      },
+      {
+        "path": "zh/guides/grimoire-tier-list/index.html",
+        "bytes": 63664,
+        "sha256": "a7a5bc33a9c57aa494267516748bf2285d5c9ad18f72c2de35f71728319bd9cd"
+      },
+      {
+        "path": "zh/guides/how-to-redeem-codes/index.html",
+        "bytes": 57482,
+        "sha256": "29415156ea48c37edf7dfeff0fa24df6c66a1302ec1992bf5c3f148006dd638e"
+      },
+      {
+        "path": "zh/guides/how-to-reroll/index.html",
+        "bytes": 60948,
+        "sha256": "c4032720d3afafe4ca428b83cd8801a3725df313799dea18da315e2e31c69521"
+      },
+      {
+        "path": "zh/guides/index.html",
+        "bytes": 35914,
+        "sha256": "ae1c39ad416d1d22341dafcda104a8e0454f6a55a44768b1affdbdee43179676"
+      },
+      {
+        "path": "zh/guides/patch-notes/index.html",
+        "bytes": 59575,
+        "sha256": "91ebfc5e5f802605accd99acbc05f4f9be37d06accfa6e27ced769ffb23ced27"
+      },
+      {
+        "path": "zh/guides/race-tier-list/index.html",
+        "bytes": 61044,
+        "sha256": "d4905b498d5230056eac58c8bf70f128bba6664a38e8b2ca64af4d2138711cbb"
+      },
+      {
+        "path": "zh/index.html",
+        "bytes": 45387,
+        "sha256": "6d5c9daf9e5703bf5463a67613d3e295df154329eed3d5921225b95605984c57"
+      },
+      {
+        "path": "zh/items/anti-magic/index.html",
+        "bytes": 68401,
+        "sha256": "5827428a3616656337f7b2bae6114bb282b3e64c3c2779fdcd2f390027a4c563"
+      },
+      {
+        "path": "zh/items/index.html",
+        "bytes": 30379,
+        "sha256": "c639b869dd510cc7988f983a33d6abc8ddfdb0c5c762afb3abc9a9cdce60f652"
+      },
+      {
+        "path": "zh/items/poison/index.html",
+        "bytes": 60510,
+        "sha256": "6bb152301456105346820c3e4605125ab70e4e47723b9aeda619e56c995c3c2f"
+      },
+      {
+        "path": "zh/landing/community/index.html",
+        "bytes": 436262,
+        "sha256": "807690e1a77c4d0897948c6c4d8b6576b72cade15579cf8b249aa643976a33bd"
+      },
+      {
+        "path": "zh/landing/comparison/index.html",
+        "bytes": 52137,
+        "sha256": "eaf60ce1fea35701c2abd35e8589a937e748744b79e2835e42902082977f121a"
+      },
+      {
+        "path": "zh/landing/docs/add-ga4/index.html",
+        "bytes": 76861,
+        "sha256": "1fd3c3cbc30c8802b4d95a7015f8b121f7bd1e7fda3b767364c6b54df2c20c2c"
+      },
+      {
+        "path": "zh/landing/docs/ai-ops/index.html",
+        "bytes": 82574,
+        "sha256": "90f37f72aa0902310b1fdbb6e12d45148fc60d1dc2b71251f8398f345fe0e688"
+      },
+      {
+        "path": "zh/landing/docs/appendix-red-lines/index.html",
+        "bytes": 73513,
+        "sha256": "c54c0c9d225741bacb79336a66d588661ee01773c034b61207327c8f241e9faf"
+      },
+      {
+        "path": "zh/landing/docs/architecture/index.html",
+        "bytes": 83125,
+        "sha256": "f4feebb823a93bf10b452a745aca13da2f5aded6ff4d108899dde9d9006d52bc"
+      },
+      {
+        "path": "zh/landing/docs/batch-pages/index.html",
+        "bytes": 82791,
+        "sha256": "8fa0280f88ee2297844adf9f2c589435d747309af616aaeadc08478135b69240"
+      },
+      {
+        "path": "zh/landing/docs/categories-and-locales/index.html",
+        "bytes": 76384,
+        "sha256": "88fb8ddbab93418e821c0e642ca8aeaf4f5f36daaea1981ef92c7fa98bc15a4b"
+      },
+      {
+        "path": "zh/landing/docs/clone-your-site/index.html",
+        "bytes": 78537,
+        "sha256": "171a4ffe0f155e40cdfeed6891c3376ba990a277a3aebe709788b81276cf40d7"
+      },
+      {
+        "path": "zh/landing/docs/codes-page/index.html",
+        "bytes": 76538,
+        "sha256": "8e243c8e1bdcc27bf5e994d8fef25e9d5eef1c99c750bf5f775e638b056682a0"
+      },
+      {
+        "path": "zh/landing/docs/content-pipeline/index.html",
+        "bytes": 76461,
+        "sha256": "713e65838a37d84fcd3fd1ff155e63612d85f11ef44df73a0b06488e89d661dd"
+      },
+      {
+        "path": "zh/landing/docs/contribute-back/index.html",
+        "bytes": 72442,
+        "sha256": "998b2dec27dd1747a497e23cf2566401c061e8bdbfab475c162d69d2d088b443"
+      },
+      {
+        "path": "zh/landing/docs/day-one-list/index.html",
+        "bytes": 77267,
+        "sha256": "5641a34c4fec434aedc2e1977c2b5e72c6116a670829a878cb1dfc6e39cc9f9e"
+      },
+      {
+        "path": "zh/landing/docs/dev/index.html",
+        "bytes": 43136,
+        "sha256": "fe1088aadfe2b672aa1c7aede111d32a44382227708e58aca5efed54cb6d9df2"
+      },
+      {
+        "path": "zh/landing/docs/enable-ads/index.html",
+        "bytes": 80781,
+        "sha256": "e41a9b9e8626418fd40bb8d670e4ed1a48287533e23c06a05d7168aa1dfa8f20"
+      },
+      {
+        "path": "zh/landing/docs/find-candidates/index.html",
+        "bytes": 75460,
+        "sha256": "3bee7b24ad4c4914bbe721edfed3ca2de58ad9a54768ee100c34e21de0fe4f0d"
+      },
+      {
+        "path": "zh/landing/docs/first-article/index.html",
+        "bytes": 78887,
+        "sha256": "f10425a104162fe66e3f0dac5601657f6d2129287255cfabdd184831f54e68a5"
+      },
+      {
+        "path": "zh/landing/docs/first-week-numbers/index.html",
+        "bytes": 76168,
+        "sha256": "8e50c2f855ccef69ff3b67a911a1068413cafbbec3eb14ab1806a60a30b92d37"
+      },
+      {
+        "path": "zh/landing/docs/get-on-google/index.html",
+        "bytes": 82751,
+        "sha256": "10bd0be34b18e4b300489a0663511a44a7bd77eb4a6869403b6db1ad54f97f56"
+      },
+      {
+        "path": "zh/landing/docs/get-paid/index.html",
+        "bytes": 77833,
+        "sha256": "d7d02df0012ea32f0ebd3648a98330e2431089e3509c366e59a270947fed0b5c"
+      },
+      {
+        "path": "zh/landing/docs/glossary-and-commands/index.html",
+        "bytes": 74616,
+        "sha256": "ebfca8decc753c2f7098324ea98fb102432342e0f3652bb886c15a23fd7da165"
+      },
+      {
+        "path": "zh/landing/docs/how-this-business-works/index.html",
+        "bytes": 73729,
+        "sha256": "66fff9e61624a98d9ae1bbbf1b970de7360a2580f4ffa61ac1cb6146874e2641"
+      },
+      {
+        "path": "zh/landing/docs/index.html",
+        "bytes": 49296,
+        "sha256": "6de2e8f2074c5585aa7f44d30b7077c5245cad9337f1663ea2dd0998791f6c25"
+      },
+      {
+        "path": "zh/landing/docs/install-counters/index.html",
+        "bytes": 75855,
+        "sha256": "813f5ca9dd945c168944ba42f9e314db842a7548e0dff6dd59ba4bb7a5f89747"
+      },
+      {
+        "path": "zh/landing/docs/install-tools/index.html",
+        "bytes": 82036,
+        "sha256": "d7ea5cc4e1cd576868d9e3517513b85ae8a5163419ed322520418f8f2eb9a8f0"
+      },
+      {
+        "path": "zh/landing/docs/integrations/index.html",
+        "bytes": 77369,
+        "sha256": "d4fa7d4c47be414cccb5d1b7f6daf0af01b23f336543c75accfae0ee9b2b7c06"
+      },
+      {
+        "path": "zh/landing/docs/launch-batch-plan/index.html",
+        "bytes": 73748,
+        "sha256": "5f25c3dabd72861f95ad73bba4c14f9e5826c61c43c67e0aa17b529f6446086e"
+      },
+      {
+        "path": "zh/landing/docs/learn/index.html",
+        "bytes": 66609,
+        "sha256": "19c48931636359e6badcf5908d8a33f2ac4c6167c78ecbf523a9439f2d068f92"
+      },
+      {
+        "path": "zh/landing/docs/multi-site/index.html",
+        "bytes": 77803,
+        "sha256": "de4f36fd2fdf66758b3a6ea7f14a1da0c2c5c4c6a60fdd4e3136221d6f4f06ce"
+      },
+      {
+        "path": "zh/landing/docs/put-site-online/index.html",
+        "bytes": 82323,
+        "sha256": "6aca89316e5f235a0a07e695351a6403d8a34975875aa78a2c384f03034d669a"
+      },
+      {
+        "path": "zh/landing/docs/quality-gate/index.html",
+        "bytes": 75377,
+        "sha256": "c404859063678a4c12658d95dac5f1d5d4d54c3819b74b44d555c5837c8ea235"
+      },
+      {
+        "path": "zh/landing/docs/rank-one-keyword/index.html",
+        "bytes": 78017,
+        "sha256": "09e3a7254d3a05d71829e67e6a4bd044e4f6ad7502ee09cabddf472c7623cf85"
+      },
+      {
+        "path": "zh/landing/docs/read-google-trends/index.html",
+        "bytes": 75744,
+        "sha256": "2949bacb40801cc020bdc967c9f851531e3fed7bb1895e8a461d5166e3049b7f"
+      },
+      {
+        "path": "zh/landing/docs/read-serp/index.html",
+        "bytes": 75297,
+        "sha256": "816cb66ddd2a203a755d52e715bafdcb7714b8f834ee4c9ca3e80eec3d529e76"
+      },
+      {
+        "path": "zh/landing/docs/rebrand-your-site/index.html",
+        "bytes": 80901,
+        "sha256": "3379616bd89d652e8c225e46a16446e3597d009964261bbb872b31b131472a66"
+      },
+      {
+        "path": "zh/landing/docs/run-your-site/index.html",
+        "bytes": 78881,
+        "sha256": "cca41a3ba73679428de1d89a04fd8e88b24b2232f25ef11d82b5664c03a949d5"
+      },
+      {
+        "path": "zh/landing/docs/score-and-decide/index.html",
+        "bytes": 78781,
+        "sha256": "1cc6bcef7a5df86cfa767cc961e2bd41ea9a4499692e4a4129e2d62cdbbcb708"
+      },
+      {
+        "path": "zh/landing/docs/search-intent/index.html",
+        "bytes": 74803,
+        "sha256": "bcd1dd25cf01431e4e15173d7473c4f8195e755df85890d9bc72bfc3ceff30f4"
+      },
+      {
+        "path": "zh/landing/docs/sync-upstream/index.html",
+        "bytes": 75294,
+        "sha256": "034a05ce1183b1020b99b1f529ac5134e51d05ea5957f148fa0542ca0680ff3c"
+      },
+      {
+        "path": "zh/landing/docs/the-roadmap/index.html",
+        "bytes": 73495,
+        "sha256": "fd6153555e437a3c1f46dfca852184c3fc0238402300303109e6f9f4cfb6c611"
+      },
+      {
+        "path": "zh/landing/docs/theme-and-homepage/index.html",
+        "bytes": 77462,
+        "sha256": "2bad5264a939ed258bab08fe67c2242b0aef95fb87434f084d263660d886e6cb"
+      },
+      {
+        "path": "zh/landing/docs/tier-list-and-media/index.html",
+        "bytes": 76743,
+        "sha256": "b2b3b309a0edae00b30fc609276db1d08397e59faa33b84fdb397a1dcece33aa"
+      },
+      {
+        "path": "zh/landing/docs/troubleshooting-tree/index.html",
+        "bytes": 72956,
+        "sha256": "ae6a652e37e3b9139fec972da8efba7d4d95dd94ec283275bbc3a3f13a7d5282"
+      },
+      {
+        "path": "zh/landing/docs/trust-and-backlinks/index.html",
+        "bytes": 77703,
+        "sha256": "c9af1c07cfefc5e5f19256bde4c35a80b5d6c2b8130b8964ac9a94734efa18a9"
+      },
+      {
+        "path": "zh/landing/docs/verify-your-changes/index.html",
+        "bytes": 79886,
+        "sha256": "21d10bcec30d36ca4893b81c3cdf679c1b4ebf5b9b3ee60832a7d31e8dcaac8e"
+      },
+      {
+        "path": "zh/landing/docs/weekly-ops/index.html",
+        "bytes": 83904,
+        "sha256": "68d7a71b4a6561556243c0b1e632551337051c77f2bdf9d29c6494195a24b1e6"
+      },
+      {
+        "path": "zh/landing/index.html",
+        "bytes": 86008,
+        "sha256": "b3167675a0ed4f8322b0090ded8b82234a124f9e23eb6c9d83f0122e02fe6dfb"
+      },
+      {
+        "path": "zh/landing/privacy/index.html",
+        "bytes": 34975,
+        "sha256": "2d30a875abb8f6dc4d4606501fa13a92025df8a78eb96413cb7b0078fb357687"
+      },
+      {
+        "path": "zh/landing/templates/index.html",
+        "bytes": 47797,
+        "sha256": "1326fba4d44046b8856dc70cbcf268137b8386bfac51351d0ec42179086c48af"
+      },
+      {
+        "path": "zh/privacy-policy/index.html",
+        "bytes": 25780,
+        "sha256": "6bf9f553265a4cf31805a0250d07989738b1f243e18ae243a2e4aa1ee0a3c477"
+      },
+      {
+        "path": "zh/recent/index.html",
+        "bytes": 38924,
+        "sha256": "66ec4ac3df2bca6eeafe61f51bdc90f235c05c962b709d8d15d37b40d1b6515a"
+      },
+      {
+        "path": "zh/tags/codes/index.html",
+        "bytes": 28686,
+        "sha256": "2ebb42f9636252ae929e4234e9c34c0d2e8bf5362bbb40f081501bba5323a08b"
+      },
+      {
+        "path": "zh/tags/guide/index.html",
+        "bytes": 38067,
+        "sha256": "dcbeeaa7e41eca540fb7d4c3a4e74f2d5800476dac8b6acab5a4551dd8dfa62b"
+      },
+      {
+        "path": "zh/tags/index.html",
+        "bytes": 25809,
+        "sha256": "91d58d77a9cb05e306d2a031d8732ed4e31cdebb6c18786fa6ef877fc1e2b6b4"
+      },
+      {
+        "path": "zh/tags/items/index.html",
+        "bytes": 29828,
+        "sha256": "52746fb6d411066dfb246bca688554a05b805c0f1be1595ef18e21950f5194a9"
+      },
+      {
+        "path": "zh/terms-of-service/index.html",
+        "bytes": 24887,
+        "sha256": "cb688e7605e68774b0893fded1f76482ad2978d4c51132223c8226ea67d64911"
+      }
+    ]
+  },
+  "formal_commands": [
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "exec",
+        "eslint",
+        "src/components/home/HomePage.astro",
+        "src/components/layout/LegalContent.astro"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-content-preview-20261010/formal-0.log",
+      "finished_at": "2026-10-09T23:13:03.982282+00:00"
+    },
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "exec",
+        "vitest",
+        "run",
+        "tests/home-ui.test.ts",
+        "tests/i18n-smoke.test.ts",
+        "tests/seo.test.ts"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-content-preview-20261010/formal-1.log",
+      "finished_at": "2026-10-09T23:13:05.109578+00:00"
+    },
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "check-content"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-content-preview-20261010/formal-2.log",
+      "finished_at": "2026-10-09T23:13:05.716302+00:00"
+    },
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "build"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-content-preview-20261010/formal-3.log",
+      "finished_at": "2026-10-09T23:13:11.234451+00:00"
+    },
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "check-links"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-content-preview-20261010/formal-4.log",
+      "finished_at": "2026-10-09T23:13:11.772365+00:00"
+    },
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "check-i18n",
+        "--strict-ui"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-content-preview-20261010/i18n-final.log",
+      "ui_keys": "141/141",
+      "chinese_source_articles": 0
+    }
+  ],
+  "unit_tests": {
+    "suites": 3,
+    "passed": 37,
+    "failed": 0,
+    "full_suite_rerun": false
+  },
+  "typecheck": {
+    "exit_code": 0,
+    "files": 202,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "local_browser": {
+    "checks": [
+      {
+        "route": "/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 6
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/zh/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 6
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/codes/all-codes/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/beginner-guide/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 2
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/fishing-fragments/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/grimoire-tier-list/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/how-to-redeem-codes/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/how-to-reroll/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/patch-notes/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/race-tier-list/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/items/anti-magic/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 2
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/items/poison/",
+        "viewport": 375,
+        "css": {
+          "width": 375,
+          "documentWidth": 375,
+          "headingSize": 30,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 2
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "kind": "search",
+        "viewport": 375,
+        "query": "Poison",
+        "target_found": true,
+        "passed": true
+      },
+      {
+        "route": "/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 72,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 6
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/zh/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 72,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 6
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/codes/all-codes/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/beginner-guide/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 2
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/fishing-fragments/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/grimoire-tier-list/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/how-to-redeem-codes/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/how-to-reroll/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/patch-notes/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/guides/race-tier-list/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 1
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/items/anti-magic/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 2
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "route": "/items/poison/",
+        "viewport": 1440,
+        "css": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "headingSize": 36,
+          "grid": true,
+          "stylesheets": 2,
+          "images": 2
+        },
+        "http": 200,
+        "passed": true
+      },
+      {
+        "kind": "search",
+        "viewport": 1440,
+        "query": "Poison",
+        "target_found": true,
+        "passed": true
+      }
+    ],
+    "total_checks": 26,
+    "all_passed": true
+  },
+  "online_browser": {
+    "checks": [
+      {
+        "kind": "page",
+        "route": "/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-codes-all-codes.4_WQiHSK_WjGBY.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-beginner-guide.CycXeR_5_ZdRQVz.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp_1ufntR.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz_fkjm6.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y_Iotva.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-how-to-reroll.B__B2th3_Z24nDUt.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/zh/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-codes-all-codes.4_WQiHSK_WjGBY.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-beginner-guide.CycXeR_5_ZdRQVz.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp_1ufntR.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz_fkjm6.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y_Iotva.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-how-to-reroll.B__B2th3_Z24nDUt.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 374
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/codes/all-codes/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/all-codes-overview.svg",
+            "alt": "Original code verification explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/beginner-guide/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/beginner-concept.png",
+            "alt": "Original fantasy concept illustration for beginner guide, not gameplay footage",
+            "altAttribute": true,
+            "width": 1672
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/beginner-guide-overview.svg",
+            "alt": "Original beginner systems overview explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/fishing-fragments/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/fishing-fragments-overview.svg",
+            "alt": "Original keep activities distinct explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/grimoire-tier-list/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/grimoire-tier-list-overview.svg",
+            "alt": "Original compare rankings by context explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/how-to-redeem-codes/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/how-to-redeem-codes-overview.svg",
+            "alt": "Original two reported code interfaces explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/how-to-reroll/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/how-to-reroll-overview.svg",
+            "alt": "Original separate character categories explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/patch-notes/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/patch-notes-overview.svg",
+            "alt": "Original version evidence is not a patch log explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/race-tier-list/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/race-tier-list-overview.svg",
+            "alt": "Original five board-reported races explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/items/anti-magic/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/anti-magic-concept.png",
+            "alt": "Original fantasy concept illustration for anti magic, not gameplay footage",
+            "altAttribute": true,
+            "width": 1672
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/anti-magic-overview.svg",
+            "alt": "Original readable pc hud references explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/items/poison/",
+        "viewport": 375,
+        "http": 200,
+        "document_width": 375,
+        "heading_font_size": 30,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/poison-concept.png",
+            "alt": "Original fantasy concept illustration for poison, not gameplay footage",
+            "altAttribute": true,
+            "width": 1672
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/poison-overview.svg",
+            "alt": "Original public-card ability roles explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "search",
+        "query": "Poison",
+        "viewport": 375,
+        "results": [
+          {
+            "text": "Clover Time Poison - Entity Research Draft",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/poison/"
+          },
+          {
+            "text": "Does Poison appear in the current game?",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/poison/#does-poison-appear-in-the-current-game"
+          },
+          {
+            "text": "How can a player obtain it?",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/poison/#how-can-a-player-obtain-it"
+          },
+          {
+            "text": "What distinguishes its abilities?",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/poison/#what-distinguishes-its-abilities"
+          },
+          {
+            "text": "Clover Time Grimoire Tier List - Research Draft",
+            "href": "https://clover-time-wiki-preview.pages.dev/guides/grimoire-tier-list/"
+          },
+          {
+            "text": "Which Grimoires belong in this comparison?",
+            "href": "https://clover-time-wiki-preview.pages.dev/guides/grimoire-tier-list/#which-grimoires-belong-in-this-comparison"
+          },
+          {
+            "text": "Ten documented Grimoires and their reported rarity",
+            "href": "https://clover-time-wiki-preview.pages.dev/guides/grimoire-tier-list/#ten-documented-grimoires-and-their-reported-rarity"
+          },
+          {
+            "text": "Compare published rankings by activity",
+            "href": "https://clover-time-wiki-preview.pages.dev/guides/grimoire-tier-list/#compare-published-rankings-by-activity"
+          },
+          {
+            "text": "Clover Time Anti Magic - Entity Research Draft",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/anti-magic/"
+          },
+          {
+            "text": "What should I read next?",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/anti-magic/#what-should-i-read-next"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 72,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-codes-all-codes.4_WQiHSK_DHMme.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-beginner-guide.CycXeR_5_Z15koRF.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp_ZeOxWs.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz_Z1L51V1.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y_40Mww.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-how-to-reroll.B__B2th3_Zk2Ixw.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/zh/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 72,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-codes-all-codes.4_WQiHSK_DHMme.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-beginner-guide.CycXeR_5_Z15koRF.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-fishing-fragments.CAkZfqXp_ZeOxWs.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-grimoire-tier-list.DKhsJ4mz_Z1L51V1.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-how-to-redeem-codes.BsBXhN9Y_40Mww.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/_astro/clover-time-en-guides-how-to-reroll.B__B2th3_Zk2Ixw.webp",
+            "alt": "",
+            "altAttribute": true,
+            "width": 475
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/codes/all-codes/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/all-codes-overview.svg",
+            "alt": "Original code verification explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/beginner-guide/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/beginner-concept.png",
+            "alt": "Original fantasy concept illustration for beginner guide, not gameplay footage",
+            "altAttribute": true,
+            "width": 1672
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/beginner-guide-overview.svg",
+            "alt": "Original beginner systems overview explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/fishing-fragments/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/fishing-fragments-overview.svg",
+            "alt": "Original keep activities distinct explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/grimoire-tier-list/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/grimoire-tier-list-overview.svg",
+            "alt": "Original compare rankings by context explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/how-to-redeem-codes/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/how-to-redeem-codes-overview.svg",
+            "alt": "Original two reported code interfaces explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/how-to-reroll/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/how-to-reroll-overview.svg",
+            "alt": "Original separate character categories explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/patch-notes/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/patch-notes-overview.svg",
+            "alt": "Original version evidence is not a patch log explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/guides/race-tier-list/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/race-tier-list-overview.svg",
+            "alt": "Original five board-reported races explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/items/anti-magic/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/anti-magic-concept.png",
+            "alt": "Original fantasy concept illustration for anti magic, not gameplay footage",
+            "altAttribute": true,
+            "width": 1672
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/anti-magic-overview.svg",
+            "alt": "Original readable pc hud references explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "page",
+        "route": "/items/poison/",
+        "viewport": 1440,
+        "http": 200,
+        "document_width": 1440,
+        "heading_font_size": 36,
+        "grid_styles_applied": true,
+        "images": [
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/poison-concept.png",
+            "alt": "Original fantasy concept illustration for poison, not gameplay footage",
+            "altAttribute": true,
+            "width": 1672
+          },
+          {
+            "src": "https://clover-time-wiki-preview.pages.dev/images/articles/clover-time/poison-overview.svg",
+            "alt": "Original public-card ability roles explanatory diagram, not an in-game screenshot",
+            "altAttribute": true,
+            "width": 1200
+          }
+        ],
+        "upload_body_hash_matches": true,
+        "noindex_header": "noindex, nofollow",
+        "passed": true
+      },
+      {
+        "kind": "search",
+        "query": "Poison",
+        "viewport": 1440,
+        "results": [
+          {
+            "text": "Clover Time Poison - Entity Research Draft",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/poison/"
+          },
+          {
+            "text": "Does Poison appear in the current game?",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/poison/#does-poison-appear-in-the-current-game"
+          },
+          {
+            "text": "How can a player obtain it?",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/poison/#how-can-a-player-obtain-it"
+          },
+          {
+            "text": "What distinguishes its abilities?",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/poison/#what-distinguishes-its-abilities"
+          },
+          {
+            "text": "Clover Time Grimoire Tier List - Research Draft",
+            "href": "https://clover-time-wiki-preview.pages.dev/guides/grimoire-tier-list/"
+          },
+          {
+            "text": "Which Grimoires belong in this comparison?",
+            "href": "https://clover-time-wiki-preview.pages.dev/guides/grimoire-tier-list/#which-grimoires-belong-in-this-comparison"
+          },
+          {
+            "text": "Ten documented Grimoires and their reported rarity",
+            "href": "https://clover-time-wiki-preview.pages.dev/guides/grimoire-tier-list/#ten-documented-grimoires-and-their-reported-rarity"
+          },
+          {
+            "text": "Compare published rankings by activity",
+            "href": "https://clover-time-wiki-preview.pages.dev/guides/grimoire-tier-list/#compare-published-rankings-by-activity"
+          },
+          {
+            "text": "Clover Time Anti Magic - Entity Research Draft",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/anti-magic/"
+          },
+          {
+            "text": "What should I read next?",
+            "href": "https://clover-time-wiki-preview.pages.dev/items/anti-magic/#what-should-i-read-next"
+          }
+        ],
+        "passed": true
+      },
+      {
+        "kind": "chinese_ui_english_reading_view",
+        "route": "/zh/guides/",
+        "http": 200,
+        "images": 7,
+        "passed": true
+      },
+      {
+        "kind": "chinese_ui_english_reading_view",
+        "route": "/zh/guides/beginner-guide/",
+        "http": 200,
+        "images": 2,
+        "passed": true
+      },
+      {
+        "kind": "chinese_ui_english_reading_view",
+        "route": "/zh/items/poison/",
+        "http": 200,
+        "images": 2,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/beginner-concept.png",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/anti-magic-concept.png",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/poison-concept.png",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/all-codes-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/how-to-redeem-codes-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/grimoire-tier-list-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/race-tier-list-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/beginner-guide-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/how-to-reroll-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/anti-magic-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/poison-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/fishing-fragments-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "media",
+        "route": "/images/articles/clover-time/patch-notes-overview.svg",
+        "http": 200,
+        "hash_matches_original": true,
+        "is_gameplay": false,
+        "passed": true
+      },
+      {
+        "kind": "sitemap",
+        "route": "/sitemap-index.xml",
+        "excludes_research_details": true,
+        "passed": true
+      },
+      {
+        "kind": "sitemap",
+        "route": "/sitemap-0.xml",
+        "excludes_research_details": true,
+        "passed": true
+      },
+      {
+        "kind": "deployment_url",
+        "url": "https://a9d83b4a.clover-time-wiki-preview.pages.dev",
+        "http": 200,
+        "passed": true
+      }
+    ],
+    "screenshots": [
+      {
+        "path": "docs/clover-time/evidence/content-preview-20261010-home-zh-mobile.png",
+        "sha256": "ade92e5b26fd52ec173128d1f13f01b0d360148fdd9d3d2ef4718dee6dda3dc2",
+        "is_gameplay": false
+      },
+      {
+        "path": "docs/clover-time/evidence/content-preview-20261010-beginner-mobile.png",
+        "sha256": "bb40d36cc5307e62b00005cc41bb986c53a3add9759118d932a986dda25d598c",
+        "is_gameplay": false
+      },
+      {
+        "path": "docs/clover-time/evidence/content-preview-20261010-search-mobile.png",
+        "sha256": "9b2a66973c2d16a924e01449037f294fde8b62d9fa7661bc512e7f4459da3eb9",
+        "is_gameplay": false
+      },
+      {
+        "path": "docs/clover-time/evidence/content-preview-20261010-home-desktop.png",
+        "sha256": "d972bed9b5cd58fd1521d673a8ed8af4bb1e72fe243a62296948e9a732cdf074",
+        "is_gameplay": false
+      },
+      {
+        "path": "docs/clover-time/evidence/content-preview-20261010-anti-magic-desktop.png",
+        "sha256": "9db3e4630890312fd7500d59fc8fbdcff0f9c313d3ef069f340ab2fc06ccdbbf",
+        "is_gameplay": false
+      }
+    ],
+    "failed_requests": [],
+    "integration_requests": [],
+    "all_passed": true,
+    "total_checks": 45
+  },
+  "validation_log": {
+    "path": "docs/clover-time/evidence/content-preview-20261010-validation.log",
+    "sha256": "b2051133886b5993eb20192153415c55acf4280197a60682bf6493790f810e59"
+  },
+  "media_record": "docs/clover-time/evidence/content-preview-media-20261010.json",
+  "startup_configuration": {
+    "saved_fields": [
+      "start_skill"
+    ],
+    "saved": true,
+    "requires_environment_review_save_and_publish_for_future_snapshot": true,
+    "executed_by_save": false
+  },
+  "superseded_attempt": {
+    "id": "fbb24f01-00f8-4fb9-be6a-ff768ef5459e",
+    "layout_accepted": false,
+    "reason": "Review copy omitted tailwind.config.mjs; existing content/HTTP checks did not verify CSS. Fixed copy inputs, rebuilt, repeated browser checks with computed heading and grid styles."
+  }
+}

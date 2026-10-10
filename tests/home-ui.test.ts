@@ -16,6 +16,7 @@ import { fileURLToPath } from 'node:url';
 import { describe, expect, test } from 'vitest';
 import en from '~/locales/en.json';
 import { getHomeFaq } from '~/i18n/ui';
+import { locales, defaultLocale } from '~/i18n/routing';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const homePage = readFileSync(join(root, 'src/components/home/HomePage.astro'), 'utf8');
@@ -113,7 +114,7 @@ describe('/faq pages ↔ en.json home.faq contract', () => {
     expect(getHomeFaq('en')).toEqual(en.home.faq);
     // ja.json carries its own faq; if a key were dropped there, getUi()'s
     // deep-merge must transparently fall back to en (never undefined).
-    const jaFaq = getHomeFaq('ja');
+    const jaFaq = getHomeFaq(locales.find((l) => l !== defaultLocale) ?? defaultLocale);
     expect(jaFaq.title).toBeTypeOf('string');
     expect(jaFaq.title.length).toBeGreaterThan(0);
     expect(Array.isArray(jaFaq.items)).toBe(true);

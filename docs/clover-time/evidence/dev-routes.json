@@ -1,0 +1,92 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "h1": "Clover Time Wiki",
+    "english_fallback": null
+  },
+  {
+    "path": "/zh/",
+    "status": 200,
+    "h1": "Clover Time Wiki",
+    "english_fallback": null
+  },
+  {
+    "path": "/about/",
+    "status": 200,
+    "h1": "About",
+    "english_fallback": null
+  },
+  {
+    "path": "/contact/",
+    "status": 200,
+    "h1": "Contact",
+    "english_fallback": null
+  },
+  {
+    "path": "/codes/all-codes/",
+    "status": 200,
+    "h1": "Clover Time Codes - Verification Draft",
+    "english_fallback": null
+  },
+  {
+    "path": "/guides/beginner-guide/",
+    "status": 200,
+    "h1": "Clover Time Beginner Guide: Tools and Your First Grimoire",
+    "english_fallback": null
+  },
+  {
+    "path": "/guides/fishing-fragments/",
+    "status": 200,
+    "h1": "Clover Time Fishing and Fragments - Verification Draft",
+    "english_fallback": null
+  },
+  {
+    "path": "/guides/grimoire-tier-list/",
+    "status": 200,
+    "h1": "Clover Time Grimoire Tier List - Research Draft",
+    "english_fallback": null
+  },
+  {
+    "path": "/guides/how-to-redeem-codes/",
+    "status": 200,
+    "h1": "How to Redeem Clover Time Codes - Verification Draft",
+    "english_fallback": null
+  },
+  {
+    "path": "/guides/how-to-reroll/",
+    "status": 200,
+    "h1": "How to Reroll in Clover Time - Verification Draft",
+    "english_fallback": null
+  },
+  {
+    "path": "/guides/patch-notes/",
+    "status": 200,
+    "h1": "Clover Time Patch Notes - Announcement Research Draft",
+    "english_fallback": null
+  },
+  {
+    "path": "/guides/race-tier-list/",
+    "status": 200,
+    "h1": "Clover Time Race Tier List - Research Draft",
+    "english_fallback": null
+  },
+  {
+    "path": "/items/anti-magic/",
+    "status": 200,
+    "h1": "Clover Time Anti Magic - Entity Research Draft",
+    "english_fallback": null
+  },
+  {
+    "path": "/items/poison/",
+    "status": 200,
+    "h1": "Clover Time Poison - Entity Research Draft",
+    "english_fallback": null
+  },
+  {
+    "path": "/zh/guides/beginner-guide/",
+    "status": 200,
+    "h1": "Clover Time Beginner Guide: Tools and Your First Grimoire",
+    "english_fallback": true
+  }
+]

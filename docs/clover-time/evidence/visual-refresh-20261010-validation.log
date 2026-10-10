@@ -1,0 +1,580 @@
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "exec", "eslint", "src/components/home/HomePage.astro", "src/components/header/SiteHeader.astro", "src/components/footer/SiteFooter.astro"]
+EXIT: 0
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "exec", "vitest", "run", "tests/home-ui.test.ts", "tests/i18n-smoke.test.ts", "tests/seo.test.ts"]
+EXIT: 0
+
+ RUN  v4.1.11 /workspace/AnvilWiki
+
+
+ Test Files  3 passed (3)
+      Tests  37 passed (37)
+   Start at  23:31:14
+   Duration  240ms (transform 205ms, setup 0ms, import 282ms, tests 30ms, environment 0ms)
+
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "check-i18n", "--strict-ui"]
+EXIT: 0
+$ tsx scripts/check-i18n.ts --strict-ui
+
+🌐 i18n coverage report — default locale: en
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ zh
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Articles: 0/0 translated (100%)
+   UI keys:  144/144 translated (100%)
+
+✅ All locales fully covered.
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "typecheck"]
+EXIT: 0
+$ astro check
+23:31:16 [vite] Re-optimizing dependencies because vite config has changed
+23:31:16 [content] Syncing content
+23:31:16 [content] Astro config changed
+23:31:16 [content] Clearing content store
+23:31:17 [content] Synced content
+23:31:17 [types] Generated 958ms
+23:31:17 [check] Getting diagnostics for Astro files in /workspace/AnvilWiki...
+Result (202 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "check-content"]
+EXIT: 0
+$ tsx scripts/check-content.ts
+
+📝 Content lint — 10 MDX files
+
+
+✅ Content lint clean.
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "build"]
+EXIT: 0
+$ astro build
+23:40:24 [vite] Re-optimizing dependencies because vite config has changed
+23:40:24 [content] Syncing content
+23:40:24 [content] Synced content
+23:40:24 [types] Generated 715ms
+23:40:24 [build] output: "static"
+23:40:24 [build] mode: "static"
+23:40:24 [build] directory: /workspace/AnvilWiki/dist/
+23:40:24 [build] Collecting build info...
+23:40:24 [build] ✓ Completed in 758ms.
+23:40:24 [build] Building static entrypoints...
+23:40:26 [astro-icon] Loaded icons from src/icons, lucide
+23:40:26 [vite] ✓ built in 1.48s
+23:40:26 [vite] ✓ built in 45ms
+23:40:26 [build] Rearranging server assets...
+
+ generating static routes 
+23:40:26   ├─ /404.html (+20ms) 
+23:40:26   ├─ /about/index.html (+14ms) 
+23:40:26   ├─ /contact/index.html (+4ms) 
+23:40:26   ├─ /copyright/index.html (+7ms) 
+23:40:26   ├─ /faq/index.html (+12ms) 
+23:40:26   ├─ /landing/community/index.html (+20ms) 
+23:40:26   ├─ /landing/comparison/index.html (+8ms) 
+23:40:26   ├─ /landing/docs/dev/index.html (+5ms) 
+23:40:26   ├─ /landing/docs/learn/index.html (+19ms) 
+23:40:26   ├─ /landing/docs/add-ga4/index.html (+8ms) 
+23:40:26   ├─ /landing/docs/ai-ops/index.html (+4ms) 
+23:40:26   ├─ /landing/docs/appendix-red-lines/index.html (+4ms) 
+23:40:26   ├─ /landing/docs/architecture/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/batch-pages/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/categories-and-locales/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/clone-your-site/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/codes-page/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/content-pipeline/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/contribute-back/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/day-one-list/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/enable-ads/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/find-candidates/index.html (+7ms) 
+23:40:26   ├─ /landing/docs/first-article/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/first-week-numbers/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/get-on-google/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/get-paid/index.html (+4ms) 
+23:40:26   ├─ /landing/docs/glossary-and-commands/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/how-this-business-works/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/install-counters/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/install-tools/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/integrations/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/launch-batch-plan/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/multi-site/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/put-site-online/index.html (+7ms) 
+23:40:26   ├─ /landing/docs/quality-gate/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/rank-one-keyword/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/read-google-trends/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/read-serp/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/rebrand-your-site/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/run-your-site/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/score-and-decide/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/search-intent/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/sync-upstream/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/the-roadmap/index.html (+2ms) 
+23:40:26   ├─ /landing/docs/theme-and-homepage/index.html (+3ms) 
+23:40:26   ├─ /landing/docs/tier-list-and-media/index.html (+4ms) 
+23:40:26   ├─ /landing/docs/troubleshooting-tree/index.html (+11ms) 
+23:40:26   ├─ /landing/docs/trust-and-backlinks/index.html (+5ms) 
+23:40:26   ├─ /landing/docs/verify-your-changes/index.html (+4ms) 
+23:40:26   ├─ /landing/docs/weekly-ops/index.html (+4ms) 
+23:40:26   ├─ /landing/docs/index.html (+5ms) 
+23:40:26   ├─ /landing/templates/index.html (+4ms) 
+23:40:26   ├─ /landing/index.html (+7ms) 
+23:40:26   ├─ /llms.txt (+2ms) 
+23:40:26   ├─ /privacy-policy/index.html (+2ms) 
+23:40:26   ├─ /recent/index.html (+4ms) 
+23:40:26   ├─ /robots.txt (+1ms) 
+23:40:26   ├─ /rss.xml (+36ms) 
+23:40:26   ├─ /tags/index.html (+4ms) 
+23:40:26   ├─ /terms-of-service/index.html (+4ms) 
+23:40:26   ├─ /zh/landing/community/index.html (+14ms) 
+23:40:26   ├─ /zh/landing/comparison/index.html (+10ms) 
+23:40:26   ├─ /zh/landing/docs/dev/index.html (+3ms) 
+23:40:26   ├─ /zh/landing/docs/learn/index.html (+3ms) 
+23:40:26   ├─ /zh/landing/docs/add-ga4/index.html (+5ms) 
+23:40:26   ├─ /zh/landing/docs/ai-ops/index.html (+3ms) 
+23:40:26   ├─ /zh/landing/docs/appendix-red-lines/index.html (+3ms) 
+23:40:26   ├─ /zh/landing/docs/architecture/index.html (+8ms) 
+23:40:26   ├─ /zh/landing/docs/batch-pages/index.html (+5ms) 
+23:40:26   ├─ /zh/landing/docs/categories-and-locales/index.html (+3ms) 
+23:40:26   ├─ /zh/landing/docs/clone-your-site/index.html (+2ms) 
+23:40:26   ├─ /zh/landing/docs/codes-page/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/content-pipeline/index.html (+5ms) 
+23:40:27   ├─ /zh/landing/docs/contribute-back/index.html (+4ms) 
+23:40:27   ├─ /zh/landing/docs/day-one-list/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/enable-ads/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/find-candidates/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/first-article/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/first-week-numbers/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/get-on-google/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/get-paid/index.html (+6ms) 
+23:40:27   ├─ /zh/landing/docs/glossary-and-commands/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/how-this-business-works/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/install-counters/index.html (+6ms) 
+23:40:27   ├─ /zh/landing/docs/install-tools/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/integrations/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/launch-batch-plan/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/multi-site/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/put-site-online/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/quality-gate/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/rank-one-keyword/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/read-google-trends/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/read-serp/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/rebrand-your-site/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/run-your-site/index.html (+6ms) 
+23:40:27   ├─ /zh/landing/docs/score-and-decide/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/search-intent/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/sync-upstream/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/the-roadmap/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/theme-and-homepage/index.html (+4ms) 
+23:40:27   ├─ /zh/landing/docs/tier-list-and-media/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/troubleshooting-tree/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/trust-and-backlinks/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/verify-your-changes/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/docs/weekly-ops/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/docs/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/privacy/index.html (+2ms) 
+23:40:27   ├─ /zh/landing/templates/index.html (+3ms) 
+23:40:27   ├─ /zh/landing/index.html (+7ms) 
+23:40:27   ├─ /zh/faq/index.html (+2ms) 
+23:40:27   ├─ /zh/recent/index.html (+2ms) 
+23:40:27   ├─ /zh/tags/index.html (+2ms) 
+23:40:27   ├─ /zh/about/index.html (+1ms) 
+23:40:27   ├─ /zh/privacy-policy/index.html (+1ms) 
+23:40:27   ├─ /zh/terms-of-service/index.html (+1ms) 
+23:40:27   ├─ /zh/copyright/index.html (+1ms) 
+23:40:27   ├─ /zh/contact/index.html (+1ms) 
+23:40:27   ├─ /zh/index.html (+3ms) 
+23:40:27   ├─ /zh/codes/index.html (+2ms) 
+23:40:27   ├─ /zh/guides/index.html (+3ms) 
+23:40:27   ├─ /zh/items/index.html (+2ms) 
+23:40:27   ├─ /index.html (+3ms) 
+23:40:27   ├─ /codes/index.html (+2ms) 
+23:40:27   ├─ /guides/index.html (+1ms) 
+23:40:27   ├─ /items/index.html (+2ms) 
+23:40:27 ✓ Completed in 592ms.
+
+23:40:27 [build] ✓ Completed in 2.15s.
+23:40:27 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+23:40:27 [build] 122 page(s) built in 2.95s
+23:40:27 [build] Complete!
+$ pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts
+
+Running Pagefind v1.5.2 (Extended)
+Running from: "/workspace/AnvilWiki"
+Source:       "dist"
+Output:       "dist/pagefind"
+
+[Walking source directory]
+Found 129 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+1 page found without an <html> element. 
+Pages without an outer <html> element will not be processed by default. 
+If adding this element is not possible, use the root selector config to target a different root element.
+  * "/google8362d9398114b66b.html" has no <html> element
+
+[Reading languages]
+Discovered 2 languages: en, zh
+
+[Building search indexes]
+Total: 
+  Indexed 2 languages
+  Indexed 90 pages
+  Indexed 12582 words
+  Indexed 0 filters
+  Indexed 0 sorts
+Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
+Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
+
+Finished in 0.427 seconds
+[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=e96f9a271a applied to 122 pages; range-media lowered in 4 files
+[IndexNow] No .indexnow-key or legacy INDEXNOW_KEY configured; key file emission skipped.
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "check-links"]
+EXIT: 0
+$ tsx scripts/check-links.ts
+
+🔗 Internal link audit — 9733 links across 129 pages
+
+✅ All internal links resolve.
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "check-config"]
+EXIT: 0
+$ tsx scripts/check-config.ts
+
+🔧 AnvilWiki config consistency check
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Nav key consistency (navigation.ts ↔ en.json ↔ content dirs)
+  ✅ all nav keys consistent
+
+2. Locale consistency (routing.ts ↔ locales/*.json ↔ content dirs)
+  ✅ all locales consistent
+
+3. Homepage displayType enum (all locale JSONs)
+  ✅ all displayTypes valid
+
+4. Deployment domain (wrangler.toml SITE_URL ↔ site.ts domain)
+  ✅ env SITE_URL → https://clover-time-wiki-preview.pages.dev matches site.ts domain
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Config is consistent.
+
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "check-content"]
+EXIT: 0
+$ tsx scripts/check-content.ts
+
+📝 Content lint — 20 MDX files
+
+
+✅ Content lint clean.
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "build"]
+EXIT: 0
+$ astro build
+23:39:41 [vite] Re-optimizing dependencies because vite config has changed
+23:39:41 [content] Syncing content
+23:39:41 [content] Synced content
+23:39:41 [types] Generated 634ms
+23:39:41 [build] output: "static"
+23:39:41 [build] mode: "static"
+23:39:41 [build] directory: /workspace/AnvilWiki/.tmp/clover-time-visual-refresh-20261010/review-3/checkout/dist/
+23:39:41 [build] Collecting build info...
+23:39:41 [build] ✓ Completed in 678ms.
+23:39:41 [build] Building static entrypoints...
+23:39:43 [astro-icon] Loaded icons from src/icons, lucide
+23:39:43 [vite] ✓ built in 1.68s
+23:39:43 [vite] ✓ built in 54ms
+23:39:43 [build] Rearranging server assets...
+
+ generating static routes 
+23:39:43   ├─ /404.html (+15ms) 
+23:39:43   ├─ /about/index.html (+5ms) 
+23:39:43   ├─ /contact/index.html (+3ms) 
+23:39:43   ├─ /copyright/index.html (+3ms) 
+23:39:43   ├─ /faq/index.html (+10ms) 
+23:39:43   ├─ /landing/community/index.html (+28ms) 
+23:39:43   ├─ /landing/comparison/index.html (+5ms) 
+23:39:43   ├─ /landing/docs/dev/index.html (+5ms) 
+23:39:43   ├─ /landing/docs/learn/index.html (+7ms) 
+23:39:43   ├─ /landing/docs/add-ga4/index.html (+8ms) 
+23:39:43   ├─ /landing/docs/ai-ops/index.html (+10ms) 
+23:39:43   ├─ /landing/docs/appendix-red-lines/index.html (+4ms) 
+23:39:43   ├─ /landing/docs/architecture/index.html (+4ms) 
+23:39:43   ├─ /landing/docs/batch-pages/index.html (+4ms) 
+23:39:43   ├─ /landing/docs/categories-and-locales/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/clone-your-site/index.html (+4ms) 
+23:39:43   ├─ /landing/docs/codes-page/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/content-pipeline/index.html (+7ms) 
+23:39:43   ├─ /landing/docs/contribute-back/index.html (+6ms) 
+23:39:43   ├─ /landing/docs/day-one-list/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/enable-ads/index.html (+2ms) 
+23:39:43   ├─ /landing/docs/find-candidates/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/first-article/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/first-week-numbers/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/get-on-google/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/get-paid/index.html (+4ms) 
+23:39:43   ├─ /landing/docs/glossary-and-commands/index.html (+2ms) 
+23:39:43   ├─ /landing/docs/how-this-business-works/index.html (+2ms) 
+23:39:43   ├─ /landing/docs/install-counters/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/install-tools/index.html (+2ms) 
+23:39:43   ├─ /landing/docs/integrations/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/launch-batch-plan/index.html (+7ms) 
+23:39:43   ├─ /landing/docs/multi-site/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/put-site-online/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/quality-gate/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/rank-one-keyword/index.html (+2ms) 
+23:39:43   ├─ /landing/docs/read-google-trends/index.html (+2ms) 
+23:39:43   ├─ /landing/docs/read-serp/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/rebrand-your-site/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/run-your-site/index.html (+2ms) 
+23:39:43   ├─ /landing/docs/score-and-decide/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/search-intent/index.html (+2ms) 
+23:39:43   ├─ /landing/docs/sync-upstream/index.html (+2ms) 
+23:39:43   ├─ /landing/docs/the-roadmap/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/theme-and-homepage/index.html (+6ms) 
+23:39:43   ├─ /landing/docs/tier-list-and-media/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/troubleshooting-tree/index.html (+5ms) 
+23:39:43   ├─ /landing/docs/trust-and-backlinks/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/verify-your-changes/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/weekly-ops/index.html (+3ms) 
+23:39:43   ├─ /landing/docs/index.html (+5ms) 
+23:39:43   ├─ /landing/templates/index.html (+4ms) 
+23:39:43   ├─ /landing/index.html (+6ms) 
+23:39:43   ├─ /llms.txt (+2ms) 
+23:39:43   ├─ /privacy-policy/index.html (+2ms) 
+23:39:43   ├─ /recent/index.html (+15ms) 
+23:39:43   ├─ /robots.txt (+1ms) 
+23:39:43   ├─ /rss.xml (+35ms) 
+23:39:43   ├─ /tags/codes/index.html (+6ms) 
+23:39:43   ├─ /tags/guide/index.html (+10ms) 
+23:39:43   ├─ /tags/items/index.html (+5ms) 
+23:39:43   ├─ /tags/index.html (+5ms) 
+23:39:43   ├─ /terms-of-service/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/community/index.html (+16ms) 
+23:39:43   ├─ /zh/landing/comparison/index.html (+9ms) 
+23:39:43   ├─ /zh/landing/docs/dev/index.html (+4ms) 
+23:39:43   ├─ /zh/landing/docs/learn/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/docs/add-ga4/index.html (+6ms) 
+23:39:43   ├─ /zh/landing/docs/ai-ops/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/docs/appendix-red-lines/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/docs/architecture/index.html (+10ms) 
+23:39:43   ├─ /zh/landing/docs/batch-pages/index.html (+5ms) 
+23:39:43   ├─ /zh/landing/docs/categories-and-locales/index.html (+5ms) 
+23:39:43   ├─ /zh/landing/docs/clone-your-site/index.html (+5ms) 
+23:39:43   ├─ /zh/landing/docs/codes-page/index.html (+6ms) 
+23:39:43   ├─ /zh/landing/docs/content-pipeline/index.html (+6ms) 
+23:39:43   ├─ /zh/landing/docs/contribute-back/index.html (+4ms) 
+23:39:43   ├─ /zh/landing/docs/day-one-list/index.html (+8ms) 
+23:39:43   ├─ /zh/landing/docs/enable-ads/index.html (+7ms) 
+23:39:43   ├─ /zh/landing/docs/find-candidates/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/docs/first-article/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/first-week-numbers/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/get-on-google/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/get-paid/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/glossary-and-commands/index.html (+7ms) 
+23:39:43   ├─ /zh/landing/docs/how-this-business-works/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/docs/install-counters/index.html (+4ms) 
+23:39:43   ├─ /zh/landing/docs/install-tools/index.html (+5ms) 
+23:39:43   ├─ /zh/landing/docs/integrations/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/docs/launch-batch-plan/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/multi-site/index.html (+6ms) 
+23:39:43   ├─ /zh/landing/docs/put-site-online/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/quality-gate/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/rank-one-keyword/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/read-google-trends/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/docs/read-serp/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/docs/rebrand-your-site/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/run-your-site/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/score-and-decide/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/search-intent/index.html (+3ms) 
+23:39:43   ├─ /zh/landing/docs/sync-upstream/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/the-roadmap/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/theme-and-homepage/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/tier-list-and-media/index.html (+2ms) 
+23:39:43   ├─ /zh/landing/docs/troubleshooting-tree/index.html (+7ms) 
+23:39:44   ├─ /zh/landing/docs/trust-and-backlinks/index.html (+3ms) 
+23:39:44   ├─ /zh/landing/docs/verify-your-changes/index.html (+2ms) 
+23:39:44   ├─ /zh/landing/docs/weekly-ops/index.html (+2ms) 
+23:39:44   ├─ /zh/landing/docs/index.html (+3ms) 
+23:39:44   ├─ /zh/landing/privacy/index.html (+2ms) 
+23:39:44   ├─ /zh/landing/templates/index.html (+2ms) 
+23:39:44   ├─ /zh/landing/index.html (+4ms) 
+23:39:44   ├─ /zh/faq/index.html (+2ms) 
+23:39:44   ├─ /zh/recent/index.html (+5ms) 
+23:39:44   ├─ /zh/tags/codes/index.html (+4ms) 
+23:39:44   ├─ /zh/tags/guide/index.html (+4ms) 
+23:39:44   ├─ /zh/tags/items/index.html (+6ms) 
+23:39:44   ├─ /zh/tags/index.html (+2ms) 
+23:39:44   ├─ /zh/about/index.html (+2ms) 
+23:39:44   ├─ /zh/privacy-policy/index.html (+1ms) 
+23:39:44   ├─ /zh/terms-of-service/index.html (+1ms) 
+23:39:44   ├─ /zh/copyright/index.html (+5ms) 
+23:39:44   ├─ /zh/contact/index.html (+1ms) 
+23:39:44   ├─ /zh/index.html (+4ms) 
+23:39:44   ├─ /zh/codes/index.html (+3ms) 
+23:39:44   ├─ /zh/guides/index.html (+3ms) 
+23:39:44   ├─ /zh/items/index.html (+2ms) 
+23:39:44   ├─ /zh/codes/all-codes/index.html (+10ms) 
+23:39:44   ├─ /zh/guides/beginner-guide/index.html (+6ms) 
+23:39:44   ├─ /zh/guides/fishing-fragments/index.html (+10ms) 
+23:39:44   ├─ /zh/guides/grimoire-tier-list/index.html (+8ms) 
+23:39:44   ├─ /zh/guides/how-to-redeem-codes/index.html (+6ms) 
+23:39:44   ├─ /zh/guides/how-to-reroll/index.html (+6ms) 
+23:39:44   ├─ /zh/guides/patch-notes/index.html (+7ms) 
+23:39:44   ├─ /zh/guides/race-tier-list/index.html (+6ms) 
+23:39:44   ├─ /zh/items/anti-magic/index.html (+7ms) 
+23:39:44   ├─ /zh/items/poison/index.html (+9ms) 
+23:39:44   ├─ /index.html (+4ms) 
+23:39:44   ├─ /codes/index.html (+2ms) 
+23:39:44   ├─ /guides/index.html (+3ms) 
+23:39:44   ├─ /items/index.html (+2ms) 
+23:39:44   ├─ /codes/all-codes/index.html (+5ms) 
+23:39:44   ├─ /guides/beginner-guide/index.html (+6ms) 
+23:39:44   ├─ /guides/fishing-fragments/index.html (+5ms) 
+23:39:44   ├─ /guides/grimoire-tier-list/index.html (+6ms) 
+23:39:44   ├─ /guides/how-to-redeem-codes/index.html (+9ms) 
+23:39:44   ├─ /guides/how-to-reroll/index.html (+5ms) 
+23:39:44   ├─ /guides/patch-notes/index.html (+5ms) 
+23:39:44   ├─ /guides/race-tier-list/index.html (+6ms) 
+23:39:44   ├─ /items/anti-magic/index.html (+6ms) 
+23:39:44   ├─ /items/poison/index.html (+6ms) 
+23:39:44 ✓ Completed in 816ms.
+
+ generating optimized images 
+23:39:44   ▶ /_astro/clover-time-en-codes-all-codes.B0CHivie_1DP4dg.webp (before: 192kB, after: 9kB) (+47ms) (1/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-fishing-fragments.CIyvv5nj_ZXV9qc.webp (before: 230kB, after: 8kB) (+58ms) (2/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-beginner-guide.0dW2uLoc_Z10C0ET.webp (before: 203kB, after: 8kB) (+62ms) (3/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-grimoire-tier-list.Bd6AwvU3_1q1N1X.webp (before: 228kB, after: 9kB) (+68ms) (4/30)
+23:39:44   ▶ /_astro/clover-time-en-codes-all-codes.B0CHivie_Z1UNz47.webp (before: 192kB, after: 31kB) (+53ms) (5/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-beginner-guide.0dW2uLoc_12D2bj.webp (before: 203kB, after: 29kB) (+46ms) (6/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-fishing-fragments.CIyvv5nj_1Qt5PD.webp (before: 230kB, after: 30kB) (+50ms) (7/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-grimoire-tier-list.Bd6AwvU3_14UIWS.webp (before: 228kB, after: 32kB) (+50ms) (8/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-beginner-guide.0dW2uLoc_17bvj7.webp (before: 203kB, after: 90kB) (+85ms) (9/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-fishing-fragments.CIyvv5nj_1c5oR0.webp (before: 230kB, after: 98kB) (+85ms) (10/30)
+23:39:44   ▶ /_astro/clover-time-en-codes-all-codes.B0CHivie_2utcgl.webp (before: 192kB, after: 90kB) (+102ms) (11/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-grimoire-tier-list.Bd6AwvU3_1UMnkv.webp (before: 228kB, after: 99kB) (+97ms) (12/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-how-to-redeem-codes.egtsNBB7_2txTpT.webp (before: 129kB, after: 7kB) (+34ms) (13/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-how-to-reroll.QPqSyQZB_1f1w0W.webp (before: 201kB, after: 9kB) (+38ms) (14/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-patch-notes.D7PNy7UF_Z15UjHp.webp (before: 154kB, after: 7kB) (+36ms) (15/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-race-tier-list.CmQnpOgQ_hABUO.webp (before: 235kB, after: 9kB) (+38ms) (16/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-how-to-redeem-codes.egtsNBB7_Z5FeHS.webp (before: 129kB, after: 23kB) (+33ms) (17/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-how-to-reroll.QPqSyQZB_o0KRo.webp (before: 201kB, after: 31kB) (+39ms) (18/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-patch-notes.D7PNy7UF_Z2r2U2U.webp (before: 154kB, after: 23kB) (+41ms) (19/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-race-tier-list.CmQnpOgQ_2kQEM2.webp (before: 235kB, after: 32kB) (+45ms) (20/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-how-to-redeem-codes.egtsNBB7_1Rbr5s.webp (before: 129kB, after: 61kB) (+75ms) (21/30)
+23:39:44   ▶ /_astro/clover-time-en-items-anti-magic.BQOiIFbY_K7MlJ.webp (before: 119kB, after: 5kB) (+24ms) (22/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-how-to-reroll.QPqSyQZB_c79lI.webp (before: 201kB, after: 92kB) (+91ms) (23/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-patch-notes.D7PNy7UF_ZGGYEX.webp (before: 154kB, after: 67kB) (+90ms) (24/30)
+23:39:44   ▶ /_astro/clover-time-en-items-poison.CFJqOCCx_Z5CPAL.webp (before: 161kB, after: 7kB) (+21ms) (25/30)
+23:39:44   ▶ /_astro/clover-time-en-guides-race-tier-list.CmQnpOgQ_2pp8TP.webp (before: 235kB, after: 103kB) (+95ms) (26/30)
+23:39:44   ▶ /_astro/clover-time-en-items-anti-magic.BQOiIFbY_Zvbmav.webp (before: 119kB, after: 16kB) (+35ms) (27/30)
+23:39:44   ▶ /_astro/clover-time-en-items-poison.CFJqOCCx_125IGd.webp (before: 161kB, after: 25kB) (+32ms) (28/30)
+23:39:44   ▶ /_astro/clover-time-en-items-anti-magic.BQOiIFbY_zzbwc.webp (before: 119kB, after: 50kB) (+66ms) (29/30)
+23:39:44   ▶ /_astro/clover-time-en-items-poison.CFJqOCCx_Z2hES55.webp (before: 161kB, after: 72kB) (+65ms) (30/30)
+23:39:44 ✓ Completed in 481ms.
+
+23:39:44 [build] ✓ Completed in 3.08s.
+23:39:44 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+23:39:44 [build] 148 page(s) built in 3.78s
+23:39:44 [build] Complete!
+$ pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts
+
+Running Pagefind v1.5.2 (Extended)
+Running from: "/workspace/AnvilWiki/.tmp/clover-time-visual-refresh-20261010/review-3/checkout"
+Source:       "dist"
+Output:       "dist/pagefind"
+
+[Walking source directory]
+Found 155 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+1 page found without an <html> element. 
+Pages without an outer <html> element will not be processed by default. 
+If adding this element is not possible, use the root selector config to target a different root element.
+  * "/google8362d9398114b66b.html" has no <html> element
+
+[Reading languages]
+Discovered 2 languages: zh, en
+
+[Building search indexes]
+Total: 
+  Indexed 2 languages
+  Indexed 110 pages
+  Indexed 14183 words
+  Indexed 0 filters
+  Indexed 0 sorts
+Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
+Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
+
+Finished in 0.484 seconds
+[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=e96f9a271a applied to 148 pages; range-media lowered in 4 files
+[IndexNow] No .indexnow-key or legacy INDEXNOW_KEY configured; key file emission skipped.
+
+
+COMMAND: ["pnpm", "--config.verify-deps-before-run=false", "check-links"]
+EXIT: 0
+$ tsx scripts/check-links.ts
+
+🔗 Internal link audit — 10771 links across 155 pages
+
+✅ All internal links resolve.
+
+
+FIRST UPLOAD (exit 1; superseded):
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+
+ ⛅️ wrangler 4.149.0
+────────────────────
+Uploading... (141/383)
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mFailed to upload files. Please try again. Error: {"text":"Received a malformed response from the API","notes":[{"text":"Unauthorized: authentication failed for integration codex-secret-api.cloudflare.com\n"},{"text":"POST /pages/assets/upload -> 401 Unauthorized"}],"kind":"error","name":"APIError"})[0m
+
+
+🪵  Logs were written to "/home/agent/.config/.wrangler/logs/wrangler-2026-10-09_23-37-46_084.log"
+
+
+FINAL UPLOAD (exit 0):
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+
+ ⛅️ wrangler 4.149.0
+────────────────────
+Uploading... (141/383)
+Uploading... (221/383)
+Uploading... (302/383)
+Uploading... (383/383)
+✨ Success! Uploaded 242 files (141 already uploaded) (2.66 sec)
+
+✨ Uploading _headers
+✨ Uploading _redirects
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://e3d1cc23.clover-time-wiki-preview.pages.dev

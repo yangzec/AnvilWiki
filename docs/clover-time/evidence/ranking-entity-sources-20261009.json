@@ -1,0 +1,320 @@
+{
+  "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+  "source_reads": [
+    {
+      "source": "S28",
+      "url": "https://www.gamezebo.com/walkthroughs/clover-time-grimoire-tier-list/",
+      "http": 200,
+      "author": "Sho Roberts",
+      "publication_or_visible_revision": "2026-10-05 (visible date)",
+      "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+      "raw_cache_sha256": "e6578de5c8af3c5b264bf9a2a885806190a266201890461b8b39256d565e82a3",
+      "facts": "Ten-book comparison: Anti Magic/Battle Lightning S; Poison/Chain A; Explosive Flame/Ice/Water B; Snow C; Fire/Earth D.",
+      "limits": "Mixed PvE/PvP; no published controlled measurements. Fire Strength wording differs from public-card Power ability scaling; not adopted."
+    },
+    {
+      "source": "S29",
+      "url": "https://robolibrary.org/wikis/clover-time/grimoires",
+      "http": 200,
+      "author": "RoboLibrary Editorial",
+      "publication_or_visible_revision": "Last edited 2026-10-04 (visible date)",
+      "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+      "raw_cache_sha256": "d8903c0840236b4962de3a910f463b4836800e3e7849b8582e2c434c41e1ebbd",
+      "facts": "Ten names and links back to S21 and the confirmed Roblox experience.",
+      "limits": "Claims no published rarity labels, while inspected Tower card groups all ten. October 10 Update 1.0 claim has no developer announcement link in inspected page; not adopted."
+    },
+    {
+      "source": "S30",
+      "url": "https://clovertime.wiki/magic/clover-time-grimoires",
+      "http": 200,
+      "author": "Not established",
+      "publication_or_visible_revision": null,
+      "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+      "raw_cache_sha256": "a8b2062b25965d95262126946ceaa7cef912e8d2b1646a83717d87d16d70f2b1",
+      "facts": "Ten named profiles; Poison Bullet, Poison Mister, Tox Explosion, Tox Clone; Power progression reports.",
+      "limits": "Same publisher as S08-S18, not independent corroboration. Says Water/Poison rarity undocumented, conflicting with inspected Tower card; no original recording link."
+    }
+  ],
+  "tower_card": {
+    "source": "S21",
+    "url": "https://trello.com/c/KhpwU5Vn",
+    "http": 200,
+    "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+    "dateLastActivity": "2026-10-01T15:42:06.709Z",
+    "roster_and_reported_rarity": [
+      [
+        "Earth",
+        "Common"
+      ],
+      [
+        "Fire",
+        "Common"
+      ],
+      [
+        "Snow",
+        "Common"
+      ],
+      [
+        "Water",
+        "Common"
+      ],
+      [
+        "Ice",
+        "Uncommon"
+      ],
+      [
+        "Chain",
+        "Rare"
+      ],
+      [
+        "Explosive Flame",
+        "Epic"
+      ],
+      [
+        "Poison",
+        "Epic"
+      ],
+      [
+        "Battle Lightning",
+        "Legendary"
+      ],
+      [
+        "Anti Magic",
+        "Mythic"
+      ]
+    ],
+    "authorship": "Public board; developer backlink unconfirmed",
+    "pity_claim": "50/100/250, some subscriptions reduce by 30%; card claim consistent with previously inspected screenshot, no result transaction",
+    "attachments": [],
+    "raw_filtered_sha256": "5bb4380c3b1787fa044c8f92b5cde24b8ea3a65688760155893c0f3d57d86326"
+  },
+  "media_inspections": [
+    {
+      "name": "anti-dual",
+      "url": "https://trello.com/1/cards/6aa0ae6b1e33bd6787f13670/attachments/6aa1ec8a041d1dee50fcbdd3/previews/6aa1ec94041d1dee50fcc922/download/Dual_g.gif",
+      "http": 200,
+      "mime": "image/gif",
+      "bytes": 2491815,
+      "sha256": "b1db18a0aff565b4ad60d58c054e9ad9ae8195f4b871b9a69f305c0818eb57dc",
+      "size": [
+        430,
+        240
+      ],
+      "frames": 38,
+      "duration_ms": 3800,
+      "extracted": [
+        0,
+        7,
+        15,
+        22,
+        30,
+        37
+      ],
+      "extracted_ms": [
+        0,
+        700,
+        1500,
+        2200,
+        3000,
+        3700
+      ],
+      "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+      "observations": {
+        "times_ms": [
+          0,
+          700,
+          1500,
+          2200,
+          3000,
+          3700
+        ],
+        "visible": [
+          "HUD: Anti Magic Cut E, Counter X, Dual Slashes C, Dual Spin Z, Rush Divider R",
+          "Sword stance; surrounding slash effect; hit indicator"
+        ],
+        "not_established": [
+          "Actual key input",
+          "Which move the Dual filename represents",
+          "Damage, cooldown, unlock requirements, current build"
+        ]
+      },
+      "capture_date": null,
+      "game_version": null,
+      "author": "Unknown public-card contributor",
+      "public_asset_copied": false
+    },
+    {
+      "name": "anti-rush",
+      "url": "https://trello.com/1/cards/6aa0ae6b1e33bd6787f13670/attachments/6aa1f0999cd32d72fc1b5f25/previews/6aa1f0af9cd32d72fc1b7f03/download/Rush_g.gif",
+      "http": 200,
+      "mime": "image/gif",
+      "bytes": 4682638,
+      "sha256": "ec4d907246bd4a9c7c0ec864a931757355d8ba36e8dcb6904f526f3e2b53a0ea",
+      "size": [
+        430,
+        240
+      ],
+      "frames": 67,
+      "duration_ms": 6700,
+      "extracted": [
+        0,
+        13,
+        26,
+        40,
+        53,
+        66
+      ],
+      "extracted_ms": [
+        0,
+        1300,
+        2600,
+        4000,
+        5300,
+        6600
+      ],
+      "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+      "observations": {
+        "times_ms": [
+          0,
+          1300,
+          2600,
+          4000,
+          5300,
+          6600
+        ],
+        "visible": [
+          "Same five HUD names and binds",
+          "Approach to target, close-range combat, hit indicators"
+        ],
+        "not_established": [
+          "Actual key input",
+          "Guaranteed multi-target behavior",
+          "Damage, cooldown, unlock requirements, current build"
+        ]
+      },
+      "capture_date": null,
+      "game_version": null,
+      "author": "Unknown public-card contributor",
+      "public_asset_copied": false
+    },
+    {
+      "name": "grimoire-bag",
+      "url": "https://trello.com/1/cards/6aa4879551023f9f8e2841b8/attachments/6abd72f67c1ad9d84d9c3cbb/download/httpstrello.comcNb4oqgRC168-big-chestsearch_id%3Dd3f689d5-fa5b-4019-b3fb-9dabc9a0eff1.gif",
+      "http": 200,
+      "mime": "image/gif",
+      "bytes": 11079253,
+      "sha256": "6b9512e4e22b51b71eaa19af175cc91c2addc251e01df4e34bea27edfec1510a",
+      "size": [
+        864,
+        864
+      ],
+      "frames": 152,
+      "duration_ms": 5060,
+      "extracted": [
+        0,
+        30,
+        60,
+        91,
+        121,
+        151
+      ],
+      "extracted_ms": [
+        0,
+        1000,
+        2000,
+        3030,
+        4030,
+        5030
+      ],
+      "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+      "observations": {
+        "times_ms": [
+          0,
+          1000,
+          2000,
+          3030,
+          4030,
+          5030
+        ],
+        "visible": [
+          "Close-up of a purple bag on a character"
+        ],
+        "not_established": [
+          "Inventory interface",
+          "Equipment controls",
+          "Capacity transaction",
+          "Poison identity or skills"
+        ]
+      },
+      "capture_date": null,
+      "game_version": null,
+      "author": "Unknown public-card contributor",
+      "public_asset_copied": false
+    }
+  ],
+  "race_media_inspections": [
+    {
+      "name": "race-dwarf",
+      "url": "https://trello.com/1/cards/6a9ec7d9e5cebab99698225b/attachments/6abc09c395d82c1eea017ed7/previews/6abc09c495d82c1eea017f4f/download/image.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 40394,
+      "size": [
+        600,
+        717
+      ],
+      "sha256": "eccb207e4df24190c4f1582bbb43a022a4b0d2fad3a77a9aadea49e4f0c631bf",
+      "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+      "observations": "Character appearance; no attribute panel or race label proving current passives.",
+      "capture_date": null,
+      "game_version": null,
+      "public_asset_copied": false
+    },
+    {
+      "name": "race-elf",
+      "url": "https://trello.com/1/cards/6a9ec8e9e1544377c00b9552/attachments/6abc09e3b0aba2f9a1c3467f/previews/6abc09e4b0aba2f9a1c346cb/download/image.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 19680,
+      "size": [
+        300,
+        409
+      ],
+      "sha256": "88e5688eb8574447225177d48a2bee305f882889f468a8e6d13941750ba1b7f9",
+      "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+      "observations": "Character appearance; no attribute panel or race label proving current passives.",
+      "capture_date": null,
+      "game_version": null,
+      "public_asset_copied": false
+    },
+    {
+      "name": "race-human-dwarf",
+      "url": "https://trello.com/1/cards/6a9ec82bf62372e0770ff5ac/attachments/6abc09d2ead2f2dee62e1dcc/previews/6abc09d2ead2f2dee62e1eae/download/image.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 50584,
+      "size": [
+        600,
+        743
+      ],
+      "sha256": "085fd520518cb923c10846c97fbf5e0bc942ba5fc9694a7e190921596366b320",
+      "inspection_completed_at": "2026-10-09T09:45:32.877263+08:00",
+      "observations": "Character appearance; no attribute panel or race label proving current passives.",
+      "capture_date": null,
+      "game_version": null,
+      "public_asset_copied": false
+    }
+  ],
+  "search": {
+    "url": "https://search.brave.com/search?q=%22Clover%20Time%22%20%22Poison%22%20%22grimoire%22%20gameplay",
+    "checked_at": "2026-10-09T09:36:23.329165+08:00",
+    "http": 200,
+    "scope": "One normal Brave query; snippets used only as leads, original pages read separately."
+  },
+  "execution_notes": [
+    "Initial Tower response was HTTP 200 but local parser assumed attachments was iterable. Corrected parser uses empty list for null and successful normal public request; not an access bypass.",
+    "One local helper failed because requests was unavailable. Replaced with Python standard-library urllib; no dependency installed."
+  ],
+  "gameplay_session_entered": false,
+  "third_party_media_publish_permission": "Not established; cached originals remain ignored task-local files."
+}

@@ -1,4 +1,5 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
+import { locales, defaultLocale } from '../src/i18n/routing';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
@@ -30,7 +31,7 @@ import { describe, expect, it } from 'vitest';
  */
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const LOCALES = ['en', 'ja'] as const;
+const LOCALES = locales;
 
 const MONTHS: Record<string, string> = {
   January: '01',
@@ -65,7 +66,9 @@ interface LocaleJson {
 }
 
 function readCodesPage(locale: string): string {
-  return readFileSync(join(ROOT, 'src/content/wiki', locale, 'codes/all-codes.mdx'), 'utf8');
+  const local = join(ROOT, 'src/content/wiki', locale, 'codes/all-codes.mdx');
+  const fallback = join(ROOT, 'src/content/wiki', defaultLocale, 'codes/all-codes.mdx');
+  return readFileSync(existsSync(local) ? local : fallback, 'utf8');
 }
 
 function frontmatterOf(raw: string): string {
@@ -140,8 +143,9 @@ function monthAnchorOf(line: string, locale: string): string | undefined {
 describe('codes page ↔ home highlights consistency', () => {
   for (const locale of LOCALES) {
     it(`${locale}: home badge-list highlights mirror the codes page active set`, () => {
-      const active = activeCodes(frontmatterOf(readCodesPage(locale)));
-      expect(active.length, 'codes page should have at least one active code').toBeGreaterThan(0);
+      const fm = frontmatterOf(readCodesPage(locale));
+      // Draft codes are not public, so homepage highlights must remain empty.
+      const active = /^draft:\s*true\s*$/m.test(fm) ? [] : activeCodes(fm);
       expect(highlightLabels(locale).sort()).toEqual([...active].sort());
     });
 
@@ -176,4 +180,14 @@ describe('codes page ↔ home highlights consistency', () => {
       }
     });
   }
+});
+
+// The consistency check must still recognize active codes when the live page is empty.
+describe('code-state parsing for empty and populated reports', () => {
+  it('keeps the empty state empty', () => {
+    expect(activeCodes('codes: []')).toEqual([]);
+  });
+  it('includes active codes and excludes expired codes', () => {
+    expect(activeCodes('codes:\n  - code: "TEST-ACTIVE"\n    status: active\n  - code: "TEST-EXPIRED"\n    status: expired')).toEqual(['TEST-ACTIVE']);
+  });
 });

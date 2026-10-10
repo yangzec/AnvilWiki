@@ -1,0 +1,2585 @@
+{
+  "checked_at_beijing": "2026-10-10 10:51",
+  "status": "player_copy_deployed_and_verified",
+  "cloudflare": {
+    "deployment_id": "8622d67e-54c2-49fd-8537-724a63f2d5f1",
+    "deployment_url": "https://8622d67e.clover-time-wiki-preview.pages.dev",
+    "stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-10T02:47:44.82323Z",
+      "status": "success"
+    },
+    "domains": [
+      "clover-time-wiki-preview.pages.dev",
+      "clovertime.world"
+    ],
+    "domain_status": "active"
+  },
+  "source_change_manifest": [
+    {
+      "source_file": "src/content/wiki/en/codes/all-codes.mdx",
+      "before_sha256": "80be82200c900e5ed076316f963b091839d5e0edd0b4973ec5c760e0f622a28d",
+      "after_sha256": "955528cde880924e9bd2163558e74d3868b2530c7860831af3df986cce41def3",
+      "current_title": "\"Clover Time Codes & Redemption Guide\""
+    },
+    {
+      "source_file": "src/content/wiki/en/guides/beginner-guide.mdx",
+      "before_sha256": "bdfdf093f4d9ab8dac966350ecce31009c68c2f4ec9feb5fd6c3c346b3cdb6a3",
+      "after_sha256": "6bfebac5fbb49ed4d1d7f41f5ce10532e1bbf565ae98bc0e6979fcf18cb105e4",
+      "current_title": "\"Clover Time Beginner Guide: Characters, Tools & Grimoires\""
+    },
+    {
+      "source_file": "src/content/wiki/en/guides/fishing-fragments.mdx",
+      "before_sha256": "9b58ff658c37a8c8c02e2649a03eef3671f495a1b047cb4f4505b10ee01509be",
+      "after_sha256": "6c7957eb77a2a89b83b48e3977c18d7e2f92a5ccac11be79c7512e36bfab57a4",
+      "current_title": "\"Clover Time Fishing Guide: Rods, Bait & Mana Materials\""
+    },
+    {
+      "source_file": "src/content/wiki/en/guides/grimoire-tier-list.mdx",
+      "before_sha256": "37594d9e15c2fed2b4cf031f4cd83a346f7cc7fc38ddf15d2e265f054f5a7793",
+      "after_sha256": "a60163d4e5b0b7a70a7b59cd61d8dae2e3f9df2919347c918aad1627f4182efa",
+      "current_title": "\"Clover Time Grimoire Guide: PvE Picks & Rarities\""
+    },
+    {
+      "source_file": "src/content/wiki/en/guides/how-to-redeem-codes.mdx",
+      "before_sha256": "bccd95bd062672c941b1ca3d740635f9a7d5bf294f840e2beed8e416ccd32283",
+      "after_sha256": "ffb51e6e59e2fe187ef1264e344ebd2640cfe90ce057ae9192c55c4e51273360",
+      "current_title": "\"How to Redeem Codes in Clover Time\""
+    },
+    {
+      "source_file": "src/content/wiki/en/guides/how-to-reroll.mdx",
+      "before_sha256": "26d33f39d2651e620f62c9d48d0ce0f645416070a8dc868025aafd06db9afc40",
+      "after_sha256": "0f0c1155a9ab8482a0d9af0436ca5b373df1d5ada3169b83d0aa846f7d395348",
+      "current_title": "\"How to Reroll in Clover Time: Race, Social Class & Trait\""
+    },
+    {
+      "source_file": "src/content/wiki/en/guides/patch-notes.mdx",
+      "before_sha256": "5f4c41628d777d6129a4ff3b66d8db55f54a2b438e9cc4836014cc06dff2e542",
+      "after_sha256": "96bfc56f16f3198f9dc786795f058eabdf14c9528f9745e15d610eb51fa45ad1",
+      "current_title": "\"Clover Time Beta 0.1: Game Features & Updates\""
+    },
+    {
+      "source_file": "src/content/wiki/en/guides/race-tier-list.mdx",
+      "before_sha256": "961d6df9f5301790af9080e30bfaa5a7b4a2ce5709669ff6fbccc9146c0a910d",
+      "after_sha256": "45b21a9a43efda1fedc7a6d813bb57798f920173928810496a00f0bd974a608c",
+      "current_title": "\"Clover Time Race Guide: PvE Picks & Passive Bonuses\""
+    },
+    {
+      "source_file": "src/content/wiki/en/items/anti-magic.mdx",
+      "before_sha256": "b426d397b2d60dabb84100f0ab5a3aa6b1af6437037541eefd499b024f0cae6c",
+      "after_sha256": "826f2281d2a7cdf13c30fae1cc9bc451bd21223225a0b29017ef5d1e09520c3a",
+      "current_title": "\"Clover Time Anti Magic Guide: Sword Skills & Combat\""
+    },
+    {
+      "source_file": "src/content/wiki/en/items/poison.mdx",
+      "before_sha256": "7ee12496a50fdcd125a42cf0df1ab9a56a6db6e5072735bef9b4048eacc13c26",
+      "after_sha256": "a327aaaba3a24153ae1b7c26cf4d1f076861a64217773ebc4d25935c375830a4",
+      "current_title": "\"Clover Time Poison Guide: Projectiles, Mist & Clone\""
+    }
+  ],
+  "package_checks": {
+    "checked_routes": [
+      "/",
+      "/zh/",
+      "/codes/all-codes/",
+      "/guides/beginner-guide/",
+      "/guides/fishing-fragments/",
+      "/guides/grimoire-tier-list/",
+      "/guides/how-to-redeem-codes/",
+      "/guides/how-to-reroll/",
+      "/guides/patch-notes/",
+      "/guides/race-tier-list/",
+      "/items/anti-magic/",
+      "/items/poison/",
+      "/zh/codes/all-codes/",
+      "/zh/guides/beginner-guide/",
+      "/zh/guides/fishing-fragments/",
+      "/zh/guides/grimoire-tier-list/",
+      "/zh/guides/how-to-redeem-codes/",
+      "/zh/guides/how-to-reroll/",
+      "/zh/guides/patch-notes/",
+      "/zh/guides/race-tier-list/",
+      "/zh/items/anti-magic/",
+      "/zh/items/poison/"
+    ],
+    "no_public_research_or_citation_notes": true,
+    "ga4_retained": true,
+    "noindex_retained": true,
+    "draft_sources_unchanged_by_export": 10
+  },
+  "unit_tests": {
+    "command": "pnpm exec vitest run tests/home-ui.test.ts tests/i18n-smoke.test.ts tests/seo.test.ts tests/consent.test.ts",
+    "passed": 41,
+    "suites": 4,
+    "exit_code": 0
+  },
+  "typecheck": {
+    "files": 202,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0,
+    "exit_code": 0
+  },
+  "i18n": {
+    "ui_keys": 144,
+    "translated_ui_keys": 144,
+    "source_chinese_articles": 0,
+    "exit_code": 0
+  },
+  "review_build_commands": [
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "check-config"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-editorial-20261010/review-1/pnpm---config.verify-deps-before-run=false-check-config.log"
+    },
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "check-content"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-editorial-20261010/review-1/pnpm---config.verify-deps-before-run=false-check-content.log"
+    },
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "build"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-editorial-20261010/review-1/pnpm---config.verify-deps-before-run=false-build.log"
+    },
+    {
+      "command": [
+        "pnpm",
+        "--config.verify-deps-before-run=false",
+        "check-links"
+      ],
+      "exit_code": 0,
+      "log": ".tmp/clover-time-editorial-20261010/review-1/pnpm---config.verify-deps-before-run=false-check-links.log"
+    }
+  ],
+  "default_build": {
+    "content_exit_code": 0,
+    "build_exit_code": 0,
+    "links_exit_code": 0,
+    "internal_links": 9733,
+    "source_drafts_excluded": 10
+  },
+  "review_internal_links": 10921,
+  "local_browser": {
+    "origin": "http://127.0.0.1:4183",
+    "checks": [
+      {
+        "route": "/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/",
+        "width": 768,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/",
+        "width": 1440,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/",
+        "width": 1440,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/codes/all-codes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/codes/all-codes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/beginner-guide/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/beginner-guide/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/fishing-fragments/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/fishing-fragments/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/grimoire-tier-list/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/grimoire-tier-list/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/how-to-redeem-codes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/how-to-redeem-codes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/how-to-reroll/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/how-to-reroll/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/patch-notes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/patch-notes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/race-tier-list/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/race-tier-list/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/items/anti-magic/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/items/anti-magic/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/items/poison/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/items/poison/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/codes/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/items/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/codes/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/items/",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "passed": 32
+  },
+  "online_browser": {
+    "origin": "https://clovertime.world",
+    "checks": [
+      {
+        "route": "/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/",
+        "width": 768,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/",
+        "width": 1440,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/",
+        "width": 1440,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/codes/all-codes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/codes/all-codes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/beginner-guide/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/beginner-guide/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/fishing-fragments/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/fishing-fragments/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/grimoire-tier-list/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/grimoire-tier-list/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/how-to-redeem-codes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/how-to-redeem-codes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/how-to-reroll/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/how-to-reroll/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/patch-notes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/patch-notes/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/race-tier-list/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/race-tier-list/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/items/anti-magic/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/items/anti-magic/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/items/poison/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/items/poison/",
+        "width": 375,
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/codes/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/guides/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/items/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/codes/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/guides/",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/zh/items/",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "passed": 32
+  },
+  "search": {
+    "query": "Poison",
+    "title": "Clover Time Poison Guide: Projectiles, Mist & Clone",
+    "href": "/zh/items/poison/",
+    "ok": true
+  },
+  "initial_probe_corrections": [
+    {
+      "kind": "home badge text assertion",
+      "initial_passed": 26,
+      "initial_failed": 6,
+      "cause": "CSS uppercase transforms innerText; comparing mixed-case string was incorrect",
+      "correction": "Compare case-insensitively; actual images and layout passed; final 32 passed"
+    },
+    {
+      "kind": "search input locator",
+      "cause": "Pagefind input type is text, not search; initial selector timed out",
+      "correction": "Use actual input selector; Poison search returned new title and Chinese route"
+    }
+  ],
+  "upload_files": [
+    {
+      "path": "404.html",
+      "bytes": 18882,
+      "sha256": "81ad8f49ca3aca890b03a82d6a8103c21c5e616385302677c85e352d1d9122a2"
+    },
+    {
+      "path": "_astro/SearchButton.BG-FXNPd.css",
+      "bytes": 66616,
+      "sha256": "b46a6005c5e26ba645b259b43b854321e0c3d6ea4072a92fd3219e0321f56ecb"
+    },
+    {
+      "path": "_astro/clover-time-en-codes-all-codes.B0CHivie.webp",
+      "bytes": 197246,
+      "sha256": "4fae3d15df6c88666f1946cf1124501bad000ccf3b6fd85b5675b80db87213ed"
+    },
+    {
+      "path": "_astro/clover-time-en-codes-all-codes.B0CHivie_1DP4dg.webp",
+      "bytes": 9520,
+      "sha256": "f2fbf7659452f3f8668d26050c7a6f401ef5c93d226605d9f1e3516d76fb4c14"
+    },
+    {
+      "path": "_astro/clover-time-en-codes-all-codes.B0CHivie_2utcgl.webp",
+      "bytes": 92866,
+      "sha256": "893a9aa9e616848ce03067cff7894aa840e81b744804489dbf930c11761e9c01"
+    },
+    {
+      "path": "_astro/clover-time-en-codes-all-codes.B0CHivie_Z1UNz47.webp",
+      "bytes": 32552,
+      "sha256": "887e6a101633d17be9f53449337d18267be8a5f5ec4baeee8ed1b4dc174861b8"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-beginner-guide.0dW2uLoc.webp",
+      "bytes": 208704,
+      "sha256": "7fd78aba95a73a6e01f6b4b0ce1936e5329c38e32bc74a65aa92a494d0033586"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-beginner-guide.0dW2uLoc_12D2bj.webp",
+      "bytes": 30522,
+      "sha256": "2eb71ab7196d3e84f2e5865fba1236d0b264f2f1633f32b31377e80939f4e1de"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-beginner-guide.0dW2uLoc_17bvj7.webp",
+      "bytes": 92614,
+      "sha256": "18d0578bde1ce964d7f630c510f5b8d6760ae6cb396522ce4e722549ff572849"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-beginner-guide.0dW2uLoc_Z10C0ET.webp",
+      "bytes": 8942,
+      "sha256": "d0549fdc6356c55349e986e6083ae6103f05f45e03b554d5ca7ebf4e0778305d"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-fishing-fragments.CIyvv5nj.webp",
+      "bytes": 236178,
+      "sha256": "79d359c21426ee9544562f9beb7ce8d99ed647ced825f8b794956e3d35f1d266"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-fishing-fragments.CIyvv5nj_1Qt5PD.webp",
+      "bytes": 31308,
+      "sha256": "0f844dfa004ce3f2e271891aa8b2b3ad986d8cf538674af3c0089eb1a6c664ce"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-fishing-fragments.CIyvv5nj_1c5oR0.webp",
+      "bytes": 100818,
+      "sha256": "42ca5c15ba2cb0681208e983a763692f3dd467afd7e37a5b96d71f4eeb87c2d0"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-fishing-fragments.CIyvv5nj_ZXV9qc.webp",
+      "bytes": 8706,
+      "sha256": "5858ca845fb469ce8608d8879573e1169ab6dffac99d2c68e247353a475e56b9"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-grimoire-tier-list.Bd6AwvU3.webp",
+      "bytes": 234270,
+      "sha256": "b0cacdcdc1a3a7a774e733e146bcae5175685fa7597b47f782489ec36d2820c8"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-grimoire-tier-list.Bd6AwvU3_14UIWS.webp",
+      "bytes": 33152,
+      "sha256": "5485172db0d8685220731a9b58ff48a131f862f12e7f8e338410e472cdc4d670"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-grimoire-tier-list.Bd6AwvU3_1UMnkv.webp",
+      "bytes": 102276,
+      "sha256": "25043431044a5b6ff3b819aa817059ddac3e3b18d5dd652ed1c7a05b5e213a69"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-grimoire-tier-list.Bd6AwvU3_1q1N1X.webp",
+      "bytes": 9338,
+      "sha256": "f78d4b326ba1b8a49c1182670e527fa8421fcead8f524b1445e6e474221b6ccb"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-redeem-codes.egtsNBB7.webp",
+      "bytes": 132802,
+      "sha256": "35e30c592bade07555fa26e78bcccb92ed5808261bb5ac562dfb9f481f810a91"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-redeem-codes.egtsNBB7_1Rbr5s.webp",
+      "bytes": 63196,
+      "sha256": "d111d4802f0d4ddf1d40c559647dd91bf3f14939aa8a075fec2da41d1b2167bf"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-redeem-codes.egtsNBB7_2txTpT.webp",
+      "bytes": 8096,
+      "sha256": "8d094b6a6cb7096801f448ca8a53360fcc53ddf82379e18812ffe342a540ec9e"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-redeem-codes.egtsNBB7_Z5FeHS.webp",
+      "bytes": 24526,
+      "sha256": "74f2d94f3c1ff778e24ad56b0aaff3a48cd2b6b30d515354d892c37683e6f540"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-reroll.QPqSyQZB.webp",
+      "bytes": 205872,
+      "sha256": "e84174c9c5a94b4c45b42b8c5472edf0b1c1a9aa3e9e76f9a0a7af00616a3e34"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-reroll.QPqSyQZB_1f1w0W.webp",
+      "bytes": 9260,
+      "sha256": "ffdff7ab4ca6dc3a4abb6b5744be4946fcbef79a72678c256607f63889200040"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-reroll.QPqSyQZB_c79lI.webp",
+      "bytes": 94294,
+      "sha256": "960a0b31751494dc6faced87d8e19d78acf7ed3f5d868f267e7fb4e6f3487f6f"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-how-to-reroll.QPqSyQZB_o0KRo.webp",
+      "bytes": 31980,
+      "sha256": "1aac6671a7bb5c9ac09bc6e2d43244d90b2592bd087384ba00166dc593a38a39"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-patch-notes.D7PNy7UF.webp",
+      "bytes": 158564,
+      "sha256": "de9a3f11b4c06264a279baa95b0b1f2d1882c6314111c75a55c37e2f4a5fe002"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-patch-notes.D7PNy7UF_Z15UjHp.webp",
+      "bytes": 7576,
+      "sha256": "7e9ded379403feaac4d09ca4d021a633ab93110e97baebdf411e36ea7b91e32a"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-patch-notes.D7PNy7UF_Z2r2U2U.webp",
+      "bytes": 24144,
+      "sha256": "1c9452ba8615277a8876eb3cc756545f01eed2b291104af5f2a2e6421ced72f9"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-patch-notes.D7PNy7UF_ZGGYEX.webp",
+      "bytes": 69612,
+      "sha256": "d8435e9aa9db91505e033bdcdb4a8b998a100061fa4646027435b1853bfb93b0"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-race-tier-list.CmQnpOgQ.webp",
+      "bytes": 241224,
+      "sha256": "74a2f91ab81290088f1327e6b4aee0acdb5be237a192c059f70a4ff1298feb7b"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-race-tier-list.CmQnpOgQ_2kQEM2.webp",
+      "bytes": 33720,
+      "sha256": "797d34931c7db5ebe2100cb0749f838fd61337f52399b11e93f2f504fc499b72"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-race-tier-list.CmQnpOgQ_2pp8TP.webp",
+      "bytes": 106096,
+      "sha256": "a05b3884a1fa149f00d89b0deeff5fcc82ad4d027b572fbcaaac0d82a09fa2ef"
+    },
+    {
+      "path": "_astro/clover-time-en-guides-race-tier-list.CmQnpOgQ_hABUO.webp",
+      "bytes": 9520,
+      "sha256": "c65467f7dfa92ac2572a65920e55fc63a1e5e24c5ca4edec385016116605dee9"
+    },
+    {
+      "path": "_astro/clover-time-en-items-anti-magic.BQOiIFbY.webp",
+      "bytes": 122500,
+      "sha256": "31648788811af8b41c9e0b25d42bc848abd82c558922ef0abc9c054cedc679a8"
+    },
+    {
+      "path": "_astro/clover-time-en-items-anti-magic.BQOiIFbY_K7MlJ.webp",
+      "bytes": 5144,
+      "sha256": "486c4b5dd660367c4783b32bfdddb58bff6b244064d8f8df964bc0ea7de0daba"
+    },
+    {
+      "path": "_astro/clover-time-en-items-anti-magic.BQOiIFbY_Zvbmav.webp",
+      "bytes": 17094,
+      "sha256": "b7c8fc595311d3d20215d770bd7f920f5c96cad338296e11dc83a2dc4cdf3bd4"
+    },
+    {
+      "path": "_astro/clover-time-en-items-anti-magic.BQOiIFbY_zzbwc.webp",
+      "bytes": 51246,
+      "sha256": "38e6d42ef4cb62142a8b034e03b281efe66bb48eccb603a4fbd602492eb5c4ba"
+    },
+    {
+      "path": "_astro/clover-time-en-items-poison.CFJqOCCx.webp",
+      "bytes": 165776,
+      "sha256": "090289402b2b6fc88f6cf3a5f83aa23d5cd9491fc8aa50694a372b8d3c93c654"
+    },
+    {
+      "path": "_astro/clover-time-en-items-poison.CFJqOCCx_125IGd.webp",
+      "bytes": 25830,
+      "sha256": "9c8a7990b0d9240ccdde5b7cea0f6283f1002c8e1b0785b1d4ca2fe73ae7bcee"
+    },
+    {
+      "path": "_astro/clover-time-en-items-poison.CFJqOCCx_Z2hES55.webp",
+      "bytes": 74262,
+      "sha256": "f735954601875224f82c857843ca3e746513b05d555729c7ccdc3f9920591262"
+    },
+    {
+      "path": "_astro/clover-time-en-items-poison.CFJqOCCx_Z5CPAL.webp",
+      "bytes": 7638,
+      "sha256": "241e9616a9dcaf7d74488a79b1b7d7504c101feb91800cfdc41b48074f2a7fe0"
+    },
+    {
+      "path": "_astro/page.CMFgH77u.js",
+      "bytes": 2487,
+      "sha256": "ac7efac5537306a54aaa0fe168258f00a0fa1361649ab43da4435e6d84041a5f"
+    },
+    {
+      "path": "_headers",
+      "bytes": 2523,
+      "sha256": "41abcb28c22d06022b53d57110a24c81f7e9bd2c86fe55d31e730a89f92faf8c"
+    },
+    {
+      "path": "_redirects",
+      "bytes": 4160,
+      "sha256": "f2effb5afda8ee3f4393d569cc2cddf449d7aeb1c9e5a454d3b194272df39b46"
+    },
+    {
+      "path": "about/index.html",
+      "bytes": 28141,
+      "sha256": "3c7ed1a144637ddee202c79153c649022d6fec9efca153d63cbfb3997c346bc9"
+    },
+    {
+      "path": "ads.txt",
+      "bytes": 466,
+      "sha256": "c129985a3fb1d17ac3b1e15cec5f00e44aea17e5ad3122eb6d2a268ccef13389"
+    },
+    {
+      "path": "android-chrome-192x192.png",
+      "bytes": 5230,
+      "sha256": "7a915d6861aedb7bb18dfea48cffdb2788d7ac67967f14c612a41da820eb2fbd"
+    },
+    {
+      "path": "android-chrome-512x512.png",
+      "bytes": 29547,
+      "sha256": "a785fde8fc18ddd2c9622dd110c2b28236ee7ee30729fc019eeea00a215d7a1f"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 5057,
+      "sha256": "0b5dce4e4bc2d35395012e62047d9a6b6fba08218ffcf7de33737071a679b90d"
+    },
+    {
+      "path": "codes/all-codes/index.html",
+      "bytes": 54870,
+      "sha256": "2f4958ede7da0a6e05c5509326743b7df1113d7c0415e5c753dd41735e290da3"
+    },
+    {
+      "path": "codes/index.html",
+      "bytes": 32505,
+      "sha256": "441b5ab2f489eb052c3230a2aeb918022059df8fbefc6ce4d3d06bb195d94d0d"
+    },
+    {
+      "path": "contact/index.html",
+      "bytes": 27797,
+      "sha256": "ecc566a24577b4c22f82e84a9bb4d18079336671c1bd5a1dddf5759aa8a82f77"
+    },
+    {
+      "path": "copyright/index.html",
+      "bytes": 27787,
+      "sha256": "916140ebe7db6effa0cbf304af2ef4362071d7cbf83659cf41733822fc081e7b"
+    },
+    {
+      "path": "faq/index.html",
+      "bytes": 29438,
+      "sha256": "0dbdd3510763b4a3df2de96d87863f56d8816e8ba6938247007a2b1a9e461d6b"
+    },
+    {
+      "path": "favicon-16x16.png",
+      "bytes": 388,
+      "sha256": "16f039134eef99b4ec8089fbda97e7c872e92e2c514e0e2e0589c467bf6904cd"
+    },
+    {
+      "path": "favicon-32x32.png",
+      "bytes": 727,
+      "sha256": "453283c7ed8672fe86775498e13cb4efb78ec5d0e488da09df9b16ff8f17d2d8"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 2315,
+      "sha256": "962e23263e756177a2437b436e4ccd0b4047e3be7cb10f94ff79d1bcf355741a"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 557,
+      "sha256": "d0d71be9b9ed583f84acdf8f721386535ff32c1a256e14441a860f6fc3116cb3"
+    },
+    {
+      "path": "google8362d9398114b66b.html",
+      "bytes": 53,
+      "sha256": "927737cd158418567b85fdee9e8f55f6a60c885a3cb1b095254732d38383145e"
+    },
+    {
+      "path": "guides/beginner-guide/index.html",
+      "bytes": 58518,
+      "sha256": "6ae478aaeddbe95857203f66ed7ca63ce1b0a43800a011adf2c307808399ee50"
+    },
+    {
+      "path": "guides/fishing-fragments/index.html",
+      "bytes": 57807,
+      "sha256": "b41623aa56ee2548767c50b13e720be31a2913cecbae4b8b9603ec5840b057ef"
+    },
+    {
+      "path": "guides/grimoire-tier-list/index.html",
+      "bytes": 58588,
+      "sha256": "5604fd972f11137d594c19c1af21c9f9bfe3c7ece7b161febb045294281318f2"
+    },
+    {
+      "path": "guides/how-to-redeem-codes/index.html",
+      "bytes": 56122,
+      "sha256": "9d174f00285529f2e796527ffa5a6e85368e215bdc23c58833d0317cb4305099"
+    },
+    {
+      "path": "guides/how-to-reroll/index.html",
+      "bytes": 57671,
+      "sha256": "afc6a0f1593ce28b10ffe690dae09d54f67784f0c6eacdca4e8b4258f481a7b7"
+    },
+    {
+      "path": "guides/index.html",
+      "bytes": 39150,
+      "sha256": "4d141cb66e23d04796f549b42c134763d7f7867d2a756c0147e3edac4b089163"
+    },
+    {
+      "path": "guides/patch-notes/index.html",
+      "bytes": 57938,
+      "sha256": "b90638ec85f0fee1c50cc369d74f0b91e5e172889bfb59ba637711e22f9b8cd3"
+    },
+    {
+      "path": "guides/race-tier-list/index.html",
+      "bytes": 57466,
+      "sha256": "47dfc7d7393bce737c2d32983fc5a88c41d16c126302a6f912385c7ce29a2112"
+    },
+    {
+      "path": "images/articles/clover-time/all-codes-overview.svg",
+      "bytes": 2805,
+      "sha256": "d8cfa6f5eb1d5bf95063bd7dcf25e726c03808816999e63644c0d98ac938735b"
+    },
+    {
+      "path": "images/articles/clover-time/anti-magic-concept.png",
+      "bytes": 2374496,
+      "sha256": "4e3569e3141278d9f5a666837345d862b7dd6a30fcd998667b558db6dea58bd2"
+    },
+    {
+      "path": "images/articles/clover-time/anti-magic-concept.webp",
+      "bytes": 122500,
+      "sha256": "31648788811af8b41c9e0b25d42bc848abd82c558922ef0abc9c054cedc679a8"
+    },
+    {
+      "path": "images/articles/clover-time/anti-magic-overview.svg",
+      "bytes": 2654,
+      "sha256": "f651e599b52c6dd0bb8decf113e326c82e5be7f5a67533eed4809b2d5a8f7215"
+    },
+    {
+      "path": "images/articles/clover-time/beginner-concept.png",
+      "bytes": 2947043,
+      "sha256": "10c1892101203a0f7f711e1fe7499759e0618cba8c5091c47661759cf380c4d1"
+    },
+    {
+      "path": "images/articles/clover-time/beginner-concept.webp",
+      "bytes": 208704,
+      "sha256": "7fd78aba95a73a6e01f6b4b0ce1936e5329c38e32bc74a65aa92a494d0033586"
+    },
+    {
+      "path": "images/articles/clover-time/beginner-guide-overview.svg",
+      "bytes": 2850,
+      "sha256": "2f32574a6a98fce50cd3579000eb452e06478e75cea34835298a36c764bfe474"
+    },
+    {
+      "path": "images/articles/clover-time/codes-concept.webp",
+      "bytes": 197246,
+      "sha256": "4fae3d15df6c88666f1946cf1124501bad000ccf3b6fd85b5675b80db87213ed"
+    },
+    {
+      "path": "images/articles/clover-time/fishing-concept.webp",
+      "bytes": 236178,
+      "sha256": "79d359c21426ee9544562f9beb7ce8d99ed647ced825f8b794956e3d35f1d266"
+    },
+    {
+      "path": "images/articles/clover-time/fishing-fragments-overview.svg",
+      "bytes": 2761,
+      "sha256": "b0cb515162e62d61bc6aec62b27b79ee64372788cb73e8df17d75b77ce345b4a"
+    },
+    {
+      "path": "images/articles/clover-time/grimoire-tier-list-overview.svg",
+      "bytes": 2540,
+      "sha256": "16ab0f1f96972199950315928e06a074003b73033b43a651dc1a8b9d206ea9fa"
+    },
+    {
+      "path": "images/articles/clover-time/grimoires-concept.webp",
+      "bytes": 234270,
+      "sha256": "b0cacdcdc1a3a7a774e733e146bcae5175685fa7597b47f782489ec36d2820c8"
+    },
+    {
+      "path": "images/articles/clover-time/how-to-redeem-codes-overview.svg",
+      "bytes": 2652,
+      "sha256": "41cfa858fcce0364a3242b3b57265138fade0b7e5ad4a7e4263daf085e1477de"
+    },
+    {
+      "path": "images/articles/clover-time/how-to-reroll-overview.svg",
+      "bytes": 2718,
+      "sha256": "ff451e1a4f86f1d4fd671e97ce2319dec43e7ea5cfedf925869917362e3907a2"
+    },
+    {
+      "path": "images/articles/clover-time/patch-concept.webp",
+      "bytes": 158564,
+      "sha256": "de9a3f11b4c06264a279baa95b0b1f2d1882c6314111c75a55c37e2f4a5fe002"
+    },
+    {
+      "path": "images/articles/clover-time/patch-notes-overview.svg",
+      "bytes": 2881,
+      "sha256": "9d0882fe5c237348c41bedcfd6ac190bc8932f095524d0093dccebc92ad598fb"
+    },
+    {
+      "path": "images/articles/clover-time/poison-concept.png",
+      "bytes": 2615604,
+      "sha256": "feba94faa1a9ba3677d9c1ac829208e4408db5bd5b390b732f34bbba3b9cbde0"
+    },
+    {
+      "path": "images/articles/clover-time/poison-concept.webp",
+      "bytes": 165776,
+      "sha256": "090289402b2b6fc88f6cf3a5f83aa23d5cd9491fc8aa50694a372b8d3c93c654"
+    },
+    {
+      "path": "images/articles/clover-time/poison-overview.svg",
+      "bytes": 2644,
+      "sha256": "1a2e94709575f236440831f1a2ee6d4bebe38401d4bb9241c488c303db4ca71c"
+    },
+    {
+      "path": "images/articles/clover-time/race-tier-list-overview.svg",
+      "bytes": 2651,
+      "sha256": "a9ffe941ae2c851ea800afd7f426440605c47eb9fea9078fa467fa2bbbc12648"
+    },
+    {
+      "path": "images/articles/clover-time/races-concept.webp",
+      "bytes": 241224,
+      "sha256": "74a2f91ab81290088f1327e6b4aee0acdb5be237a192c059f70a4ff1298feb7b"
+    },
+    {
+      "path": "images/articles/clover-time/redeem-concept.webp",
+      "bytes": 132802,
+      "sha256": "35e30c592bade07555fa26e78bcccb92ed5808261bb5ac562dfb9f481f810a91"
+    },
+    {
+      "path": "images/articles/clover-time/reroll-concept.webp",
+      "bytes": 205872,
+      "sha256": "e84174c9c5a94b4c45b42b8c5472edf0b1c1a9aa3e9e76f9a0a7af00616a3e34"
+    },
+    {
+      "path": "images/articles/weapon-frostpike.png",
+      "bytes": 30162,
+      "sha256": "ec829b1a18c019ed2012ec0e72bd4ed61a01265196b9637ee0b1eb3f22124c98"
+    },
+    {
+      "path": "images/articles/weapon-voidforge.png",
+      "bytes": 31188,
+      "sha256": "5911ec427ea1f27089f36a5e75fba2a5c77f9a7b654ef81de673a3eafeb85168"
+    },
+    {
+      "path": "images/clover-time-hero.webp",
+      "bytes": 218842,
+      "sha256": "4527c5c8d00c627a48b53012b1f6a7018840536de0f63993b42df49195681880"
+    },
+    {
+      "path": "images/hero.svg",
+      "bytes": 710,
+      "sha256": "f4ce904a0604ef3edde0b5d7ca4940ee50dbbb389d7d135d05f70a08c139dc7e"
+    },
+    {
+      "path": "images/hero.webp",
+      "bytes": 209754,
+      "sha256": "e51fb4f418a089c564ff9860709589823b369a903de1f5ab5772b67689eed0ed"
+    },
+    {
+      "path": "images/showcase/demo-article.webp",
+      "bytes": 64240,
+      "sha256": "7b7f42c14bfc8ada9bf1cb694fe16b8bf43dfdab87d95d98c5a2fd8093f6000c"
+    },
+    {
+      "path": "images/showcase/demo-codes.webp",
+      "bytes": 57034,
+      "sha256": "8429478127d205742483557fd3613dbf5a4260512f3f2660a39fab8540fed115"
+    },
+    {
+      "path": "images/showcase/demo-home.webp",
+      "bytes": 23514,
+      "sha256": "92086c8a7b0ceb8fd388f8458a5ea575b68007e5d8e82a1b0e535ff710d504da"
+    },
+    {
+      "path": "images/showcase/demo-mobile.webp",
+      "bytes": 18096,
+      "sha256": "c69d4e8db3db17f86b6882d93f00e1dd9a9f2e8dd1fdb28ef0c3ea973c5269fc"
+    },
+    {
+      "path": "images/showcase/demo-tier-list.webp",
+      "bytes": 72746,
+      "sha256": "ca081e281a56f7e9da5e5388175346c862738d90871ed0582c62d7cd3de643ac"
+    },
+    {
+      "path": "images/showcase/sites/aniimo.jpg",
+      "bytes": 79911,
+      "sha256": "4a360d51ec559672f20d57d900f96f2db236ac1d92f17d3f923fd3c1500a44c9"
+    },
+    {
+      "path": "images/showcase/sites/jjs-player-guide.png",
+      "bytes": 66480,
+      "sha256": "fe3ee4459a45e4d3c183473bec2d7225ca9ceaef8a10f795fd12b5cd8bb93783"
+    },
+    {
+      "path": "images/showcase/sites/mortal-shell-ii.png",
+      "bytes": 73035,
+      "sha256": "c8f78b5e5e72b1dba3a3fd7bfacab6fff986abfe39b8c4c24b49ba52adc31934"
+    },
+    {
+      "path": "images/showcase/sites/nomanssky.jpg",
+      "bytes": 82589,
+      "sha256": "2dccb1fa01a785e0693226974ff59c34f2e1f2eadcccf6b190da10e125b3530c"
+    },
+    {
+      "path": "images/showcase/sites/resonance.jpg",
+      "bytes": 79025,
+      "sha256": "bf4fe0b704fd6ba59b79b374e9c50775c4486d23edd6ccb01390936b4e9867c3"
+    },
+    {
+      "path": "images/showcase/sites/sandustry.jpg",
+      "bytes": 90262,
+      "sha256": "b3ad5e2ff38e69fe4d344c6626f761716dad9e7399906daf25f73c21979e4988"
+    },
+    {
+      "path": "images/showcase/sites/sephiria.jpg",
+      "bytes": 58228,
+      "sha256": "f3d57a7bc360e610781e58b1a4b50afd4dcfd2e8edf378016aa8b216dbdc6372"
+    },
+    {
+      "path": "images/showcase/sites/steal-anegg.jpg",
+      "bytes": 81250,
+      "sha256": "cba25b133611755bd5bd5ebaeb9acdf72c8d862a30901f4009be9669921902a9"
+    },
+    {
+      "path": "images/showcase/sites/warhounds.jpg",
+      "bytes": 88467,
+      "sha256": "68d8e6e6990920c611feb8487d809acfdccea2080a251f59a02cd2f497e43bb8"
+    },
+    {
+      "path": "images/wechat-qr.jpg",
+      "bytes": 44497,
+      "sha256": "177c8926da179ad6c78953f7346d50462556725afb91c27ee408e05bda944bf0"
+    },
+    {
+      "path": "index.html",
+      "bytes": 49239,
+      "sha256": "3588d694760890c234f3f91f151255ee06508f4da8836d134004b35b20fc2f60"
+    },
+    {
+      "path": "items/anti-magic/index.html",
+      "bytes": 58582,
+      "sha256": "1353d31d0cfc1071c8a1c71c3ddec9c4e9fc2003b9b09d2eff4e7a91c3635e89"
+    },
+    {
+      "path": "items/index.html",
+      "bytes": 33586,
+      "sha256": "706aef1df6efa6a82f71ee7104449051216c6760c729a19b3585f05d8ecc4fbf"
+    },
+    {
+      "path": "items/poison/index.html",
+      "bytes": 57135,
+      "sha256": "c041e72b17054fd89476bd6c0da498afa7e70f34fae935c13f4fc7c8c21ae24b"
+    },
+    {
+      "path": "landing/community/index.html",
+      "bytes": 438783,
+      "sha256": "d362a9bb0b8be329e15e213f04d4a3cd7cfc43dc51da4caf433d65f722f64974"
+    },
+    {
+      "path": "landing/comparison/index.html",
+      "bytes": 55200,
+      "sha256": "790beeac9b0ecf9b2cf5a6f45a5aaeae67dd240c9100ba1f3358248c73c6be00"
+    },
+    {
+      "path": "landing/docs/add-ga4/index.html",
+      "bytes": 79079,
+      "sha256": "8de5f45089628033dd7f82648570064d36f56b96af920d6fb2f06152bbdb46b9"
+    },
+    {
+      "path": "landing/docs/ai-ops/index.html",
+      "bytes": 85369,
+      "sha256": "d1a0e175c57a36012660fb5187d127cee0f217c30c5be827e1339e2264efb7ab"
+    },
+    {
+      "path": "landing/docs/appendix-red-lines/index.html",
+      "bytes": 75772,
+      "sha256": "e9433ce13699184a337a30add803725ee5972308b0ef246ca91c9a0cee1182fe"
+    },
+    {
+      "path": "landing/docs/architecture/index.html",
+      "bytes": 88341,
+      "sha256": "531b8a8d5d1431563edea2673c89b6ed84e0d86ab93d5391e94b28ba859a0253"
+    },
+    {
+      "path": "landing/docs/batch-pages/index.html",
+      "bytes": 85927,
+      "sha256": "a0ab723d26ba2ab8c4a7b2b181a8fb070de070fb3a26932f234bb1e943b06cc0"
+    },
+    {
+      "path": "landing/docs/categories-and-locales/index.html",
+      "bytes": 80054,
+      "sha256": "1c508ce4c0ec3e37c544fb61c0413158e81c2c382cd0ff29196a1afb118d0d3c"
+    },
+    {
+      "path": "landing/docs/clone-your-site/index.html",
+      "bytes": 80613,
+      "sha256": "9a4ec34a1e69ad26a2faed75d1447af0edaae019fc78f3696cce7db2736a02b5"
+    },
+    {
+      "path": "landing/docs/codes-page/index.html",
+      "bytes": 79247,
+      "sha256": "39258972db7f627a753f0f94b6142ff7683a2e9e25b5889ed77d3b9a7bda7d11"
+    },
+    {
+      "path": "landing/docs/content-pipeline/index.html",
+      "bytes": 79208,
+      "sha256": "eb5cbb6c0e6a60bc8444f5dd84829f53989da13795105efc3df8301a3126bfe0"
+    },
+    {
+      "path": "landing/docs/contribute-back/index.html",
+      "bytes": 74763,
+      "sha256": "2f77bb28e1ba1d191b0ad2c9f599408fb4c4b98562e232df05f6d3d2c5af41bf"
+    },
+    {
+      "path": "landing/docs/day-one-list/index.html",
+      "bytes": 79964,
+      "sha256": "1cdc6c3f48efa36d8bced409f3b05cf83ca4aa1562581ef8f1b99f9585f4df73"
+    },
+    {
+      "path": "landing/docs/dev/index.html",
+      "bytes": 45115,
+      "sha256": "234356f28efcc72ff9d898fa2c59dafd5913cf7181be334dfbebcc81f8912611"
+    },
+    {
+      "path": "landing/docs/enable-ads/index.html",
+      "bytes": 83243,
+      "sha256": "880c004de6e0ed66340dbb2a163cc7e6ed6e186edee83d720d8e1674286a0dbf"
+    },
+    {
+      "path": "landing/docs/find-candidates/index.html",
+      "bytes": 78089,
+      "sha256": "510fc8bbe95ff71f811626bc07408db1d5b042d162ec70c5ca504fc51192bb5f"
+    },
+    {
+      "path": "landing/docs/first-article/index.html",
+      "bytes": 81014,
+      "sha256": "62aa41b0058ea29e8b71a3af8521066f1dafc0457c7238b2df64d434ad91231b"
+    },
+    {
+      "path": "landing/docs/first-week-numbers/index.html",
+      "bytes": 78453,
+      "sha256": "765d088e80ef8886741338231059c7a911177926db8a3eb5b56515f7be338661"
+    },
+    {
+      "path": "landing/docs/get-on-google/index.html",
+      "bytes": 86587,
+      "sha256": "88e24111e614f92b407c8dbc4759e8395216ff2c2f11b848ad0aedf7b3c03362"
+    },
+    {
+      "path": "landing/docs/get-paid/index.html",
+      "bytes": 80904,
+      "sha256": "7da66f46dd02dc4f38db6fa6ca65601d36dd6e57251b06ab2ada29d242117f9c"
+    },
+    {
+      "path": "landing/docs/glossary-and-commands/index.html",
+      "bytes": 77189,
+      "sha256": "9227656ed357ff5e15125bbfd95afebc15568fe9519d2ac2c470db6cfd22a4d6"
+    },
+    {
+      "path": "landing/docs/how-this-business-works/index.html",
+      "bytes": 76394,
+      "sha256": "d4141aa54f08215f64da284088397f2cec4b5e4fe5a24ba0e1754ba0191a2d29"
+    },
+    {
+      "path": "landing/docs/index.html",
+      "bytes": 51301,
+      "sha256": "41e9de03be8d30063a3877390488b2487c12325dd11b600af1496a96c4f211ef"
+    },
+    {
+      "path": "landing/docs/install-counters/index.html",
+      "bytes": 77940,
+      "sha256": "383fda0ff2b1eefca25b777143754027ddefda1857abb57238fe66fd6a10fed4"
+    },
+    {
+      "path": "landing/docs/install-tools/index.html",
+      "bytes": 84954,
+      "sha256": "88df1f5eabe3eb7e109ad7c87dfa7506a8f1ec4a984a0c74735a275a3d07676b"
+    },
+    {
+      "path": "landing/docs/integrations/index.html",
+      "bytes": 80910,
+      "sha256": "3d635155f49ffa9783689686c11d1f0b6fa037cb02d88f6c5207c00be47ec10f"
+    },
+    {
+      "path": "landing/docs/launch-batch-plan/index.html",
+      "bytes": 76711,
+      "sha256": "d620478bd122cef6779aa933c6cd6e8a04b8a7d1b7ac311002bfb1e2b6a4294d"
+    },
+    {
+      "path": "landing/docs/learn/index.html",
+      "bytes": 67413,
+      "sha256": "3c84bfda046fb0b9967284f9ae3486300c206105d857cf9e1dcfac36b15c43f6"
+    },
+    {
+      "path": "landing/docs/multi-site/index.html",
+      "bytes": 80525,
+      "sha256": "6636ec508349cf60624f605190f7277732cb833b3b7c25a4480950a18bfa8453"
+    },
+    {
+      "path": "landing/docs/put-site-online/index.html",
+      "bytes": 86083,
+      "sha256": "dfb2628e9728469963cebf36875219bd7b0049b1210d1a54c6bc4adb1dfe6d12"
+    },
+    {
+      "path": "landing/docs/quality-gate/index.html",
+      "bytes": 77855,
+      "sha256": "7f6014fe22dd0dad4e55fa4d68ebda28c90e6b4dde40083d7b0cd1d4d367065f"
+    },
+    {
+      "path": "landing/docs/rank-one-keyword/index.html",
+      "bytes": 79872,
+      "sha256": "8bf388432abea9de47fd4aa4a2ba8871cbe19edd8d879995c168c228e698cef5"
+    },
+    {
+      "path": "landing/docs/read-google-trends/index.html",
+      "bytes": 78439,
+      "sha256": "dbd56a04f34cf6649f03561f3602baa3db1aa568a4c347178ba3d0053ada8bd0"
+    },
+    {
+      "path": "landing/docs/read-serp/index.html",
+      "bytes": 77997,
+      "sha256": "40d40caca86d012df2edd925c5831fdd3ba09dcf2398d8ea627da1d013e8cfb2"
+    },
+    {
+      "path": "landing/docs/rebrand-your-site/index.html",
+      "bytes": 84131,
+      "sha256": "a763873fc8a117ea024abdb5182932ee8d537515239e93d203083e7f5e1b4bdf"
+    },
+    {
+      "path": "landing/docs/run-your-site/index.html",
+      "bytes": 81517,
+      "sha256": "36a5802e998b3b77c272bdc0bed051666a89ab522d170824fcf9d2fb99b58aa1"
+    },
+    {
+      "path": "landing/docs/score-and-decide/index.html",
+      "bytes": 81890,
+      "sha256": "292c14e587958499d0a20357ecf5eec0d4bd895d7677d78567ac852d40bd6ff8"
+    },
+    {
+      "path": "landing/docs/search-intent/index.html",
+      "bytes": 77756,
+      "sha256": "709e904a923ce77c1ce735650987d28d984247d76eb1ba30792f1692ead251e1"
+    },
+    {
+      "path": "landing/docs/sync-upstream/index.html",
+      "bytes": 77653,
+      "sha256": "74e9cc49c8076a86110e5244809eb14c930b74f87e303e56fb1c978efd2674f7"
+    },
+    {
+      "path": "landing/docs/the-roadmap/index.html",
+      "bytes": 75690,
+      "sha256": "ee5b7ba0045d3c6a7bb5be6a307332b868fff315a57eea729fcabd99177ff82a"
+    },
+    {
+      "path": "landing/docs/theme-and-homepage/index.html",
+      "bytes": 80398,
+      "sha256": "afbe5dec0439405b55ef193bb0abe5747809e2eee2df73e01363b87ad3c7be0e"
+    },
+    {
+      "path": "landing/docs/tier-list-and-media/index.html",
+      "bytes": 79338,
+      "sha256": "8f1ff7a6c62a3df3f4c9d2703707b8a8e77e28577c6743fdf0cf4a2be3719558"
+    },
+    {
+      "path": "landing/docs/troubleshooting-tree/index.html",
+      "bytes": 75420,
+      "sha256": "57edbac23e1f7ce26a14f6aadbdc964508fe70125e106a2b1c09a9d6bb2b070e"
+    },
+    {
+      "path": "landing/docs/trust-and-backlinks/index.html",
+      "bytes": 80330,
+      "sha256": "909033781491700a0442742d34db99dbfe8d4e849b96bdda7a6196ce4530392b"
+    },
+    {
+      "path": "landing/docs/verify-your-changes/index.html",
+      "bytes": 82804,
+      "sha256": "951af7838ddd553a23595409820b75d1a48df05ff1d8c4e9a6aa663ba94cd191"
+    },
+    {
+      "path": "landing/docs/weekly-ops/index.html",
+      "bytes": 86606,
+      "sha256": "e31afb72f32f6c4f96699641a8193051090bb31759fb8d285ef3992e0ee97fbf"
+    },
+    {
+      "path": "landing/index.html",
+      "bytes": 89077,
+      "sha256": "4510218114528d786197e27ca891ccc09c773736f2c779deaf80ded9f96cac09"
+    },
+    {
+      "path": "landing/templates/index.html",
+      "bytes": 50178,
+      "sha256": "537f34676613717c7c9a4101077b4eff69b0ffb6a8f28d4a154b538e23056bdd"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 176,
+      "sha256": "3938894473ce5c60b43713edf8a7df86d42fa48bf7311eb74f7bed8a8b81d76c"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 537,
+      "sha256": "9d10d3c0fd9c2fa1e580605fc256d704c1752acdd1e067fe3f2a1ee713d57fd0"
+    },
+    {
+      "path": "pagefind/fragment/en_108397d.pf_fragment",
+      "bytes": 2632,
+      "sha256": "eeeeadde5bea4135a08ac05ea1084cfba8c95a9fad42af2bdb89ef1d09e0b70f"
+    },
+    {
+      "path": "pagefind/fragment/en_13fe2c8.pf_fragment",
+      "bytes": 3627,
+      "sha256": "6cab6bcfad6515d2574fb6c7da4a67ab9f4385801a5973151273dce1c097e7a2"
+    },
+    {
+      "path": "pagefind/fragment/en_1f6422a.pf_fragment",
+      "bytes": 3367,
+      "sha256": "e14d3053509bbb2b6f3b89031ce8164a9cf079dd5e9e9b934a080e3b0f0903a2"
+    },
+    {
+      "path": "pagefind/fragment/en_25f1bbe.pf_fragment",
+      "bytes": 2588,
+      "sha256": "4a6809880a208c794460f73853ed67b408c69f12c2e4bcb915bc5feba8c6050f"
+    },
+    {
+      "path": "pagefind/fragment/en_289a33e.pf_fragment",
+      "bytes": 2118,
+      "sha256": "ad10ee13bff2f502af2e0403e85e979110e8facdcc7e89890d26e0e734b3b97a"
+    },
+    {
+      "path": "pagefind/fragment/en_2b1a6f6.pf_fragment",
+      "bytes": 2081,
+      "sha256": "05a5774b9fd262db72803a789ea8b19071532115a0e93d7bc5ead5c4b63eb442"
+    },
+    {
+      "path": "pagefind/fragment/en_2cfb9ed.pf_fragment",
+      "bytes": 1185,
+      "sha256": "d81188fdbc82bd2153d122e221f12e10ab4d931a53085c40c85a643c85ee2e3d"
+    },
+    {
+      "path": "pagefind/fragment/en_2ff2d91.pf_fragment",
+      "bytes": 2275,
+      "sha256": "c2a836308687140fbbf2fa29e0386e7d8d725112d723854608bee9ebf57a42c8"
+    },
+    {
+      "path": "pagefind/fragment/en_313c584.pf_fragment",
+      "bytes": 1123,
+      "sha256": "6214c19ddee1ecf629a757af2bda094b09a03aac971489c81da541518a5e0387"
+    },
+    {
+      "path": "pagefind/fragment/en_3b691eb.pf_fragment",
+      "bytes": 2349,
+      "sha256": "6669d24c1c4b759cabb1f73d8d6854f33f5a207e6c020c70a0fe193909620af8"
+    },
+    {
+      "path": "pagefind/fragment/en_418da3f.pf_fragment",
+      "bytes": 1101,
+      "sha256": "1eaed0081701ae11e92b8bef11d30ed8444bff0906e31576af78b4ec73aa6a6c"
+    },
+    {
+      "path": "pagefind/fragment/en_4415f83.pf_fragment",
+      "bytes": 2036,
+      "sha256": "8fd60c9207256405378b8c406c966751228a810d1e2529dfb73ceb737f69f03a"
+    },
+    {
+      "path": "pagefind/fragment/en_4c50f29.pf_fragment",
+      "bytes": 1263,
+      "sha256": "d0f00158dadf3f332171c6d1f59ad04d9eaa68dfc2f5c86b06105ff318f18964"
+    },
+    {
+      "path": "pagefind/fragment/en_4c78936.pf_fragment",
+      "bytes": 2099,
+      "sha256": "b2450b51908fcc8d323a6e9128e3ca9c964e9a389df621b13e4a18b112ce58dc"
+    },
+    {
+      "path": "pagefind/fragment/en_4e549b1.pf_fragment",
+      "bytes": 1925,
+      "sha256": "313b3d0e5db53c8ac2d204df02161ad8196a698ce971cecb7a53413b34c43124"
+    },
+    {
+      "path": "pagefind/fragment/en_5935775.pf_fragment",
+      "bytes": 2168,
+      "sha256": "769fe1dbee3542fa1f712ca9a23b22a9e038c52c06c79328a285a8d0ce239e47"
+    },
+    {
+      "path": "pagefind/fragment/en_5b9af11.pf_fragment",
+      "bytes": 1302,
+      "sha256": "bcf281a914b217ea471440a6c89ba641b500d02e93020eb9416e96224c4aed85"
+    },
+    {
+      "path": "pagefind/fragment/en_611d46a.pf_fragment",
+      "bytes": 1113,
+      "sha256": "b28595e625a2a28dd0897d0eadfed00d28bbf778fe86ab038d95fa43d3c65903"
+    },
+    {
+      "path": "pagefind/fragment/en_693640c.pf_fragment",
+      "bytes": 2111,
+      "sha256": "60896ab1783526917dad05174d704b6e229306be16146f905b44f4fdb904f2b8"
+    },
+    {
+      "path": "pagefind/fragment/en_70c7d75.pf_fragment",
+      "bytes": 2306,
+      "sha256": "140df520f314704b12d8d60b8474100e13951e7b5d8e7c985e5768c02c1f364f"
+    },
+    {
+      "path": "pagefind/fragment/en_73f098d.pf_fragment",
+      "bytes": 2199,
+      "sha256": "cc7141c8efb8d1fc7e41a7ce43d10c3e830f7c84028cbe5af13472478889c751"
+    },
+    {
+      "path": "pagefind/fragment/en_766e8e8.pf_fragment",
+      "bytes": 917,
+      "sha256": "db6661fdaaf65495a232d6598bf8e20d1b7d75236d07123677293db2aa26db55"
+    },
+    {
+      "path": "pagefind/fragment/en_77ad5a2.pf_fragment",
+      "bytes": 1611,
+      "sha256": "a07866f6103e86d108fdc212555fd7699764281b0a01db4f95d8b3a50a570aff"
+    },
+    {
+      "path": "pagefind/fragment/en_86cebd5.pf_fragment",
+      "bytes": 1121,
+      "sha256": "08811461cf0ac67e730f9e6884e765890ae8fc18216d2d53da16b424193c0da1"
+    },
+    {
+      "path": "pagefind/fragment/en_89bb897.pf_fragment",
+      "bytes": 1939,
+      "sha256": "6e084b7d94dbb3c66eb6af41c95c73968025a3f7f94e8ad05dda6a7b81ef006d"
+    },
+    {
+      "path": "pagefind/fragment/en_8ac6831.pf_fragment",
+      "bytes": 1809,
+      "sha256": "5df52e23ddf39f38e05e9bdc33832f4b689c41c2e5965572c746a7cd181d5c43"
+    },
+    {
+      "path": "pagefind/fragment/en_8fcc966.pf_fragment",
+      "bytes": 2030,
+      "sha256": "dfafb4397f1173d3ef439f77fb7e6acac5d31fbdbb622ef3416d0c0f3d9e7d31"
+    },
+    {
+      "path": "pagefind/fragment/en_9865ad3.pf_fragment",
+      "bytes": 2698,
+      "sha256": "b762501ca4731e8c468b62dc4a81b641e2358678783a11c7612f12662010d277"
+    },
+    {
+      "path": "pagefind/fragment/en_9964a32.pf_fragment",
+      "bytes": 1960,
+      "sha256": "a3b6a64cc1030fd065718f4590cfb49479bdf7115b5e934e532c723c3787c801"
+    },
+    {
+      "path": "pagefind/fragment/en_9abb1df.pf_fragment",
+      "bytes": 3654,
+      "sha256": "b9e8889d77f9791946bfc82f6eeb0b883cc4904b0dd05c738262136070d59247"
+    },
+    {
+      "path": "pagefind/fragment/en_a020d96.pf_fragment",
+      "bytes": 2866,
+      "sha256": "4c6d7d6f43c6efc227b2f92e40e80d813d24c772312260d29e1370ec7ef25366"
+    },
+    {
+      "path": "pagefind/fragment/en_a5f2c42.pf_fragment",
+      "bytes": 53521,
+      "sha256": "072aac05a8c4d2d49eba9c4e113cc8dd638ef95210196ef2b3ad453e59af02e7"
+    },
+    {
+      "path": "pagefind/fragment/en_a738b94.pf_fragment",
+      "bytes": 2304,
+      "sha256": "d9421e15f35ab12d3f4c5302996d0a7d3ddcc04538937403c9eb68749497e98c"
+    },
+    {
+      "path": "pagefind/fragment/en_b2cab37.pf_fragment",
+      "bytes": 2382,
+      "sha256": "1b4ff6ff2973a80a837771fe7832cb531d55c1f66547a4454d2190952d7b6a46"
+    },
+    {
+      "path": "pagefind/fragment/en_b411a49.pf_fragment",
+      "bytes": 3160,
+      "sha256": "fc4bbd7c629b669e9e7da29e080f7cc35b7f50655209632931b4a1fb7d6b893c"
+    },
+    {
+      "path": "pagefind/fragment/en_b49157c.pf_fragment",
+      "bytes": 1866,
+      "sha256": "68539438e80695bd28eda12e2783064d3f20801c69f5ed9dfdae541fc4551d20"
+    },
+    {
+      "path": "pagefind/fragment/en_b52edda.pf_fragment",
+      "bytes": 3368,
+      "sha256": "7eeb11a80a0cd9bcf2117a9f6c20599cf277a5bf941534792b4e5de8cc2b78e7"
+    },
+    {
+      "path": "pagefind/fragment/en_b768fee.pf_fragment",
+      "bytes": 1577,
+      "sha256": "0166a1da94d9cf36b62ce57a01a6179c7184645abf184f08c7da316b9d96b9fb"
+    },
+    {
+      "path": "pagefind/fragment/en_bb7812a.pf_fragment",
+      "bytes": 2697,
+      "sha256": "ae2ea432dadf0c48709e14c1eb16837031038f6224349a3143f10f9d2db3db37"
+    },
+    {
+      "path": "pagefind/fragment/en_c12353b.pf_fragment",
+      "bytes": 2609,
+      "sha256": "de79932479cff9179e040bc8714e27216273f6c083e1a67ef56f003bfc44be0b"
+    },
+    {
+      "path": "pagefind/fragment/en_c2a1519.pf_fragment",
+      "bytes": 1375,
+      "sha256": "3d58f36d99bc570d2c1c6d3cad09c0346db2f33ef22b18acfe8d6fbf9255b3c8"
+    },
+    {
+      "path": "pagefind/fragment/en_ca88dc7.pf_fragment",
+      "bytes": 2331,
+      "sha256": "669743371308ff0f265f39563070e595ae1e03903cc0804ec2623a25e82b426e"
+    },
+    {
+      "path": "pagefind/fragment/en_cdea575.pf_fragment",
+      "bytes": 2087,
+      "sha256": "87d711a6875977251fd65ad83ef805197aa3c94b8ac546a8efa6034f52ec85f2"
+    },
+    {
+      "path": "pagefind/fragment/en_d1a92d5.pf_fragment",
+      "bytes": 2353,
+      "sha256": "c057e7073dad3aebfaae8042250c144c3a9f9b841bbfa2a8b9ba167373190107"
+    },
+    {
+      "path": "pagefind/fragment/en_d9822a7.pf_fragment",
+      "bytes": 3877,
+      "sha256": "9321155a2bc26465dd1ca540139669183c713a3e1fbfe59e6b584888d3f13705"
+    },
+    {
+      "path": "pagefind/fragment/en_ddb402f.pf_fragment",
+      "bytes": 3780,
+      "sha256": "d774fb9972e40209ae253b26963f1a48862ea73024e8b915ac667515d29c4639"
+    },
+    {
+      "path": "pagefind/fragment/en_e1756b8.pf_fragment",
+      "bytes": 3285,
+      "sha256": "0b2ad45f3616e4c5ee9563df7815988d5709a3663bb37e10532afe6bd9bae7d4"
+    },
+    {
+      "path": "pagefind/fragment/en_e3e26dc.pf_fragment",
+      "bytes": 3291,
+      "sha256": "30ff4b3e941e349ccea0c281721016c881abc7a69189597aa188988d82f6b651"
+    },
+    {
+      "path": "pagefind/fragment/en_e51d7e4.pf_fragment",
+      "bytes": 2563,
+      "sha256": "23e646a1813c4c2c954716b7c81f583d5dfdc74941fb3486f781764731c123d9"
+    },
+    {
+      "path": "pagefind/fragment/en_e94f172.pf_fragment",
+      "bytes": 916,
+      "sha256": "10faea7f94b5aa4ecc1f03084346bbf575f5e5d3e9b9b699b7337980167ad6bb"
+    },
+    {
+      "path": "pagefind/fragment/en_f493c62.pf_fragment",
+      "bytes": 2758,
+      "sha256": "d2afe4f39e4b613e206ab55de08a6bfff6052e016e34f34f627b5735eb0df705"
+    },
+    {
+      "path": "pagefind/fragment/en_fa72252.pf_fragment",
+      "bytes": 2766,
+      "sha256": "a6f740a697d094cd5ef5d82f89132fffab9653be490ad32052b6b1c28ebbf2f9"
+    },
+    {
+      "path": "pagefind/fragment/en_ff2b473.pf_fragment",
+      "bytes": 2227,
+      "sha256": "023c7d247a699bd34894fc3d5b1c55f39f44de2a21cb46f9517cfaed44553988"
+    },
+    {
+      "path": "pagefind/fragment/en_ff3f81b.pf_fragment",
+      "bytes": 2437,
+      "sha256": "9db7a6ad251fd8ee6ebc8987f80261b3176c3a4f04c582ef12395edbd5f1f343"
+    },
+    {
+      "path": "pagefind/fragment/en_ffaf439.pf_fragment",
+      "bytes": 1792,
+      "sha256": "d05ef7d6c7567297eb00d6dbc7d39a072fa9eb1a055b3971c304752e0a874a33"
+    },
+    {
+      "path": "pagefind/fragment/zh_10b5111.pf_fragment",
+      "bytes": 3805,
+      "sha256": "b761455b2931d0e8606209c05df9c8a5a4b7c8f2095f54c37d79164c95c8c527"
+    },
+    {
+      "path": "pagefind/fragment/zh_11cb43b.pf_fragment",
+      "bytes": 1335,
+      "sha256": "6b852ac4f37b5bee5f83cd43169149fa92a4b5bcf7574c8474f60c062d9b0c76"
+    },
+    {
+      "path": "pagefind/fragment/zh_1246479.pf_fragment",
+      "bytes": 3503,
+      "sha256": "cba5c1ab9b6472d84b6deab89817e394b5703c5fd24ae32f87ee82f9a557673a"
+    },
+    {
+      "path": "pagefind/fragment/zh_125f232.pf_fragment",
+      "bytes": 2919,
+      "sha256": "5018266ba52d1b8687dc1feeb56c67752af05610558589ddbf268fbcfd6ab7c0"
+    },
+    {
+      "path": "pagefind/fragment/zh_1456e4b.pf_fragment",
+      "bytes": 1277,
+      "sha256": "7925ab2e4010cdc3b89daded3046ddaf49ad9e7ba4f1f677a31b8b41e2852d0f"
+    },
+    {
+      "path": "pagefind/fragment/zh_1685971.pf_fragment",
+      "bytes": 2453,
+      "sha256": "fc947468093517f106fca2333f5aa9841c137e2e11bd4a878e9b3a4a81a5ab54"
+    },
+    {
+      "path": "pagefind/fragment/zh_1d1f442.pf_fragment",
+      "bytes": 2225,
+      "sha256": "b3b711e21b89aad7808c760ed888fa15590b8dba5a99f00d239ad15ae2fcde96"
+    },
+    {
+      "path": "pagefind/fragment/zh_2821f98.pf_fragment",
+      "bytes": 2550,
+      "sha256": "33c87019c492e57cbff1b32e8b97fbdab64b0f3c589c2d27242c42cb47976a62"
+    },
+    {
+      "path": "pagefind/fragment/zh_29c36b8.pf_fragment",
+      "bytes": 1045,
+      "sha256": "874d4fd206367b6f26fde4d9de62de2342665378c22b04ec1dfcb537311a74a8"
+    },
+    {
+      "path": "pagefind/fragment/zh_2c7dbce.pf_fragment",
+      "bytes": 4282,
+      "sha256": "90507acf6bd57a0d8179a888756085a948b9ecb61b99eecea4df260ebd70ddb6"
+    },
+    {
+      "path": "pagefind/fragment/zh_2fcd3d5.pf_fragment",
+      "bytes": 3152,
+      "sha256": "c4db614d561a9a1977c80b38b49993e8b934957a7d223d7fc8f8d88a391148e1"
+    },
+    {
+      "path": "pagefind/fragment/zh_374c857.pf_fragment",
+      "bytes": 1255,
+      "sha256": "076c7e37941a2bdc4a9f4e42495e3c431aef6de72b7592714faf639110f88b9b"
+    },
+    {
+      "path": "pagefind/fragment/zh_3a9e1bc.pf_fragment",
+      "bytes": 3297,
+      "sha256": "054553e0fad39a4bd4da922f48d280a69f3878ae4d487935556ceec4448f817e"
+    },
+    {
+      "path": "pagefind/fragment/zh_402d1cf.pf_fragment",
+      "bytes": 1485,
+      "sha256": "c48545a10f999fc21e25352822a012565021381b1c47e51f6ba8fbc4853e2b0d"
+    },
+    {
+      "path": "pagefind/fragment/zh_43e8932.pf_fragment",
+      "bytes": 2845,
+      "sha256": "7dc326c1757ebd94ec7d8367c2604a211709904af6dcfbdff40d9d198c6ace71"
+    },
+    {
+      "path": "pagefind/fragment/zh_5119fe2.pf_fragment",
+      "bytes": 3303,
+      "sha256": "203a7707e932db8b78e824ccf30a22136d2512abc154c283f017d61487c6f295"
+    },
+    {
+      "path": "pagefind/fragment/zh_5b65d71.pf_fragment",
+      "bytes": 3531,
+      "sha256": "86a219a5ff41297514d59acdf53dfb1ba6a4d51dfadf9bfb7f68de80da4a1375"
+    },
+    {
+      "path": "pagefind/fragment/zh_5ca287b.pf_fragment",
+      "bytes": 2861,
+      "sha256": "288e424dde8a8f2ef1371b225d8c814aa9ad56b731583aa0f00d0bc3555708d3"
+    },
+    {
+      "path": "pagefind/fragment/zh_6260ccd.pf_fragment",
+      "bytes": 1273,
+      "sha256": "605c7b48418a85f8076e8d2e6a23661c1ac3f3da272e50309bd3febe5ed48d38"
+    },
+    {
+      "path": "pagefind/fragment/zh_627d2fa.pf_fragment",
+      "bytes": 2734,
+      "sha256": "7929146c7e6093976804ee48d2abee75efecb78366e1b04ae1edf238493dd09e"
+    },
+    {
+      "path": "pagefind/fragment/zh_62cbc1f.pf_fragment",
+      "bytes": 2690,
+      "sha256": "f9633ab3d440b25eed9210dbdff60e0de0754a67d1a111af96c48b3f083970d7"
+    },
+    {
+      "path": "pagefind/fragment/zh_6801dd8.pf_fragment",
+      "bytes": 2751,
+      "sha256": "375a0f221148a15bdc9e63bd21486db662d7fd05d925adfc9e1c6733e6a1f533"
+    },
+    {
+      "path": "pagefind/fragment/zh_73bd999.pf_fragment",
+      "bytes": 2351,
+      "sha256": "89b2cb57a0473629bd736e154dfaf0325f9767d0634bb6d067599e2eefdd3c32"
+    },
+    {
+      "path": "pagefind/fragment/zh_7461e69.pf_fragment",
+      "bytes": 4136,
+      "sha256": "96e6e376c9ac242a31ab121ec281defa6876c5645faaaf7b2cf45ff7a2be5ea5"
+    },
+    {
+      "path": "pagefind/fragment/zh_77b845d.pf_fragment",
+      "bytes": 2421,
+      "sha256": "f6f8419870ea9810a6ecf2229e78d62c4d1b28f3d7b7f47b0a9386085ae8af17"
+    },
+    {
+      "path": "pagefind/fragment/zh_78327ce.pf_fragment",
+      "bytes": 4387,
+      "sha256": "e8ce48ca2df726fea7cfbe259b24bbaf362b9c58152dbf65ee8bea117e03c1f6"
+    },
+    {
+      "path": "pagefind/fragment/zh_7968dbb.pf_fragment",
+      "bytes": 2929,
+      "sha256": "0d128e71a885ef24f0254c4167a1e8dbd1341216c56ea98d18e14b74b98631fd"
+    },
+    {
+      "path": "pagefind/fragment/zh_7d2bfc7.pf_fragment",
+      "bytes": 2627,
+      "sha256": "01c18a9880293a648dd8363443bcb8d379433a026cf5dea7315c34d21d824fc1"
+    },
+    {
+      "path": "pagefind/fragment/zh_8746946.pf_fragment",
+      "bytes": 3338,
+      "sha256": "58168ed8e1f5e47ee317a05c46b993ca78d89c5d9ec11ef6e8cc0eecb83a0222"
+    },
+    {
+      "path": "pagefind/fragment/zh_943e698.pf_fragment",
+      "bytes": 2663,
+      "sha256": "b6ce52d40db7363fc64b902af2d191b9567b651a390cde68fe668137e43b1457"
+    },
+    {
+      "path": "pagefind/fragment/zh_9d8c723.pf_fragment",
+      "bytes": 2125,
+      "sha256": "401c27f15627e1cb62e248e6e77af94f64c8dddc06bb5cf8fbce4378084c7edc"
+    },
+    {
+      "path": "pagefind/fragment/zh_a13ce06.pf_fragment",
+      "bytes": 2494,
+      "sha256": "7c9fd55d5a8398ac390c6b49973dc5e10d80f846b26dfcf2aa3653ff08ffbc0e"
+    },
+    {
+      "path": "pagefind/fragment/zh_a3a7bc4.pf_fragment",
+      "bytes": 3161,
+      "sha256": "c6a3aa3d449b2141c748846c32a98f917b122f4fcf875280aced894127453b1a"
+    },
+    {
+      "path": "pagefind/fragment/zh_a6435df.pf_fragment",
+      "bytes": 1259,
+      "sha256": "192942bf8b801cd81f8baeead90ad3bb8d44e9b64e23fe87307e881370a2cc2e"
+    },
+    {
+      "path": "pagefind/fragment/zh_ab366fa.pf_fragment",
+      "bytes": 2883,
+      "sha256": "d167a12d61e43e2da5a33b8258d977951fa86ec38a8f38b15a909403eef9a2bb"
+    },
+    {
+      "path": "pagefind/fragment/zh_ad1e928.pf_fragment",
+      "bytes": 4269,
+      "sha256": "98a1c43f014712f1a4547cc497a885b52aeb93e67a04e0f63b96cadd78d7958d"
+    },
+    {
+      "path": "pagefind/fragment/zh_af85689.pf_fragment",
+      "bytes": 2582,
+      "sha256": "4a8f0d19fa15f5dc11437ee997f44af656898227154d6262a4509c726ee2064a"
+    },
+    {
+      "path": "pagefind/fragment/zh_b37974c.pf_fragment",
+      "bytes": 2991,
+      "sha256": "0b20eb9565fccc6270b97aadca186a6cf2850a778d00352deaa0d55116b32a44"
+    },
+    {
+      "path": "pagefind/fragment/zh_c0b64a7.pf_fragment",
+      "bytes": 1433,
+      "sha256": "f7b539d79e0846630f8e31b8d641b97ad7206755566c6cc444f0370d1b9ca282"
+    },
+    {
+      "path": "pagefind/fragment/zh_c29f658.pf_fragment",
+      "bytes": 3988,
+      "sha256": "8615602333d74ac2b92d920098109981ecea5bf95a5f6424a3e02ac775fc60d6"
+    },
+    {
+      "path": "pagefind/fragment/zh_ca98f9b.pf_fragment",
+      "bytes": 2506,
+      "sha256": "841dda41c67c24099e4067ca0858e764ffa33e288d05829e11730c96da1f04d8"
+    },
+    {
+      "path": "pagefind/fragment/zh_cb95f22.pf_fragment",
+      "bytes": 3585,
+      "sha256": "9d7d5eaeb67a23c84fa19854475b1714a33d10b8add0c47d42fb763f63bbc360"
+    },
+    {
+      "path": "pagefind/fragment/zh_cd72541.pf_fragment",
+      "bytes": 4454,
+      "sha256": "b1987f15839b5b89b412623ea6669900692d248d0d003aee76f6d866b34b464e"
+    },
+    {
+      "path": "pagefind/fragment/zh_cddb668.pf_fragment",
+      "bytes": 2176,
+      "sha256": "9a027f2e4dde2ab4ef2008c18a9ec6a986aa75a98bc1f8f69ebf451681b4ea7c"
+    },
+    {
+      "path": "pagefind/fragment/zh_ce6d5e9.pf_fragment",
+      "bytes": 2743,
+      "sha256": "710607f91d7c8410bbd4f6f75987982592ff90091a2edc5468c79d62146294e5"
+    },
+    {
+      "path": "pagefind/fragment/zh_d294663.pf_fragment",
+      "bytes": 1540,
+      "sha256": "0e068c5ef6ed9bd6deaa039ff2df574f199aae9d112dde1862e6575f58785046"
+    },
+    {
+      "path": "pagefind/fragment/zh_d3b7a02.pf_fragment",
+      "bytes": 2897,
+      "sha256": "dcc862f0708d6cdd12f2dcd80ca7d851002a2af0f8ebc426d04b18114ddbd02d"
+    },
+    {
+      "path": "pagefind/fragment/zh_d47de41.pf_fragment",
+      "bytes": 60919,
+      "sha256": "253eb9e92484db51b6c18227a558b5fa0088b71186fb6a2852fb2e1fe4f436d6"
+    },
+    {
+      "path": "pagefind/fragment/zh_df3d1ca.pf_fragment",
+      "bytes": 3582,
+      "sha256": "34ad578a642c29e63a3d8344ed6be2c9b11d4ecdde4f3bcbf26be0e92aaa5854"
+    },
+    {
+      "path": "pagefind/fragment/zh_e53de92.pf_fragment",
+      "bytes": 2677,
+      "sha256": "f19e832adc877e7d78cebfd325d895da2b244ededc997e720fc869f65ae31919"
+    },
+    {
+      "path": "pagefind/fragment/zh_e56e8bc.pf_fragment",
+      "bytes": 2970,
+      "sha256": "2fe4a03cec35b35af092f13049f6f5f54cac77d1ab38a44338cfab4705bbc565"
+    },
+    {
+      "path": "pagefind/fragment/zh_eafdb31.pf_fragment",
+      "bytes": 4554,
+      "sha256": "e284548895551c18095661d76bd313b94a7eea6eea4d334094f373d012615e1d"
+    },
+    {
+      "path": "pagefind/fragment/zh_ebb231b.pf_fragment",
+      "bytes": 2203,
+      "sha256": "3590779950ed9777480539039e8a7ea1b9084a8dd8a59793b601b1d2146a2bc9"
+    },
+    {
+      "path": "pagefind/fragment/zh_ee531c3.pf_fragment",
+      "bytes": 1042,
+      "sha256": "6133fa5b28efae7950d41c5a78ce032cecc58626f0e032993084230becae8f3a"
+    },
+    {
+      "path": "pagefind/fragment/zh_f7f4b33.pf_fragment",
+      "bytes": 4113,
+      "sha256": "6841fe97551cb67d80d7aedfde2ddc62103ab8060d4dc5e81c7fce00cabc8577"
+    },
+    {
+      "path": "pagefind/index/en_46717ee.pf_index",
+      "bytes": 33577,
+      "sha256": "c22e080190800f424b4fab332a366b02bb873597463e57d4f5a5af48b0e808ea"
+    },
+    {
+      "path": "pagefind/index/en_53f76f0.pf_index",
+      "bytes": 36443,
+      "sha256": "2bd777a05d19ba1ecff791a314b94437ac521f8604faa822243acae0d73cb08c"
+    },
+    {
+      "path": "pagefind/index/en_868aac4.pf_index",
+      "bytes": 62805,
+      "sha256": "be6f2812015bcef789bdc2e2edeb7d71b74056c044052f3f33ee9f8f3f88ea94"
+    },
+    {
+      "path": "pagefind/index/en_a7aea98.pf_index",
+      "bytes": 33246,
+      "sha256": "2c65d53757dbeedb1fef6db83b16d6b8f5447b2cf42219258ba5381313745c53"
+    },
+    {
+      "path": "pagefind/index/en_bcb06fa.pf_index",
+      "bytes": 33101,
+      "sha256": "1cb16fa110b4a1296a0e2d1ae81c69ccae35636e6d2e83b49cbb48a3f222cb68"
+    },
+    {
+      "path": "pagefind/index/zh_1cca4d2.pf_index",
+      "bytes": 8329,
+      "sha256": "7d37fd639b0535584ed06bb38b6e7027da1707492e12bf7c7c60812299eadcdb"
+    },
+    {
+      "path": "pagefind/index/zh_45ca1c4.pf_index",
+      "bytes": 35270,
+      "sha256": "616775056f5a40bc24d41ec04f63b434cf7f92c5353fae493b7e3f5e13d3a51f"
+    },
+    {
+      "path": "pagefind/index/zh_60637c8.pf_index",
+      "bytes": 34476,
+      "sha256": "8bf427026edb9dfab889c902e3352923bbd3dd08b1b1a4aadf4faab2bf9253c6"
+    },
+    {
+      "path": "pagefind/index/zh_6d7bef4.pf_index",
+      "bytes": 34997,
+      "sha256": "b21006b77cba68c417d201c7ed671d2408784149ca617f5985ca5139b9a6deb3"
+    },
+    {
+      "path": "pagefind/index/zh_7c72e4f.pf_index",
+      "bytes": 35140,
+      "sha256": "2d4d01c1df5e43432da464e528533820c706a2d32b79471e89e3c51622f5e85d"
+    },
+    {
+      "path": "pagefind/index/zh_df56bc2.pf_index",
+      "bytes": 35747,
+      "sha256": "b3baacbda7a06e15747a4c7221e33547508ab90e886395f011573adb8d59e57c"
+    },
+    {
+      "path": "pagefind/pagefind-component-ui.css",
+      "bytes": 41830,
+      "sha256": "de389c7e5d87d6e2b10d65fb1e36e8989a12a2ad8dd6239b7e070d81fb5d8b0d"
+    },
+    {
+      "path": "pagefind/pagefind-component-ui.js",
+      "bytes": 195382,
+      "sha256": "33118ab8dce1ffebbe19ccac557a93f77c426a2919a9998198f03a19b67062ed"
+    },
+    {
+      "path": "pagefind/pagefind-entry.json",
+      "bytes": 230,
+      "sha256": "8b135ad164f51c51935bdd18a88cd8a44645018f6f71a1f37723cc6f1b52b1a6"
+    },
+    {
+      "path": "pagefind/pagefind-highlight.js",
+      "bytes": 43108,
+      "sha256": "0caad31cffdf8dec87cd6857a78e7e5aa2ae10edee32b19e2fa53f213310b984"
+    },
+    {
+      "path": "pagefind/pagefind-modular-ui.css",
+      "bytes": 7336,
+      "sha256": "653ab29e4de5629f6ddf5f6fcdf5d2b3eb539a8c07fff8a56b8ce2156a570788"
+    },
+    {
+      "path": "pagefind/pagefind-modular-ui.js",
+      "bytes": 19597,
+      "sha256": "39d9b3c338dd374f86fd457c1926c3e4f27c628b5451796d5c263cb50bf6f7cb"
+    },
+    {
+      "path": "pagefind/pagefind-ui.css",
+      "bytes": 14482,
+      "sha256": "e113b816110ed07b017613e901addfe635350f2a5b84990aa76c91a74b158084"
+    },
+    {
+      "path": "pagefind/pagefind-ui.js",
+      "bytes": 124640,
+      "sha256": "ba87d660e86ab592d47e615148bb95b6f44c90a925f67957dffcf5cf2175eacc"
+    },
+    {
+      "path": "pagefind/pagefind-worker.js",
+      "bytes": 56362,
+      "sha256": "702351b9df98f0b575a684eefc094bc78b1b9d18dce7852ab71f1ca5382af034"
+    },
+    {
+      "path": "pagefind/pagefind.en_1c1e12cc84.pf_meta",
+      "bytes": 623,
+      "sha256": "d08ffce7fe0293048fd68d9f68533d0b9eddc6b6f8661b963527775d15ae932f"
+    },
+    {
+      "path": "pagefind/pagefind.js",
+      "bytes": 59368,
+      "sha256": "cc9764728dddc2b069b1d56aedbe3ccc156f41662f440f0f135e85140af56717"
+    },
+    {
+      "path": "pagefind/pagefind.zh_28a8a5b148.pf_meta",
+      "bytes": 650,
+      "sha256": "a4ed4166dbb7f66a1b4124be3debc77c28ca496f2d97a84ef41fec2f80091e47"
+    },
+    {
+      "path": "pagefind/wasm.en.pagefind",
+      "bytes": 72209,
+      "sha256": "bb16c9e6d3d214d4d05cccca51df7b487b86b3657318da767f6ca9e0a2e7259d"
+    },
+    {
+      "path": "pagefind/wasm.unknown.pagefind",
+      "bytes": 68024,
+      "sha256": "3a74cefceacd066e8d3bc8c52e7bc1c869544ca3d9031b44a9b7136356d5d7f4"
+    },
+    {
+      "path": "privacy-policy/index.html",
+      "bytes": 29502,
+      "sha256": "54fbecc88f119e316184af33ea281e69506254e07997f4d06a10669134d5837a"
+    },
+    {
+      "path": "recent/index.html",
+      "bytes": 42464,
+      "sha256": "883426686e64bd80a4eac88a39cd1b3899af758c2b60244b9f3734c93eeddac8"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 75,
+      "sha256": "801af99853c4340d160c62b6b81581e748c6ab74049f2233396b05c8fedc5e47"
+    },
+    {
+      "path": "rss.xml",
+      "bytes": 287,
+      "sha256": "1ed8a8146854062f95afd752337f8544e7df380cbb04538567a281d8bd5b14f8"
+    },
+    {
+      "path": "sitemap-0.xml",
+      "bytes": 14189,
+      "sha256": "34e6756c2b6d89b68f56301f6b1c7a2700e84aa48f1122aebcb541f61c932022"
+    },
+    {
+      "path": "sitemap-index.xml",
+      "bytes": 230,
+      "sha256": "401b2d45589e1fdce44cb53b1b9acb90448072779446c97302ebd1ddfbaf21ff"
+    },
+    {
+      "path": "tags/codes/index.html",
+      "bytes": 32280,
+      "sha256": "b90a7653e4a203591080bc25974ab2c2419349afa9d9fe25b0350051f8843d1b"
+    },
+    {
+      "path": "tags/guide/index.html",
+      "bytes": 41469,
+      "sha256": "f4790aa829e07ea03a8de3496319f9a0bf2bbae64e20df23e46a18ae1927b60d"
+    },
+    {
+      "path": "tags/index.html",
+      "bytes": 29425,
+      "sha256": "e5b513963a669f6e0bcb91f511821de45ee6fb4841349984f7be7cf3a2991381"
+    },
+    {
+      "path": "tags/items/index.html",
+      "bytes": 33408,
+      "sha256": "c1582694b6a5d0e8e5646003e0c9d93b5041bef0bebbbe7217555e8ab11e4f69"
+    },
+    {
+      "path": "terms-of-service/index.html",
+      "bytes": 28609,
+      "sha256": "5ef0c9782726b72024c12933e071e8f398ed93845e0675255b8aa04f57a14578"
+    },
+    {
+      "path": "zh/about/index.html",
+      "bytes": 28202,
+      "sha256": "efcaad6f73dcd570f52f9fdaa1a2129e2a20f7a70ff0debee6ca5ef05548e701"
+    },
+    {
+      "path": "zh/codes/all-codes/index.html",
+      "bytes": 55071,
+      "sha256": "118b3e18ed9741591dc6a7f5dc57a577fbf75a05b0b650a4406d64d3d12b2541"
+    },
+    {
+      "path": "zh/codes/index.html",
+      "bytes": 32594,
+      "sha256": "42daab85bf45b9ee46eb6d60d821c884dcbbe265e5e5eebf72f414a8c64c3a5a"
+    },
+    {
+      "path": "zh/contact/index.html",
+      "bytes": 27858,
+      "sha256": "e4bce488f45edaa5ee229a8f4711079049ee0cabb424ee0172b3f67ca5586148"
+    },
+    {
+      "path": "zh/copyright/index.html",
+      "bytes": 27848,
+      "sha256": "cfdb480221b636e6c2428335f613d98c119875cfb552b015815ecf689602c3b0"
+    },
+    {
+      "path": "zh/faq/index.html",
+      "bytes": 29536,
+      "sha256": "dac5e1c25d37b90022ef0529777a796911228be50ecd7df0e03e7141553e801e"
+    },
+    {
+      "path": "zh/guides/beginner-guide/index.html",
+      "bytes": 58702,
+      "sha256": "0ee80826a9c9b0aa82fb804807f331a015bceb267eee8773e91abe8ce43ef5ba"
+    },
+    {
+      "path": "zh/guides/fishing-fragments/index.html",
+      "bytes": 57999,
+      "sha256": "92e0320632f8e8d121286e3eb1b2e2d74f4141c3cd125f05fd4a9d754f15f1b2"
+    },
+    {
+      "path": "zh/guides/grimoire-tier-list/index.html",
+      "bytes": 58780,
+      "sha256": "791473dfb8d96aeefa8ce5ab5d3e49ec765f1d1f58ef040962ea0403c8cc2ade"
+    },
+    {
+      "path": "zh/guides/how-to-redeem-codes/index.html",
+      "bytes": 56314,
+      "sha256": "735477a80b932904f1451f196f5b22b0741adf63806edd5f59377338f98ab9d3"
+    },
+    {
+      "path": "zh/guides/how-to-reroll/index.html",
+      "bytes": 57866,
+      "sha256": "f6883433f7a83abb35759fa5410cd766f4377aef698fa956878f21030c6c3838"
+    },
+    {
+      "path": "zh/guides/index.html",
+      "bytes": 39175,
+      "sha256": "095c90985176c58b28bfe29fc2a8de69cff8a7fb2b6b80b5b1ce0f1c1b9fef76"
+    },
+    {
+      "path": "zh/guides/patch-notes/index.html",
+      "bytes": 58133,
+      "sha256": "8573781cf28c82b546651b4d01835238eba04c21cc5b705e4c536016efbd0613"
+    },
+    {
+      "path": "zh/guides/race-tier-list/index.html",
+      "bytes": 57654,
+      "sha256": "9370dc20e6c3df19dbc9c2300c0f15af3cf1e763daec770a01fa77e5fbdc1d23"
+    },
+    {
+      "path": "zh/index.html",
+      "bytes": 49338,
+      "sha256": "9ac07eb404e177e323b0b8a37ee14d1a47e77a636185c4a480039b1a66bf0048"
+    },
+    {
+      "path": "zh/items/anti-magic/index.html",
+      "bytes": 58769,
+      "sha256": "1c252180e8296d736a03e2dc28cf269e1a8a3e68e958fbf6c7caf35d84e52547"
+    },
+    {
+      "path": "zh/items/index.html",
+      "bytes": 33665,
+      "sha256": "6d084fb3c28c998d2819630ff2f10e794993519c7a981b4e695c0472848bdb28"
+    },
+    {
+      "path": "zh/items/poison/index.html",
+      "bytes": 57326,
+      "sha256": "0df063bc47930cddfb5eb7851482c983c2a859d1ae44ac8648198c7ee41e0e42"
+    },
+    {
+      "path": "zh/landing/community/index.html",
+      "bytes": 438570,
+      "sha256": "7bdf159faf1fda268150b5202c3bb87923379402c2174effcf928f3d2fa14276"
+    },
+    {
+      "path": "zh/landing/comparison/index.html",
+      "bytes": 54445,
+      "sha256": "6ce5c620d1ad69271202f5f533e8e146df5938ed112a6ff44e0123b584c27a83"
+    },
+    {
+      "path": "zh/landing/docs/add-ga4/index.html",
+      "bytes": 79097,
+      "sha256": "1aa82a5bd23bb632df099b5e166172820a3be3c8cb27a50fca3fde3830f6b790"
+    },
+    {
+      "path": "zh/landing/docs/ai-ops/index.html",
+      "bytes": 84810,
+      "sha256": "cc4231f79dc97c640b43e9aba7111db3eb1613fb09a2d03252fee66f7b94bc17"
+    },
+    {
+      "path": "zh/landing/docs/appendix-red-lines/index.html",
+      "bytes": 75749,
+      "sha256": "d41698bb445c47a831697fc5fd32a1c65e90fd1d5370250f08136d1a68c8173c"
+    },
+    {
+      "path": "zh/landing/docs/architecture/index.html",
+      "bytes": 85361,
+      "sha256": "55e0da50cdaaa495c96cfb2d3d038da1e185b4732050941ca7d27b10f8870fba"
+    },
+    {
+      "path": "zh/landing/docs/batch-pages/index.html",
+      "bytes": 85027,
+      "sha256": "ef343a09b9605167c0ec2a87c17e3a3665d5b507bb882287d406b41548fb9e9e"
+    },
+    {
+      "path": "zh/landing/docs/categories-and-locales/index.html",
+      "bytes": 78620,
+      "sha256": "e7ee451a844b5d3a22f35905fb551c48efa13aaa002f7dcf180d0f01b752cf8d"
+    },
+    {
+      "path": "zh/landing/docs/clone-your-site/index.html",
+      "bytes": 80773,
+      "sha256": "ea963b7409f810640f67db954288888cddd2d88ddda4651a0af4f154a3a56768"
+    },
+    {
+      "path": "zh/landing/docs/codes-page/index.html",
+      "bytes": 78774,
+      "sha256": "581d0507815d3f5a82acaf3f16547b6c1d31b695f08f9b8a9c53e183c137c3ce"
+    },
+    {
+      "path": "zh/landing/docs/content-pipeline/index.html",
+      "bytes": 78697,
+      "sha256": "38960caa8464df0c2a866f22b0dc2c11a9fa7cdfc0f87f412a6ef1a340356aef"
+    },
+    {
+      "path": "zh/landing/docs/contribute-back/index.html",
+      "bytes": 74678,
+      "sha256": "2354f40a24cb0dad2c27290083c4e6df3ff238cd3bd4c71afb7f9485b08ab54b"
+    },
+    {
+      "path": "zh/landing/docs/day-one-list/index.html",
+      "bytes": 79503,
+      "sha256": "4a40d827bb53f15d01d71925836ee5c798494b419de984ba81d8f3348b6fb08a"
+    },
+    {
+      "path": "zh/landing/docs/dev/index.html",
+      "bytes": 45444,
+      "sha256": "d81277c7fee8d0d3e329b628191991ab3e65503c84a5cec199b90de47e328612"
+    },
+    {
+      "path": "zh/landing/docs/enable-ads/index.html",
+      "bytes": 83017,
+      "sha256": "0eba97f4979738a060a987bb754333518de42ff705aa8a563e5f702c40a87b93"
+    },
+    {
+      "path": "zh/landing/docs/find-candidates/index.html",
+      "bytes": 77696,
+      "sha256": "d8241a2f12236f52eb330668a8c02569a052ba6e896e4e2c02a7adda10630380"
+    },
+    {
+      "path": "zh/landing/docs/first-article/index.html",
+      "bytes": 81123,
+      "sha256": "f05560949dbb84746079e091dcc1c29eb51fbab7404be087a8c09996e48d41fe"
+    },
+    {
+      "path": "zh/landing/docs/first-week-numbers/index.html",
+      "bytes": 78404,
+      "sha256": "519cc94e4b3acbf32508276c256c6b03302e68e9860be18091a8319fe9234c25"
+    },
+    {
+      "path": "zh/landing/docs/get-on-google/index.html",
+      "bytes": 84987,
+      "sha256": "72b5b281215f33464ee2458048e831da4eb1b6d421693288aefcad15ef04479f"
+    },
+    {
+      "path": "zh/landing/docs/get-paid/index.html",
+      "bytes": 80069,
+      "sha256": "586b9fb73a333babd3f41eee49fd869f0e813e74c037517b4bd1912ceb142409"
+    },
+    {
+      "path": "zh/landing/docs/glossary-and-commands/index.html",
+      "bytes": 76852,
+      "sha256": "f654dbcb755c55e7faffdd49e0c20fdaab222a97801fcced1cd5e26cee5fd3ed"
+    },
+    {
+      "path": "zh/landing/docs/how-this-business-works/index.html",
+      "bytes": 75965,
+      "sha256": "def84e5d500e5f6d9e01c4d8f2feac1035bd93402716ec566bb5600df6be047a"
+    },
+    {
+      "path": "zh/landing/docs/index.html",
+      "bytes": 50866,
+      "sha256": "b3d5ec164fddcd49adbf8e92baaa3f58b6a54de05994a450b138e14ff5e8bf4c"
+    },
+    {
+      "path": "zh/landing/docs/install-counters/index.html",
+      "bytes": 78091,
+      "sha256": "8ac804c640752b234abdf9deb4a9eba97c18d96216edc47895cac65c4ae542b5"
+    },
+    {
+      "path": "zh/landing/docs/install-tools/index.html",
+      "bytes": 84272,
+      "sha256": "6ef4bb8639e999149984245f040b29151900122423449203d2ed15429f00fefc"
+    },
+    {
+      "path": "zh/landing/docs/integrations/index.html",
+      "bytes": 79605,
+      "sha256": "2eb9c42e52dd8718c914f113b8891e60771b00cdcd33f1aa54ec696c832e177c"
+    },
+    {
+      "path": "zh/landing/docs/launch-batch-plan/index.html",
+      "bytes": 75984,
+      "sha256": "7b6be23c26b9027c712be37187ba1f43cd48e48a76334251d762022a6b9a6164"
+    },
+    {
+      "path": "zh/landing/docs/learn/index.html",
+      "bytes": 68917,
+      "sha256": "d418870381e02fbd18d44240676324f0d5787e52f472e8bfd31b0168e6149ea9"
+    },
+    {
+      "path": "zh/landing/docs/multi-site/index.html",
+      "bytes": 80039,
+      "sha256": "2c0e6de31660d17fd38b0a4961e3646185d0f0175457e30b0e4493200d069726"
+    },
+    {
+      "path": "zh/landing/docs/put-site-online/index.html",
+      "bytes": 84559,
+      "sha256": "93a016af25f54b12a95cbfc0f83129f05e4f7b12e55ec084877d1cef31c7c503"
+    },
+    {
+      "path": "zh/landing/docs/quality-gate/index.html",
+      "bytes": 77613,
+      "sha256": "f3dc41796f6f1937babbb609ddc38237c007add283b8a6ae969325c826193a2a"
+    },
+    {
+      "path": "zh/landing/docs/rank-one-keyword/index.html",
+      "bytes": 80253,
+      "sha256": "1d80dde2a1cf5d8894ee905c2b72c7bcb517dbcd8ed8295a7c58228b1a47443b"
+    },
+    {
+      "path": "zh/landing/docs/read-google-trends/index.html",
+      "bytes": 77980,
+      "sha256": "b638d7d663e8d4de79dad985255b29500db0827c2a44d3020e86581ea7d85be0"
+    },
+    {
+      "path": "zh/landing/docs/read-serp/index.html",
+      "bytes": 77533,
+      "sha256": "47ef02ad35a72e9f889068b8f39ec61df6b74c4195726aa4de96d26681503eaf"
+    },
+    {
+      "path": "zh/landing/docs/rebrand-your-site/index.html",
+      "bytes": 83137,
+      "sha256": "06f69e707a056929cf9081cde1e8a3350258335f8a7553dd02baec2a60a48d67"
+    },
+    {
+      "path": "zh/landing/docs/run-your-site/index.html",
+      "bytes": 81117,
+      "sha256": "1f38d0cc4cc9aae4776c4684c8b302248845816533c8deca6449b00fa5ae73d3"
+    },
+    {
+      "path": "zh/landing/docs/score-and-decide/index.html",
+      "bytes": 81017,
+      "sha256": "927f5cd62553e87be8cfe6c526c7419c17b985dbfb84027c4e9479f68750de0e"
+    },
+    {
+      "path": "zh/landing/docs/search-intent/index.html",
+      "bytes": 77039,
+      "sha256": "125611f4284e92150d5aec8437195e8b01aa89109c3c167b2f8a6eff8a12e4dc"
+    },
+    {
+      "path": "zh/landing/docs/sync-upstream/index.html",
+      "bytes": 77530,
+      "sha256": "1a061af8dbebd498b0910d48f2185538a5494e2cd7faef58e3c066f4a6ec8437"
+    },
+    {
+      "path": "zh/landing/docs/the-roadmap/index.html",
+      "bytes": 75731,
+      "sha256": "0728a61b872b28b849c1f01361f59f0644097d0f277339eb06a8caa8a127e85b"
+    },
+    {
+      "path": "zh/landing/docs/theme-and-homepage/index.html",
+      "bytes": 79698,
+      "sha256": "6a68ba0e7c9a27e3e7a6468665ff3eb40fd1b0a3aafc4d7df0c73a71abed8e97"
+    },
+    {
+      "path": "zh/landing/docs/tier-list-and-media/index.html",
+      "bytes": 78979,
+      "sha256": "dd8ca85fb9f6ecfe38b19c9197508b8cb7060beb962fe6b040f4733bc7bd464e"
+    },
+    {
+      "path": "zh/landing/docs/troubleshooting-tree/index.html",
+      "bytes": 75192,
+      "sha256": "52b02a240f36eb6efe7903c15bab661eb6fa401bc2d03b49d7685d2102909544"
+    },
+    {
+      "path": "zh/landing/docs/trust-and-backlinks/index.html",
+      "bytes": 79939,
+      "sha256": "7a557191ee78627dca7497916ddb44c5fec01ccfdd709935d0815f93e3c4ed67"
+    },
+    {
+      "path": "zh/landing/docs/verify-your-changes/index.html",
+      "bytes": 82122,
+      "sha256": "6d841f434141a3f561778bb4c4478323f0aac17e2a2c09a0081d1471b357c9f0"
+    },
+    {
+      "path": "zh/landing/docs/weekly-ops/index.html",
+      "bytes": 86140,
+      "sha256": "7df77d3f5a80f795ed61acecd4baab87c42e65660d8f596d9821200600338b2d"
+    },
+    {
+      "path": "zh/landing/index.html",
+      "bytes": 88316,
+      "sha256": "04007ebfd4089fd38e4d237257fac8783b59aceaf12ca0aa627d48f741ae72ec"
+    },
+    {
+      "path": "zh/landing/privacy/index.html",
+      "bytes": 37319,
+      "sha256": "e7d201e712ee470aa97efeeb6fc966132afdd9626f588644bf69b35d824799bc"
+    },
+    {
+      "path": "zh/landing/templates/index.html",
+      "bytes": 50105,
+      "sha256": "d2d413b1f72f4082020f95bd3f9965fd7f57bb6d4120ff4e0a99c70cc47b8c2b"
+    },
+    {
+      "path": "zh/privacy-policy/index.html",
+      "bytes": 29563,
+      "sha256": "0b42da4537a9c7e1cbacf16a384333fadeaa05fd64c936e4bbc336249e36d7aa"
+    },
+    {
+      "path": "zh/recent/index.html",
+      "bytes": 42461,
+      "sha256": "d6f4e4e4ba82be96976c92bf326d939fd73c8193619e93cbe67a3307a1011759"
+    },
+    {
+      "path": "zh/tags/codes/index.html",
+      "bytes": 32382,
+      "sha256": "a77fb192d581b0396d1e9091406cf7a5de730d7ed681ca4076c709fbaaca98a0"
+    },
+    {
+      "path": "zh/tags/guide/index.html",
+      "bytes": 41619,
+      "sha256": "962c5799c5017ab8ddaf501cbfae9d45782fe26e644992257ee17cf334c9845f"
+    },
+    {
+      "path": "zh/tags/index.html",
+      "bytes": 29520,
+      "sha256": "8b8cb5f3ab70c1ff2317db78ed60aeccbd6218b27d1f4ce17010bf9866b8ec3c"
+    },
+    {
+      "path": "zh/tags/items/index.html",
+      "bytes": 33516,
+      "sha256": "4e01bc5df2b23e4ab7eba4d58a43d993735befbc4d4d3a4ee41c259ca2b9cace"
+    },
+    {
+      "path": "zh/terms-of-service/index.html",
+      "bytes": 28670,
+      "sha256": "a16634ef974add843ae74c1c93f5b6614d6e6ecbea307042304dcb5b77a80101"
+    }
+  ],
+  "articles": [
+    {
+      "source": "src/content/wiki/en/codes/all-codes.mdx",
+      "route": "/codes/all-codes/",
+      "source_sha256": "955528cde880924e9bd2163558e74d3868b2530c7860831af3df986cce41def3",
+      "source_draft": true,
+      "review_only": true
+    },
+    {
+      "source": "src/content/wiki/en/guides/beginner-guide.mdx",
+      "route": "/guides/beginner-guide/",
+      "source_sha256": "6bfebac5fbb49ed4d1d7f41f5ce10532e1bbf565ae98bc0e6979fcf18cb105e4",
+      "source_draft": true,
+      "review_only": true
+    },
+    {
+      "source": "src/content/wiki/en/guides/fishing-fragments.mdx",
+      "route": "/guides/fishing-fragments/",
+      "source_sha256": "6c7957eb77a2a89b83b48e3977c18d7e2f92a5ccac11be79c7512e36bfab57a4",
+      "source_draft": true,
+      "review_only": true
+    },
+    {
+      "source": "src/content/wiki/en/guides/grimoire-tier-list.mdx",
+      "route": "/guides/grimoire-tier-list/",
+      "source_sha256": "a60163d4e5b0b7a70a7b59cd61d8dae2e3f9df2919347c918aad1627f4182efa",
+      "source_draft": true,
+      "review_only": true
+    },
+    {
+      "source": "src/content/wiki/en/guides/how-to-redeem-codes.mdx",
+      "route": "/guides/how-to-redeem-codes/",
+      "source_sha256": "ffb51e6e59e2fe187ef1264e344ebd2640cfe90ce057ae9192c55c4e51273360",
+      "source_draft": true,
+      "review_only": true
+    },
+    {
+      "source": "src/content/wiki/en/guides/how-to-reroll.mdx",
+      "route": "/guides/how-to-reroll/",
+      "source_sha256": "0f0c1155a9ab8482a0d9af0436ca5b373df1d5ada3169b83d0aa846f7d395348",
+      "source_draft": true,
+      "review_only": true
+    },
+    {
+      "source": "src/content/wiki/en/guides/patch-notes.mdx",
+      "route": "/guides/patch-notes/",
+      "source_sha256": "96bfc56f16f3198f9dc786795f058eabdf14c9528f9745e15d610eb51fa45ad1",
+      "source_draft": true,
+      "review_only": true
+    },
+    {
+      "source": "src/content/wiki/en/guides/race-tier-list.mdx",
+      "route": "/guides/race-tier-list/",
+      "source_sha256": "45b21a9a43efda1fedc7a6d813bb57798f920173928810496a00f0bd974a608c",
+      "source_draft": true,
+      "review_only": true
+    },
+    {
+      "source": "src/content/wiki/en/items/anti-magic.mdx",
+      "route": "/items/anti-magic/",
+      "source_sha256": "826f2281d2a7cdf13c30fae1cc9bc451bd21223225a0b29017ef5d1e09520c3a",
+      "source_draft": true,
+      "review_only": true
+    },
+    {
+      "source": "src/content/wiki/en/items/poison.mdx",
+      "route": "/items/poison/",
+      "source_sha256": "a327aaaba3a24153ae1b7c26cf4d1f076861a64217773ebc4d25935c375830a4",
+      "source_draft": true,
+      "review_only": true
+    }
+  ],
+  "source_draft_count": 10,
+  "site_noindex": true,
+  "game_session_performed": false,
+  "formal_acceptance": "0/10; presentation task only",
+  "ga4_measurement_id": "G-XH7GWVG8ZK",
+  "internal_provenance_archive": "editorial-source-records-20261010.json"
+}

@@ -1,0 +1,341 @@
+{
+  "verified_at_beijing": "2026-10-09 09:50",
+  "head": "ce64308f494df793f07c5b0b304737a65c61eba4",
+  "uncommitted": true,
+  "scope": "P03/P04/P07/P08 body edits and research/handover documents; no runtime/schema/cover changes",
+  "metadata_and_actual_mdx": [
+    {
+      "article": "codes/all-codes.mdx",
+      "summary_words": 46,
+      "summary_characters": 302,
+      "image": "src/assets/covers/clover-time-en-codes-all-codes.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/beginner-guide.mdx",
+      "summary_words": 49,
+      "summary_characters": 337,
+      "image": "src/assets/covers/clover-time-en-guides-beginner-guide.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/fishing-fragments.mdx",
+      "summary_words": 51,
+      "summary_characters": 324,
+      "image": "src/assets/covers/clover-time-en-guides-fishing-fragments.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/grimoire-tier-list.mdx",
+      "summary_words": 50,
+      "summary_characters": 345,
+      "image": "src/assets/covers/clover-time-en-guides-grimoire-tier-list.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/how-to-redeem-codes.mdx",
+      "summary_words": 48,
+      "summary_characters": 331,
+      "image": "src/assets/covers/clover-time-en-guides-how-to-redeem-codes.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/how-to-reroll.mdx",
+      "summary_words": 51,
+      "summary_characters": 326,
+      "image": "src/assets/covers/clover-time-en-guides-how-to-reroll.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/patch-notes.mdx",
+      "summary_words": 49,
+      "summary_characters": 295,
+      "image": "src/assets/covers/clover-time-en-guides-patch-notes.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "guides/race-tier-list.mdx",
+      "summary_words": 47,
+      "summary_characters": 323,
+      "image": "src/assets/covers/clover-time-en-guides-race-tier-list.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "items/anti-magic.mdx",
+      "summary_words": 49,
+      "summary_characters": 373,
+      "image": "src/assets/covers/clover-time-en-items-anti-magic.png",
+      "draft": true,
+      "mdx_compiled": true
+    },
+    {
+      "article": "items/poison.mdx",
+      "summary_words": 50,
+      "summary_characters": 349,
+      "image": "src/assets/covers/clover-time-en-items-poison.png",
+      "draft": true,
+      "mdx_compiled": true
+    }
+  ],
+  "commands": {
+    "pnpm check-content": {
+      "exit_code": 0,
+      "mdx_files": 10,
+      "low_internal_link_warnings": 10
+    },
+    "pnpm build": {
+      "exit_code": 0,
+      "astro_routes": 122,
+      "pagefind_pages": 90,
+      "pagefind_languages": [
+        "en",
+        "zh"
+      ],
+      "es2018_bundles": 6,
+      "known_notice": "zh stemming unsupported"
+    },
+    "pnpm check-links": {
+      "exit_code": 0,
+      "links": 9733,
+      "html_files": 129
+    }
+  },
+  "browser": {
+    "pages": [
+      {
+        "path": "/guides/grimoire-tier-list/",
+        "http": 200,
+        "width": 1440,
+        "title": "Clover Time Grimoire Tier List - Research Draft",
+        "new_marker_visible": true,
+        "tables": 3,
+        "document_width": 1440,
+        "no_page_overflow": true
+      },
+      {
+        "path": "/guides/race-tier-list/",
+        "http": 200,
+        "width": 1440,
+        "title": "Clover Time Race Tier List - Research Draft",
+        "new_marker_visible": true,
+        "tables": 2,
+        "document_width": 1440,
+        "no_page_overflow": true
+      },
+      {
+        "path": "/items/anti-magic/",
+        "http": 200,
+        "width": 1440,
+        "title": "Clover Time Anti Magic - Entity Research Draft",
+        "new_marker_visible": true,
+        "tables": 2,
+        "document_width": 1440,
+        "no_page_overflow": true
+      },
+      {
+        "path": "/items/poison/",
+        "http": 200,
+        "width": 1440,
+        "title": "Clover Time Poison - Entity Research Draft",
+        "new_marker_visible": true,
+        "tables": 2,
+        "document_width": 1440,
+        "no_page_overflow": true
+      },
+      {
+        "path": "/guides/grimoire-tier-list/",
+        "http": 200,
+        "width": 375,
+        "title": "Clover Time Grimoire Tier List - Research Draft",
+        "new_marker_visible": true,
+        "tables": 3,
+        "document_width": 375,
+        "no_page_overflow": true,
+        "table_scroll_checks": [
+          {
+            "overflow": false
+          },
+          {
+            "overflow": false
+          },
+          {
+            "overflow": true,
+            "scrollable": true,
+            "element": "TABLE"
+          }
+        ],
+        "screenshot": "docs/clover-time/evidence/p03-ranking-mobile-20261009.png"
+      },
+      {
+        "path": "/guides/race-tier-list/",
+        "http": 200,
+        "width": 375,
+        "title": "Clover Time Race Tier List - Research Draft",
+        "new_marker_visible": true,
+        "tables": 2,
+        "document_width": 375,
+        "no_page_overflow": true,
+        "table_scroll_checks": [
+          {
+            "overflow": false
+          },
+          {
+            "overflow": false
+          }
+        ],
+        "screenshot": "docs/clover-time/evidence/p04-ranking-mobile-20261009.png"
+      },
+      {
+        "path": "/items/anti-magic/",
+        "http": 200,
+        "width": 375,
+        "title": "Clover Time Anti Magic - Entity Research Draft",
+        "new_marker_visible": true,
+        "tables": 2,
+        "document_width": 375,
+        "no_page_overflow": true,
+        "table_scroll_checks": [
+          {
+            "overflow": false
+          },
+          {
+            "overflow": false
+          }
+        ],
+        "screenshot": "docs/clover-time/evidence/p07-ranking-mobile-20261009.png"
+      },
+      {
+        "path": "/items/poison/",
+        "http": 200,
+        "width": 375,
+        "title": "Clover Time Poison - Entity Research Draft",
+        "new_marker_visible": true,
+        "tables": 2,
+        "document_width": 375,
+        "no_page_overflow": true,
+        "table_scroll_checks": [
+          {
+            "overflow": false
+          },
+          {
+            "overflow": false
+          }
+        ],
+        "screenshot": "docs/clover-time/evidence/p08-ranking-mobile-20261009.png"
+      }
+    ],
+    "draft_isolation": [
+      {
+        "path": "/codes/all-codes/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      },
+      {
+        "path": "/guides/how-to-redeem-codes/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      },
+      {
+        "path": "/guides/grimoire-tier-list/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      },
+      {
+        "path": "/guides/race-tier-list/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      },
+      {
+        "path": "/guides/beginner-guide/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      },
+      {
+        "path": "/guides/how-to-reroll/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      },
+      {
+        "path": "/items/anti-magic/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      },
+      {
+        "path": "/items/poison/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      },
+      {
+        "path": "/guides/fishing-fragments/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      },
+      {
+        "path": "/guides/patch-notes/",
+        "dist_detail_absent": true,
+        "sitemap_absent": true
+      }
+    ],
+    "all_development_details_http_200": 10
+  },
+  "screenshots_visually_inspected": [
+    "docs/clover-time/evidence/p03-ranking-mobile-20261009.png",
+    "docs/clover-time/evidence/p04-ranking-mobile-20261009.png",
+    "docs/clover-time/evidence/p07-ranking-mobile-20261009.png",
+    "docs/clover-time/evidence/p08-ranking-mobile-20261009.png"
+  ],
+  "protected_files": [
+    {
+      "path": "package.json",
+      "unchanged_from_head": true,
+      "sha256": "b8d12ebbada0ce0e0aa94bac00809afedd84065dd8b0adb75b80125ec02f5ded"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "unchanged_from_head": true,
+      "sha256": "1463612f485141e6c8df997c30401bc982f077f760cd5de1a1d74d21b427c5d9"
+    },
+    {
+      "path": "wrangler.toml",
+      "unchanged_from_head": true,
+      "sha256": "9c289042baefea932883de6f0e6b3126c855c6fbab62bca349653955429296c5"
+    },
+    {
+      "path": "scripts/gen-covers.ts",
+      "unchanged_from_head": true,
+      "sha256": "f37e8e9feb092f508e97f7df73efa13367553d818e5eac793ac03a06256733fa"
+    }
+  ],
+  "initial_browser_failure": "get_by_text first matched a hidden TOC item on mobile; narrowed locator to actual main h2/th and reran all 8 checks successfully, no assertion removed.",
+  "unit_tests_run_this_round": false,
+  "prior_engineering_unit_tests": {
+    "passed": 397,
+    "failed": 0,
+    "skipped": 0,
+    "suites": 24,
+    "run_at_beijing": "2026-10-08 23:47"
+  },
+  "formal_page_acceptance": {
+    "passed": 0,
+    "drafts": 10
+  },
+  "limitations": [
+    "No current game transaction tested.",
+    "Third-party demonstration capture dates and game builds unknown.",
+    "Poison HUD/result/equipment evidence absent.",
+    "Domain and deployment still pending."
+  ],
+  "documentation_local_links": {
+    "checked": 94,
+    "broken": 0
+  },
+  "git_diff_check_exit_code": 0
+}

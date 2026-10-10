@@ -1,0 +1,507 @@
+{
+  "assets": {
+    "articles": [
+      {
+        "key": "codes",
+        "source": "/workspace/generated_images/exec-41ced7ef-e980-4f9e-9e6e-c12defd18c98.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-codes-all-codes.webp",
+        "body": "public/images/articles/clover-time/codes-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/codes.png",
+        "original_sha256": "496f4ae54e722c1f8c044e903f8646261bdc218cab1000779c97dd1bcdf51001"
+      },
+      {
+        "key": "redeem",
+        "source": "/workspace/generated_images/exec-57e684db-5f99-4ca2-a4a2-d3d4a18415f9.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-guides-how-to-redeem-codes.webp",
+        "body": "public/images/articles/clover-time/redeem-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/redeem.png",
+        "original_sha256": "e95da1202bc97a281041c041b39e97a763eacda28bebc8d37e4cde4dff8a1a68"
+      },
+      {
+        "key": "grimoires",
+        "source": "/workspace/generated_images/exec-77699b4a-e4cc-46b8-b5b9-e21b55c2c8ad.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-guides-grimoire-tier-list.webp",
+        "body": "public/images/articles/clover-time/grimoires-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/grimoires.png",
+        "original_sha256": "06f33a0cb82f759c0ba4ef396c79312bc851ffe91cfee4ea51c54cd97d633534"
+      },
+      {
+        "key": "races",
+        "source": "/workspace/generated_images/exec-90f4c424-61f2-4552-845e-46f869b7fa42.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-guides-race-tier-list.webp",
+        "body": "public/images/articles/clover-time/races-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/races.png",
+        "original_sha256": "235347d53abd8db17dd4baecfbe86ec8f987545c95e2ed1383684b7473d8db9e"
+      },
+      {
+        "key": "beginner",
+        "source": "/workspace/generated_images/exec-b4592005-ceb7-456c-aa95-a7ac978c8a88.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-guides-beginner-guide.webp",
+        "body": "public/images/articles/clover-time/beginner-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/beginner.png",
+        "original_sha256": "10c1892101203a0f7f711e1fe7499759e0618cba8c5091c47661759cf380c4d1"
+      },
+      {
+        "key": "reroll",
+        "source": "/workspace/generated_images/exec-98da4c76-cb16-4ebf-98e5-07ef1c473c1d.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-guides-how-to-reroll.webp",
+        "body": "public/images/articles/clover-time/reroll-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/reroll.png",
+        "original_sha256": "f586065a2558d8c11596c5468e3af715a37ebe25355208ffef5ba9f8e0b77ecc"
+      },
+      {
+        "key": "antiMagic",
+        "source": "/workspace/generated_images/exec-f9a384be-ef9e-45a3-be5c-1dd7a390a860.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-items-anti-magic.webp",
+        "body": "public/images/articles/clover-time/anti-magic-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/antiMagic.png",
+        "original_sha256": "4e3569e3141278d9f5a666837345d862b7dd6a30fcd998667b558db6dea58bd2"
+      },
+      {
+        "key": "poison",
+        "source": "/workspace/generated_images/exec-ed8daa88-cf54-4745-92dd-a45f21563d14.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-items-poison.webp",
+        "body": "public/images/articles/clover-time/poison-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/poison.png",
+        "original_sha256": "feba94faa1a9ba3677d9c1ac829208e4408db5bd5b390b732f34bbba3b9cbde0"
+      },
+      {
+        "key": "fishing",
+        "source": "/workspace/generated_images/exec-cb9d48b8-4f8b-4173-857a-d7f55d600430.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-guides-fishing-fragments.webp",
+        "body": "public/images/articles/clover-time/fishing-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/fishing.png",
+        "original_sha256": "03cddf2f60ecd1f947ea0b385d2667bda2a797930f15eec8902075a5de3b3f90"
+      },
+      {
+        "key": "patch",
+        "source": "/workspace/generated_images/exec-875fb1d8-195f-4889-bb42-3622096cdb14.png",
+        "original_dimensions": [
+          1672,
+          941
+        ],
+        "cover": "src/assets/covers/clover-time-en-guides-patch-notes.webp",
+        "body": "public/images/articles/clover-time/patch-concept.webp",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "is_gameplay": false,
+        "preserved_original": "/workspace/shared/clover-time-art-originals-20261010/patch.png",
+        "original_sha256": "df53d3ac476e8737103841cba92162dde52c483c0e1991961b3e8c86e882594e"
+      }
+    ],
+    "hero": "public/images/clover-time-hero.webp",
+    "social": "public/images/hero.webp",
+    "brand": "public/favicon.svg",
+    "raster_icons": [
+      "public/favicon-16x16.png",
+      "public/favicon-32x32.png",
+      "public/apple-touch-icon.png",
+      "public/android-chrome-192x192.png",
+      "public/android-chrome-512x512.png"
+    ],
+    "ico": "public/favicon.ico",
+    "production": "Native Sharp web export only; original generated art preserved unchanged. Concept art is not gameplay evidence."
+  },
+  "public_assets": [
+    {
+      "path": "public/images/articles/clover-time/codes-concept.webp",
+      "bytes": 197246,
+      "sha256": "4fae3d15df6c88666f1946cf1124501bad000ccf3b6fd85b5675b80db87213ed",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/redeem-concept.webp",
+      "bytes": 132802,
+      "sha256": "35e30c592bade07555fa26e78bcccb92ed5808261bb5ac562dfb9f481f810a91",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/grimoires-concept.webp",
+      "bytes": 234270,
+      "sha256": "b0cacdcdc1a3a7a774e733e146bcae5175685fa7597b47f782489ec36d2820c8",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/races-concept.webp",
+      "bytes": 241224,
+      "sha256": "74a2f91ab81290088f1327e6b4aee0acdb5be237a192c059f70a4ff1298feb7b",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/beginner-concept.webp",
+      "bytes": 208704,
+      "sha256": "7fd78aba95a73a6e01f6b4b0ce1936e5329c38e32bc74a65aa92a494d0033586",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/reroll-concept.webp",
+      "bytes": 205872,
+      "sha256": "e84174c9c5a94b4c45b42b8c5472edf0b1c1a9aa3e9e76f9a0a7af00616a3e34",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/anti-magic-concept.webp",
+      "bytes": 122500,
+      "sha256": "31648788811af8b41c9e0b25d42bc848abd82c558922ef0abc9c054cedc679a8",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/poison-concept.webp",
+      "bytes": 165776,
+      "sha256": "090289402b2b6fc88f6cf3a5f83aa23d5cd9491fc8aa50694a372b8d3c93c654",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/fishing-concept.webp",
+      "bytes": 236178,
+      "sha256": "79d359c21426ee9544562f9beb7ce8d99ed647ced825f8b794956e3d35f1d266",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/patch-concept.webp",
+      "bytes": 158564,
+      "sha256": "de9a3f11b4c06264a279baa95b0b1f2d1882c6314111c75a55c37e2f4a5fe002",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/clover-time-hero.webp",
+      "bytes": 218842,
+      "sha256": "4527c5c8d00c627a48b53012b1f6a7018840536de0f63993b42df49195681880",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/hero.webp",
+      "bytes": 209754,
+      "sha256": "e51fb4f418a089c564ff9860709589823b369a903de1f5ab5772b67689eed0ed",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 557,
+      "sha256": "d0d71be9b9ed583f84acdf8f721386535ff32c1a256e14441a860f6fc3116cb3",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/favicon.ico",
+      "bytes": 2315,
+      "sha256": "962e23263e756177a2437b436e4ccd0b4047e3be7cb10f94ff79d1bcf355741a",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/favicon-16x16.png",
+      "bytes": 388,
+      "sha256": "16f039134eef99b4ec8089fbda97e7c872e92e2c514e0e2e0589c467bf6904cd",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/favicon-32x32.png",
+      "bytes": 727,
+      "sha256": "453283c7ed8672fe86775498e13cb4efb78ec5d0e488da09df9b16ff8f17d2d8",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "bytes": 5057,
+      "sha256": "0b5dce4e4bc2d35395012e62047d9a6b6fba08218ffcf7de33737071a679b90d",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/android-chrome-192x192.png",
+      "bytes": 5230,
+      "sha256": "7a915d6861aedb7bb18dfea48cffdb2788d7ac67967f14c612a41da820eb2fbd",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/android-chrome-512x512.png",
+      "bytes": 29547,
+      "sha256": "a785fde8fc18ddd2c9622dd110c2b28236ee7ee30729fc019eeea00a215d7a1f",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/race-tier-list-overview.svg",
+      "bytes": 2651,
+      "sha256": "a9ffe941ae2c851ea800afd7f426440605c47eb9fea9078fa467fa2bbbc12648",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/beginner-guide-overview.svg",
+      "bytes": 2850,
+      "sha256": "2f32574a6a98fce50cd3579000eb452e06478e75cea34835298a36c764bfe474",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/how-to-reroll-overview.svg",
+      "bytes": 2718,
+      "sha256": "ff451e1a4f86f1d4fd671e97ce2319dec43e7ea5cfedf925869917362e3907a2",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/how-to-redeem-codes-overview.svg",
+      "bytes": 2652,
+      "sha256": "41cfa858fcce0364a3242b3b57265138fade0b7e5ad4a7e4263daf085e1477de",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/anti-magic-overview.svg",
+      "bytes": 2654,
+      "sha256": "f651e599b52c6dd0bb8decf113e326c82e5be7f5a67533eed4809b2d5a8f7215",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/poison-overview.svg",
+      "bytes": 2644,
+      "sha256": "1a2e94709575f236440831f1a2ee6d4bebe38401d4bb9241c488c303db4ca71c",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/all-codes-overview.svg",
+      "bytes": 2805,
+      "sha256": "d8cfa6f5eb1d5bf95063bd7dcf25e726c03808816999e63644c0d98ac938735b",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/fishing-fragments-overview.svg",
+      "bytes": 2761,
+      "sha256": "b0cb515162e62d61bc6aec62b27b79ee64372788cb73e8df17d75b77ce345b4a",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/patch-notes-overview.svg",
+      "bytes": 2881,
+      "sha256": "9d0882fe5c237348c41bedcfd6ac190bc8932f095524d0093dccebc92ad598fb",
+      "is_gameplay": false
+    },
+    {
+      "path": "public/images/articles/clover-time/grimoire-tier-list-overview.svg",
+      "bytes": 2540,
+      "sha256": "16ab0f1f96972199950315928e06a074003b73033b43a651dc1a8b9d206ea9fa",
+      "is_gameplay": false
+    }
+  ],
+  "covers": [
+    {
+      "path": "src/assets/covers/clover-time-en-codes-all-codes.webp",
+      "sha256": "4fae3d15df6c88666f1946cf1124501bad000ccf3b6fd85b5675b80db87213ed",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 197246
+    },
+    {
+      "path": "src/assets/covers/clover-time-en-guides-how-to-redeem-codes.webp",
+      "sha256": "35e30c592bade07555fa26e78bcccb92ed5808261bb5ac562dfb9f481f810a91",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 132802
+    },
+    {
+      "path": "src/assets/covers/clover-time-en-guides-grimoire-tier-list.webp",
+      "sha256": "b0cacdcdc1a3a7a774e733e146bcae5175685fa7597b47f782489ec36d2820c8",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 234270
+    },
+    {
+      "path": "src/assets/covers/clover-time-en-guides-race-tier-list.webp",
+      "sha256": "74a2f91ab81290088f1327e6b4aee0acdb5be237a192c059f70a4ff1298feb7b",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 241224
+    },
+    {
+      "path": "src/assets/covers/clover-time-en-guides-beginner-guide.webp",
+      "sha256": "7fd78aba95a73a6e01f6b4b0ce1936e5329c38e32bc74a65aa92a494d0033586",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 208704
+    },
+    {
+      "path": "src/assets/covers/clover-time-en-guides-how-to-reroll.webp",
+      "sha256": "e84174c9c5a94b4c45b42b8c5472edf0b1c1a9aa3e9e76f9a0a7af00616a3e34",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 205872
+    },
+    {
+      "path": "src/assets/covers/clover-time-en-items-anti-magic.webp",
+      "sha256": "31648788811af8b41c9e0b25d42bc848abd82c558922ef0abc9c054cedc679a8",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 122500
+    },
+    {
+      "path": "src/assets/covers/clover-time-en-items-poison.webp",
+      "sha256": "090289402b2b6fc88f6cf3a5f83aa23d5cd9491fc8aa50694a372b8d3c93c654",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 165776
+    },
+    {
+      "path": "src/assets/covers/clover-time-en-guides-fishing-fragments.webp",
+      "sha256": "79d359c21426ee9544562f9beb7ce8d99ed647ced825f8b794956e3d35f1d266",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 236178
+    },
+    {
+      "path": "src/assets/covers/clover-time-en-guides-patch-notes.webp",
+      "sha256": "de9a3f11b4c06264a279baa95b0b1f2d1882c6314111c75a55c37e2f4a5fe002",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "is_gameplay": false,
+      "bytes": 158564
+    }
+  ],
+  "originals_preserved": true,
+  "illustrations": 10,
+  "newly_generated_this_turn": 7,
+  "reused_original_concepts": 3,
+  "note": "Original concept artwork, not gameplay screenshots. Standard website sizing/WebP compression; original PNGs preserved unchanged.",
+  "generation_prompts": [
+    [
+      "codes",
+      "An original premium fantasy game wiki editorial cover, widescreen 16:9. A small emerald and gold gift chest sits on a mossy pedestal in a sunlit fantasy forest, surrounded by a few luminous ticket-shaped blank parchment tokens and tiny four-leaf clover leaves. Painterly anime fantasy illustration, warm amber lighting, richly textured greenery, dark forest-green shadows, elegant restrained magic particles. A clear focal composition in the center and ample breathing room at all edges. No writing, no letters, no numbers, no logos, no watermark, no user interface, no characters, no real game screenshot. This is conceptual artwork for an article about reported redemption codes, not a depiction of actual Clover Time items. Match a polished storybook concept painting."
+    ],
+    [
+      "redeem",
+      "An original premium fantasy game wiki cover, widescreen 16:9, painterly anime fantasy storybook concept. Close view of a blank gold-trimmed parchment ticket being placed by a gloved hand into a small carved stone slot beside a glowing emerald four-leaf-clover seal. The interaction is conceptual and not a game UI. Warm late afternoon light, lush distant forest, polished wood, moss, cream parchment and dark jade palette, a subtle amber rim light. Central readable composition with generous breathing room. No text, letters, numbers, logos, watermark or screenshot. No actual currency amounts, stats, buttons or game interface."
+    ],
+    [
+      "grimoires",
+      "Original premium painterly anime fantasy concept illustration, widescreen 16:9 editorial cover for a grimoire comparison article. A floating group of five distinct closed magical books arranged in a graceful arc above a mossy stone lectern, central emerald book with an understated clover ornament, side books surrounded by small contrasting motifs of water, flame, snow and purple mist, effects are purely conceptual. Grand library opening onto a leafy fantasy landscape. Warm cream and golden light, deep forest greens, richly detailed leather and foliage, restrained elegant particles, strong central focal composition. No text, letters, numbers, labels, tier letters, logos, watermark, characters or real gameplay interface."
+    ],
+    [
+      "races",
+      "Original painterly anime fantasy storybook editorial illustration, widescreen 16:9, for a race comparison research article. A diverse group of five ORIGINAL fantasy traveler silhouettes seen from behind at a forest overlook, varied heights and simple clothing, including a small hooded traveler, a tall slender traveler and a stocky armored traveler; no named or recognizable copyrighted characters, no claim of actual in-game races or outfits. They look toward a distant castle amid emerald hills. Sunlit jade green, cream clouds, warm amber glow, a few clover leaves in foreground, richly textured painterly scene with calm premium editorial composition. No words, numbers, logos, stats, labels, watermark, UI or game screenshot."
+    ],
+    [
+      "reroll",
+      "Original premium painterly anime fantasy editorial concept cover, widescreen 16:9. A carved circular stone altar in a luminous green forest clearing, three small blank gold-rimmed circular tokens float around an emerald clover-shaped crystal at the center, delicate orbiting light trails suggest the idea of changing choices. No currency amounts, no probability symbols, no dice pips or implied game costs. Warm amber shafts of sunlight, cream mist, moss, jade shadows, detailed handcrafted stone, elegant restrained magical particles, centered scene with breathing room. No text, letters, numbers, logos, watermark, named characters, gameplay screenshot or UI. A conceptual illustration for a reroll research article."
+    ],
+    [
+      "fishing",
+      "Original premium painterly anime fantasy storybook editorial cover, widescreen 16:9. A simple wooden fishing rod rests by a quiet turquoise forest lake beside a woven basket, a silver fish can be seen just below clear water, distant green hills and stone bridge, clover leaves along the mossy shore, warm amber sunrise and cream mist. Peaceful rich natural textures, forest green and teal palette, elegant clear central composition. No gemstones, fragments, magical rewards, currency or loot shown, since a connection to fragment rewards is not verified. No text, letters, numbers, logos, watermark, people, game screenshot or user interface."
+    ],
+    [
+      "patch",
+      "Original premium painterly anime fantasy editorial illustration, widescreen 16:9. An open blank parchment journal with a bronze fountain pen sits on a carved wooden desk beneath a window looking over a sunlit emerald fantasy village. A small emerald clover bookmark and a sealed unmarked envelope beside it. Warm cream paper, gold light, deep forest greens, polished wooden details, calm premium storybook concept composition. All paper must be BLANK, no patch date or version, no writing, letters, numbers, labels, logos, watermark, interface or game screenshot. Concept artwork for a research page distinguishing update evidence from unverified announcements."
+    ]
+  ],
+  "icon_design": "Original four-heart-leaf clover vector. SVG, 16/32 PNG favicons, 180 Apple icon, 192/512 Android icons, 16/32/48 ICO; header and footer share favicon.svg.",
+  "navigation_icons": {
+    "codes": "lucide:ticket",
+    "guides": "lucide:compass",
+    "items": "lucide:book-open"
+  }
+}
