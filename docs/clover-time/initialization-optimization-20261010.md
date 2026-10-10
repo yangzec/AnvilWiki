@@ -11,6 +11,7 @@
 - 标准 pnpm build 读取 wrangler vars，受保护预览输出到 dist；原稿 10 个 draft 不变，预览构建失败不会覆盖旧 dist。显式 build:production 保留普通 Astro 草稿过滤。
 - 稳定公共 .indexnow-key 已初始化并随构建发布验证文件；当前预览不提交 IndexNow。
 - 专属 deploy-clover-time.yml：clover-time push → Node22 / pnpm固定版本 / frozen install → 八项工程门禁 → 既有 Pages 项目上传；不部署 main，不使用未经验证的 dist。
+- 修复干净 GitHub 检出不保留空 zh 目录导致的配置门禁失败，提交 zh/.gitkeep，中文正文仍未翻译。
 - 修复两项原模板测试读取线上身份的错误前提，并保留 landing/redirect/广告迁移断言所需样本；没有删断言或将 Clover Time 域名加入 demo 白名单。测试素材不参与网站构建或应用类型检查。
 
 ## 验收清单
