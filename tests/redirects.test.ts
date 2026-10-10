@@ -54,8 +54,8 @@ const HANDBOOK_TARGET_RE = /^\/(zh\/)?landing\/docs\/[\w-]+\/$/;
 const LOCALE_ENTRY_SOURCE_RE = /^\/(en|zh)\/?$/;
 const LOCALE_ENTRY_TARGET_RE = /^\/$|^\/zh\/landing\/$/;
 
-function parseRedirects(): Rule[] {
-  const raw = readFileSync(`${repoRoot}public/_redirects`, 'utf8');
+function parseRedirects(rel = 'tests/fixtures/anvil-template/public/_redirects'): Rule[] {
+  const raw = readFileSync(`${repoRoot}${rel}`, 'utf8');
   const rules: Rule[] = [];
   for (const line of raw.split('\n')) {
     const trimmed = line.trim();
@@ -152,7 +152,7 @@ describe('public/_redirects (renamed handbook lesson slugs)', () => {
 });
 
 describe('public/_redirects (locale entry points)', () => {
-  const rules = parseRedirects();
+  const rules = parseRedirects('public/_redirects');
   const localeEntryRules = rules.filter((r) => LOCALE_ENTRY_SOURCE_RE.test(r.source));
 
   test('covers exactly the guessed locale paths × both slash forms — nothing more', () => {
@@ -162,14 +162,14 @@ describe('public/_redirects (locale entry points)', () => {
     expect(new Set(sources)).toEqual(expected);
   });
 
-  test('every target matches its locale entry and is a live demo route', () => {
+  test('every target matches its locale entry and the fork has no template landing', () => {
     const bySource = new Map(localeEntryRules.map((r) => [r.source, r.target]));
     for (const [source, target] of LOCALE_ENTRY_RULES) {
       expect(bySource.get(source), `${source} must target ${target}`).toBe(target);
     }
     // /zh/landing/ is produced by src/pages/zh/landing.astro; / by src/pages/index.astro.
-    expect(existsSync(`${repoRoot}src/pages/zh/landing.astro`), '/zh/landing/ route file').toBe(
-      true,
+    expect(existsSync(`${repoRoot}src/pages/zh/landing.astro`), '/zh/landing/ must be removed').toBe(
+      false,
     );
     expect(existsSync(`${repoRoot}src/pages/index.astro`), '/ route file').toBe(true);
   });

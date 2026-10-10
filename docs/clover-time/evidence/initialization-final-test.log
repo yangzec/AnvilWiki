@@ -1,0 +1,12 @@
+Already up to date
+Done in 297ms using pnpm v11.1.1
+$ vitest run
+
+ RUN  v4.1.11 /workspace/AnvilWiki
+
+Q1: Q2: Q3: Q4: Q5: Q1: Q2: Q3: Q1: Q2: Q3: Q4: Q1: Q2: Q3: Q1: Q2: Q3: 
+ Test Files  24 passed (24)
+      Tests  397 passed (397)
+   Start at  04:12:44
+   Duration  1.54s (transform 747ms, setup 0ms, import 1.46s, tests 495ms, environment 2ms)
+

@@ -1,5 +1,7 @@
 # AGENTS.md
 
+当前 Clover Time 分支的构建约定：`pnpm build` 读取 `wrangler.toml` 中的 `ANVIL_BUILD_MODE`，当前为受保护的 preview，输出 10 篇可读文章至 `dist/`，不修改源稿 draft。普通草稿过滤使用 `pnpm build:production`；内部 `build:static` 不用于部署。模板路由已移除，原始测试输入保存在 `tests/fixtures/anvil-template/`。事实表入口为 `requirements/00事实来源.md`。初始化状态以 `docs/clover-time/initialization-optimization-20261010.md` 为准；下文上游发布历史不代表本游戏正式内容验收。
+
 Workspace instructions for ZCode agents working on AnvilWiki.
 
 ## Repository Purpose

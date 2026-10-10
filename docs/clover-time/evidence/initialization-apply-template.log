@@ -1,0 +1,142 @@
+$ tsx scripts/apply-template.ts --lang zh --answers answers.json
+🎨 AnvilWiki apply-template CLI — 基础配置向导(站点元数据、主题色、导航、语言)
+
+♻️  检测到重跑 — src/config/site.ts 当前已是 "Clover Time Wiki"。
+   下面每题的默认值就是你「当前的值」(直接回车 = 保留),不再是 demo 占位。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+游戏身份
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+游戏完整名称: Clover Time
+短名称(PWA / 手机端显示): CT Wiki
+域名(不带 https:// 协议): clovertime.world
+首页标语(tagline): (enter)
+网站简介(SEO 用,40-165 字符): (enter)
+法律/版权声明: (enter)
+游戏官网链接: https://www.roblox.com/games/93934100402512/Clover-Time
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+主题色
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+主题色(#rrggbb): #299052
+   → #299052 = HSL(144, 56%, 36%)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+游戏信息
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+平台: Roblox
+开发商/工作室: AnimeCore Studio
+游戏类型: Action RPG
+发行日期(ISO 格式,可选): (enter)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+站点语言(逗号分隔,第一个为默认语言)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+语言列表: en,zh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+内容栏目(逗号分隔的小写 key)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   常用:bosses, guides, items, codes, tier-list, characters
+栏目列表: codes,guides,items
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚠️  内容层
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   当前 src/content/wiki/ 下有 10 个文章文件。
+   清理是「内容感知」的:判定为 demo 的文章会被删除,
+   其余(你自己写的文章/脚手架)会保留并逐个警告。
+   目录结构保留,方便你直接放入新内容。
+清除 demo 示例内容?: y
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏠  首页预设
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   1) codes     — 首页大标 "All Codes"、兑换码徽章模块(适合兑换码驱动的站)
+   2) guides    — wiki 式首页、步骤模块(适合攻略驱动的站)
+   3) keep      — 保留 demo 首页 JSON 作为起点
+首页预设 [1/2/3]: 3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐  项目官网页
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   /landing 是 AnvilWiki 模板项目自己的宣传页。
+   你的游戏站用不到它,删掉可以让仓库保持干净。
+删除项目官网页(/landing)?: y
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 计划修改
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   游戏:        Clover Time
+   短名称:      CT Wiki
+   域名:        clovertime.world
+   主题色:      #299052 → HSL(144, 56%, 36%)
+   语言:        en, zh
+   栏目:        codes, guides, items
+   清除 demo 内容:  是
+   删除 /landing: 是
+   将写入的文件:
+     - src/config/site.ts
+     - src/config/navigation.ts
+     - src/styles/globals.css(仅 4 行主题色)
+     - src/i18n/routing.ts
+     - src/i18n/ui.ts
+     - src/locales/{en,zh}.json
+     - public/manifest.json
+     - wrangler.toml([vars] 重置为你的域名,清空 demo Giscus)
+     - .indexnow-key(缺失时生成一次;重跑复用)
+
+确认执行以上修改?: y
+
+🔧 正在应用修改…
+   ✅ src/config/site.ts
+   ✅ src/config/navigation.ts
+   ✅ src/styles/globals.css
+   ✅ src/i18n/routing.ts
+   ✅ src/i18n/ui.ts
+   ✅ src/locales/en.json
+   ✅ src/locales/zh.json
+   ✅ public/manifest.json
+⚠️ [vars] key "ANVIL_BUILD_MODE" is not part of the template — its line is preserved verbatim at the end of the [vars] section. Remove it manually if unwanted.
+⚠️ [vars] key "NODE_VERSION" is not part of the template — its line is preserved verbatim at the end of the [vars] section. Remove it manually if unwanted.
+   ✅ wrangler.toml([vars] 已重置 — demo Giscus 配置已清空)
+   ♻️  复用已有的 .indexnow-key
+⚠️ src/config/authors.ts 里没有匹配到 demo 作者块 — 可能上一轮已移除,或文件格式变了。请手动检查作者注册表。
+   🗑️  已删除 src/content/wiki/ 下 0 篇 demo 文章(内容感知判定)
+   🖼️  已删除 0 个 demo 资产文件(封面/画廊/内文图/public token,按文件名删除)
+   ⚠️  保留了 10 个「非 demo 内容」的文件 — 它们从未提到 demo 游戏(Anvil Quest)。若不需要请自行删除:
+      src/content/wiki/en/codes/all-codes.mdx
+      src/content/wiki/en/guides/beginner-guide.mdx
+      src/content/wiki/en/guides/fishing-fragments.mdx
+      src/content/wiki/en/guides/grimoire-tier-list.mdx
+      src/content/wiki/en/guides/how-to-redeem-codes.mdx
+      src/content/wiki/en/guides/how-to-reroll.mdx
+      src/content/wiki/en/guides/patch-notes.mdx
+      src/content/wiki/en/guides/race-tier-list.mdx
+      src/content/wiki/en/items/anti-magic.mdx
+      src/content/wiki/en/items/poison.mdx
+   📄 已创建 3 篇脚手架文章(每个所选栏目一篇,en/)
+   🗑️  已删除 26 个项目官网页文件(src/components/landing/、src/config/landing*.ts、src/pages/landing* 含 /landing/docs 文档中心、public/images/showcase/ + wechat-qr.jpg;docs/handbook 手册 markdown 保留作参考文档)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ 基础配置完成。
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 剩余任务(详见 docs/apply-template.md):
+   • 换图标 — 你的站现在还是模板的铁砧图标。
+           可在 https://favicon.io/favicon-converter/ 用一张图生成全套,
+           然后把文件拖进 public/ 覆盖同名文件:favicon.ico、favicon.svg、
+           favicon-16x16.png、favicon-32x32.png、apple-touch-icon.png、
+           android-chrome-192x192.png、android-chrome-512x512.png。
+           首页大图同理:public/images/hero.webp / hero.svg。
+           (CLI 生成不了图片资产 — 见学习手册第 11 课「换成你的游戏」,或直接跑 pnpm gen-assets)
+   • 填首页文案:src/locales/<语言>.json
+           (home.hero / start / explore / faq / updates)。
+   • 在 src/content/wiki/<语言>/<栏目>/ 下写文章 MDX。
+           然后在语言 JSON 里补 nav.<key> + overview.<key>。
+   • 翻译非英文的语言 JSON + 搬运/改写文章正文。
+   • 部署后跑 `pnpm check-sitemap` 验证所有 URL 可访问。
+
+   然后:pnpm dev    (本地预览)
+         pnpm build  (验证生产构建)
+

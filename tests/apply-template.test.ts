@@ -256,7 +256,7 @@ describe('rewriteWranglerVars is value-aware (a re-run must not wipe the user en
     // demo value, a re-run would PRESERVE it into every fork — the exact leak
     // this list exists to prevent. Every uncommented [vars] value must either
     // be listed here or be empty.
-    const toml = readFileSync(join(repoRoot, 'wrangler.toml'), 'utf8');
+    const toml = readFileSync(join(repoRoot, 'tests/fixtures/anvil-template/wrangler.toml'), 'utf8');
     const section = toml.match(/(?:^|\n)\[vars\]\r?\n([\s\S]*?)(?=\r?\n\[|$)/)?.[1] ?? '';
     const values = [...section.matchAll(/^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*"(.*)"\s*$/gm)].map(
       (m) => m[2],
@@ -621,7 +621,7 @@ describe('demo asset inventories stay in sync with setup.yml (drift has shipped 
     // demo key without updating the registry would silently keep demo
     // residue in forks (isDemoPublicFileContent defaults to keep).
     for (const [rel, marker] of Object.entries(DEMO_ADSTERRA_UNIT_MARKERS)) {
-      const source = readFileSync(join(repoRoot, 'public', rel), 'utf8');
+      const source = readFileSync(join(repoRoot, 'tests/fixtures/anvil-template/public', rel), 'utf8');
       expect(source, rel).toContain(marker);
     }
   });

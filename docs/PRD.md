@@ -1,5 +1,7 @@
 # AnvilWiki 产品需求文档（PRD）
 
+> Clover Time 分支实现说明（2026-10-10）：默认构建读取 wrangler 配置，通过隔离预览导出形成完整 dist，保留源稿草稿及 noindex；普通 Astro 过滤仍可显式执行。网站继续为静态 Astro + Pages，无新增运行时或适配器。已移除公开模板路由，原始示例保留为测试输入。自动上传流程与正式发布门槛见 [初始化优化交付](clover-time/initialization-optimization-20261010.md)。以下为上游模板 PRD。
+
 > **版本**：v1.0
 > **日期**：2026-08-12
 > **状态**：已发布（demo 站 anvil.wiki 上线，Lighthouse 全 100，CI 全绿）

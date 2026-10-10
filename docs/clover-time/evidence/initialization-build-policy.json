@@ -1,0 +1,89 @@
+{
+  "articles": [
+    {
+      "route": "/codes/all-codes/",
+      "source_sha256": "ff47414f7ef0b69567721350c20dbd2ad05a87b79c7eb295a0e78e41ff910c5d",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    },
+    {
+      "route": "/guides/beginner-guide/",
+      "source_sha256": "0417c9bae1d9866ca1a8f6b2c1be3d58537a93e6fd4100809bcc7e2520202d7d",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    },
+    {
+      "route": "/guides/fishing-fragments/",
+      "source_sha256": "6313e8a09674d2c8a9c1ff3797eb95e5a2214fd55f78919951e0a428a90ecc09",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    },
+    {
+      "route": "/guides/grimoire-tier-list/",
+      "source_sha256": "0cfff5de42eab0f4ccb6cec28540efc60aeffad509e650b728ed844bc3fdfaff",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    },
+    {
+      "route": "/guides/how-to-redeem-codes/",
+      "source_sha256": "7e8f032ea1616c087b8717d74f857da8d88fd61b2eab832e3aff046976c7498d",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    },
+    {
+      "route": "/guides/how-to-reroll/",
+      "source_sha256": "5170745c6b49aea96dbd900cb38598722652a2394a71696319f66d90a00eef90",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    },
+    {
+      "route": "/guides/patch-notes/",
+      "source_sha256": "100280507d8d85629dde56e54a4b5535f442664519c3feee7d5b7880f5a7fba7",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    },
+    {
+      "route": "/guides/race-tier-list/",
+      "source_sha256": "eb11d634a68becfe41d0d12e0d327345c5cf83da1340fb8eb025e26361fc50a4",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    },
+    {
+      "route": "/items/anti-magic/",
+      "source_sha256": "3cb56db024e1fb03ce116546840b421793ee26ea11fd242c78a9712d4d7e5fce",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    },
+    {
+      "route": "/items/poison/",
+      "source_sha256": "bdb524cf47d7091d38a6ec314f628d81a8889c4fe9e04864983da791491639dd",
+      "source_draft": true,
+      "exported": true,
+      "noindex": true,
+      "in_sitemap": false
+    }
+  ],
+  "template_routes_absent": true,
+  "demo_public_files_absent": true,
+  "indexnow_ownership_file_present": true,
+  "indexnow_submissions_enabled": false,
+  "html_count": 51
+}

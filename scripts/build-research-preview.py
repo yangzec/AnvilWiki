@@ -39,6 +39,9 @@ def main():
             shutil.copytree(source, target)
         else:
             shutil.copy2(source, target)
+    for name in (".indexnow-key", ".nvmrc"):
+        if (project / name).is_file():
+            shutil.copy2(project / name, checkout / name)
     (checkout / "node_modules").symlink_to(project / "node_modules", target_is_directory=True)
 
     articles = []
@@ -89,7 +92,7 @@ def main():
     # it sees this isolated review directory as a new workspace.
     pnpm = ("pnpm", "--config.verify-deps-before-run=false")
     for command in (pnpm + ("check-config",), pnpm + ("check-content",),
-                    pnpm + ("build",), pnpm + ("check-links",)):
+                    pnpm + ("build:static",), pnpm + ("check-links",)):
         log_path = output / ("-".join(command) + ".log")
         with log_path.open("w") as log:
             result = subprocess.run(command, cwd=checkout, env=env, stdout=log, stderr=subprocess.STDOUT)

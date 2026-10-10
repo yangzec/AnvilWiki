@@ -1,11 +1,11 @@
 {
   "name": "Clover Time Wiki",
   "short_name": "CT Wiki",
-  "description": "Independent Clover Time guides and reference pages with cited sources and clearly identified verification limits.",
+  "description": "Clover Time guides, races, Grimoires, combat and progression.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#f36716",
+  "theme_color": "#457358",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

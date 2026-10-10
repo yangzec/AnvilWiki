@@ -1,0 +1,14 @@
+Already up to date
+Done in 296ms using pnpm v11.1.1
+$ astro check
+04:12:51 [content] Syncing content
+04:12:51 [content] Astro config changed
+04:12:51 [content] Clearing content store
+04:12:52 [content] Synced content
+04:12:52 [types] Generated 849ms
+04:12:52 [check] Getting diagnostics for Astro files in /workspace/AnvilWiki...
+Result (183 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+

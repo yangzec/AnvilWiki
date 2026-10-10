@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-10",
+  "branch": "clover-time",
+  "checks": [
+    {
+      "command": "pnpm install --frozen-lockfile",
+      "exit_code": 0,
+      "log": "final-install-frozen-lockfile.log"
+    },
+    {
+      "command": "pnpm test",
+      "exit_code": 0,
+      "log": "final-test.log"
+    },
+    {
+      "command": "pnpm lint",
+      "exit_code": 0,
+      "log": "final-lint.log"
+    },
+    {
+      "command": "pnpm typecheck",
+      "exit_code": 0,
+      "log": "final-typecheck.log"
+    },
+    {
+      "command": "pnpm check-config",
+      "exit_code": 0,
+      "log": "final-check-config.log"
+    },
+    {
+      "command": "pnpm check-content",
+      "exit_code": 0,
+      "log": "final-check-content.log"
+    },
+    {
+      "command": "pnpm check-i18n --strict-ui",
+      "exit_code": 0,
+      "log": "final-check-i18n-strict-ui.log"
+    },
+    {
+      "command": "pnpm template-audit",
+      "exit_code": 0,
+      "log": "final-template-audit.log"
+    },
+    {
+      "command": "pnpm check-links",
+      "exit_code": 0,
+      "log": "final-check-links.log"
+    }
+  ],
+  "tests": {
+    "passed": 397,
+    "failed": 0,
+    "suites": 24
+  },
+  "local_browser": {
+    "passed": 30
+  },
+  "template_audit": {
+    "score": "13/14",
+    "remaining": "10 source drafts; no demo assets remain"
+  },
+  "source_articles": 10,
+  "formal_content_acceptance": "not completed",
+  "deployment": "pending",
+  "account_requirements": {
+    "github_actions": "API403; repository secrets and enabled workflow not verified",
+    "bulk_redirects": "API403; permission update requested",
+    "gsc": "account property and sitemap submission not verified"
+  }
+}

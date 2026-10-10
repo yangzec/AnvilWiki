@@ -32,7 +32,7 @@
   "packageManager": "pnpm@11.1.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "python3 scripts/build-site.py",
     "postbuild": "pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts",
     "preview": "astro preview",
     "check": "astro check",
@@ -58,7 +58,10 @@
     "check-i18n": "tsx scripts/check-i18n.ts",
     "check-links": "tsx scripts/check-links.ts",
     "check-content": "tsx scripts/check-content.ts",
-    "refresh-audit": "tsx scripts/refresh-audit.ts"
+    "refresh-audit": "tsx scripts/refresh-audit.ts",
+    "build:static": "astro build && pnpm run postbuild",
+    "build:preview": "python3 scripts/build-site.py --mode preview",
+    "build:production": "python3 scripts/build-site.py --mode production && pnpm run postbuild"
   },
   "dependencies": {
     "@astrojs/mdx": "^8.0.1",

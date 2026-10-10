@@ -1,12 +1,14 @@
-# Dedicated Clover Time preview. Confirm the project and address in the
-# authenticated account before uploading. Direct uploads use prebuilt dist;
-# apply these vars explicitly during Astro build (see the deployment record).
+# Clover Time Pages project. pnpm build renders the protected preview
+# into dist and reads these build variables explicitly. Production content
+# remains draft-gated; see docs/clover-time/initialization-optimization-20261010.md.
 # Credentials belong in cloud environment settings, never this file.
 name = "clover-time-wiki-preview"
 compatibility_date = "2026-08-11"
 pages_build_output_dir = "dist"
 
 [vars]
+ANVIL_BUILD_MODE = "preview"
+NODE_VERSION = "22"
 SITE_URL = "https://clovertime.world"
 INDEXNOW_KEY = ""
 PUBLIC_GISCUS_REPO = ""

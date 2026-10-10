@@ -1,3 +1,5 @@
+> 2026-10-10 初始化优化补充：默认 `pnpm build` 已统一为受保护预览导出，形成含 10 篇文章的 `dist/`；`pnpm build:production` 保留普通草稿过滤。此前“默认 build 排除草稿”的段落是历史记录。正式事实验收门槛不变，详见 [初始化 Goal](20261010-clover-time-initialization.md)。
+
 # Goal：Clover Time 英文 Wiki 首版 10 页
 
 Git 同步进展：2026-10-10 11:53（北京时间），用户授权将当前工作区同步到 clover-time；主提交 2e1d30e 已推送并核对远程一致，main 未改。源码草稿和网站部署 a1074fde 保持。[同步交付](../docs/clover-time/git-sync-20261010.md)。

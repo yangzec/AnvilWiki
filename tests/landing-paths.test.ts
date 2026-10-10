@@ -18,7 +18,7 @@ import { describe, expect, test } from 'vitest';
 import { landingPath } from '~/config/landing';
 import { handbookPath } from '~/lib/handbook';
 
-const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'tests/fixtures/anvil-template');
 
 /** Every route file rendering through LandingLayout (both landing trees + the two root routes). */
 function landingRouteFiles(): string[] {

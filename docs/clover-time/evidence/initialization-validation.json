@@ -1,0 +1,47 @@
+[
+  {
+    "command": "pnpm install --frozen-lockfile",
+    "exit_code": 0,
+    "log": "final-install-frozen-lockfile.log"
+  },
+  {
+    "command": "pnpm test",
+    "exit_code": 0,
+    "log": "final-test.log"
+  },
+  {
+    "command": "pnpm lint",
+    "exit_code": 0,
+    "log": "final-lint.log"
+  },
+  {
+    "command": "pnpm typecheck",
+    "exit_code": 0,
+    "log": "final-typecheck.log"
+  },
+  {
+    "command": "pnpm check-config",
+    "exit_code": 0,
+    "log": "final-check-config.log"
+  },
+  {
+    "command": "pnpm check-content",
+    "exit_code": 0,
+    "log": "final-check-content.log"
+  },
+  {
+    "command": "pnpm check-i18n --strict-ui",
+    "exit_code": 0,
+    "log": "final-check-i18n-strict-ui.log"
+  },
+  {
+    "command": "pnpm template-audit",
+    "exit_code": 0,
+    "log": "final-template-audit.log"
+  },
+  {
+    "command": "pnpm check-links",
+    "exit_code": 0,
+    "log": "final-check-links.log"
+  }
+]

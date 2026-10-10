@@ -1,0 +1,39 @@
+Already up to date
+Done in 292ms using pnpm v11.1.1
+$ tsx scripts/template-audit.ts
+
+🧰 AnvilWiki template health check
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 代码层纯净度（src/pages | components | lib 无 demo 游戏字符串）
+  ✅ 102 code-layer files scanned, zero demo-game strings in live code
+
+2. 配置层完整度（site.ts 已换皮 + 分类三处一致）
+  ✅ site.ts domain "clovertime.world" is not the demo domain
+  ✅ site.ts identity "Clover Time Wiki" / game "Clover Time" is not the demo game
+  ✅ 3 nav keys consistent with en.json labels and content dirs
+
+3. 内容层可替换性（每类文章数 + draft 遗留）
+  ℹ️  en/codes: 1 article
+  ℹ️  en/guides: 7 articles
+  ℹ️  en/items: 2 articles
+  ✅ all 3 en categories have articles
+  ℹ️  ja: 0 articles across 3 categories
+  ℹ️  zh: 0 articles across 3 categories
+  ⚠️  10 draft:true files excluded from the formal build — protected preview builds do not certify publication: src/content/wiki/en/codes/all-codes.mdx, src/content/wiki/en/guides/beginner-guide.mdx, src/content/wiki/en/guides/fishing-fragments.mdx, src/content/wiki/en/guides/grimoire-tier-list.mdx, src/content/wiki/en/guides/how-to-redeem-codes.mdx …
+
+4. 换皮残留（demo 图片资产 + public/ demo 文件 + wrangler.toml demo 值 + 不实承诺措辞）
+  ✅ no demo covers in src/assets/covers/
+  ✅ no demo gallery / inline article images
+  ✅ no demo public/ residue (search-console token + ads unit pages)
+  ✅ no demo articles in src/content/wiki/
+  ✅ no "Updated daily by the community" promise anywhere in src/
+  ✅ wrangler.toml SITE_URL "https://clovertime.world" is not the demo domain
+  ✅ wrangler.toml has no demo Giscus config
+  ✅ wrangler.toml [vars] carries no demo values (full DEMO_VAR_VALUES scan)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  模板健康度：13/14 — 建议修复 1 项 ⚠️ 后复制第二个站（demo 仓库上这些警告是预期的）。
+

@@ -1,0 +1,44 @@
+{
+  "repo": {
+    "http_status": 200,
+    "data": {
+      "full_name": "yangzec/AnvilWiki",
+      "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+      },
+      "fork": true
+    }
+  },
+  "actions": {
+    "http_status": 403,
+    "error": "{\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/actions/permissions#get-github-actions-permissions-for-a-repository\",\"status\":\"403\"}"
+  },
+  "secret_names": {
+    "http_status": 403,
+    "error": "{\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/actions/secrets#list-repository-secrets\",\"status\":\"403\"}"
+  },
+  "variable_names": {
+    "http_status": 403,
+    "error": "{\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/actions/variables#list-repository-variables\",\"status\":\"403\"}"
+  },
+  "pages": {
+    "http_status": 200,
+    "data": {
+      "name": "clover-time-wiki-preview",
+      "source": null,
+      "production_branch": "main",
+      "build_config": {
+        "web_analytics_tag": null,
+        "web_analytics_token": null
+      }
+    }
+  },
+  "redirect_lists": {
+    "http_status": 403,
+    "error": "{\"success\":false,\"errors\":[{\"code\":10000,\"message\":\"Authentication error\",\"documentation_url\":\"https://developers.cloudflare.com/api/resources/rules/subresources/lists/methods/list\"}],\"messages\":[],\"result\":null}\n"
+  }
+}

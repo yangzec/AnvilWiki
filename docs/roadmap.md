@@ -1,3 +1,5 @@
+> Clover Time 初始化优化（2026-10-10）：当前默认 `pnpm build` 读取仓库配置并输出受保护的 10 页预览至 `dist/`，不会再因直接使用标准命令丢失文章；`pnpm build:production` 仍按原稿草稿状态过滤。旧日期记录保留为历史。模板落地页和示例资产已移除，事实表已整理至 requirements，当前验收见 [交付记录](clover-time/initialization-optimization-20261010.md)。
+
 # 路线图:走过什么方向,接下来去哪(Roadmap)
 
 > 本页回答两个问题:**这套模板过去按什么方向演化**(帮你判断它的成熟度和侧重),以及**接下来会往哪走**(帮你决定现在入场合不合适)。逐版本的完整变更见 [CHANGELOG](../CHANGELOG.md);正在做什么见 [PRD](./PRD.md) 第 14 章。

@@ -1,0 +1,15 @@
+{
+  "source_drafts_excluded": [
+    "/codes/all-codes/",
+    "/guides/beginner-guide/",
+    "/guides/fishing-fragments/",
+    "/guides/grimoire-tier-list/",
+    "/guides/how-to-redeem-codes/",
+    "/guides/how-to-reroll/",
+    "/guides/patch-notes/",
+    "/guides/race-tier-list/",
+    "/items/anti-magic/",
+    "/items/poison/"
+  ],
+  "protected_preview_restored": true
+}

@@ -266,7 +266,7 @@ check(() => {
     .map(REL)
     .filter((rel) => /^draft:\s*true\s*$/m.test(read(rel).split('---')[1] ?? ''));
   if (drafts.length > 0) {
-    warn(`${drafts.length} draft:true file${drafts.length === 1 ? '' : 's'} never built — publish (remove draft) or delete before templating: ${drafts.slice(0, 5).join(', ')}${drafts.length > 5 ? ' …' : ''}`);
+    warn(`${drafts.length} draft:true file${drafts.length === 1 ? '' : 's'} excluded from the formal build — protected preview builds do not certify publication: ${drafts.slice(0, 5).join(', ')}${drafts.length > 5 ? ' …' : ''}`);
   } else {
     ok('no draft:true leftovers in src/content/wiki/');
   }

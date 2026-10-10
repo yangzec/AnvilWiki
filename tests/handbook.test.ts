@@ -125,7 +125,8 @@ describe('shortTitle: nav label derivation', () => {
 });
 
 describe('handbook search contract (Pagefind)', () => {
-  const src = (rel: string) => fs.readFileSync(path.resolve(ROOT, rel), 'utf8');
+  const src = (rel: string) => fs.readFileSync(path.resolve(ROOT,
+    /^src\/pages\/(?:zh\/)?landing/.test(rel) ? 'tests/fixtures/anvil-template/' + rel : rel), 'utf8');
 
   it('HandbookChapter opts chapters into the search index', () => {
     // Pagefind's rule: once ANY page on the site marks a data-pagefind-body

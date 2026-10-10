@@ -68,7 +68,7 @@ const AUDIT = '.github/workflows/content-pipeline.yml';
 const RELEASE_OPS = '.github/workflows/release-ops.yml';
 const SETUP = '.github/workflows/setup.yml';
 const INDEXNOW = '.github/workflows/indexnow.yml';
-const ALL_WORKFLOWS = [CI, AUTO, AUDIT, RELEASE_OPS, SETUP, INDEXNOW];
+const ALL_WORKFLOWS = [CI, AUTO, AUDIT, RELEASE_OPS, SETUP, INDEXNOW, '.github/workflows/deploy-clover-time.yml'];
 
 const EIGHT_GATES = [
   'pnpm lint',
@@ -565,10 +565,10 @@ describe('setup.yml python [vars] rewrite is value-aware (executes the real here
   });
 
   test.skipIf(!hasPython3)('the FORKER warning block is actually removed (real-header fixture), and absence warns instead of failing', () => {
-    // Pinned against the REAL shipping header (authors.ts precedent): if the
+    // Pinned against the original template header fixture: if the
     // wrangler.toml anchors drift, this goes red instead of the workflow
     // silently leaving a block that lies about the file still being demo.
-    const real = readFileSync(join(root, 'wrangler.toml'), 'utf8');
+    const real = readFileSync(join(root, 'tests/fixtures/anvil-template/wrangler.toml'), 'utf8');
     const header = real.slice(0, real.indexOf('END FORKER WARNING') + 'END FORKER WARNING'.length);
     expect(header).toContain('FORKERS READ THIS FIRST');
     const { out } = runVarsRewrite(`${header}\n\n${demoVars}`);
