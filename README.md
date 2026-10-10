@@ -25,7 +25,7 @@ pnpm check-links
 - 中文版：[术语、SOP 与验收交付](docs/clover-time/chinese-localization-20261010.md)。
 - 配图、图标和 GA4 保留；广告与评论关闭；公开正文不展示内部来源备注或缺口列表。
 - 默认构建和线上部署一致，但 10 页正式事实验收尚未完成。未验证的兑换码不进入 active / expired。
-- GitHub Actions 工作流 `.github/workflows/deploy-clover-time.yml` 会验证后上传到既有 Cloudflare Pages 项目。八项门禁已在 GitHub 通过，上传受缺失两项仓库 Secrets 阻塞；云环境 Token 不会自动同步到 GitHub。
+- GitHub Actions 工作流 `.github/workflows/deploy-clover-time.yml` 会验证后上传到既有 Cloudflare Pages 项目。八项门禁已在 GitHub 通过，上传仍受仓库凭据条件阻塞；云环境 Token 不会自动同步到 GitHub。当前中文版已从干净源码构建并直接上传到现有 Pages 项目。
 - IndexNow 使用已提交的公共 `.indexnow-key`，预览模式不提交收录请求。正式发布前按交付文档验收内容和 SEO。
 
 上游使用手册保留在 `docs/`；模板示例仅用于测试，不作为网站页面发布。AnvilWiki 原始介绍与教程：https://anvil.wiki/zh/landing/docs/dev/。

@@ -1,0 +1,15 @@
+{
+  "project": "clover-time-wiki-preview",
+  "deployment": "6b47e5dc-d598-4ceb-8d53-844b0182d2f4",
+  "environment": "production",
+  "url": "https://6b47e5dc.clover-time-wiki-preview.pages.dev",
+  "created_on": "2026-10-10T05:11:01.309571Z",
+  "latest_stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-10T05:11:02.68506Z",
+    "status": "success"
+  },
+  "commit": "b5ac36b4f09da2744b87efea7606406994e6adc4",
+  "previous": "a306ff44-f8e5-41c3-9564-d974306dffd7"
+}

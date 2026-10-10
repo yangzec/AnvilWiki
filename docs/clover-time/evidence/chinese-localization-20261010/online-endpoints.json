@@ -1,0 +1,50 @@
+[
+  {
+    "path": "/zh/",
+    "status": 200,
+    "bytes": 49986,
+    "sha256": "c76e395c7cfc2458a027b4260612457587c9ed3828e16bc9bc4038ded90af023"
+  },
+  {
+    "path": "/zh/guides/beginner-guide/",
+    "status": 200,
+    "bytes": 70808,
+    "sha256": "d43451628d03d6386f71e3252036c38efff67945ff2320ec10c6f07a373be2f7"
+  },
+  {
+    "path": "/zh/items/poison/",
+    "status": 200,
+    "bytes": 63432,
+    "sha256": "3334587754fe60eb0b2e4a20a07f699cdf115214a210f4d37e3b4592abf7b48b"
+  },
+  {
+    "path": "/zh/privacy-policy/",
+    "status": 200,
+    "bytes": 29344,
+    "sha256": "b616645a2f62377a31bc2b18f898ee25a51bbfd070e4bc3a74510c645dfff98b"
+  },
+  {
+    "path": "/sitemap-index.xml",
+    "status": 200,
+    "bytes": 230,
+    "sha256": "401b2d45589e1fdce44cb53b1b9acb90448072779446c97302ebd1ddfbaf21ff"
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "bytes": 75,
+    "sha256": "801af99853c4340d160c62b6b81581e748c6ab74049f2233396b05c8fedc5e47"
+  },
+  {
+    "path": "/.well-known/anvilwiki-deploy.txt",
+    "status": 200,
+    "bytes": 40,
+    "sha256": "cfd0a859ec3ef1fc1d3c09ce4ad58fa5e6c088ab9394443ba1f565f82137d6e1"
+  },
+  {
+    "path": "/favicon.svg",
+    "status": 200,
+    "bytes": 557,
+    "sha256": "d0d71be9b9ed583f84acdf8f721386535ff32c1a256e14441a860f6fc3116cb3"
+  }
+]

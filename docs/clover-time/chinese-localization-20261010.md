@@ -53,6 +53,17 @@
 
 资料与测试证据保存于 `docs/clover-time/evidence/chinese-localization-20261010/`。插画文字未重绘，英文游戏 UI／技能名保留以便对照；中文文章翻译不增加新的游戏事实，正式事实验收仍为 0/10。
 
-部署沿用既有 `clover-time-wiki-preview` 项目及 `clovertime.world` 域名，不修改 DNS、统计 ID、仓库 Secrets 或收录保护。上一个部署为 `a306ff44-f8e5-41c3-9564-d974306dffd7`，可通过 Cloudflare Pages 部署历史回退。同步与线上结果在完成后补录。
+部署沿用既有 `clover-time-wiki-preview` 项目及 `clovertime.world` 域名，不修改 DNS、统计 ID、仓库 Secrets 或收录保护。上一个部署为 `a306ff44-f8e5-41c3-9564-d974306dffd7`，可通过 Cloudflare Pages 部署历史回退。
 
 干净检出补验：新增覆盖测试主动创建 `.tmp` 父目录，不依赖先前构建留下的目录；从 Git 归档建立未运行过构建的副本，15 项 i18n 测试通过。初版源码提交 `9e274be` 已同步至专属分支，正式部署构建采用含该测试修正的后续提交。
+
+## 发布与线上结果
+
+- 2026-10-10 13:11（北京时间）：从干净 Git 归档构建 `b5ac36b4f09da2744b87efea7606406994e6adc4`，上传到现有 Pages 项目，production 部署 `6b47e5dc-d598-4ceb-8d53-844b0182d2f4` 成功。
+- 中文入口：https://clovertime.world/zh/；直接版本地址：https://6b47e5dc.clover-time-wiki-preview.pages.dev/zh/。
+- 线上完整执行同一浏览器验收脚本，46 项通过；8 个首页／文章／隐私／sitemap／robots／SHA 标记／图标端点 HTTP 200，SHA 标记与部署源提交一致。初次默认 Python UA 请求返回 403，普通浏览器 UA 及真实浏览器访问通过，未修改访问规则。
+- 英文 10 篇源稿哈希保持不变。中英文源稿各 10 篇，仍保留 draft；线上 noindex 响应头与详情元标签保留，正式事实验收仍为 0/10，翻译验收没有开放收录。
+- 源码已正常推送到 `yangzec/AnvilWiki` 的 `clover-time` 分支；main 仍为 `ce64308f494df793f07c5b0b304737a65c61eba4`。
+- GitHub 最新源码运行 [38026598593](https://github.com/yangzec/AnvilWiki/actions/runs/38026598593) 的工程门禁全部通过；`Require deployment credentials` 仍失败，自动上传未执行。本次使用云环境既有凭据手动上传，未向仓库复制密钥。
+
+完整证据与截图：[验收目录](evidence/chinese-localization-20261010/)。本地切换测试选择器曾超时，修正选择器后单独复测；线上使用修正后的完整脚本一次完成 46 项。
