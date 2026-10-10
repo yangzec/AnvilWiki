@@ -5,7 +5,7 @@ manual: dev
 order: 2
 icon: lucide:folder-tree
 tldr: "加栏目=配置、语言 JSON、内容目录三处同时一致(跑 pnpm check-config 把关),一段提示词让 AI 全部代劳;加语言=先跑 pnpm new-locale 生成骨架,再让 AI 对照英文 JSON 逐条翻译界面、逐篇翻译文章(兑换码本体永远不译)。语言切换器只显示真的有内容的语言。"
-updated: 2026-08-17
+updated: 2026-10-10
 ---
 
 ## 你现在在哪,这章解决什么
@@ -61,13 +61,17 @@ pnpm new-locale
 
 ```text
 把 src/content/wiki/en/<category>/<slug>.mdx 翻译为 <目标语言>,
-写入 src/content/wiki/<目标语言>/ 同路径。规则:只译 title/description/summary/正文;
-slug、日期、内链路径、codes 的 code 字段不动;tags 无对应词则保留英文;
+写入 src/content/wiki/<目标语言>/ 同路径。规则:翻译 title/description/summary/正文、
+FAQ、图库 caption/alt 和正文图片 alt;slug、日期与 codes 的 code 字段不动;
+内链保留原目标,加目标语言前缀并以 / 结尾;tags 无对应词则保留英文;
 先列术语表保证全文一致。完成后运行
 pnpm check-content && pnpm build && pnpm check-i18n,全绿才算完成。
 ```
 
 注意:兑换码本体(code 字段)永远不翻译,它是全球通用的字母数字。
+
+草稿默认不计入翻译覆盖率。如果翻译的是 `draft: true` 文章,另运行
+`pnpm check-i18n --include-drafts --strict`,确认实际文章数量,不能把 `0/0` 当成文章已翻译。
 
 **语言切换器只显示真的有内容的语言**——日语一篇都没写时,切换器不会出现日语,这防的是「点了进空白页」。
 

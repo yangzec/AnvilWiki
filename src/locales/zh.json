@@ -41,12 +41,12 @@
     "decline": "拒绝",
     "consentTitle": "Cookie",
     "bossCard": {
-      "title": "Boss Overview",
-      "hp": "HP",
-      "weakness": "Weakness",
-      "resistant": "Resistant",
-      "location": "Location",
-      "level": "Rec. Level"
+      "title": "Boss 概览",
+      "hp": "生命值",
+      "weakness": "弱点",
+      "resistant": "抗性",
+      "location": "位置",
+      "level": "推荐等级"
     },
     "codesTable": {
       "active": "有效兑换码",
@@ -116,7 +116,9 @@
     "feedbackNo": "没有帮助",
     "breadcrumbAria": "面包屑导航",
     "wikiNavAria": "Wiki 导航",
-    "paginationAria": "文章导航"
+    "paginationAria": "文章导航",
+    "contactUnavailable": "本站暂未提供公开联系渠道。",
+    "contactEmail": "电子邮箱"
   },
   "overview": {
     "codes": {
@@ -125,7 +127,7 @@
     },
     "guides": {
       "overviewTitle": "Clover Time 攻略",
-      "overviewDescription": "查看新手成长、角色系统和活动攻略；正文使用英文。"
+      "overviewDescription": "查看新手成长、角色系统、基础战斗和活动的中文攻略。"
     },
     "items": {
       "overviewTitle": "Clover Time 魔导书",
@@ -234,18 +236,232 @@
   },
   "footer": {
     "playGame": "进入 Clover Time",
-    "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "officialTwitter": "Official Twitter",
-    "officialReddit": "Official Reddit",
+    "officialDiscord": "官方 Discord",
+    "officialYoutube": "官方 YouTube",
+    "officialTwitter": "官方 Twitter",
+    "officialReddit": "官方 Reddit",
     "about": "关于本站",
     "faq": "常见问题",
     "privacyPolicy": "隐私政策",
     "termsOfService": "使用条款",
     "copyright": "版权说明",
     "contact": "联系",
-    "copyrightText": "© 2026 Clover Time Wiki. All rights reserved.",
+    "copyrightText": "© 2026 Clover Time Wiki。保留所有权利。",
     "community": "游戏入口",
     "legal": "法律信息"
+  },
+  "legalPages": {
+    "about": {
+      "title": "关于本站",
+      "description": "{site} 是 {game} 的独立玩家 Wiki。游戏由 {developer} 开发，本站与开发者或 Roblox 无隶属关系。",
+      "intro": "{site} 是 {game} 的独立玩家 Wiki。游戏由 {developer} 开发，本站与开发者或 Roblox 无隶属关系。",
+      "sections": [
+        {
+          "title": "攻略与玩法资料",
+          "paragraphs": [
+            "本站提供新手成长、魔导书、角色系统、游戏活动与兑换码使用指南。"
+          ],
+          "links": []
+        },
+        {
+          "title": "游戏信息",
+          "paragraphs": [
+            "游戏信息可通过开发者运营的 Roblox 官方体验查看。"
+          ],
+          "links": [
+            {
+              "label": "Roblox 官方游戏入口",
+              "href": "{official}"
+            }
+          ]
+        },
+        {
+          "title": "联系本站",
+          "paragraphs": [
+            "官方游戏入口由开发者运营，不是本 Wiki 的联系渠道。"
+          ],
+          "links": []
+        }
+      ]
+    },
+    "privacy-policy": {
+      "title": "隐私政策",
+      "description": "本隐私政策说明访问 {site} 时，本站如何处理信息。",
+      "intro": "本隐私政策说明访问 {site} 时，本站如何处理信息。",
+      "sections": [
+        {
+          "title": "收集的信息",
+          "paragraphs": [
+            "本站是静态网站，无须注册账号或提交个人信息。本站不直接收集或存储个人数据。"
+          ],
+          "links": []
+        },
+        {
+          "title": "第三方服务",
+          "paragraphs": [
+            "启用第三方服务时，相关服务可能依据各自的隐私政策收集信息。",
+            "Google AdSense、Adsterra 等广告合作方可能使用 Cookie 展示相关广告。可以通过浏览器设置控制个性化广告。",
+            "Google Analytics 可能收集页面浏览量、近似位置等使用数据。它使用 Cookie，仅在接受同意提示后加载。Cloudflare Web Analytics 不使用 Cookie，收集汇总的页面浏览数据。",
+            "Cloudflare 作为网站托管服务商时，可能出于安全与性能需要处理基本请求数据。",
+            "启用评论时，giscus.app 会加载嵌入式 GitHub 页面，相关服务会接收到 IP 地址与浏览器信息。评论登录由 GitHub 按其隐私政策处理。",
+            "视频页面会从 i.ytimg.com 加载缩略图；点击播放后，才从 youtube-nocookie.com 加载播放器。在交互之前不会设置 YouTube Cookie。"
+          ],
+          "links": []
+        },
+        {
+          "title": "Cookie",
+          "paragraphs": [
+            "部分第三方服务会设置 Cookie。可以通过浏览器设置管理 Cookie。禁用 Cookie 可能影响个性化广告，但不会阻止访问本站内容。"
+          ],
+          "links": []
+        },
+        {
+          "title": "儿童隐私",
+          "paragraphs": [
+            "本站不面向 13 岁以下儿童，也不会有意收集儿童信息。"
+          ],
+          "links": []
+        },
+        {
+          "title": "政策更新",
+          "paragraphs": [
+            "本站可能更新隐私政策，变更会发布在本页。"
+          ],
+          "links": []
+        }
+      ]
+    },
+    "terms-of-service": {
+      "title": "使用条款",
+      "description": "访问 {site} 即表示同意以下使用条款。",
+      "intro": "访问 {site} 即表示同意以下使用条款。",
+      "sections": [
+        {
+          "title": "内容使用",
+          "paragraphs": [
+            "攻略、文章与参考资料仅供个人非商业用途使用。复制、重新发布或分发内容时，须注明出处并链接至原始页面。"
+          ],
+          "links": []
+        },
+        {
+          "title": "准确性",
+          "paragraphs": [
+            "本站力求准确，但不保证内容的完整性或正确性。游戏持续更新，信息可能过时，重要信息应在游戏内核对。"
+          ],
+          "links": []
+        },
+        {
+          "title": "第三方链接",
+          "paragraphs": [
+            "本站无法控制外部网站，也不对第三方网站的内容与运营方式负责。"
+          ],
+          "links": []
+        },
+        {
+          "title": "商标",
+          "paragraphs": [
+            "游戏商标、标识与素材属于各自权利人。本站是独立玩家项目，与 {developer} 无隶属关系，也未获得其背书。"
+          ],
+          "links": []
+        },
+        {
+          "title": "责任限制",
+          "paragraphs": [
+            "使用本站的风险由使用者自行承担。本站不对使用网站或依赖其内容造成的损失负责。"
+          ],
+          "links": []
+        },
+        {
+          "title": "条款更新",
+          "paragraphs": [
+            "本站可能修订使用条款。变更后继续使用网站，即表示接受更新后的条款。"
+          ],
+          "links": []
+        }
+      ]
+    },
+    "copyright": {
+      "title": "版权说明",
+      "description": "查看 {site} 的原创内容版权、游戏素材权利与侵权处理说明。",
+      "intro": "查看 {site} 的原创内容版权、游戏素材权利与侵权处理说明。",
+      "sections": [
+        {
+          "title": "版权声明",
+          "paragraphs": [
+            "© {year} {site}。本站原创文章、攻略与文字内容的知识产权属于本 Wiki 及其贡献者。"
+          ],
+          "links": []
+        },
+        {
+          "title": "游戏素材",
+          "paragraphs": [
+            "游戏名称、角色、标识与美术作品属于各自权利人。本站引用仅用于提供信息，不代表允许重复使用受保护素材。本站不主张拥有游戏知识产权。"
+          ],
+          "links": []
+        },
+        {
+          "title": "DMCA 与下架请求",
+          "paragraphs": [
+            "提出版权或下架请求时，请使用本站公开联系渠道；联系渠道可用后将在本站提供。"
+          ],
+          "links": []
+        },
+        {
+          "title": "玩家项目声明",
+          "paragraphs": [
+            "{legalNotice}"
+          ],
+          "links": []
+        }
+      ]
+    },
+    "contact": {
+      "title": "联系",
+      "description": "{site} 是独立玩家 Wiki。开发者运营的官方游戏入口不是本站的联系渠道。",
+      "intro": "{site} 是独立玩家 Wiki。开发者运营的官方游戏入口不是本站的联系渠道。",
+      "sections": [
+        {
+          "title": "游戏与社区",
+          "paragraphs": [],
+          "links": [
+            {
+              "label": "Roblox 官方游戏入口",
+              "href": "{official}"
+            },
+            {
+              "label": "Discord",
+              "href": "{discord}"
+            },
+            {
+              "label": "Reddit",
+              "href": "{reddit}"
+            },
+            {
+              "label": "YouTube",
+              "href": "{youtube}"
+            }
+          ]
+        },
+        {
+          "title": "内容贡献",
+          "paragraphs": [
+            "本站暂未提供公开投稿渠道。"
+          ],
+          "links": []
+        },
+        {
+          "title": "问题反馈",
+          "paragraphs": [
+            "版权或下架请求请参阅版权说明页面。"
+          ],
+          "links": [
+            {
+              "label": "版权说明",
+              "href": "/copyright/"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

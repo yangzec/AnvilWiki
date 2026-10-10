@@ -1,0 +1,13 @@
+Already up to date
+Done in 293ms using pnpm v11.1.1
+$ tsx scripts/check-i18n.ts --include-drafts --strict
+
+🌐 i18n coverage report — default locale: en
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ zh
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Articles: 10/10 translated (100%)
+   UI keys:  166/166 translated (100%)
+
+✅ All locales fully covered.

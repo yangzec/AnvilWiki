@@ -45,28 +45,25 @@ def main():
     (checkout / "node_modules").symlink_to(project / "node_modules", target_is_directory=True)
 
     articles = []
-    for source in sorted((project / "src/content/wiki/en").rglob("*.mdx")):
+    for source in sorted((project / "src/content/wiki").rglob("*.mdx")):
         text = source.read_text()
         if not re.search(r"^draft:\s*true\s*$", text, re.M):
             raise SystemExit(f"Expected a research draft: {source}")
         original_hash = hashlib.sha256(source.read_bytes()).hexdigest()
         review = re.sub(r"^draft:\s*true\s*$", "draft: false\nnoindex: true", text, count=1, flags=re.M)
         (checkout / source.relative_to(project)).write_text(review)
-        # English reading views under the Chinese UI, review-only.
-        # The source body stays English; this does not translate articles.
-        # Materializing them lets the existing locale lists and home cards
-        # show the same research without changing framework fallback rules.
-        chinese_path = checkout / "src/content/wiki/zh" / source.relative_to(project / "src/content/wiki/en")
-        chinese_path.parent.mkdir(parents=True, exist_ok=True)
-        chinese_review = review
-        chinese_review = re.sub(r"\]\(/(codes|guides|items)/", r"](/zh/\1/", chinese_review)
-        chinese_path.write_text(chinese_review)
-        route = "/" + source.relative_to(project / "src/content/wiki/en").with_suffix("").as_posix() + "/"
-        articles.append({"source": str(source.relative_to(project)), "route": route,
+        # Render each real locale source in place. Missing translations keep
+        # Astro's existing detail fallback and list-empty behavior; never
+        # manufacture a translated source by copying the English body.
+        content_path = source.relative_to(project / "src/content/wiki")
+        locale = content_path.parts[0]
+        prefix = "" if locale == "en" else "/" + locale
+        route = prefix + "/" + Path(*content_path.parts[1:]).with_suffix("").as_posix() + "/"
+        articles.append({"source": str(source.relative_to(project)), "route": route, "locale": locale,
                          "source_sha256": original_hash, "source_draft": True,
                          "review_only": True})
-    if len(articles) != 10:
-        raise SystemExit("Expected exactly ten reviewed source files.")
+    if sum(article["locale"] == "en" for article in articles) != 10:
+        raise SystemExit("Expected exactly ten English research source files.")
 
     # Review-only article entrances must not become broken links in the
     # ordinary formal export, which still excludes all source drafts.
@@ -77,10 +74,13 @@ def main():
                                              else "攻略与资料")
         links = []
         for article in articles:
+            if article["locale"] != locale:
+                continue
             text = (project / article["source"]).read_text()
             match = re.search(r'^title:\s*"([^"]+)"', text, re.M)
             links.append({"label": match.group(1) if match else article["route"],
-                          "href": article["route"]})
+                          # Homepage components add the locale prefix themselves.
+                          "href": article["route"] if locale == "en" else article["route"][len("/" + locale):]})
         ui["home"]["popular"]["quickLinks"] = links
         path.write_text(json.dumps(ui, ensure_ascii=False, indent=2) + "\n")
 
@@ -92,6 +92,7 @@ def main():
     # it sees this isolated review directory as a new workspace.
     pnpm = ("pnpm", "--config.verify-deps-before-run=false")
     for command in (pnpm + ("check-config",), pnpm + ("check-content",),
+                    pnpm + ("check-i18n", "--strict-ui"),
                     pnpm + ("build:static",), pnpm + ("check-links",)):
         log_path = output / ("-".join(command) + ".log")
         with log_path.open("w") as log:
@@ -121,7 +122,8 @@ def main():
                  "sha256": hashlib.sha256(p.read_bytes()).hexdigest()}
                 for p in sorted(upload.rglob("*")) if p.is_file()]
     result = {"mode": "research-preview", "formal_acceptance": "0/10",
-              "chinese_ui_views": "English body with Chinese UI; not translations",
+              "locale_articles": {locale: sum(a["locale"] == locale for a in articles)
+                                  for locale in ("en", "zh")},
               "upload_directory": str(upload.relative_to(project)),
               "articles": articles, "commands": commands, "files": manifest}
     (output / "manifest.json").write_text(json.dumps(result, indent=2) + "\n")

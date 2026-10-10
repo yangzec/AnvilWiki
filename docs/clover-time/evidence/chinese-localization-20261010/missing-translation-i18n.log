@@ -1,0 +1,13 @@
+$ tsx scripts/check-i18n.ts --include-drafts --strict
+
+🌐 i18n coverage report — default locale: en
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ zh
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Articles: 9/10 translated (90%)
+   ⬜ missing:  zh/items/poison
+   UI keys:  166/166 translated (100%)
+
+ℹ️ Missing items fall back to English at runtime (articles 404-never, UI deepMerge).
+[ELIFECYCLE] Command failed with exit code 1.

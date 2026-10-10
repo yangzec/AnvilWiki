@@ -1,0 +1,8 @@
+Already up to date
+Done in 299ms using pnpm v11.1.1
+$ tsx scripts/check-content.ts
+
+📝 Content lint — 20 MDX files
+
+
+✅ Content lint clean.

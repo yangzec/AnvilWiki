@@ -1,0 +1,6 @@
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-config"], "exit_code": 0, "log": ".tmp/missing-translation-preview/pnpm---config.verify-deps-before-run=false-check-config.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-content"], "exit_code": 0, "log": ".tmp/missing-translation-preview/pnpm---config.verify-deps-before-run=false-check-content.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-i18n", "--strict-ui"], "exit_code": 0, "log": ".tmp/missing-translation-preview/pnpm---config.verify-deps-before-run=false-check-i18n---strict-ui.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "build:static"], "exit_code": 0, "log": ".tmp/missing-translation-preview/pnpm---config.verify-deps-before-run=false-build:static.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-links"], "exit_code": 0, "log": ".tmp/missing-translation-preview/pnpm---config.verify-deps-before-run=false-check-links.log"}
+{"upload_directory": ".tmp/missing-translation-preview/upload", "articles": 19, "files": 204}

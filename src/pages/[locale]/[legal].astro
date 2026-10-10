@@ -1,10 +1,12 @@
 ---
 /**
  * Non-default-locale legal pages: /[locale]/about, /[locale]/privacy-policy, etc.
- * Body stays in English (per PRD), but chrome respects locale.
+ * Titles and body use locale JSON; missing messages fall back to English.
  */
 import LegalPage from '~/components/layout/LegalPage.astro';
-import LegalContent from '~/components/layout/LegalContent.astro';
+import LocalizedLegalContent from '~/components/layout/LocalizedLegalContent.astro';
+import { getUi } from '~/i18n/ui';
+import { site } from '~/config/site';
 import { isLocale, defaultLocale, locales, type Locale } from '~/i18n/routing';
 
 export function getStaticPaths() {
@@ -21,13 +23,6 @@ export function getStaticPaths() {
 }
 
 const LEGAL_PAGES = ['about', 'privacy-policy', 'terms-of-service', 'copyright', 'contact'];
-const LEGAL_TITLES: Record<string, string> = {
-  about: 'About',
-  'privacy-policy': 'Privacy Policy',
-  'terms-of-service': 'Terms of Service',
-  copyright: 'Copyright',
-  contact: 'Contact',
-};
 
 // Route params surface on Astro.params, NOT Astro.props (AGENTS.md gotcha #4).
 const { locale: localeParam, legal } = Astro.params as { locale?: string; legal?: string };
@@ -36,14 +31,16 @@ if (!localeParam || !legal || !isLocale(localeParam) || localeParam === defaultL
 }
 const locale: Locale = localeParam;
 
-const titles: Record<string, string> = LEGAL_TITLES;
-
 if (!LEGAL_PAGES.includes(legal)) {
   return new Response('Not Found', { status: 404 });
 }
 const pageKey = legal as 'about' | 'privacy-policy' | 'terms-of-service' | 'copyright' | 'contact';
+const ui = getUi(locale);
+const copy = ui.legalPages[pageKey];
+const description = copy.description.replaceAll('{site}', ui.site.name)
+  .replaceAll('{game}', site.game.name).replaceAll('{developer}', site.game.developer);
 ---
 
-<LegalPage locale={locale} title={titles[pageKey]} lastUpdated="2026-08-11">
-  <LegalContent page={pageKey} />
+<LegalPage locale={locale} title={copy.title} description={description} lastUpdated="2026-10-10">
+  <LocalizedLegalContent locale={locale} page={pageKey} />
 </LegalPage>

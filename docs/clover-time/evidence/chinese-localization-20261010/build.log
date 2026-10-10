@@ -1,0 +1,43 @@
+Already up to date
+Done in 308ms using pnpm v11.1.1
+$ python3 scripts/build-site.py
+[build] Mode: preview; SITE_URL: https://clovertime.world
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-config"], "exit_code": 0, "log": ".tmp/site-build-z6czoy94/pnpm---config.verify-deps-before-run=false-check-config.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-content"], "exit_code": 0, "log": ".tmp/site-build-z6czoy94/pnpm---config.verify-deps-before-run=false-check-content.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-i18n", "--strict-ui"], "exit_code": 0, "log": ".tmp/site-build-z6czoy94/pnpm---config.verify-deps-before-run=false-check-i18n---strict-ui.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "build:static"], "exit_code": 0, "log": ".tmp/site-build-z6czoy94/pnpm---config.verify-deps-before-run=false-build:static.log"}
+{"command": ["pnpm", "--config.verify-deps-before-run=false", "check-links"], "exit_code": 0, "log": ".tmp/site-build-z6czoy94/pnpm---config.verify-deps-before-run=false-check-links.log"}
+{"upload_directory": ".tmp/site-build-z6czoy94/upload", "articles": 20, "files": 204}
+[build] Protected preview: 20 articles exported to dist; source draft flags unchanged.
+$ pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts
+
+Running Pagefind v1.5.2 (Extended)
+Running from: "/workspace/AnvilWiki"
+Source:       "dist"
+Output:       "dist/pagefind"
+
+[Walking source directory]
+Found 51 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+
+[Reading languages]
+Discovered 2 languages: en, zh
+
+[Building search indexes]
+Total:
+  Indexed 2 languages
+  Indexed 20 pages
+  Indexed 1576 words
+  Indexed 0 filters
+  Indexed 0 sorts
+Note: Pagefind doesn't support stemming for the language zh.
+Search will still work, but will not match across root words.
+Note: Pagefind doesn't support stemming for the language zh.
+Search will still work, but will not match across root words.
+
+Finished in 0.180 seconds
+[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=e96f9a271a applied to 51 pages; range-media lowered in 0 files
+[IndexNow] Wrote dist/7838ab9ae96ee5559124c05b30793cf6212160ba368dbcdc73e91697c8bfa480.txt (source: file)

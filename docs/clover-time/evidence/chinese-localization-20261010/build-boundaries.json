@@ -1,0 +1,14 @@
+{
+  "strict_draft_coverage_detects_missing_translation": true,
+  "preview_uses_real_translations": true,
+  "missing_translation_uses_english_detail_fallback": true,
+  "missing_translation_not_advertised_on_home": true,
+  "no_synthetic_chinese_source": true,
+  "fallback_noindex_and_sitemap_exclusion": true,
+  "production_excludes_all_draft_article_urls": true,
+  "source_hashes_unchanged": true,
+  "preview_locale_articles": {
+    "en": 10,
+    "zh": 9
+  }
+}

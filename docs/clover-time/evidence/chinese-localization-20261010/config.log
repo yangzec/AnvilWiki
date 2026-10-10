@@ -1,0 +1,23 @@
+Already up to date
+Done in 314ms using pnpm v11.1.1
+$ tsx scripts/check-config.ts
+
+🔧 AnvilWiki config consistency check
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Nav key consistency (navigation.ts ↔ en.json ↔ content dirs)
+  ✅ all nav keys consistent
+
+2. Locale consistency (routing.ts ↔ locales/*.json ↔ content dirs)
+  ✅ all locales consistent
+
+3. Homepage displayType enum (all locale JSONs)
+  ✅ all displayTypes valid
+
+4. Deployment domain (wrangler.toml SITE_URL ↔ site.ts domain)
+  ✅ wrangler.toml [vars] → https://clovertime.world matches site.ts domain
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Config is consistent.

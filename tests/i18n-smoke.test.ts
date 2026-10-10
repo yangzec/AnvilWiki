@@ -13,6 +13,7 @@
 import { describe, expect, it } from 'vitest';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { spawnSync } from 'node:child_process';
 import { getUi } from '~/i18n/ui';
 import { locales, defaultLocale } from '~/i18n/routing';
 
@@ -84,5 +85,50 @@ describe('i18n: getUi results are deeply frozen (read-only by contract AND at ru
     expect(() => {
       (ja.shared as Record<string, unknown>).wikiNavAria = 'poison';
     }).toThrow();
+  });
+});
+
+describe('i18n: draft translation coverage can be checked explicitly', () => {
+  function report(translated: boolean, includeDrafts: boolean) {
+    const root = fs.mkdtempSync(path.join(ROOT, '.tmp/i18n-coverage-'));
+    try {
+      fs.mkdirSync(path.join(root, 'src/i18n'), { recursive: true });
+      fs.writeFileSync(path.join(root, 'src/i18n/routing.ts'),
+        "export const locales = ['en', 'zh'] as const;\nexport const defaultLocale = 'en';\n");
+      fs.mkdirSync(path.join(root, 'src/locales'), { recursive: true });
+      for (const locale of ['en', 'zh']) {
+        fs.writeFileSync(path.join(root, `src/locales/${locale}.json`), '{"nav":{"home":"Home"}}');
+        fs.mkdirSync(path.join(root, `src/content/wiki/${locale}/guides`), { recursive: true });
+      }
+      const draft = '---\ntitle: "Example"\ndraft: true\n---\n';
+      fs.writeFileSync(path.join(root, 'src/content/wiki/en/guides/example.mdx'), draft);
+      if (translated) fs.writeFileSync(path.join(root, 'src/content/wiki/zh/guides/example.mdx'), draft);
+      return spawnSync(process.execPath, [
+        '--import', path.join(ROOT, 'node_modules/tsx/dist/loader.mjs'),
+        path.join(ROOT, 'scripts/check-i18n.ts'), '--strict',
+        ...(includeDrafts ? ['--include-drafts'] : []),
+      ], { cwd: root, encoding: 'utf8' });
+    } finally {
+      fs.rmSync(root, { recursive: true, force: true });
+    }
+  }
+
+  it('keeps the default published-only policy for untranslated drafts', () => {
+    const result = report(false, false);
+    expect(result.status, result.stderr).toBe(0);
+    expect(result.stdout).toContain('Articles: 0/0');
+  });
+
+  it('fails strict authoring coverage when a draft translation is missing', () => {
+    const result = report(false, true);
+    expect(result.status, result.stderr).toBe(1);
+    expect(result.stdout).toContain('Articles: 0/1');
+    expect(result.stdout).toContain('missing:  zh/guides/example');
+  });
+
+  it('counts translated drafts instead of reporting an empty 0/0', () => {
+    const result = report(true, true);
+    expect(result.status, result.stderr).toBe(0);
+    expect(result.stdout).toContain('Articles: 1/1 translated (100%)');
   });
 });

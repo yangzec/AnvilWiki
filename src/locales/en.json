@@ -116,7 +116,9 @@
     "feedbackNo": "No",
     "breadcrumbAria": "Breadcrumb",
     "wikiNavAria": "Wiki navigation",
-    "paginationAria": "Article pagination"
+    "paginationAria": "Article pagination",
+    "contactUnavailable": "A public contact channel for this wiki is not yet available.",
+    "contactEmail": "Email"
   },
   "overview": {
     "codes": {
@@ -247,5 +249,219 @@
     "copyrightText": "© 2026 Clover Time Wiki. All rights reserved.",
     "community": "Community",
     "legal": "Legal"
+  },
+  "legalPages": {
+    "about": {
+      "title": "About",
+      "description": "{site} is an independent fan wiki for {game}, developed by {developer}. We are not affiliated with the developer or Roblox.",
+      "intro": "{site} is an independent fan wiki for {game}, developed by {developer}. We are not affiliated with the developer or Roblox.",
+      "sections": [
+        {
+          "title": "Guides and Reference Pages",
+          "paragraphs": [
+            "Browse beginner progression, Grimoires, character systems, activities, and code redemption."
+          ],
+          "links": []
+        },
+        {
+          "title": "Game Information",
+          "paragraphs": [
+            "Visit the developer-operated Roblox experience for game information."
+          ],
+          "links": [
+            {
+              "label": "Official Roblox experience",
+              "href": "{official}"
+            }
+          ]
+        },
+        {
+          "title": "Contact",
+          "paragraphs": [
+            "The official game resource is not a contact channel for this wiki."
+          ],
+          "links": []
+        }
+      ]
+    },
+    "privacy-policy": {
+      "title": "Privacy Policy",
+      "description": "This privacy policy describes how {site} handles information when you visit this website.",
+      "intro": "This privacy policy describes how {site} handles information when you visit this website.",
+      "sections": [
+        {
+          "title": "Information We Collect",
+          "paragraphs": [
+            "This is a static website. We do not require an account or submission of personal information, and we do not directly collect or store personal data."
+          ],
+          "links": []
+        },
+        {
+          "title": "Third-Party Services",
+          "paragraphs": [
+            "When enabled, third-party services may collect information under their own privacy policies.",
+            "Advertising partners such as Google AdSense and Adsterra may use cookies to serve relevant ads. Browser settings can control personalized advertising.",
+            "Google Analytics may collect usage data such as page views and approximate location. It uses cookies and loads only after you accept the consent banner. Cloudflare Web Analytics is cookieless and collects aggregate page-view data.",
+            "Cloudflare may process basic request data for security and performance when hosting the site.",
+            "When comments are enabled, giscus.app loads an embedded GitHub view that exposes IP and browser information to the service. GitHub handles sign-in under its own privacy policy.",
+            "Video pages load thumbnails from i.ytimg.com. Pressing play loads the player from youtube-nocookie.com. No YouTube cookies are set before interaction."
+          ],
+          "links": []
+        },
+        {
+          "title": "Cookies",
+          "paragraphs": [
+            "Some third-party services set cookies. You can control cookies through browser settings. Disabling cookies may affect ad personalization but will not prevent access to site content."
+          ],
+          "links": []
+        },
+        {
+          "title": "Children's Privacy",
+          "paragraphs": [
+            "This site is not directed at children under 13, and we do not knowingly collect information from children."
+          ],
+          "links": []
+        },
+        {
+          "title": "Changes to This Policy",
+          "paragraphs": [
+            "We may update this policy. Changes will be posted on this page."
+          ],
+          "links": []
+        }
+      ]
+    },
+    "terms-of-service": {
+      "title": "Terms of Service",
+      "description": "By accessing {site}, you agree to the following terms of service.",
+      "intro": "By accessing {site}, you agree to the following terms of service.",
+      "sections": [
+        {
+          "title": "Use of Content",
+          "paragraphs": [
+            "Guides, articles, and reference material are for personal, non-commercial use. Do not copy, republish, or redistribute content without attribution and a link to the original page."
+          ],
+          "links": []
+        },
+        {
+          "title": "Accuracy",
+          "paragraphs": [
+            "We strive for accuracy but make no warranties about completeness or correctness. The game is frequently updated and information can become outdated. Verify critical information in-game."
+          ],
+          "links": []
+        },
+        {
+          "title": "Third-Party Links",
+          "paragraphs": [
+            "We do not control external websites or take responsibility for their content and practices."
+          ],
+          "links": []
+        },
+        {
+          "title": "Trademarks",
+          "paragraphs": [
+            "Game trademarks, logos, and assets belong to their respective rights holders. This independent fan project is not affiliated with or endorsed by {developer}."
+          ],
+          "links": []
+        },
+        {
+          "title": "Limitation of Liability",
+          "paragraphs": [
+            "Use this site at your own risk. We are not liable for damages arising from use of the site or reliance on its content."
+          ],
+          "links": []
+        },
+        {
+          "title": "Changes to These Terms",
+          "paragraphs": [
+            "We may revise these terms. Continued use after changes constitutes acceptance of the updated terms."
+          ],
+          "links": []
+        }
+      ]
+    },
+    "copyright": {
+      "title": "Copyright",
+      "description": "Copyright and game-asset information for {site}.",
+      "intro": "Copyright and game-asset information for {site}.",
+      "sections": [
+        {
+          "title": "Copyright Notice",
+          "paragraphs": [
+            "© {year} {site}. Original articles, guides, and written content belong to this wiki and its contributors."
+          ],
+          "links": []
+        },
+        {
+          "title": "Game Assets",
+          "paragraphs": [
+            "Game names, characters, logos, and artwork belong to their rights holders. References are informational and do not grant permission to reuse protected assets. We claim no ownership of game intellectual property."
+          ],
+          "links": []
+        },
+        {
+          "title": "DMCA / Takedown",
+          "paragraphs": [
+            "For copyright and takedown requests, use the public contact channel when available."
+          ],
+          "links": []
+        },
+        {
+          "title": "Fan-Made Notice",
+          "paragraphs": [
+            "{legalNotice}"
+          ],
+          "links": []
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "{site} is an independent fan wiki. Developer-operated game links are not contact channels for this wiki.",
+      "intro": "{site} is an independent fan wiki. Developer-operated game links are not contact channels for this wiki.",
+      "sections": [
+        {
+          "title": "Game and Community",
+          "paragraphs": [],
+          "links": [
+            {
+              "label": "Official Roblox experience",
+              "href": "{official}"
+            },
+            {
+              "label": "Discord",
+              "href": "{discord}"
+            },
+            {
+              "label": "Reddit",
+              "href": "{reddit}"
+            },
+            {
+              "label": "YouTube",
+              "href": "{youtube}"
+            }
+          ]
+        },
+        {
+          "title": "Contributing",
+          "paragraphs": [
+            "A public contribution channel is not yet available."
+          ],
+          "links": []
+        },
+        {
+          "title": "Reporting Issues",
+          "paragraphs": [
+            "For copyright or takedown requests, see the copyright page."
+          ],
+          "links": [
+            {
+              "label": "Copyright",
+              "href": "/copyright/"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

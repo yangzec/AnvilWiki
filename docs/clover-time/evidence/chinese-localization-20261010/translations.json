@@ -1,0 +1,373 @@
+{
+  "articles": [
+    {
+      "path": "codes/all-codes.mdx",
+      "title": "Clover Time 兑换码：兑换入口与重抽资源",
+      "description": "了解 Clover Time 大厅与游戏内的兑换码入口，按原样输入并提交兑换码，区分角色重抽使用的 Spins 与魔导书抽取使用的魔力水晶。",
+      "summary": "Clover Time 的大厅设有 Codes 输入框，游戏内的 Settings 菜单也有 Codes 栏目。按原样输入兑换码，再按 Enter 提交。种族、社会阶层与特性重抽使用角色资源 Spins，魔导书抽取使用魔力水晶，两类余额需要分别查看。",
+      "faq": [
+        {
+          "question": "大厅兑换码输入框显示什么文字？",
+          "answer": "输入框标为 Codes，占位提示是 Enter code...。"
+        },
+        {
+          "question": "留在游戏世界中也能输入兑换码吗？",
+          "answer": "可以。游玩时打开 Menu，再进入 Settings，找到 Codes 栏目。"
+        },
+        {
+          "question": "需要把奖励说明一起复制进输入框吗？",
+          "answer": "只复制兑换码本体。属于兑换码的字母、数字和标点都要保留。"
+        },
+        {
+          "question": "Special 余额属于魔力水晶计数吗？",
+          "answer": "不属于。Special 在角色重抽面板中单独显示，魔力水晶用于魔导书抽取。"
+        },
+        {
+          "question": "在哪里查看角色重抽余额？",
+          "answer": "打开角色重抽面板，查看 Race、Social Class 和 Trait 三栏上方的 Spins 与 Special 余额。"
+        }
+      ],
+      "gallery": [],
+      "h2": 3,
+      "source_sha256": "ff47414f7ef0b69567721350c20dbd2ad05a87b79c7eb295a0e78e41ff910c5d",
+      "translation_sha256": "2e3dd6d98314cabc55b8a440d9b632befb186214de7a085d158a5993cc5ba7a0"
+    },
+    {
+      "path": "guides/beginner-guide.mdx",
+      "title": "Clover Time 新手入门：角色配置、战斗与魔法",
+      "description": "从角色选项和基础战斗开始熟悉 Clover Time，了解采集工具、魔导书塔的罗盘指引与交互提示，再通过魔法扫帚探索地图。",
+      "summary": "开局先熟悉角色菜单、练习基础攻击，并跟随早期任务提示。种族、社会阶层与特性是三类独立选项。通过罗盘塔形图标寻找魔导书抽取点，将魔力水晶与角色 Spins 分开管理，再随着进度学习使用魔法扫帚探索地图。",
+      "faq": [
+        {
+          "question": "新角色应该查看哪些配置类别？",
+          "answer": "分别阅读 Race、Social Class 和 Trait，它们描述角色配置的不同部分。"
+        },
+        {
+          "question": "战斗攻略中的 M1 是什么？",
+          "answer": "M1 指基础攻击，用于练习武器操作和了解敌人的攻击范围。"
+        },
+        {
+          "question": "哪种工具用于农作活动？",
+          "answer": "Rake 用于农作活动，Axe 用于砍树。"
+        },
+        {
+          "question": "哪个罗盘标记指向魔导书抽取点？",
+          "answer": "跟随塔形图标前往 Grimoire Tower。"
+        },
+        {
+          "question": "哪个任务介绍扫帚平衡训练？",
+          "answer": "Master Elsie 提供的 Learning to Fly 任务会介绍扫帚平衡活动。"
+        }
+      ],
+      "gallery": [
+        {
+          "image": "../../../../assets/covers/clover-time-flow-beginner-systems.png",
+          "caption": "开局系统检查清单示意图。",
+          "alt": "角色、界面、战斗与探索的开局检查清单"
+        },
+        {
+          "image": "../../../../assets/covers/clover-time-flow-beginner-tower.png",
+          "caption": "魔导书目的地与交互示意图。",
+          "alt": "寻找魔导书塔并阅读抽取交互提示"
+        }
+      ],
+      "h2": 5,
+      "source_sha256": "0417c9bae1d9866ca1a8f6b2c1be3d58537a93e6fd4100809bcc7e2520202d7d",
+      "translation_sha256": "952cf4ae198b1bd7aee00631b063979d71e605b6438e5142eb1bd7cd643280b6"
+    },
+    {
+      "path": "guides/fishing-fragments.mdx",
+      "title": "Clover Time 钓鱼指南：鱼竿、鱼饵与魔力材料",
+      "description": "准备鱼竿与鱼饵，在 Clover Time 的河流或海边进行钓鱼，掌握 PC 上的上钩操作，并分别管理鱼类、魔力水晶材料与角色 Spins。",
+      "summary": "在 Clover Time 钓鱼需要鱼竿与鱼饵，并靠近河流或海水。装备鱼竿后，PC 玩家按 V 打开钓鱼和鱼饵选择，等待上钩，再完成点击小游戏。鱼获、魔力水晶材料与角色 Spins 应分别管理，避免混淆不同成长资源。",
+      "faq": [
+        {
+          "question": "钓鱼需要哪两种用品？",
+          "answer": "准备鱼竿与鱼饵。"
+        },
+        {
+          "question": "开始钓鱼前应该站在哪里？",
+          "answer": "装备鱼竿后，靠近河流或海水。"
+        },
+        {
+          "question": "PC 钓鱼流程中的 V 有什么作用？",
+          "answer": "V 用于开始钓鱼交互并选择鱼饵。"
+        },
+        {
+          "question": "鱼上钩后要做什么？",
+          "answer": "完成点击小游戏，再到背包中查看鱼获。"
+        },
+        {
+          "question": "魔力水晶碎片可以当成完整水晶吗？",
+          "answer": "碎片与完整魔力水晶要分开。完整水晶才是魔导书抽取资源。"
+        }
+      ],
+      "gallery": [
+        {
+          "image": "../../../../assets/covers/clover-time-flow-fishing-preparation.png",
+          "caption": "钓鱼准备清单示意图。",
+          "alt": "鱼竿、鱼饵、水域与背包的钓鱼准备清单"
+        },
+        {
+          "image": "../../../../assets/covers/clover-time-flow-fishing-catch.png",
+          "caption": "PC 钓鱼操作顺序示意图。",
+          "alt": "从装备鱼竿到完成上钩小游戏的 PC 操作流程"
+        }
+      ],
+      "h2": 4,
+      "source_sha256": "6313e8a09674d2c8a9c1ff3797eb95e5a2214fd55f78919951e0a428a90ecc09",
+      "translation_sha256": "51524edacec864fc69bdf737437ef8e3fc25cf9d33ae21d3abb7dc82db152b22"
+    },
+    {
+      "path": "guides/grimoire-tier-list.mdx",
+      "title": "Clover Time 魔导书强度榜：PvE 定位与稀有度",
+      "description": "比较 Clover Time 的十本魔导书、获取稀有度与 PvE 战斗定位，了解 Anti Magic、Poison、Battle Lightning 和 Ice 的选择思路。",
+      "summary": "PvE 魔导书比较可以先看 Anti Magic 与 Poison，再考虑 Battle Lightning、Explosive Flame 和 Ice。根据喜欢的战斗方式选择，而非只看稀有度。十本魔导书从普通 Earth、Fire 到神话 Anti Magic，分别提供不同的法术或武器用途。",
+      "faq": [
+        {
+          "question": "这份魔导书排名包含 PvP 吗？",
+          "answer": "比较围绕 PvE 技能定位与成长展开，没有给出 PvP 排名。"
+        },
+        {
+          "question": "Fire 与 Explosive Flame 是同一本魔导书吗？",
+          "answer": "不是。Fire 属于普通，Explosive Flame 是独立的史诗魔导书。"
+        },
+        {
+          "question": "Poison 属于哪个稀有度分组？",
+          "answer": "Poison 与 Explosive Flame 同属史诗分组。"
+        },
+        {
+          "question": "为什么非普通魔导书会进入第二档？",
+          "answer": "Ice 提供范围攻击和冻结效果。战斗定位与获取稀有度是两个不同维度。"
+        },
+        {
+          "question": "第二档和第三档内部还有先后排名吗？",
+          "answer": "没有。各组包含不同定位的选择，表格行顺序不代表进一步排名。"
+        }
+      ],
+      "gallery": [],
+      "h2": 4,
+      "source_sha256": "0cfff5de42eab0f4ccb6cec28540efc60aeffad509e650b728ed844bc3fdfaff",
+      "translation_sha256": "31da29df3a38cf9aabd06a720ab44b9bc1019cd2dd3562300b701a3cddc56e75"
+    },
+    {
+      "path": "guides/how-to-redeem-codes.mdx",
+      "title": "Clover Time 兑换码使用教程：大厅与设置菜单",
+      "description": "通过 Clover Time 大厅的 Codes 输入框，或游戏内的 Menu 与 Settings 菜单兑换代码，检查字母、标点和多余空格后按 Enter 提交。",
+      "summary": "兑换 Clover Time 兑换码时，可以使用大厅的 Codes 输入框，也可以在游玩时打开 Menu 和 Settings。按原样输入兑换码，去掉多余空格，再按 Enter 提交。这两个菜单提供不同入口，都用于输入活动兑换码。",
+      "faq": [
+        {
+          "question": "大厅的兑换入口在哪个位置？",
+          "answer": "Codes 输入框位于大厅画面的左下角。"
+        },
+        {
+          "question": "PC 上按哪个键提交兑换码？",
+          "answer": "把兑换码放入 Codes 输入框后，按 Enter 提交。"
+        },
+        {
+          "question": "游戏世界中的菜单操作顺序是什么？",
+          "answer": "打开 Menu，选择 Settings，再找到 Codes。"
+        },
+        {
+          "question": "可以一次提交多个兑换码吗？",
+          "answer": "每次输入一个兑换码，才能把游戏反馈与对应的尝试准确匹配。"
+        },
+        {
+          "question": "提交未成功时应检查哪些文字？",
+          "answer": "逐一核对兑换码的字母、数字和标点，并检查是否多了空格或换行。"
+        }
+      ],
+      "gallery": [
+        {
+          "image": "../../../../assets/covers/clover-time-flow-redeem-lobby.png",
+          "caption": "大厅兑换码入口示意图。",
+          "alt": "从大厅找到兑换码输入框的操作流程"
+        },
+        {
+          "image": "../../../../assets/covers/clover-time-flow-redeem-settings.png",
+          "caption": "游戏内兑换码入口示意图。",
+          "alt": "通过 Menu 与 Settings 找到 Codes 的操作流程"
+        }
+      ],
+      "h2": 4,
+      "source_sha256": "7e8f032ea1616c087b8717d74f857da8d88fd61b2eab832e3aff046976c7498d",
+      "translation_sha256": "6ab77bd1ea87c814e0b7a8cafeeb41abc77c1e4a7fc524858f11c53cfab64cd1"
+    },
+    {
+      "path": "guides/how-to-reroll.mdx",
+      "title": "Clover Time 重抽指南：种族、社会阶层与特性",
+      "description": "找到 Clover Time 角色重抽菜单，区分 Race、Social Class 和 Trait 三类角色选项，操作前检查 Spins 或 Special，并与魔导书资源分开管理。",
+      "summary": "Clover Time 将角色重抽分为种族、社会阶层与特性。可在大厅依次打开 Customize 和 Rolls，也可通过 Hage Priest 打开角色菜单。选择类别前，先阅读当前配置以及 Spins 或 Special 余额。魔导书抽取使用独立的魔力水晶系统。",
+      "faq": [
+        {
+          "question": "怎样从大厅进入重抽面板？",
+          "answer": "选择 Customize，再选择 Rolls。"
+        },
+        {
+          "question": "村庄中哪个 NPC 可以打开角色选项？",
+          "answer": "出生村庄教堂中的 Hage Priest 提供角色选项菜单。"
+        },
+        {
+          "question": "选择 Elf 就等于选择社会阶层了吗？",
+          "answer": "Elf 属于种族。社会阶层和特性分别显示在另外两栏。"
+        },
+        {
+          "question": "Mana Sensitive 属于哪个类别？",
+          "answer": "Mana Sensitive 属于特性，与 Fast Learner 和 Chosen One 等选项同类。"
+        },
+        {
+          "question": "魔导书塔使用哪种资源？",
+          "answer": "魔导书抽取使用魔力水晶。角色 Spins 是独立资源。"
+        }
+      ],
+      "gallery": [
+        {
+          "image": "../../../../assets/covers/clover-time-flow-reroll-columns.png",
+          "caption": "角色配置类别示意图。",
+          "alt": "种族、社会阶层与特性三个配置类别"
+        },
+        {
+          "image": "../../../../assets/covers/clover-time-flow-reroll-resources.png",
+          "caption": "重抽系统选择示意图。",
+          "alt": "区分角色重抽与魔导书抽取所用资源"
+        }
+      ],
+      "h2": 4,
+      "source_sha256": "5170745c6b49aea96dbd900cb38598722652a2394a71696319f66d90a00eef90",
+      "translation_sha256": "fff9bbb0d7ea79e36e3e6aac2b5d98b345a9ae732f62908a6b5a18d21f5b5e09"
+    },
+    {
+      "path": "guides/patch-notes.mdx",
+      "title": "Clover Time Beta 0.1：功能、平台与更新渠道",
+      "description": "了解 Clover Time Beta 0.1 的魔导书成长、战斗、觉醒、魔法扫帚、魔法小队和挂机世界，以及支持的平台与开发者信息入口。",
+      "summary": "Clover Time 处于 Beta 0.1，将魔导书成长、动作战斗、法术组合与觉醒结合起来。魔法扫帚用于探索，小队让玩家组队挑战 Boss，AFK World 提供奖励。游戏由 AnimeCore Studio 开发，支持 PC、手机和主机。",
+      "faq": [
+        {
+          "question": "Clover Time 由谁开发？",
+          "answer": "这款 Roblox 游戏由 AnimeCore Studio 开发。"
+        },
+        {
+          "question": "Beta 0.1 标签描述什么？",
+          "answer": "它是 Roblox 官方游戏简介中的 Beta 版本标签。"
+        },
+        {
+          "question": "Clover Time 支持哪些平台？",
+          "answer": "支持 PC、手机和主机。"
+        },
+        {
+          "question": "Magic Squads 有什么作用？",
+          "answer": "Magic Squads 让玩家组队挑战 Boss。"
+        },
+        {
+          "question": "在哪里关注开发者信息？",
+          "answer": "通过 Roblox 官方游戏页面、AnimeCore Studio 群组与社区服务器了解游戏信息和更新预告。"
+        }
+      ],
+      "gallery": [],
+      "h2": 3,
+      "source_sha256": "100280507d8d85629dde56e54a4b5535f442664519c3feee7d5b7880f5a7fba7",
+      "translation_sha256": "bf3f973dff411e35025b9f45d0e97a8105008269fd438e8541e204e39131f97a"
+    },
+    {
+      "path": "guides/race-tier-list.mdx",
+      "title": "Clover Time 种族强度榜：PvE 被动与角色配置",
+      "description": "比较 Clover Time 的 Human、Dwarf、Human-Dwarf、Elf 和 Devil 五个种族，从恢复、魔力与经验加成等属性理解各自的 PvE 配置用途。",
+      "summary": "Clover Time 有人类、矮人、人类与矮人混血、精灵和恶魔五个种族。恶魔适合比较综合被动，精灵侧重魔力，混血与矮人可从续航方向考虑。人类提供基础恢复和经验加成。社会阶层与特性是种族之外的独立选项。",
+      "faq": [
+        {
+          "question": "这份比较包含多少个种族？",
+          "answer": "五个：Human、Dwarf、Human-Dwarf、Elf 和 Devil。"
+        },
+        {
+          "question": "比较 Elf 的主要理由是什么？",
+          "answer": "Elf 侧重魔力上限与恢复，同时具有恢复和经验方面的收益。"
+        },
+        {
+          "question": "表格中的 Human-Dwarf 与 Dwarf 有什么区别？",
+          "answer": "Human-Dwarf 结合续航与经验属性，Dwarf 则主要从续航和资源属性方向比较。"
+        },
+        {
+          "question": "Sovereign 是另一个种族吗？",
+          "answer": "不是。Sovereign 属于 Social Class，与 Race 分开显示。"
+        },
+        {
+          "question": "S 档代表升级速度吗？",
+          "answer": "档位比较的是被动属性组合，不是计时升级结果或数值伤害评分。"
+        }
+      ],
+      "gallery": [],
+      "h2": 4,
+      "source_sha256": "eb11d634a68becfe41d0d12e0d327345c5cf83da1340fb8eb025e26361fc50a4",
+      "translation_sha256": "aa2f2574e785101ec4df1c7988623706d4b3555bdf2709a0735dd049d6cae312"
+    },
+    {
+      "path": "items/anti-magic.mdx",
+      "title": "Clover Time 反魔法 Anti Magic 指南：剑术与 PvE 练习",
+      "description": "了解 Clover Time 神话魔导书 Anti Magic 的剑术技能、PC 键位与练习顺序，分别熟悉 Counter、Dual Spin、Rush Divider 和觉醒。",
+      "summary": "Anti Magic 是以剑术为核心的神话魔导书，包含 Anti Magic Cut、Counter、Dual Spin、Rush Divider，并具有觉醒变身。可从近距离 PvE 的角度比较它，先熟悉移动、应对招式与攻击时机，再尝试更长的连续操作。",
+      "faq": [
+        {
+          "question": "Anti Magic 的获取稀有度是什么？",
+          "answer": "Anti Magic 属于 Mythic，也就是神话魔导书分组。"
+        },
+        {
+          "question": "Anti Magic Cut 对应哪个 PC 键位？",
+          "answer": "PC 技能栏中，Anti Magic Cut 对应 E。"
+        },
+        {
+          "question": "Counter 与 Dual Spin 分别对应哪个 PC 键位？",
+          "answer": "Counter 对应 X，Dual Spin 对应 Z。"
+        },
+        {
+          "question": "练习 Rush Divider 时应该观察什么？",
+          "answer": "观察接近目标的距离，以及攻击结束时角色所在的位置。"
+        },
+        {
+          "question": "基础剑术与觉醒应该分开练习吗？",
+          "answer": "应该。觉醒会改变角色与战斗技能组合，基础招式和变身能力需要分别熟悉。"
+        }
+      ],
+      "gallery": [],
+      "h2": 4,
+      "source_sha256": "3cb56db024e1fb03ce116546840b421793ee26ea11fd242c78a9712d4d7e5fce",
+      "translation_sha256": "4c7218e64e609d7f7173e2ae11b5d6d3a87b69bad536221050cba1650c0cb44b"
+    },
+    {
+      "path": "items/poison.mdx",
+      "title": "Clover Time 毒魔法 Poison 指南：毒雾、爆炸与分身",
+      "description": "了解 Clover Time 史诗魔导书 Poison 的投射物、持续伤害毒雾、角色周围爆炸与战斗分身，练习站位并区分两种分身指令。",
+      "summary": "Poison 是史诗魔导书，主要提供投射物、伤害雾区、爆炸与战斗分身四类工具。偏法术的 PvE 玩法可以将它与 Anti Magic 比较。围绕敌人的移动使用范围攻击和召唤物，先熟悉技能的各个部分，再尝试组合。",
+      "faq": [
+        {
+          "question": "Poison 属于传说稀有度吗？",
+          "answer": "Poison 属于 Epic，也就是史诗分组。Battle Lightning 属于传说分组。"
+        },
+        {
+          "question": "Poison 的爆炸发生在哪里？",
+          "answer": "爆炸发生在使用者周围，因此需要考虑接近目标的方式和附近威胁。"
+        },
+        {
+          "question": "敌人在什么位置会受到雾区伤害？",
+          "answer": "雾区伤害范围内的目标，因此敌人移动会影响布置位置的效果。"
+        },
+        {
+          "question": "Stop Clone 会让分身做什么？",
+          "answer": "Stop Clone 让分身停止并留在当前位置。"
+        },
+        {
+          "question": "Order Clone 与布置雾区有什么区别？",
+          "answer": "Order Clone 指挥分身攻击目标。布置雾区则创建伤害区域，是另一项操作。"
+        }
+      ],
+      "gallery": [],
+      "h2": 4,
+      "source_sha256": "bdb524cf47d7091d38a6ec314f628d81a8889c4fe9e04864983da791491639dd",
+      "translation_sha256": "d9a3f10b09260988f2b13e56a07ccbad2784b44a94df24a9868b7c26e25b022a"
+    }
+  ],
+  "translated_articles": 10,
+  "faq_total": 50,
+  "gallery_total": 8,
+  "h2_total": 39,
+  "english_source_unchanged": true
+}

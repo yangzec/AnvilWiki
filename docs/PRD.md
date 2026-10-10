@@ -2,6 +2,8 @@
 
 > Clover Time 分支实现说明（2026-10-10）：默认构建读取 wrangler 配置，通过隔离预览导出形成完整 dist，保留源稿草稿及 noindex；普通 Astro 过滤仍可显式执行。网站继续为静态 Astro + Pages，无新增运行时或适配器。已移除公开模板路由，原始示例保留为测试输入。自动上传流程与正式发布门槛见 [初始化优化交付](clover-time/initialization-optimization-20261010.md)。以下为上游模板 PRD。
 
+> Clover Time 中文版实现：中文正文位于 `src/content/wiki/zh/`，按英文同路径翻译，预览构建逐语言读取真实源稿。非默认语言法律页正文、标题和元数据从 locale JSON 读取，默认英文法律页保留原组件。详情回退、草稿过滤、noindex 规则继续有效。译稿验收包含草稿计数，详见 [中文交付](clover-time/chinese-localization-20261010.md)。
+
 > **版本**：v1.0
 > **日期**：2026-08-12
 > **状态**：已发布（demo 站 anvil.wiki 上线，Lighthouse 全 100，CI 全绿）
@@ -267,7 +269,7 @@ Cloudflare Pages（连 GitHub 自动部署）
 | 首页 `/` | **静态（build-time）** | 构建时从 locales/en.json 读 home 命名空间渲染。 |
 | 列表页 `/bosses` | **静态** | 构建时从 Content Collection 查询该分类所有文章。 |
 | 文章页 `/bosses/emberfang` | **静态** | 构建时从 Content Collection 取该文章 + fallback 逻辑。 |
-| 法律页 `/about` 等 | **静态** | 硬编码英文正文（不翻译），复用 [locale] layout。 |
+| 法律页 `/about` 等 | **静态** | 默认英文正文保留原组件；非默认语言读取 locale JSON 翻译正文，复用 [locale] layout。 |
 | sitemap.xml | **静态 endpoint** | 构建时生成。 |
 | robots.txt | **静态 endpoint** | 构建时生成。 |
 

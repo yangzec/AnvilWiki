@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Clover Time 分支
+
+- 完成 10 篇中文译稿、50 个 FAQ、8 个图库说明与五个中文站务页面；语言与内容路径保持 en／zh 对应。
+- 预览构建改为逐语言读取真实源稿，修复中文首页重复语言前缀与 noindex 文章无法往返切换语言的问题；保留草稿和收录保护。
+- 翻译覆盖检查支持 `--include-drafts`，避免 0/0 被误认为译稿完成；新增三项缺稿与计数回归测试。交付见 `docs/clover-time/chinese-localization-20261010.md`。
+
 ### Fixed
 
 - **第 37 轮 24h 审计深挖修复（社群日报 summary 条数与 stats 内部矛盾）**：#73（10-04 日报）的 `daily.summary` 写「假期安静日（13 条）」，同日 `report.stats.messages` 是 12（管道自己的 stats 提取文件 `stats-2026-10-04.json` 同为 12；13 系 day 文件含「拍了拍」系统事件的行数）——社群页同一屏幕同时渲染两者（`CommunityHighlights.astro` daily 带 :221 与 stats 卡 :263），公开数据自相矛盾；49 期全量对照仅此一期失配（10-03 前例 2==2）。summary 对齐结构化 stats 改 12，并按 33 轮 codes 月锚点门禁先例新增契约测试：summary 括号内「N 条」出现时必须等于同日 `stats.messages`（缺席优雅跳过 + checker 零命中自防假绿），同族漂移由纪律变红灯；test 394→395。

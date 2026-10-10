@@ -1,0 +1,276 @@
+{
+  "origin": "http://127.0.0.1:4186",
+  "passed": 46,
+  "checks": [
+    {
+      "route": "/zh/codes/all-codes/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/codes/all-codes/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/codes/all-codes/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/guides/beginner-guide/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 2,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/guides/beginner-guide/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 2,
+      "no_overflow": true
+    },
+    {
+      "route": "/guides/beginner-guide/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/guides/fishing-fragments/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 2,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/guides/fishing-fragments/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 2,
+      "no_overflow": true
+    },
+    {
+      "route": "/guides/fishing-fragments/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/guides/grimoire-tier-list/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/guides/grimoire-tier-list/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/guides/grimoire-tier-list/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/guides/how-to-redeem-codes/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 2,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/guides/how-to-redeem-codes/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 2,
+      "no_overflow": true
+    },
+    {
+      "route": "/guides/how-to-redeem-codes/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/guides/how-to-reroll/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 2,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/guides/how-to-reroll/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 2,
+      "no_overflow": true
+    },
+    {
+      "route": "/guides/how-to-reroll/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/guides/patch-notes/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/guides/patch-notes/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/guides/patch-notes/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/guides/race-tier-list/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/guides/race-tier-list/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/guides/race-tier-list/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/items/anti-magic/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/items/anti-magic/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/items/anti-magic/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/items/poison/",
+      "width": 375,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/zh/items/poison/",
+      "width": 1440,
+      "translated": true,
+      "faq": 5,
+      "gallery": 0,
+      "no_overflow": true
+    },
+    {
+      "route": "/items/poison/",
+      "english_preserved": true
+    },
+    {
+      "route": "/zh/about/",
+      "legal_localized": true
+    },
+    {
+      "route": "/zh/privacy-policy/",
+      "legal_localized": true
+    },
+    {
+      "route": "/zh/terms-of-service/",
+      "legal_localized": true
+    },
+    {
+      "route": "/zh/copyright/",
+      "legal_localized": true
+    },
+    {
+      "route": "/zh/contact/",
+      "legal_localized": true
+    },
+    {
+      "route": "/zh/codes/",
+      "translated_titles": 1
+    },
+    {
+      "route": "/zh/guides/",
+      "translated_titles": 7
+    },
+    {
+      "route": "/zh/items/",
+      "translated_titles": 2
+    },
+    {
+      "route": "/zh/",
+      "width": 375,
+      "translated_quick_links": 10
+    },
+    {
+      "route": "/zh/",
+      "width": 1440,
+      "translated_quick_links": 10
+    },
+    {
+      "query": "毒雾",
+      "target": "/zh/items/poison/",
+      "search": true
+    },
+    {
+      "query": "魔力水晶碎片",
+      "target": "/zh/guides/fishing-fragments/",
+      "search": true
+    },
+    {
+      "query": "土豆",
+      "target": "/zh/guides/beginner-guide/",
+      "search": true
+    },
+    {
+      "query": "社会阶层",
+      "target": "/zh/guides/how-to-reroll/",
+      "search": true
+    },
+    {
+      "chinese_summary_copy": true
+    },
+    {
+      "language_roundtrip": true,
+      "noindex_preserved": true,
+      "selector_retest": true
+    }
+  ]
+}

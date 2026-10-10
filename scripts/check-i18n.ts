@@ -17,6 +17,7 @@
  *   pnpm check-i18n                # report only, always exits 0
  *   pnpm check-i18n --strict       # exit 1 if anything is missing (articles OR UI keys)
  *   pnpm check-i18n --strict-ui    # exit 1 only if UI KEYS are missing (the CI gate)
+ *   pnpm check-i18n --include-drafts --strict # verify authoring coverage too
  *
  * Why the CI gate is --strict-ui and not --strict: missing UI keys are a
  * template defect (a key was added to en.json but never translated — the
@@ -33,6 +34,7 @@ import { walkFiles } from './lib/walk';
 const ROOT = process.cwd();
 const STRICT = process.argv.includes('--strict');
 const STRICT_UI = process.argv.includes('--strict-ui');
+const INCLUDE_DRAFTS = process.argv.includes('--include-drafts');
 const CONTENT_BASE = path.resolve(ROOT, 'src/content/wiki');
 const LOCALES_DIR = path.resolve(ROOT, 'src/locales');
 
@@ -53,9 +55,9 @@ function articleMap(locale: string): Map<string, string> {
   const map = new Map<string, string>();
   const dir = path.join(CONTENT_BASE, locale);
   for (const p of walkFiles(dir, { exts: ['.mdx'] })) {
-    // Drafts are dev-only; don't report them as missing translations.
+    // Published coverage excludes drafts unless authoring coverage is requested.
     const fm = fs.readFileSync(p, 'utf8').split('---')[1] ?? '';
-    if (/^draft:\s*true\s*$/m.test(fm)) continue;
+    if (!INCLUDE_DRAFTS && /^draft:\s*true\s*$/m.test(fm)) continue;
     map.set(path.relative(dir, p), path.basename(p, '.mdx'));
   }
   return map;

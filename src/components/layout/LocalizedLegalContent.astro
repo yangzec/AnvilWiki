@@ -1,0 +1,46 @@
+---
+import { site } from '~/config/site';
+import { getUi } from '~/i18n/ui';
+import { type Locale } from '~/i18n/routing';
+import { localizePath } from '~/lib/url';
+
+interface Props {
+  locale: Locale;
+  page: 'about' | 'privacy-policy' | 'terms-of-service' | 'copyright' | 'contact';
+}
+const { locale, page } = Astro.props;
+const ui = getUi(locale);
+const copy = ui.legalPages[page];
+const substitutions: Record<string, string> = {
+  site: ui.site.name,
+  game: site.game.name,
+  developer: site.game.developer,
+  year: String(new Date().getFullYear()),
+  legalNotice: ui.site.legalNotice,
+  official: site.social.official,
+  discord: site.social.discord ?? '',
+  reddit: site.social.reddit ?? '',
+  youtube: site.social.youtube ?? '',
+};
+const format = (text: string) => text.replace(/\{(\w+)\}/g, (token, key: string) => substitutions[key] ?? token);
+---
+
+<p>{format(copy.intro)}</p>
+{copy.sections.map((section) => (
+  <section>
+    <h2>{section.title}</h2>
+    {section.paragraphs.map((text) => <p>{format(text)}</p>)}
+    {section.links.filter((link) => format(link.href)).map((link) => {
+      const href = format(link.href);
+      const internal = href.startsWith('/');
+      return <p><a href={internal ? localizePath(href, locale) : href}
+        class="break-all" target={internal ? undefined : '_blank'}
+        rel={internal ? undefined : 'noopener noreferrer'}>{link.label}</a></p>;
+    })}
+  </section>
+))}
+{['about', 'copyright', 'contact'].includes(page) && (
+  site.contactEmail
+    ? <p>{ui.shared.contactEmail}：<a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a></p>
+    : <p>{ui.shared.contactUnavailable}</p>
+)}

@@ -105,15 +105,21 @@ export async function getEntriesByCategory(category: string, locale: Locale): Pr
  * the sitemap side enforces the same rule via astro.config's detailCoverage.
  * Category-level coverage (localesForCategory) deliberately still counts
  * noindex articles: the category list page itself is indexable.
+ * `includeNoindex` includes readable noindex versions for the UI switcher;
+ * hreflang callers keep the default indexable-only policy.
  */
-export async function localesForEntry(category: string, slug: string): Promise<Locale[]> {
+export async function localesForEntry(
+  category: string,
+  slug: string,
+  { includeNoindex = false }: { includeNoindex?: boolean } = {},
+): Promise<Locale[]> {
   const all = await getCollection('wiki');
   const found = new Set<Locale>();
   for (const entry of all) {
     const parsed = parseEntryId(entry.id);
     if (
       isPublished(entry) &&
-      !entry.data.noindex &&
+      (includeNoindex || !entry.data.noindex) &&
       parsed?.category === category &&
       parsed.slug === slug
     ) {

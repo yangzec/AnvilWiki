@@ -80,8 +80,10 @@ if (view === 'not-found') {
 // another language. (This route is the default locale, so no fallback case
 // exists here.)
 const entryLocales = view === 'article' ? await localesForEntry(category, articleSlug) : [];
+const readableLocales = view === 'article'
+  ? await localesForEntry(category, articleSlug, { includeNoindex: true }) : [];
 const listLocales = view === 'list' ? await localesForCategory(category) : [];
-const altLocales = view === 'list' ? listLocales : Array.from(new Set([locale, ...entryLocales]));
+const switcherLocales = view === 'list' ? listLocales : Array.from(new Set([locale, ...readableLocales]));
 const alternates =
   view === 'list'
     ? languageAlternates((loc) => listPath(category, loc), listLocales)
@@ -90,5 +92,5 @@ const alternates =
 
 {view === 'list' && <ListPage locale={locale} category={category} alternates={alternates} />}
 {view === 'article' && resolved && (
-  <ArticlePage locale={locale} resolved={resolved} alternates={alternates} availableLocales={altLocales} />
+  <ArticlePage locale={locale} resolved={resolved} alternates={alternates} availableLocales={switcherLocales} />
 )}

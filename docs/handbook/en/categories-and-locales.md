@@ -5,7 +5,7 @@ manual: dev
 order: 2
 icon: lucide:folder-tree
 tldr: "Adding a category = config, locale JSON, and content directory agree in three places at once (pnpm check-config is the gatekeeper); one prompt lets AI do it all. Adding a language = run pnpm new-locale for the skeleton, then AI translates the UI against the English JSON and the articles one by one (codes are never translated). The switcher only lists languages that really have content."
-updated: 2026-08-17
+updated: 2026-10-10
 ---
 
 ## Where you are now and what this lesson solves
@@ -62,13 +62,18 @@ Step 3 — translate the articles (one at a time):
 ```text
 Translate src/content/wiki/en/<category>/<slug>.mdx into <target-language> and
 write it to the same path under src/content/wiki/<target-language>/. Rules: translate only
-title/description/summary and the body; leave slug, dates, internal link paths, and the
-code field of codes entries untouched; keep tags in English when no equivalent exists;
+title/description/summary, body, FAQ, gallery captions/alt, and inline image alt;
+leave slug, dates, and the code field untouched. Keep internal link targets, adding
+the target locale prefix and a trailing slash; keep tags in English when no equivalent exists;
 draft a glossary first so terminology stays consistent throughout. When done, run
 pnpm check-content && pnpm build && pnpm check-i18n — only all-green counts as done.
 ```
 
 Note: the codes themselves (the `code` field) are never translated — they are alphanumeric strings shared worldwide.
+
+Drafts are excluded from translation coverage by default. For `draft: true` articles,
+also run `pnpm check-i18n --include-drafts --strict` and verify the actual article count;
+a `0/0` result does not establish that articles were translated.
 
 **The language switcher only lists languages that really have content** — while Japanese has zero articles, Japanese won't appear in the switcher. This prevents tap-into-a-blank-page moments.
 

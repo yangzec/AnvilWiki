@@ -1,0 +1,10 @@
+{
+  "project": "clover-time-wiki-preview",
+  "production_branch": "clover-time",
+  "source_connected": false,
+  "previous_deployment_id": "a306ff44-f8e5-41c3-9564-d974306dffd7",
+  "domains": [
+    "clover-time-wiki-preview.pages.dev",
+    "clovertime.world"
+  ]
+}
