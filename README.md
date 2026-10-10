@@ -1,6 +1,6 @@
 # Clover Time Wiki
 
-Clover Time 玩家 Wiki，基于 [AnvilWiki](https://github.com/PNGTRID/AnvilWiki)（MIT）。主站 https://clovertime.world，中文 UI 入口 /zh/，正文目前为英文。源码维护在 [yangzec/AnvilWiki 的 clover-time 分支](https://github.com/yangzec/AnvilWiki/tree/clover-time)。
+Clover Time 玩家 Wiki，基于 [AnvilWiki](https://github.com/PNGTRID/AnvilWiki)（MIT）。当前部署 a306ff44（源提交40f4fd1）；主站 https://clovertime.world，中文 UI 入口 /zh/，正文目前为英文。源码维护在 [yangzec/AnvilWiki 的 clover-time 分支](https://github.com/yangzec/AnvilWiki/tree/clover-time)。
 
 ## 开发与构建
 
@@ -23,7 +23,7 @@ pnpm check-links
 - 初始化优化：[Goal](goals/20261010-clover-time-initialization.md) / [验收与发布说明](docs/clover-time/initialization-optimization-20261010.md)。
 - 配图、图标和 GA4 保留；广告与评论关闭；公开正文不展示内部来源备注或缺口列表。
 - 默认构建和线上部署一致，但 10 页正式事实验收尚未完成。未验证的兑换码不进入 active / expired。
-- GitHub Actions 工作流 `.github/workflows/deploy-clover-time.yml` 会验证后上传到既有 Cloudflare Pages 项目。运行需要仓库端的 Cloudflare 凭据；云环境 Token 不会自动同步到 GitHub。
+- GitHub Actions 工作流 `.github/workflows/deploy-clover-time.yml` 会验证后上传到既有 Cloudflare Pages 项目。八项门禁已在 GitHub 通过，上传受缺失两项仓库 Secrets 阻塞；云环境 Token 不会自动同步到 GitHub。
 - IndexNow 使用已提交的公共 `.indexnow-key`，预览模式不提交收录请求。正式发布前按交付文档验收内容和 SEO。
 
 上游使用手册保留在 `docs/`；模板示例仅用于测试，不作为网站页面发布。AnvilWiki 原始介绍与教程：https://anvil.wiki/zh/landing/docs/dev/。

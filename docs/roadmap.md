@@ -1,3 +1,5 @@
+> 初始化最终交付：已部署 a306ff44（源提交40f4fd1），GitHub八项门禁通过，上传受仓库Secrets缺失阻塞；本地/线上各35项页面交互检查通过，主域15端点符合预期，备用域301两项仍失败。账号侧与正式事实验收继续待办。
+
 > Clover Time 初始化优化（2026-10-10）：当前默认 `pnpm build` 读取仓库配置并输出受保护的 10 页预览至 `dist/`，不会再因直接使用标准命令丢失文章；`pnpm build:production` 仍按原稿草稿状态过滤。旧日期记录保留为历史。模板落地页和示例资产已移除，事实表已整理至 requirements，当前验收见 [交付记录](clover-time/initialization-optimization-20261010.md)。
 
 # 路线图:走过什么方向,接下来去哪(Roadmap)

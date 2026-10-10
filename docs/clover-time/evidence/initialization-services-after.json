@@ -1,0 +1,120 @@
+{
+  "pages": {
+    "name": "clover-time-wiki-preview",
+    "source": null,
+    "production_branch": "clover-time",
+    "deployment": {
+      "id": "a306ff44-f8e5-41c3-9564-d974306dffd7",
+      "url": "https://a306ff44.clover-time-wiki-preview.pages.dev",
+      "environment": "production",
+      "created_on": "2026-10-10T04:22:08.093471Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-10T04:22:09.34438Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "clover-time",
+          "commit_hash": "40f4fd1327944ab1601ec2a4befdc239def4c1d8",
+          "commit_message": "Preserve the Chinese UI content directory in clean checkouts",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "id": 38023647304,
+      "name": "Deploy Clover Time",
+      "status": "completed",
+      "conclusion": "failure",
+      "head_sha": "40f4fd1327944ab1601ec2a4befdc239def4c1d8",
+      "html_url": "https://github.com/yangzec/AnvilWiki/actions/runs/38023647304"
+    },
+    {
+      "id": 38023419058,
+      "name": "Deploy Clover Time",
+      "status": "completed",
+      "conclusion": "failure",
+      "head_sha": "fdd05623b2905414453c7bbbfef3e766afc7455a",
+      "html_url": "https://github.com/yangzec/AnvilWiki/actions/runs/38023419058"
+    }
+  ],
+  "jobs": [
+    {
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "failure",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Setup pnpm",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Setup Node",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate and build",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Require deployment credentials",
+          "status": "completed",
+          "conclusion": "failure"
+        },
+        {
+          "name": "Deploy verified dist to the existing Pages project",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Notify IndexNow only for an indexable production build",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Setup Node",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Setup pnpm",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ]
+}

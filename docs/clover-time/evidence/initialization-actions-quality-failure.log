@@ -1,0 +1,153 @@
+﻿2026-10-10T04:15:37.7956230Z Prepare all required actions
+2026-10-10T04:15:37.8022485Z ##[group]Run ./.github/actions/gates
+2026-10-10T04:15:37.8022913Z with:
+2026-10-10T04:15:37.8023475Z   site-url: https://clovertime.world
+2026-10-10T04:15:37.8023833Z env:
+2026-10-10T04:15:37.8024212Z   CF_PAGES_COMMIT_SHA: fdd05623b2905414453c7bbbfef3e766afc7455a
+2026-10-10T04:15:37.8024713Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-10T04:15:37.8025173Z ##[endgroup]
+2026-10-10T04:15:37.8090164Z ##[start-action display=Lint;id=__self.__run]
+2026-10-10T04:15:37.8121180Z ##[group]Run pnpm lint
+2026-10-10T04:15:37.8121557Z [36;1mpnpm lint[0m
+2026-10-10T04:15:37.8163947Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-10T04:15:37.8164380Z env:
+2026-10-10T04:15:37.8164842Z   CF_PAGES_COMMIT_SHA: fdd05623b2905414453c7bbbfef3e766afc7455a
+2026-10-10T04:15:37.8165324Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-10T04:15:37.8165807Z ##[endgroup]
+2026-10-10T04:15:38.6117094Z Already up to date
+2026-10-10T04:15:38.6123868Z Done in 360ms using pnpm v11.1.1
+2026-10-10T04:15:38.6268025Z $ eslint .
+2026-10-10T04:15:43.0574640Z ##[end-action id=__self.__run;outcome=success;conclusion=success;duration_ms=5248]
+2026-10-10T04:15:43.0577965Z ##[start-action display=Typecheck;id=__self.__run_2]
+2026-10-10T04:15:43.0600045Z ##[group]Run pnpm typecheck
+2026-10-10T04:15:43.0600436Z [36;1mpnpm typecheck[0m
+2026-10-10T04:15:43.0640211Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-10T04:15:43.0640752Z env:
+2026-10-10T04:15:43.0641136Z   CF_PAGES_COMMIT_SHA: fdd05623b2905414453c7bbbfef3e766afc7455a
+2026-10-10T04:15:43.0641642Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-10T04:15:43.0642081Z ##[endgroup]
+2026-10-10T04:15:43.8182006Z Already up to date
+2026-10-10T04:15:43.8190563Z Done in 352ms using pnpm v11.1.1
+2026-10-10T04:15:43.8353306Z $ astro check
+2026-10-10T04:15:46.0290572Z [2m04:15:46[22m [34m[content][39m Syncing content
+2026-10-10T04:15:46.5351922Z [2m04:15:46[22m [34m[content][39m Synced content
+2026-10-10T04:15:46.5364709Z [2m04:15:46[22m [34m[types][39m Generated [2m1.08s[22m
+2026-10-10T04:15:46.5431331Z [2m04:15:46[22m [34m[check][39m Getting diagnostics for Astro files in /home/runner/work/AnvilWiki/AnvilWiki...
+2026-10-10T04:15:56.1068019Z Result (183 files): 
+2026-10-10T04:15:56.1074056Z - 0 errors
+2026-10-10T04:15:56.1074865Z - 0 warnings
+2026-10-10T04:15:56.1075598Z - 0 hints
+2026-10-10T04:15:56.1076248Z 
+2026-10-10T04:15:56.1570348Z ##[end-action id=__self.__run_2;outcome=success;conclusion=success;duration_ms=13099]
+2026-10-10T04:15:56.1574433Z ##[start-action display=Test;id=__self.__run_3]
+2026-10-10T04:15:56.1601223Z ##[group]Run pnpm test
+2026-10-10T04:15:56.1601744Z [36;1mpnpm test[0m
+2026-10-10T04:15:56.1655754Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-10T04:15:56.1656455Z env:
+2026-10-10T04:15:56.1656968Z   CF_PAGES_COMMIT_SHA: fdd05623b2905414453c7bbbfef3e766afc7455a
+2026-10-10T04:15:56.1657724Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-10T04:15:56.1658357Z ##[endgroup]
+2026-10-10T04:15:56.9776451Z Already up to date
+2026-10-10T04:15:56.9783109Z Done in 374ms using pnpm v11.1.1
+2026-10-10T04:15:56.9952663Z $ vitest run
+2026-10-10T04:15:57.3093432Z 
+2026-10-10T04:15:57.3096960Z [1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/home/runner/work/AnvilWiki/AnvilWiki[39m
+2026-10-10T04:15:57.3097976Z 
+2026-10-10T04:15:57.7044834Z [90mstderr[2m | tests/apply-template.test.ts
+2026-10-10T04:15:57.7076788Z [22m[39m⚠️ the existing home namespace in en.json holds edited copy (FAQ entries or custom highlight labels) — the homepage preset will REPLACE it. Re-apply your edits afterwards, or re-run with preset "keep" to preserve it.
+2026-10-10T04:15:57.7103792Z 
+2026-10-10T04:15:57.7346099Z [90mstderr[2m | tests/apply-template.test.ts[2m > [22m[2mrewriteWranglerVars (P4: line-anchored + CRLF-tolerant)[2m > [22m[2mno [vars] section → null (caller keeps the file and warns)
+2026-10-10T04:15:57.7364261Z [22m[39m⚠️ Could not find [vars] section in wrangler.toml — edit it manually.
+2026-10-10T04:15:57.7393714Z 
+2026-10-10T04:15:57.7400989Z  [32m✓[39m tests/sync-codes.test.ts [2m([22m[2m33 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+2026-10-10T04:15:57.7465742Z [90mstderr[2m | tests/apply-template.test.ts[2m > [22m[2mrewriteWranglerVars is value-aware (a re-run must not wipe the user env — S1)[2m > [22m[2man empty bare value still resets (no value to preserve)
+2026-10-10T04:15:57.7475423Z [22m[39m⚠️ [vars] line "PUBLIC_CF_BEACON_TOKEN =" could not be parsed (dotted key or unusual TOML?) and will be DROPPED from the rewritten [vars] section — move it outside [vars] or re-add it manually.
+2026-10-10T04:15:57.7476324Z 
+2026-10-10T04:15:57.7477764Z [90mstderr[2m | tests/apply-template.test.ts[2m > [22m[2mrewriteLocaleJson (P3: no unchosen-category leak, re-run labels kept)[2m > [22m[2mlabels a user translated on a previous run survive the re-run
+2026-10-10T04:15:57.7479868Z [22m[39m⚠️ home preset expects the "codes" category but it was not chosen — substituted "bosses". Edit the home hrefs in the locale JSON to taste.
+2026-10-10T04:15:57.7480412Z 
+2026-10-10T04:15:57.7579361Z [90mstderr[2m | tests/apply-template.test.ts[2m > [22m[2mhome preset pickHref substitution is consistent per preferred key (round-22 audit)[2m > [22m[2mboth "codes" slots land on the SAME substituted page (4 chosen categories, no codes)
+2026-10-10T04:15:57.7595543Z [22m[39m⚠️ home preset expects the "codes" category but it was not chosen — substituted "items". Edit the home hrefs in the locale JSON to taste.
+2026-10-10T04:15:57.7630219Z 
+2026-10-10T04:15:57.7784194Z [90mstderr[2m | tests/apply-template.test.ts[2m > [22m[2mdemo locale deletion is content-aware (rebranded locales must survive re-runs)[2m > [22m[2ma rewritten demo-named locale is no longer demo content
+2026-10-10T04:15:57.7788279Z [22m[39m⚠️ the existing home namespace in ja.json holds edited copy (FAQ entries or custom highlight labels) — the homepage preset will REPLACE it. Re-apply your edits afterwards, or re-run with preset "keep" to preserve it.
+2026-10-10T04:15:57.7843646Z 
+2026-10-10T04:15:57.7965673Z [90mstderr[2m | tests/apply-template.test.ts[2m > [22m[2mrewriteLocaleJson overview/home are re-run-aware (M2)[2m > [22m[2mre-run keeps hand-written overview copy for owned keys
+2026-10-10T04:15:57.7986181Z [22m[39m⚠️ the existing home namespace in en.json holds edited copy (FAQ entries or custom highlight labels) — the homepage preset will REPLACE it. Re-apply your edits afterwards, or re-run with preset "keep" to preserve it.
+2026-10-10T04:15:57.7993938Z 
+2026-10-10T04:15:57.7996096Z [90mstderr[2m | tests/apply-template.test.ts[2m > [22m[2mrewriteLocaleJson overview/home are re-run-aware (M2)[2m > [22m[2mre-run regenerates placeholder-shaped descriptions (a game rename stays fresh)
+2026-10-10T04:15:57.7999551Z [22m[39m⚠️ the existing home namespace in en.json holds edited copy (FAQ entries or custom highlight labels) — the homepage preset will REPLACE it. Re-apply your edits afterwards, or re-run with preset "keep" to preserve it.
+2026-10-10T04:15:57.8001296Z 
+2026-10-10T04:15:57.8044745Z  [32m✓[39m tests/apply-template.test.ts [2m([22m[2m93 tests[22m[2m)[22m[32m 85[2mms[22m[39m
+2026-10-10T04:15:57.9702375Z  [32m✓[39m tests/handbook.test.ts [2m([22m[2m23 tests[22m[2m)[22m[32m 48[2mms[22m[39m
+2026-10-10T04:15:58.0265535Z  [32m✓[39m tests/redirects.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+2026-10-10T04:15:58.2425796Z  [32m✓[39m tests/seo.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+2026-10-10T04:15:58.3669860Z  [32m✓[39m tests/workflows.test.ts [2m([22m[2m46 tests[22m[2m)[22m[33m 587[2mms[22m[39m
+2026-10-10T04:15:58.4573626Z  [32m✓[39m tests/content-links.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+2026-10-10T04:15:58.5614836Z  [32m✓[39m tests/codes-consistency.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+2026-10-10T04:15:58.5725690Z  [32m✓[39m tests/community-digest.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 86[2mms[22m[39m
+2026-10-10T04:15:58.6599351Z  [32m✓[39m tests/content-utils.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 19[2mms[22m[39m
+2026-10-10T04:15:58.7443924Z  [32m✓[39m tests/covers.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+2026-10-10T04:15:58.7974597Z  [32m✓[39m tests/home-ui.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+2026-10-10T04:15:58.8636014Z  [32m✓[39m tests/indexnow.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+2026-10-10T04:15:58.9454530Z  [32m✓[39m tests/url.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+2026-10-10T04:15:59.0515793Z  [32m✓[39m tests/landing-paths.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+2026-10-10T04:15:59.0641647Z  [32m✓[39m tests/routing-flags.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+2026-10-10T04:15:59.1389399Z Q1: Q2: Q3: Q4: Q5: Q1: Q2: Q3: Q1: Q2: Q3: Q4: Q1: Q2: Q3: Q1: Q2: Q3:  [32m✓[39m tests/prompt.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+2026-10-10T04:15:59.2335914Z  [32m✓[39m tests/i18n-smoke.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+2026-10-10T04:15:59.2550974Z  [32m✓[39m tests/tags.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+2026-10-10T04:15:59.3116010Z  [32m✓[39m tests/consent.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+2026-10-10T04:15:59.4132157Z  [32m✓[39m tests/changelog.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+2026-10-10T04:15:59.4584814Z  [32m✓[39m tests/agents-consistency.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+2026-10-10T04:15:59.4864591Z  [32m✓[39m tests/affiliates.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+2026-10-10T04:15:59.5512334Z  [32m✓[39m tests/today.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+2026-10-10T04:15:59.5546476Z 
+2026-10-10T04:15:59.5552629Z [2m Test Files [22m [1m[32m24 passed[39m[22m[90m (24)[39m
+2026-10-10T04:15:59.5554034Z [2m      Tests [22m [1m[32m397 passed[39m[22m[90m (397)[39m
+2026-10-10T04:15:59.5555017Z [2m   Start at [22m 04:15:57
+2026-10-10T04:15:59.5556296Z [2m   Duration [22m 2.23s[2m (transform 805ms, setup 0ms, import 1.76s, tests 1.06s, environment 3ms)[22m
+2026-10-10T04:15:59.5558449Z 
+2026-10-10T04:15:59.6554237Z ##[end-action id=__self.__run_3;outcome=success;conclusion=success;duration_ms=3497]
+2026-10-10T04:15:59.6558242Z ##[start-action display=Config consistency (nav/locale 3-place check);id=__self.__run_4]
+2026-10-10T04:15:59.7301465Z ##[group]Run pnpm check-config
+2026-10-10T04:15:59.7302045Z [36;1mpnpm check-config[0m
+2026-10-10T04:15:59.7348408Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-10T04:15:59.7348956Z env:
+2026-10-10T04:15:59.7349384Z   CF_PAGES_COMMIT_SHA: fdd05623b2905414453c7bbbfef3e766afc7455a
+2026-10-10T04:15:59.7349898Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-10T04:15:59.7350377Z ##[endgroup]
+2026-10-10T04:16:00.5450873Z Already up to date
+2026-10-10T04:16:00.5458302Z Done in 377ms using pnpm v11.1.1
+2026-10-10T04:16:00.5599623Z $ tsx scripts/check-config.ts
+2026-10-10T04:16:00.7608459Z 
+2026-10-10T04:16:00.7609827Z 🔧 AnvilWiki config consistency check
+2026-10-10T04:16:00.7610342Z 
+2026-10-10T04:16:00.7610715Z ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-10-10T04:16:00.7610986Z 
+2026-10-10T04:16:00.7611376Z 1. Nav key consistency (navigation.ts ↔ en.json ↔ content dirs)
+2026-10-10T04:16:00.7612440Z   ❌ content directory src/content/wiki/zh/ missing (declared in routing.ts)
+2026-10-10T04:16:00.7612971Z   ✅ all nav keys consistent
+2026-10-10T04:16:00.7613506Z 
+2026-10-10T04:16:00.7614292Z 2. Locale consistency (routing.ts ↔ locales/*.json ↔ content dirs)
+2026-10-10T04:16:00.7615070Z 
+2026-10-10T04:16:00.7615425Z 3. Homepage displayType enum (all locale JSONs)
+2026-10-10T04:16:00.7616034Z   ✅ all displayTypes valid
+2026-10-10T04:16:00.7616426Z 
+2026-10-10T04:16:00.7616916Z 4. Deployment domain (wrangler.toml SITE_URL ↔ site.ts domain)
+2026-10-10T04:16:00.7619007Z   ✅ wrangler.toml [vars] → https://clovertime.world matches site.ts domain
+2026-10-10T04:16:00.7619547Z 
+2026-10-10T04:16:00.7620011Z ❌ 1 config problem found. Fix the above before deploying.
+2026-10-10T04:16:00.7620396Z 
+2026-10-10T04:16:00.7620406Z 
+2026-10-10T04:16:00.7620872Z ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-10-10T04:16:00.7914320Z [ELIFECYCLE] Command failed with exit code 1.
+2026-10-10T04:16:00.8106142Z ##[error]Process completed with exit code 1.
+2026-10-10T04:16:00.8114065Z ##[end-action id=__self.__run_4;outcome=failure;conclusion=failure;duration_ms=1155]
+2026-10-10T04:16:00.8120092Z ##[start-action display=Build;id=__self.__run_5]
+2026-10-10T04:16:00.8124041Z ##[end-action id=__self.__run_5;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-10T04:16:00.8126699Z ##[start-action display=Content lint (H1/alt/slashes);id=__self.__run_6]
+2026-10-10T04:16:00.8129280Z ##[end-action id=__self.__run_6;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-10T04:16:00.8131264Z ##[start-action display=Internal link audit (dist/);id=__self.__run_7]
+2026-10-10T04:16:00.8133443Z ##[end-action id=__self.__run_7;outcome=skipped;conclusion=skipped;duration_ms=0]
+2026-10-10T04:16:00.8135528Z ##[start-action display=i18n UI key coverage (gate);id=__self.__run_8]
+2026-10-10T04:16:00.8137623Z ##[end-action id=__self.__run_8;outcome=skipped;conclusion=skipped;duration_ms=0]

@@ -1,0 +1,11 @@
+{
+  "project": "clover-time-wiki-preview",
+  "previous_production_branch": "main",
+  "production_branch": "clover-time",
+  "domains": [
+    "clover-time-wiki-preview.pages.dev",
+    "clovertime.world"
+  ],
+  "source": null,
+  "domain_config_preserved": true
+}

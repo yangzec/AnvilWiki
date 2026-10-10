@@ -54,18 +54,67 @@
     "suites": 24
   },
   "local_browser": {
-    "passed": 30
+    "article_checks_passed": 30,
+    "interaction_checks_passed": 5
   },
   "template_audit": {
     "score": "13/14",
     "remaining": "10 source drafts; no demo assets remain"
   },
   "source_articles": 10,
-  "formal_content_acceptance": "not completed",
-  "deployment": "pending",
+  "formal_content_acceptance": "0/10; no new fact certification",
+  "deployment": {
+    "id": "a306ff44-f8e5-41c3-9564-d974306dffd7",
+    "url": "https://a306ff44.clover-time-wiki-preview.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-10T04:22:08.093471Z",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-10T04:22:09.34438Z",
+      "status": "success"
+    },
+    "deployment_trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "clover-time",
+        "commit_hash": "40f4fd1327944ab1601ec2a4befdc239def4c1d8",
+        "commit_message": "Preserve the Chinese UI content directory in clean checkouts",
+        "commit_dirty": false
+      }
+    }
+  },
   "account_requirements": {
-    "github_actions": "API403; repository secrets and enabled workflow not verified",
+    "github_actions": "Both CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID repository secrets are absent; Actions is enabled",
     "bulk_redirects": "API403; permission update requested",
     "gsc": "account property and sitemap submission not verified"
-  }
+  },
+  "pages_production_branch": "clover-time",
+  "online_browser": {
+    "article_checks_passed": 30,
+    "interaction_checks_passed": 5
+  },
+  "online_endpoints": {
+    "main_domain_passed": 15,
+    "backup_redirects_failed": 2
+  },
+  "github_actions": {
+    "run": {
+      "id": 38023647304,
+      "name": "Deploy Clover Time",
+      "status": "completed",
+      "conclusion": "failure",
+      "head_sha": "40f4fd1327944ab1601ec2a4befdc239def4c1d8",
+      "html_url": "https://github.com/yangzec/AnvilWiki/actions/runs/38023647304"
+    },
+    "quality_gates": "passed",
+    "upload": "blocked: both repository Cloudflare secrets missing"
+  },
+  "clean_checkout_build": "passed",
+  "source_implementation_commits": [
+    "fdd05623b2905414453c7bbbfef3e766afc7455a",
+    "40f4fd1327944ab1601ec2a4befdc239def4c1d8"
+  ],
+  "main_unchanged": "ce64308f494df793f07c5b0b304737a65c61eba4",
+  "artifact_file_count": 205
 }

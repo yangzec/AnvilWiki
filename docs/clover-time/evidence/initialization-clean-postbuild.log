@@ -1,0 +1,33 @@
+$ pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts
+
+Running Pagefind v1.5.2 (Extended)
+Running from: "/workspace/AnvilWiki/.tmp/clover-time-initialization-optimization-20261010/clean-checkout"
+Source:       "dist"
+Output:       "dist/pagefind"
+
+[Walking source directory]
+Found 51 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+
+[Reading languages]
+Discovered 2 languages: zh, en
+
+[Building search indexes]
+Total: 
+  Indexed 2 languages
+  Indexed 20 pages
+  Indexed 1580 words
+  Indexed 0 filters
+  Indexed 0 sorts
+Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
+Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
+
+Finished in 0.183 seconds
+[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=e96f9a271a applied to 51 pages; range-media lowered in 0 files
+[IndexNow] Wrote dist/7838ab9ae96ee5559124c05b30793cf6212160ba368dbcdc73e91697c8bfa480.txt (source: file)
+[IndexNow] Wrote dist/.well-known/anvilwiki-deploy.txt

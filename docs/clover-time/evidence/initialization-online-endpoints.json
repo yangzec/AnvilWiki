@@ -1,0 +1,115 @@
+{
+  "deployment_sha": "40f4fd1327944ab1601ec2a4befdc239def4c1d8",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "final_url": "https://clovertime.world/",
+      "x_robots_tag": "noindex, nofollow"
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "final_url": "https://clovertime.world/zh/",
+      "x_robots_tag": "noindex, nofollow"
+    },
+    {
+      "path": "/sitemap-index.xml",
+      "status": 200,
+      "final_url": "https://clovertime.world/sitemap-index.xml",
+      "x_robots_tag": "noindex, nofollow"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "final_url": "https://clovertime.world/robots.txt",
+      "x_robots_tag": "noindex, nofollow"
+    },
+    {
+      "path": "/items/poison/",
+      "status": 200,
+      "final_url": "https://clovertime.world/items/poison/",
+      "x_robots_tag": "noindex, nofollow"
+    },
+    {
+      "path": "/7838ab9ae96ee5559124c05b30793cf6212160ba368dbcdc73e91697c8bfa480.txt",
+      "status": 200,
+      "final_url": "https://clovertime.world/7838ab9ae96ee5559124c05b30793cf6212160ba368dbcdc73e91697c8bfa480.txt",
+      "x_robots_tag": "noindex, nofollow",
+      "body_matches": true
+    },
+    {
+      "path": "/.well-known/anvilwiki-deploy.txt",
+      "status": 200,
+      "final_url": "https://clovertime.world/.well-known/anvilwiki-deploy.txt",
+      "x_robots_tag": "noindex, nofollow\nnoindex, nofollow",
+      "body_matches": true
+    },
+    {
+      "path": "/manifest.json",
+      "status": 200,
+      "final_url": "https://clovertime.world/manifest.json",
+      "x_robots_tag": "noindex, nofollow",
+      "theme_color": "#457358"
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "final_url": "https://clovertime.world/favicon.svg",
+      "x_robots_tag": "noindex, nofollow",
+      "body_matches": true
+    },
+    {
+      "path": "/images/clover-time-hero.webp",
+      "status": 200,
+      "final_url": "https://clovertime.world/images/clover-time-hero.webp",
+      "x_robots_tag": "noindex, nofollow",
+      "body_matches": true
+    },
+    {
+      "path": "/landing/",
+      "status": 404,
+      "final_url": "https://clovertime.world/landing/",
+      "x_robots_tag": "noindex, nofollow"
+    },
+    {
+      "path": "/zh/landing/",
+      "status": 404,
+      "final_url": "https://clovertime.world/zh/landing/",
+      "x_robots_tag": "noindex, nofollow"
+    },
+    {
+      "path": "/google8362d9398114b66b.html",
+      "status": 404,
+      "final_url": "https://clovertime.world/google8362d9398114b66b.html",
+      "x_robots_tag": "noindex, nofollow"
+    },
+    {
+      "path": "/ads/sticky-320x50.html",
+      "status": 404,
+      "final_url": "https://clovertime.world/ads/sticky-320x50.html",
+      "x_robots_tag": "noindex, nofollow"
+    },
+    {
+      "path": "/en/",
+      "status": 200,
+      "final_url": "https://clovertime.world/",
+      "x_robots_tag": "noindex, nofollow",
+      "redirect_status": 301
+    },
+    {
+      "url": "https://clover-time-wiki-preview.pages.dev/",
+      "status": 200,
+      "final_url": "https://clover-time-wiki-preview.pages.dev/",
+      "redirect_301": false
+    },
+    {
+      "url": "https://clover-time-wiki-preview.pages.dev/items/poison/?audit=1",
+      "status": 200,
+      "final_url": "https://clover-time-wiki-preview.pages.dev/items/poison/?audit=1",
+      "redirect_301": false
+    }
+  ],
+  "required_main_domain_endpoints_passed": 15,
+  "required_backup_redirects_failed": 2
+}

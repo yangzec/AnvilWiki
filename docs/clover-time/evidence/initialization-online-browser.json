@@ -1,0 +1,216 @@
+{
+  "origin": "https://clovertime.world",
+  "checks": [
+    {
+      "route": "/codes/all-codes/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/zh/codes/all-codes/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/codes/all-codes/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/guides/beginner-guide/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/zh/guides/beginner-guide/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/guides/beginner-guide/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/guides/fishing-fragments/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/zh/guides/fishing-fragments/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/guides/fishing-fragments/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/guides/grimoire-tier-list/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/zh/guides/grimoire-tier-list/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/guides/grimoire-tier-list/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/guides/how-to-redeem-codes/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/zh/guides/how-to-redeem-codes/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/guides/how-to-redeem-codes/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/guides/how-to-reroll/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/zh/guides/how-to-reroll/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/guides/how-to-reroll/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 2,
+      "ok": true
+    },
+    {
+      "route": "/guides/patch-notes/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/zh/guides/patch-notes/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/guides/patch-notes/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/guides/race-tier-list/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/zh/guides/race-tier-list/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/guides/race-tier-list/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/items/anti-magic/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/zh/items/anti-magic/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/items/anti-magic/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/items/poison/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/zh/items/poison/",
+      "width": 375,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    },
+    {
+      "route": "/items/poison/",
+      "width": 1440,
+      "faq_count": 5,
+      "gallery_count": 0,
+      "ok": true
+    }
+  ],
+  "passed": 30
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "route": "/",
+    "width": 375,
+    "search_target": "/items/poison/",
+    "no_overflow": true,
+    "button_contrast": [
+      4.5855602589679325,
+      4.5855602589679325
+    ]
+  },
+  {
+    "route": "/zh/",
+    "width": 375,
+    "search_target": "/zh/items/poison/",
+    "no_overflow": true,
+    "button_contrast": [
+      4.5855602589679325,
+      4.5855602589679325
+    ]
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "search_target": "/items/poison/",
+    "no_overflow": true,
+    "button_contrast": [
+      4.5855602589679325,
+      4.5855602589679325
+    ]
+  },
+  {
+    "route": "/zh/",
+    "width": 1440,
+    "search_target": "/zh/items/poison/",
+    "no_overflow": true,
+    "button_contrast": [
+      4.5855602589679325,
+      4.5855602589679325
+    ]
+  },
+  {
+    "quick_answer_copy": true
+  }
+]
