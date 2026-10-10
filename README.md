@@ -1,6 +1,6 @@
 # AnvilWiki ⚒️
 
-> **游戏源码分支：[`clover-time`](https://github.com/yangzec/AnvilWiki/tree/clover-time)**。Clover Time 的源码、配置、配图、调研和验收文档统一在此分支维护。当前 Cloudflare 网站部署仍为 a1074fde，源码仍保留草稿隔离；Git 同步与网站部署分别进行。
+> **游戏源码分支：[`clover-time`](https://github.com/yangzec/AnvilWiki/tree/clover-time)**。Clover Time 的源码、配置、配图、调研和验收文档统一在此分支维护。当前 Cloudflare 网站部署仍为 a1074fde，源码仍保留草稿隔离；Git 同步与网站部署分别进行。[源码同步记录](docs/clover-time/git-sync-20261010.md)。
 
 > **当前主站：[clovertime.world](https://clovertime.world/)**，中文入口为 [clovertime.world/zh/](https://clovertime.world/zh/)。部署 a1074fde 已按内置文章 Skill 修订 10 篇英文稿：39 个分节直答、50 条专属问答、PvE 对比表与 8 张导航／操作图。公开页面不展示研究标签、来源备注或未确认清单。[Skill 执行交付](docs/clover-time/skills-content-20261010.md)。域名和 HTTPS 均 active；GA4 G-XH7GWVG8ZK 已接入，访客同意后加载；Cloudflare 原有边缘 beacon 保留。[统计验收](docs/clover-time/ga4-binding-20261010.md)。
 

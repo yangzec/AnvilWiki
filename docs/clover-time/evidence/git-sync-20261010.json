@@ -1,0 +1,26 @@
+{
+  "verification": {
+    "verified_at_beijing": "2026-10-10 11:53",
+    "repository": "https://github.com/yangzec/AnvilWiki",
+    "branch": "clover-time",
+    "source_commit": "2e1d30e16d006994a466541894d792c98227a622",
+    "remote_commit": "2e1d30e16d006994a466541894d792c98227a622",
+    "main_unchanged": true,
+    "changed_path_count": 230
+  },
+  "file_review": {
+    "file_count": 230,
+    "bytes": 27351060,
+    "large_files": [],
+    "secret_findings": []
+  },
+  "checks": {
+    "check_config": 0,
+    "check_content": 0,
+    "code_and_documents_whitespace": 0,
+    "full_diff_whitespace": 2,
+    "raw_log_whitespace_note": "Only six archived validation logs contain original trailing spaces. Kept intact to preserve their recorded hashes."
+  },
+  "temporary_or_credential_files_committed": false,
+  "website_redeployed_in_sync_task": false
+}
