@@ -23,7 +23,7 @@ pnpm dev          # → http://localhost:4321
    ```bash
    git checkout -b feat/your-feature
    ```
-2. **Make your changes.** See [AGENTS.md](./AGENTS.md) for architecture rules and gotchas — especially the code/config/content separation (don't touch framework code for per-game changes) and the Astro 5 Content Layer quirks.
+2. **Make your changes.** Read [AGENTS.md](./AGENTS.md) and [ROADMAP.md](./ROADMAP.md) first, then the relevant design in [docs/PRD.md](./docs/PRD.md) and validation steps in [docs/development.md](./docs/development.md).
 3. **Verify before committing:**
    ```bash
    pnpm lint        # ESLint

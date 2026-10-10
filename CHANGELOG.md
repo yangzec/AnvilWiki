@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **项目文档分工整理**：AGENTS 只保留稳定规则、目录职责与验证入口；新增根目录 ROADMAP 统一维护进度、候选、阻塞和验证记录。README 移出历史实测记录，PRD 移除重复的迭代及发版表，旧 docs/roadmap 保留跳转入口，开发指南与贡献入口同步。文档契约由手写套件计数改为核对验证命令与 CI 门禁、文档链接和根进度入口；临时文件目录 `.tmp/` 加入忽略规则。
+
 ### Fixed
 
 - **第 37 轮 24h 审计深挖修复（社群日报 summary 条数与 stats 内部矛盾）**：#73（10-04 日报）的 `daily.summary` 写「假期安静日（13 条）」，同日 `report.stats.messages` 是 12（管道自己的 stats 提取文件 `stats-2026-10-04.json` 同为 12；13 系 day 文件含「拍了拍」系统事件的行数）——社群页同一屏幕同时渲染两者（`CommunityHighlights.astro` daily 带 :221 与 stats 卡 :263），公开数据自相矛盾；49 期全量对照仅此一期失配（10-03 前例 2==2）。summary 对齐结构化 stats 改 12，并按 33 轮 codes 月锚点门禁先例新增契约测试：summary 括号内「N 条」出现时必须等于同日 `stats.messages`（缺席优雅跳过 + checker 零命中自防假绿），同族漂移由纪律变红灯；test 394→395。

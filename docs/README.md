@@ -24,8 +24,9 @@
 | [staying-up-to-date.md](staying-up-to-date.md) | fork 之后怎么同步上游更新 | fork 用户(长期) |
 | [migration-from-nextjs.md](migration-from-nextjs.md) | 从 Next.js 模板迁移 | 迁移用户 |
 | [development.md](development.md) | 给模板本身写代码:架构、模式、验证、发版 | 贡献者 / 模板开发者 |
-| [PRD.md](PRD.md) | 完整产品设计文档(架构、数据模型、路线图) | 深入理解每个设计决策 |
-| [roadmap.md](roadmap.md) | 演化主线 + 接下来的方向(含不做清单) | 想判断模板方向的人 |
+| [PRD.md](PRD.md) | 产品设计、架构、数据模型和决策依据 | 深入理解每个设计决策 |
+| [ROADMAP.md](../ROADMAP.md) | 当前进度、待办、阻塞、最近完成和最近验证 | 维护者 / 想判断模板方向的人 |
+| [CHANGELOG.md](../CHANGELOG.md) | 长期版本变化 | 想了解历史的人 |
 | [superpowers/specs/](superpowers/specs/) | 重大特性设计决策记录(ADR 级:v2.0 内容 OS、anvil-ops CLI+MCP) | 想追溯设计决策的人 |
 | [superpowers/plans/](superpowers/plans/) | anvil-ops P1-P3 实施计划(执行细节存档) | 想复刻同类工具的人 |
 | [superpowers/ROADMAP-v1.5-v1.6.md](superpowers/ROADMAP-v1.5-v1.6.md) | v1.5-v1.6 的规划存档(专家团审计产出,已交付并入演化主线) | 想了解演进逻辑的人 |
@@ -61,18 +62,19 @@
 ### 🤖 路径 C:我是 AI Agent(ZCode / Claude Code / Codex / Cursor)
 
 ```
-1. AGENTS.md              ← 仓库根目录,自动加载:硬规则 + 对话式产页章节
-2. .agent/skills/         ← 自动发现的 6 个技能(find-keywords / new-article / batch-articles / update-codes / refresh / adsense-audit)
-3. docs/content-format.md ← 需要字段细节时查
+1. AGENTS.md + ROADMAP.md ← 仓库根目录：项目规则与当前进度，先读
+2. README.md              ← 涉及功能、架构或使用方式时读
+3. .agent/skills/         ← 按当前 Agent 的实际支持加载相关技能
+4. docs/content-format.md ← 内容产页前读字段规则
 ```
 
 ### 🔧 路径 D:我要给模板本身贡献代码
 
 ```
-1. development.md         ← 开发指导:三层架构、加功能的模式、验证清单、发版流程(必读)
-2. PRD.md 第 3-13 章      ← 架构与每个模块的设计依据
-3. AGENTS.md              ← 工程约束 + Astro Content Layer 踩坑清单(6 条,5→6→7 迁移全重验)
-4. development.md 的发版流程 ← 改完代码怎么验证、怎么发版
+1. AGENTS.md + ROADMAP.md ← 项目规则、范围和当前进度
+2. README.md              ← 当前已实现能力和使用方法
+3. PRD.md 第 3-13 章      ← 改代码前读相关架构与模块设计
+4. development.md         ← 扩展方法、验证和发版流程
 ```
 
 ## 一页决策地图
@@ -100,11 +102,11 @@
 
 - 新增文档:**必须**同步加进上面的快速索引,并归入某条阅读路径
 - 文档面向 fork 用户的部分用中文为主、关键术语保留英文;面向国际社区的锚点在 README 英文区
-- 与代码强相关的规则(硬约束)优先写进 `AGENTS.md`(Agent 自动读),文档负责"为什么"和"怎么做"
+- 项目规则只在根目录 `AGENTS.md` 维护；专题文档负责设计依据与操作说明，使用文档指针引用规则。进度只在根目录 `ROADMAP.md` 维护，历史只在 `CHANGELOG.md` 维护。
 
 ## 致谢
 
 - [yan-labs/yan-skills](https://github.com/yan-labs/yan-skills)(MIT)—— [sourcing.md](sourcing.md) 第四节「判决框架」参考其 game-opportunity 技能;[seo.md](seo.md) 外链验证一节引用其实测结论与提交入口库
 - [yantoumu/adsense-site-auditor-skill](https://github.com/yantoumu/adsense-site-auditor-skill) —— `/anvil-adsense-audit` 技能的审计框架(逐项四态判定 + Blocker 分级 + 完整性门)受其启发,清单为模板特化重写
 - [kennyzir/7deer_skills](https://github.com/kennyzir/7deer_skills)(MIT)—— `anvil-new-article` 的视频源工作流(字幕 → 结构化提取 → 页面草稿)参考其 youtube-content-gen 技能,已按本模板内容层契约(MDX + frontmatter)重写
-- [誓言](https://github.com/lyglzhl)(社区群友,英文署名 Shiyan)—— 2026-09-15 外部代码审查报告:P1 fallback 页 SEO 信号收敛已随 v2.27.0 落地,P2 复杂度治理与类型逃生口收敛进 [roadmap.md](roadmap.md) 候选池
+- [誓言](https://github.com/lyglzhl)(社区群友,英文署名 Shiyan)—— 2026-09-15 外部代码审查报告:P1 fallback 页 SEO 信号收敛已随 v2.27.0 落地,后续复杂度治理见 [ROADMAP.md](../ROADMAP.md)，类型约束见 [AGENTS.md](../AGENTS.md)
