@@ -90,6 +90,7 @@ describe('i18n: getUi results are deeply frozen (read-only by contract AND at ru
 
 describe('i18n: draft translation coverage can be checked explicitly', () => {
   function report(translated: boolean, includeDrafts: boolean) {
+    fs.mkdirSync(path.join(ROOT, '.tmp'), { recursive: true });
     const root = fs.mkdtempSync(path.join(ROOT, '.tmp/i18n-coverage-'));
     try {
       fs.mkdirSync(path.join(root, 'src/i18n'), { recursive: true });

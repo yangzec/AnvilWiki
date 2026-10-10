@@ -1,0 +1,9 @@
+$ vitest run tests/i18n-smoke.test.ts
+
+ RUN  v4.1.11 /workspace/AnvilWiki/.tmp/clover-time-chinese-localization-20261010/fresh-test-checkout
+
+
+ Test Files  1 passed (1)
+      Tests  15 passed (15)
+   Start at  05:09:26
+   Duration  479ms (transform 51ms, setup 0ms, import 70ms, tests 309ms, environment 0ms)

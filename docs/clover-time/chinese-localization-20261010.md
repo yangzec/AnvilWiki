@@ -54,3 +54,5 @@
 资料与测试证据保存于 `docs/clover-time/evidence/chinese-localization-20261010/`。插画文字未重绘，英文游戏 UI／技能名保留以便对照；中文文章翻译不增加新的游戏事实，正式事实验收仍为 0/10。
 
 部署沿用既有 `clover-time-wiki-preview` 项目及 `clovertime.world` 域名，不修改 DNS、统计 ID、仓库 Secrets 或收录保护。上一个部署为 `a306ff44-f8e5-41c3-9564-d974306dffd7`，可通过 Cloudflare Pages 部署历史回退。同步与线上结果在完成后补录。
+
+干净检出补验：新增覆盖测试主动创建 `.tmp` 父目录，不依赖先前构建留下的目录；从 Git 归档建立未运行过构建的副本，15 项 i18n 测试通过。初版源码提交 `9e274be` 已同步至专属分支，正式部署构建采用含该测试修正的后续提交。
