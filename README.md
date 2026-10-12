@@ -29,12 +29,7 @@
 
 > Boss 数据卡 · 兑换码一键复制 · 武器强度榜——wiki 级呈现的其中三页,点图直达对应页面。Boss stat cards, tap-to-copy codes, tier lists — three of the wiki-grade page types; click through to the live pages.
 
-> Lighthouse 4×100 — 实测于 [anvil.wiki](https://anvil.wiki/)（2026-09-03）
-> 
-> [![Performance 100](https://img.shields.io/badge/Performance-100-058627?style=flat-square&logo=lighthouse&logoColor=white)](https://anvil.wiki/)
-> [![Accessibility 100](https://img.shields.io/badge/Accessibility-100-058627?style=flat-square&logo=lighthouse&logoColor=white)](https://anvil.wiki/)
-> [![Best Practices 100](https://img.shields.io/badge/Best_Practices-100-058627?style=flat-square&logo=lighthouse&logoColor=white)](https://anvil.wiki/)
-> [![SEO 100](https://img.shields.io/badge/SEO-100-058627?style=flat-square&logo=lighthouse&logoColor=white)](https://anvil.wiki/)
+> 性能目标：Lighthouse 四项 100。历史实测与当前验证范围见 [ROADMAP.md](ROADMAP.md#阻塞与待确认)。Performance target: Lighthouse 100 across all four categories; see [verification records](ROADMAP.md#阻塞与待确认) for measurement context.
 
 ---
 
@@ -321,6 +316,8 @@ Tech stack: Astro 7 (static output) + Tailwind CSS 3 + MDX 8 + astro-icon/lucide
 ---
 
 ## Contributing & Changelog
+
+- 当前进度、待办和验证记录：[ROADMAP.md](ROADMAP.md)。Current progress, planned work, and verification records.
 
 - 想给模板贡献代码?先读 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [docs/development.md](docs/development.md)。To contribute, start with [CONTRIBUTING.md](CONTRIBUTING.md).
 - 每个版本改了什么:[CHANGELOG.md](CHANGELOG.md) · [GitHub Releases](https://github.com/PNGTRID/AnvilWiki/releases)。Every release is documented in [CHANGELOG.md](CHANGELOG.md).
