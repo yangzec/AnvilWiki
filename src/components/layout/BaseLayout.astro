@@ -125,6 +125,7 @@ const xDefaultHref = defaultAlt
 // Optional analytics / verification / ads (env-var gated — empty = not injected).
 const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined;
 const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN as string | undefined;
+const plausibleSrc = import.meta.env.PUBLIC_PLAUSIBLE_SRC as string | undefined;
 const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
 const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
 
@@ -285,6 +286,15 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
         src="https://static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon={JSON.stringify({ token: cfBeaconToken })}
       ></script>
+    )}
+
+    {/*
+      Plausible Analytics (optional) — self-hosted and cookieless, so like the
+      CF beacon it loads without the consent gate. data-domain tracks the site
+      domain (no per-env override needed). Empty src = nothing injected.
+    */}
+    {plausibleSrc && (
+      <script is:inline defer src={plausibleSrc} data-domain={site.domain}></script>
     )}
 
     {/* JSON-LD: Organization (global) + any page-specific */}
